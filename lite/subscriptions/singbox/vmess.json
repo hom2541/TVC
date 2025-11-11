@@ -108,8 +108,8 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇲🇾MY | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 0",
@@ -123,8 +123,8 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 16",
+                "🇲🇾MY | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇭🇰HK | 🟢 | vmess | @Hope_Net | 0",
@@ -203,6 +203,30 @@
             }
         },
         {
+            "tag": "🇲🇾MY | 🟢 | vmess | @oneclickvpnkeys | 4",
+            "type": "vmess",
+            "server": "85.211.181.47",
+            "server_port": 16618,
+            "uuid": "af750f3b-bb81-4bac-ad3c-e117753a389d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "38.12.83.217",
@@ -217,40 +241,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 6",
-            "type": "vmess",
-            "server": "104.21.46.90",
-            "server_port": 443,
-            "uuid": "1ae6dcb3-8d05-4eee-b550-32904c88c312",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ri9mOOVJuAimB74kgXZ",
-                "headers": {
-                    "Host": "fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org"
-                }
             }
         },
         {
