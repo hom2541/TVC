@@ -155,12 +155,12 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
-                "🇺🇸US | 🔴 | vless | @Capoit | 12",
-                "🇺🇸US | 🔴 | vless | @Capoit | 13",
+                "🇺🇸US | 🔴 | vless | @Capoit | 14",
+                "🇺🇸US | 🔴 | vless | @Capoit | 15",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -231,12 +231,12 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🔴 | vless | @proxystore11 | 0",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 6",
-                "🇺🇸US | 🔴 | vless | @Capoit | 12",
-                "🇺🇸US | 🔴 | vless | @Capoit | 13",
+                "🇺🇸US | 🔴 | vless | @Capoit | 14",
+                "🇺🇸US | 🔴 | vless | @Capoit | 15",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -278,7 +278,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "655e2d08-e447-44b8-b8df-4d1ed9b3f1d3",
+            "uuid": "534c7ec3-b2db-4363-b85f-ca8f6e15f237",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -292,7 +292,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "93ab9149-0761-4dd6-aa0b-d2cdd824d5e9",
+            "uuid": "655e2d08-e447-44b8-b8df-4d1ed9b3f1d3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -587,7 +587,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "ed6643b6-a87e-49da-8d25-a39ce300f387",
+            "uuid": "bedaa27b-315a-4386-8179-5594011d6a92",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -601,7 +601,7 @@
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "45c43c10-c347-4808-98d8-288b7c1c19fd",
+            "uuid": "ed6643b6-a87e-49da-8d25-a39ce300f387",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1023,20 +1023,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 11",
             "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-34",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
-            "type": "vless",
             "server": "104.18.82.55",
             "server_port": 443,
             "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
@@ -1063,6 +1049,20 @@
                 "headers": {
                     "Host": "vless.hubp.de"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-34",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1366,43 +1366,26 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "159.246.55.253",
-            "server_port": 2096,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+            "server": "91.107.152.112",
+            "server_port": 2343,
+            "uuid": "05c42d16-67ba-4f09-8050-b8232130c4eb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "104.26.6.89",
-            "server_port": 2053,
-            "uuid": "e188a23f-f17a-4a61-8a48-aa83b3653f5d",
-            "flow": "",
+            "server": "152.53.133.132",
+            "server_port": 44393,
+            "uuid": "0eaab689-82c5-4678-8ac6-d58ef4357dbe",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1411,19 +1394,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "om4.omidsuccess.uk",
+                "server_name": "lowes.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/containers\/de",
-                "headers": {
-                    "Host": "om4.omidsuccess.uk"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QRguoAi4mjGas5PjOd-JCgcAlgZTmr8tqM8VC0ZvZSM",
+                    "short_id": "05"
                 }
             }
         },
@@ -1473,7 +1454,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 14",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 80,
@@ -1487,7 +1468,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @Capoit | 15",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,

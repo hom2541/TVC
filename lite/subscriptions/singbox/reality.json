@@ -113,6 +113,7 @@
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 5",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 8",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -132,6 +133,7 @@
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 5",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 8",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -359,6 +361,35 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "152.53.133.132",
+            "server_port": 44393,
+            "uuid": "0eaab689-82c5-4678-8ac6-d58ef4357dbe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lowes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QRguoAi4mjGas5PjOd-JCgcAlgZTmr8tqM8VC0ZvZSM",
+                    "short_id": "05"
                 }
             }
         },
