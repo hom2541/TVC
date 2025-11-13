@@ -148,11 +148,14 @@
                 "🇦🇹AT | 🟢 | vless | @VmessProtocol | 1",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 4",
                 "🇧🇪BE | 🔴 | vless | @DailyV2RY | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 14",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 9",
@@ -243,11 +246,14 @@
                 "🇦🇹AT | 🟢 | vless | @VmessProtocol | 1",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 4",
                 "🇧🇪BE | 🔴 | vless | @DailyV2RY | 14",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 14",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 0",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
+                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 2",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 9",
@@ -1544,7 +1550,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "zkzrpromxty.teampluss.ru",
+            "server_port": 443,
+            "uuid": "1130cd40-04e7-4fbc-8132-c15f4f3ea215",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UqOnYKBtVUADBnjVw1rS2ZYcMa0vsCFFe6c1OkFXzGM",
+                    "short_id": "49471179d2a8c88a"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
             "server": "216.133.149.139",
             "server_port": 23581,
@@ -1573,7 +1608,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
             "server": "83.228.210.214",
             "server_port": 443,
@@ -1602,7 +1637,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
             "server": "152.53.145.221",
             "server_port": 44393,
@@ -1631,11 +1666,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "108.165.164.209",
-            "server_port": 443,
-            "uuid": "c07c396a-6206-4d1a-9605-2952af00f2fc",
+            "server": "152.53.143.63",
+            "server_port": 37743,
+            "uuid": "6f7562ec-5858-42e4-9934-46d96d94b15b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1645,7 +1680,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "deepl.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1654,13 +1689,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "e8R6bqFhE4LBJeH-V9y8As5nu7KvUnIEOh2tDhm4mRE",
-                    "short_id": "a2820e7a894f37"
+                    "public_key": "HQJisdc7ad3hvl6z7gQexSmTUmTQdVHelo8ZtSz0hSk",
+                    "short_id": "52"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
             "server": "152.53.133.132",
             "server_port": 44393,
@@ -1685,6 +1720,64 @@
                     "enabled": true,
                     "public_key": "QRguoAi4mjGas5PjOd-JCgcAlgZTmr8tqM8VC0ZvZSM",
                     "short_id": "05"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "89.58.55.196",
+            "server_port": 49406,
+            "uuid": "49d74535-837e-4132-90c7-4e06de7db303",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ilovepdf.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UsAOmf7X1yYkjF73ChFECcZb2PFNuhqqvOUxcybV-20",
+                    "short_id": "a7"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "108.165.164.209",
+            "server_port": 443,
+            "uuid": "c07c396a-6206-4d1a-9605-2952af00f2fc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e8R6bqFhE4LBJeH-V9y8As5nu7KvUnIEOh2tDhm4mRE",
+                    "short_id": "a2820e7a894f37"
                 }
             }
         },
