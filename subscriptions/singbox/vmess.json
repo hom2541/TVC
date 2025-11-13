@@ -125,9 +125,9 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 15",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇵🇱PL | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "❔XX | 🟢 | vmess | @prrofile_purple | 128",
+                "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 104",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 105",
                 "🇺🇸US | 🟢 | vmess | @vmess_vless_v2rayng | 2",
-                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -172,9 +172,9 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 15",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇵🇱PL | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "❔XX | 🟢 | vmess | @prrofile_purple | 128",
+                "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 104",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 105",
                 "🇺🇸US | 🟢 | vmess | @vmess_vless_v2rayng | 2",
-                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -648,7 +648,34 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 128",
+            "tag": "🇫🇮FI | 🟢 | vmess | @prrofile_purple | 104",
+            "type": "vmess",
+            "server": "www.infe.com.br.infe.com.br",
+            "server_port": 2096,
+            "uuid": "01TELEGRAM-ID-solavajavaab",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 105",
             "type": "vmess",
             "server": "2001:bc8:32d7:302::10",
             "server_port": 44579,
@@ -702,40 +729,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "yichueng.org"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "57.128.189.253",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kapelleng.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kapelleng.com"
                 }
             }
         },
