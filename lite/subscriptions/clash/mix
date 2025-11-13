@@ -126,6 +126,7 @@ proxies:
   - {"name":"🇵🇷PR | 🟢 | ss | @DeamNet_Proxy | 19","type":"ss","server":"185.47.255.22","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"58.152.46.98","port":443,"udp":false,"password":"BxceQaOe","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"219.76.135.188","port":443,"udp":false,"password":"1b57001bd214304027025a740b6cf1ac","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.nintendogames.net"}
+  - {"name":"🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 17","type":"vmess","server":"168.119.96.144","port":"8880","cipher":"auto","uuid":"2d1c9245-ec89-4619-911a-c40b2d4b5977","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇭🇰HK | 🟢 | vmess | @v2Line | 8","type":"vmess","server":"8.218.113.19","port":"54100","cipher":"auto","uuid":"9b401fe8-7a80-4c9d-8126-e29407a6032c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"host":""}}}
   - {"name":"🇩🇪DE | 🔴 | trojan | @iP_CF | 10","type":"trojan","server":"66.59.208.7","port":17136,"udp":false,"password":"mXP68BRNvU","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
@@ -143,6 +144,7 @@ proxy-groups:
       - '🇵🇷PR | 🟢 | ss | @DeamNet_Proxy | 19'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 5'
+      - '🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇭🇰HK | 🟢 | vmess | @v2Line | 8'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
@@ -160,6 +162,7 @@ proxy-groups:
       - '🇵🇷PR | 🟢 | ss | @DeamNet_Proxy | 19'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 5'
+      - '🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇭🇰HK | 🟢 | vmess | @v2Line | 8'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
@@ -176,6 +179,7 @@ proxy-groups:
       - '🇵🇷PR | 🟢 | ss | @DeamNet_Proxy | 19'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 5'
+      - '🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇭🇰HK | 🟢 | vmess | @v2Line | 8'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
