@@ -127,6 +127,7 @@
                 "🇵🇱PL | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 128",
                 "🇺🇸US | 🟢 | vmess | @vmess_vless_v2rayng | 2",
+                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -173,6 +174,7 @@
                 "🇵🇱PL | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 128",
                 "🇺🇸US | 🟢 | vmess | @vmess_vless_v2rayng | 2",
+                "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -673,6 +675,40 @@
             "tag": "🇺🇸US | 🟢 | vmess | @vmess_vless_v2rayng | 2",
             "type": "vmess",
             "server": "yichueng.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yichueng.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "yichueng.org"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vmess | @ConfigsHUB | 0",
+            "type": "vmess",
+            "server": "57.128.189.211",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
