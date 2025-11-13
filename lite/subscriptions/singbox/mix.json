@@ -162,8 +162,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -250,8 +250,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 8",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -1556,32 +1556,40 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "104.19.206.34",
-            "server_port": 80,
-            "uuid": "58c741fe-d085-542e-a5f7-d4cfbc410797",
-            "flow": "",
+            "server": "152.53.143.63",
+            "server_port": 37743,
+            "uuid": "6f7562ec-5858-42e4-9934-46d96d94b15b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless",
-                "headers": {
-                    "Host": "242b9.olielielie.store."
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HQJisdc7ad3hvl6z7gQexSmTUmTQdVHelo8ZtSz0hSk",
+                    "short_id": "52"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "156.229.48.254",
+            "server": "creativecommons.org",
             "server_port": 443,
-            "uuid": "0633b702-be93-46d9-a8fc-aee90779dc8f",
+            "uuid": "2053d74c-2a3b-453b-b665-8e25142a7569",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1591,7 +1599,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "g1.nanvaiiisaeed.ir",
+                "server_name": "shiny.revilseptember.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1601,9 +1609,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/AOagIIfbJJ0hbXIwCE6mq",
+                "path": "\/socks5:\/\/8.222.249.27:1100",
                 "headers": {
-                    "Host": "g1.nanvaiiisaeed.ir"
+                    "Host": "shiny.revilseptember.workers.dev"
                 }
             }
         },
