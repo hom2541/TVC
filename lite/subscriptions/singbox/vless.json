@@ -151,10 +151,11 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
+                "🇫🇮FI | 🔴 | vless | @DailyV2RY | 15",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
-                "🇦🇪AE | 🟢 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
@@ -224,10 +225,11 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
+                "🇫🇮FI | 🔴 | vless | @DailyV2RY | 15",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
-                "🇦🇪AE | 🟢 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+                "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
@@ -1290,6 +1292,20 @@
             }
         },
         {
+            "tag": "🇫🇮FI | 🔴 | vless | @DailyV2RY | 15",
+            "type": "vless",
+            "server": "m70a.vip784.com",
+            "server_port": 33801,
+            "uuid": "0577389d-b467-4ce0-ac90-87fe581e4701",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
             "type": "vless",
             "server": "151.101.3.8",
@@ -1318,38 +1334,9 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "217.195.200.224",
-            "server_port": 38980,
-            "uuid": "257d871f-7d5c-41f1-9ba0-e01672d326f9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ilovepdf.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KzII--MOd_xsyPV6gxRtGlpyQez-HxOy2nHhvo_KPDs",
-                    "short_id": "023d"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "173.245.58.113",
+            "server": "198.41.223.140",
             "server_port": 443,
             "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
             "flow": "",
@@ -1371,9 +1358,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET",
+                "path": "\/--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12",
                 "headers": {
                     "Host": "snippets.nneko.netlib.re"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "193.124.18.13",
+            "server_port": 443,
+            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.mnmnm.netlib.re",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET",
+                "headers": {
+                    "Host": "snippets.mnmnm.netlib.re"
                 }
             }
         },
