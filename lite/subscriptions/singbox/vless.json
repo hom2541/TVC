@@ -114,7 +114,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 11",
@@ -153,8 +153,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+                "🇦🇲AM | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 15",
@@ -187,7 +187,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
+                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 11",
@@ -226,8 +226,8 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+                "🇦🇲AM | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 15",
@@ -461,7 +461,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 443,
@@ -1318,33 +1318,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "v2ngfast.heloisfood.ir",
-            "server_port": 2718,
-            "uuid": "8df2b423-d068-4ebd-aff0-e0d14e2423ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "173.245.58.113",
-            "server_port": 443,
-            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
-            "flow": "",
+            "server": "109.61.17.127",
+            "server_port": 54978,
+            "uuid": "a79d31ed-99d6-4116-8f50-fa46957ac6a0",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1353,20 +1332,32 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "snippets.nneko.netlib.re",
+                "server_name": "study.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "clfoV7PyfUylden53xvv2FuAoSYFBeZ2JdP0ZzC2ISo",
+                    "short_id": "cc58ae21d5"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET",
-                "headers": {
-                    "Host": "snippets.nneko.netlib.re"
-                }
+            }
+        },
+        {
+            "tag": "🇦🇲AM | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "85.90.207.47",
+            "server_port": 33727,
+            "uuid": "3855723f-0260-4014-9225-4b0025f1768c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
