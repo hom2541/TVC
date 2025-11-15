@@ -151,6 +151,7 @@ proxies:
   - {"name":"🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"pdevy.zippydeal.xyz","port":5855,"udp":false,"password":"eqWDdMnmZF","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"18.193.30.200","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
+  - {"name":"🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"165.154.112.107","port":12000,"udp":false,"password":"1640ef52-2db0-44ab-b3f3-8690b762ebc9","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | trojan | @iP_CF | 8","type":"trojan","server":"66.59.208.7","port":17136,"udp":false,"password":"mXP68BRNvU","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -189,6 +190,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
+      - '🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 4'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 8'
   - name: URL-TEST
     type: url-test
@@ -227,6 +229,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
+      - '🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 4'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 8'
   - name: FALLBACK
     type: fallback
@@ -264,6 +267,7 @@ proxy-groups:
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
+      - '🇭🇰HK | 🟢 | trojan | @ConfigsHUB | 4'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
