@@ -114,7 +114,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
+                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 11",
@@ -165,8 +165,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇬🇷GR | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vmess | @free1_vpn | 4",
@@ -209,7 +209,7 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 4",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
-                "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
+                "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
                 "🇩🇪DE | 🔴 | vless | @V2pedia | 10",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 15",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 11",
@@ -260,8 +260,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 7",
                 "🇬🇷GR | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vmess | @free1_vpn | 4",
@@ -505,7 +505,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @VPNCUSTOMIZE | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @VPNCUSTOMIZE | 0",
             "type": "vless",
             "server": "188.114.98.224",
             "server_port": 443,
@@ -1631,40 +1631,28 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "45.67.139.37",
-            "server_port": 443,
-            "uuid": "3557aa39-7564-4362-9713-8a2dd2a98830",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇸🇬SG | 🟢 | vmess | @ConfigsHUB | 18",
+            "type": "vmess",
+            "server": "66.42.63.36",
+            "server_port": 11074,
+            "uuid": "a432f27e-68d2-45a0-ab42-47606d4da983",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "speedsmart.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "k3h5nEAsMcyb9tVMeEepA4jd9JiPhcVCIVLPKWyao0E",
-                    "short_id": "ed464ab7d7a8"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "198.41.223.140",
+            "server": "162.159.152.53",
             "server_port": 443,
-            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1674,7 +1662,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "snippets.nneko.netlib.re",
+                "server_name": "vless.hubp.de",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1684,9 +1672,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12--Arshiavpn12",
+                "path": "\/?ed=2560Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET",
                 "headers": {
-                    "Host": "snippets.nneko.netlib.re"
+                    "Host": "vless.hubp.de"
                 }
             }
         },
@@ -1785,9 +1773,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "172.67.175.56",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "162.159.128.105",
+            "server_port": 80,
+            "uuid": "5820093a-bb7d-4e15-8575-1a529f2d8282",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1798,30 +1786,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "162.159.128.105"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.22.58.63",
-            "server_port": 80,
-            "uuid": "fd200446-f7f8-4549-b4d8-4a23baea04bf",
+            "server": "172.64.167.35",
+            "server_port": 2082,
+            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1834,9 +1812,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": "104.22.58.63"
+                    "Host": "172.64.167.35"
                 }
             }
         },
