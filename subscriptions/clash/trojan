@@ -157,8 +157,6 @@ proxies:
   - {"name":"🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"217.69.10.156","port":16288,"udp":false,"password":"5fbEkKmVOdAY 8_-","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"sweetdream.sweetthunder.click"}
   - {"name":"🇭🇰HK | 🟢 | trojan | @v2ray1_ng | 0","type":"trojan","server":"58.152.110.216","port":443,"udp":false,"password":"2274c52572e721086f8bd8f88984643c","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.nintendogames.net"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"6b-4f68-8d87-7c4aadd12ab9.664.qzz.io","port":443,"udp":false,"password":"0507fbcd-b983-43a7-8e1d-2c561960ad4f","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"6B-4F68-8D87-7C4Aadd12aB9.664.qZZ.io"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"ytxra.zippydeal.xyz","port":5729,"udp":false,"password":"fg20mtCFHy","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | trojan | @iP_CF | 10","type":"trojan","server":"66.59.208.7","port":17136,"udp":false,"password":"mXP68BRNvU","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -205,8 +203,6 @@ proxy-groups:
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇭🇰HK | 🟢 | trojan | @v2ray1_ng | 0'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
   - name: URL-TEST
     type: url-test
@@ -253,8 +249,6 @@ proxy-groups:
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇭🇰HK | 🟢 | trojan | @v2ray1_ng | 0'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
   - name: FALLBACK
     type: fallback
@@ -300,8 +294,6 @@ proxy-groups:
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇭🇰HK | 🟢 | trojan | @v2ray1_ng | 0'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
