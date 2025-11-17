@@ -154,17 +154,15 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇭🇰HK | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 15",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇰SK | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Capoit | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 20",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -234,17 +232,15 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇭🇰HK | 🔴 | vless | @vmess_vless_v2rayng | 17",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
-                "🇺🇸US | 🔴 | vless | @DailyV2RY | 15",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
                 "🇸🇰SK | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Capoit | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 20",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 16",
                 "🇺🇸US | 🟢 | vless | @flyv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -1358,37 +1354,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 15",
-            "type": "vless",
-            "server": "104.18.82.55",
-            "server_port": 443,
-            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vless.hubp.de",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=Join---_---T?ed=512",
-                "headers": {
-                    "Host": "vless.hubp.de"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
             "type": "vless",
             "server": "151.101.3.8",
@@ -1417,41 +1382,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "104.21.5.65",
-            "server_port": 8443,
-            "uuid": "74a4f351-1f64-4a24-98ac-a1a86dba7f4c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dedi.besttotaldns.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/J5aKLOY1R9ONWYCM",
-                "headers": {
-                    "Host": "dedi.besttotaldns.com"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "V2rayNGSelllBoT.m.heloisfood.ir",
-            "server_port": 6673,
+            "server": "masterserver1.heloisfood.ir",
+            "server_port": 6423,
             "uuid": "8df2b423-d068-4ebd-aff0-e0d14e2423ce",
             "flow": "",
             "packet_encoding": "xudp",
@@ -1462,7 +1396,7 @@
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT---@V2rayNGSelllBoT",
+                "service_name": "@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1540,7 +1474,38 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 13",
+            "type": "vless",
+            "server": "172.64.146.66",
+            "server_port": 443,
+            "uuid": "dea991b4-696f-4e9e-9761-1e1b31bb02de",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2.294294.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/snippets",
+                "headers": {
+                    "Host": "2.294294.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
             "type": "vless",
             "server": "blackout.nethcloud.top",
             "server_port": 8443,
@@ -1565,37 +1530,6 @@
                     "enabled": true,
                     "public_key": "EUJQeYjLR3WY8bKDPVHsSZ_V_xOSmb6dxhqG9k-EqCY",
                     "short_id": "96d0a6e8a6c0d73a"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
-            "type": "vless",
-            "server": "8.39.125.194",
-            "server_port": 443,
-            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "snippets.nneko.netlib.re",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/J_T",
-                "headers": {
-                    "Host": "snippets.nneko.netlib.re"
                 }
             }
         },
