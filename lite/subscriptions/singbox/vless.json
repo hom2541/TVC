@@ -156,7 +156,7 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇸🇰SK | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Capoit | 19",
@@ -234,7 +234,7 @@
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 5",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇸🇰SK | 🔴 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Capoit | 19",
@@ -1382,11 +1382,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "masterserver1.heloisfood.ir",
-            "server_port": 6423,
-            "uuid": "8df2b423-d068-4ebd-aff0-e0d14e2423ce",
+            "server": "198.41.223.140",
+            "server_port": 443,
+            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1394,12 +1394,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.nneko.netlib.re",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET",
+                "headers": {
+                    "Host": "snippets.nneko.netlib.re"
+                }
             }
         },
         {
