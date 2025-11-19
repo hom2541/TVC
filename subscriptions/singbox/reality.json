@@ -151,6 +151,7 @@
                 "🇰🇷KR | 🟢 | vless | @DailyV2RY | 8",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 10",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 13",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 2",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 14",
@@ -239,6 +240,7 @@
                 "🇰🇷KR | 🟢 | vless | @DailyV2RY | 8",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 10",
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 13",
+                "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 2",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 9",
                 "🇺🇸US | 🟢 | vless | @FreakConfig | 14",
@@ -1612,6 +1614,35 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "SyXSKLmY8-JBRFJTRIDx1OcBUJ89XBu8ZHCF_dOS3kw",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "srv18.towersflowerss.com",
+            "server_port": 443,
+            "uuid": "acacdb17-f35a-43b0-8829-dcf2d8fe76a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "srv18.towersflowerss.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ufkz__Q3m_d8NFR08OVtXx3hLaV4-x7UesrVKduEIn0",
                     "short_id": ""
                 }
             }
