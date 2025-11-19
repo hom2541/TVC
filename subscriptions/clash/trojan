@@ -150,7 +150,6 @@ proxies:
   - {"name":"🇮🇳IN | 🔴 | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"intyj.zippydeal.xyz","port":5747,"udp":false,"password":"fg20mtCFHy","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"194.87.18.124","port":443,"udp":false,"password":"019a8c1f-3d28-74e8-8a8e-40045d7ec77f","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.bilibili.com"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"15.204.20.229","port":443,"udp":false,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | 🔴 | trojan | @iP_CF | 10","type":"trojan","server":"66.59.208.7","port":17136,"udp":false,"password":"mXP68BRNvU","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -190,7 +189,6 @@ proxy-groups:
       - '🇮🇳IN | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
   - name: URL-TEST
     type: url-test
@@ -230,7 +228,6 @@ proxy-groups:
       - '🇮🇳IN | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
   - name: FALLBACK
     type: fallback
@@ -269,7 +266,6 @@ proxy-groups:
       - '🇮🇳IN | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
