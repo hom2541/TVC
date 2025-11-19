@@ -130,16 +130,14 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 103",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 114",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 116",
-                "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 0",
+                "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇺🇸US | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 10",
-                "🇸🇪SE | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇪SE | 🟢 | vmess | @free1_vpn | 6",
+                "🇸🇪SE | 🟢 | vmess | @free1_vpn | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
@@ -151,6 +149,8 @@
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 3",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
+                "🇸🇪SE | 🟢 | vmess | @FreakConfig | 1",
+                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 6",
                 "🇱🇻LV | 🟢 | vmess | @ISVvpn | 0",
                 "🇫🇮FI | 🟢 | vmess | @ISVvpn | 1",
                 "🇩🇪DE | 🟢 | vmess | @ISVvpn | 2",
@@ -186,16 +186,14 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 103",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 114",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 116",
-                "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 0",
+                "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
                 "🇺🇸US | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 10",
-                "🇸🇪SE | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇸🇪SE | 🟢 | vmess | @free1_vpn | 6",
+                "🇸🇪SE | 🟢 | vmess | @free1_vpn | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 2",
@@ -207,6 +205,8 @@
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 3",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
+                "🇸🇪SE | 🟢 | vmess | @FreakConfig | 1",
+                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 6",
                 "🇱🇻LV | 🟢 | vmess | @ISVvpn | 0",
                 "🇫🇮FI | 🟢 | vmess | @ISVvpn | 1",
                 "🇩🇪DE | 🟢 | vmess | @ISVvpn | 2",
@@ -751,7 +751,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 0",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 1",
             "type": "vmess",
             "server": "57.129.28.212",
             "server_port": 443,
@@ -815,47 +815,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "yichueng.org"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 10",
-            "type": "vmess",
-            "server": "mci.yektanet.info",
-            "server_port": 55555,
-            "uuid": "a4b41dc8-b684-49e4-b3db-ade382c113d3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vmess | @ConfigsHUB | 14",
-            "type": "vmess",
-            "server": "185.146.173.25",
-            "server_port": 80,
-            "uuid": "ed1b5743-389b-48a2-8d60-3790eded7ca6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
@@ -1010,7 +969,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | @free1_vpn | 6",
+            "tag": "🇸🇪SE | 🟢 | vmess | @free1_vpn | 7",
             "type": "vmess",
             "server": "185.146.173.25",
             "server_port": 80,
@@ -1365,6 +1324,47 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vmess | @FreakConfig | 1",
+            "type": "vmess",
+            "server": "185.146.173.25",
+            "server_port": 80,
+            "uuid": "ed1b5743-389b-48a2-8d60-3790eded7ca6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | @FreakConfig | 6",
+            "type": "vmess",
+            "server": "mci.yektanet.info",
+            "server_port": 55555,
+            "uuid": "a4b41dc8-b684-49e4-b3db-ade382c113d3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
