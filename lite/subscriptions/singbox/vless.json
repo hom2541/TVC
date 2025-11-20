@@ -157,9 +157,9 @@
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 15",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 16",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
                 "🇨🇿CZ | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -231,9 +231,9 @@
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 15",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 16",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
                 "🇨🇿CZ | 🔴 | vless | @mehrosaboran | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 10",
@@ -1393,9 +1393,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "159.246.55.253",
-            "server_port": 2096,
-            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
+            "server": "198.41.223.140",
+            "server_port": 443,
+            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1405,7 +1405,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gaosir.unfeeling.sbs",
+                "server_name": "snippets.nneko.netlib.re",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1415,9 +1415,30 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET---Join---PLANB_NET\/?ed=2560",
+                "path": "\/_T",
                 "headers": {
-                    "Host": "gaosir.unfeeling.sbs"
+                    "Host": "snippets.nneko.netlib.re"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "51.68.198.51",
+            "server_port": 8080,
+            "uuid": "1848ccc2-09f0-4367-aa90-8b174de73614",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/YUYETrenyklxeoyemeWFCrneerV",
+                "headers": {
+                    "Host": "51.68.198.51"
                 }
             }
         },
@@ -1454,35 +1475,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
-            "type": "vless",
-            "server": "eng30.digitunnel.org",
-            "server_port": 443,
-            "uuid": "70162051-6706-4972-ae6f-202742f8e32c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.abingdon.org.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
-                }
             }
         },
         {
