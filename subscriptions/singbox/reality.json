@@ -149,8 +149,7 @@
                 "🇶🇦QA | 🔴 | vless | @DailyV2RY | 9",
                 "🇰🇷KR | 🟢 | vless | @DailyV2RY | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 17",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 10",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 7",
                 "🇸🇪SE | 🟢 | vless | @FreakConfig | 11",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
@@ -236,8 +235,7 @@
                 "🇶🇦QA | 🔴 | vless | @DailyV2RY | 9",
                 "🇰🇷KR | 🟢 | vless | @DailyV2RY | 15",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 17",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 10",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 7",
                 "🇸🇪SE | 🟢 | vless | @FreakConfig | 11",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
@@ -1564,11 +1562,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "104.238.189.224",
-            "server_port": 11204,
-            "uuid": "e85bb8f0-0baf-40f9-a012-3be7b4755715",
+            "server": "216.133.149.139",
+            "server_port": 23581,
+            "uuid": "b5471668-94dc-4ea5-ae97-3bb9dabcd2a9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1578,7 +1576,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1587,37 +1585,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "DtHwCwgTYNZKGYIMV4qY9lVfU4Yi2ZcRnOPAE3lQXiQ",
-                    "short_id": "c6931d91"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "168.119.48.122",
-            "server_port": 443,
-            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lAQlZopyI2jjxnDeQNGb8tFNTs-ZDcQketxGd72FQiQ",
-                    "short_id": "63a066"
+                    "public_key": "EOYTqph-go2SazIPcSDl5pJGNyOnrR0mWaL8Tc_paEM",
+                    "short_id": ""
                 }
             }
         },
