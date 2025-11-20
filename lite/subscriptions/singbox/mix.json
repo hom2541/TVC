@@ -163,6 +163,8 @@
                 "🇫🇮FI | 🔴 | vless | @DailyV2RY | 19",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
@@ -252,6 +254,8 @@
                 "🇫🇮FI | 🔴 | vless | @DailyV2RY | 19",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 4",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
@@ -1137,23 +1141,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "104.27.60.121",
-            "server_port": 80,
-            "uuid": "6aff899c-a2ca-442f-a173-5a3fce0686b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
-            "type": "vless",
-            "server": "198.202.211.253",
-            "server_port": 2096,
-            "uuid": "2456f90c-5183-476d-b069-16ae74ce120f",
+            "server": "cosmin.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "98f670fb-8a5a-4935-b4c8-9569ec19658a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1163,7 +1153,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "fast01.0860852.xyz",
+                "server_name": "638991681638525311.jetta-amsia.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1173,10 +1163,24 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram🇨🇳 @WangCai2 \/?ed=2560",
+                "path": "\/ufoxglws",
                 "headers": {
-                    "Host": "fast01.0860852.xyz"
+                    "Host": "638991681638525311.jetta-amsia.info"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
+            "type": "vless",
+            "server": "104.27.60.121",
+            "server_port": 80,
+            "uuid": "6aff899c-a2ca-442f-a173-5a3fce0686b3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1545,6 +1549,41 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "73bed74f-7ed0-4e40-ab97-66920f95c266",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "40.160.4.106",
+            "server_port": 8080,
+            "uuid": "9dc11620-987c-4344-9088-f46fdfae4054",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "40.160.4.106"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "95.217.233.18",
+            "server_port": 443,
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
