@@ -112,8 +112,8 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 135",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 15",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 16",
+                "TVCvveqollixu",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -131,8 +131,8 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 135",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 15",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 16",
+                "TVCvveqollixu",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -334,7 +334,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 15",
+            "tag": "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 16",
             "type": "vless",
             "server": "pj2.bestirstorei.top",
             "server_port": 51714,
@@ -370,11 +370,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "TVCvveqollixu",
             "type": "vless",
-            "server": "62.60.248.14",
-            "server_port": 28485,
-            "uuid": "9ec5bada-156f-4721-b2ca-6c0a897075f2",
+            "server": "youtube.happvpn.com",
+            "server_port": 443,
+            "uuid": "d2de6d6d-4735-4fe3-b4b6-00a81ced69f5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -384,25 +384,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "youtube.happvpn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "kP5lEpXBe5wbaSLOR6A9azX6kwMkfEk06bMkEpZxdSE",
-                    "short_id": "dc"
+                    "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+                    "short_id": ""
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
