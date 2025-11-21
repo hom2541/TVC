@@ -150,10 +150,11 @@ proxies:
   - {"name":"🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"116.49.237.130","port":2673,"udp":false,"password":"BxceQaOe","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t.me/ripaojiedian"}
   - {"name":"🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"63.179.9.91","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"145.223.70.115","port":25365,"udp":false,"password":"eDHWaPzxcl","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.com"}
+  - {"name":"🇩🇪DE | 🔴 | trojan | @v2ray1_ng | 0","type":"trojan","server":"162.19.246.187","port":2053,"udp":false,"password":"83794b09-d50a-4e6e-9559-1372b6299e89","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"joss.gpj1.web.id"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
   - {"name":"🇵🇱PL | 🟢 | trojan | @VmessProtocol | 0","type":"trojan","server":"5.188.108.13","port":11790,"udp":false,"password":".+QAJot50sDi6mvb","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"runningshoes.purpletornado.click"}
-  - {"name":"🇫🇷FR | 🔴 | trojan | @ConfigsHUB | 15","type":"trojan","server":"141.94.204.212","port":2053,"udp":false,"password":"0e0c9c2a-6166-4337-bdfc-675602365807","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"joss.gpj1.web.id"}
-  - {"name":"🇩🇰DK | 🔴 | trojan | @ConfigsHUB | 17","type":"trojan","server":"89.28.236.243","port":443,"udp":false,"password":"e9249478-ea4e-432f-a918-e84c1ce143c6","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"joss.gpj1.web.id"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"15.188.138.224","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"89.110.120.197","port":443,"udp":false,"password":"35f8e682-54bd-42c7-b537-94a8e4c84bcd","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"joss.gpj1.web.id"}
   - {"name":"🇩🇪DE | 🔴 | trojan | @iP_CF | 10","type":"trojan","server":"66.59.208.7","port":17136,"udp":false,"password":"mXP68BRNvU","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -193,10 +194,11 @@ proxy-groups:
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '🇩🇪DE | 🔴 | trojan | @v2ray1_ng | 0'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '🇵🇱PL | 🟢 | trojan | @VmessProtocol | 0'
-      - '🇫🇷FR | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🇩🇰DK | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 16'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
   - name: URL-TEST
     type: url-test
@@ -236,10 +238,11 @@ proxy-groups:
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '🇩🇪DE | 🔴 | trojan | @v2ray1_ng | 0'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '🇵🇱PL | 🟢 | trojan | @VmessProtocol | 0'
-      - '🇫🇷FR | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🇩🇰DK | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 16'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
   - name: FALLBACK
     type: fallback
@@ -278,10 +281,11 @@ proxy-groups:
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '🇩🇪DE | 🔴 | trojan | @v2ray1_ng | 0'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '🇵🇱PL | 🟢 | trojan | @VmessProtocol | 0'
-      - '🇫🇷FR | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🇩🇰DK | 🔴 | trojan | @ConfigsHUB | 17'
+      - '🇫🇷FR | 🟢 | trojan | @ConfigsHUB | 1'
+      - '🇳🇱NL | 🔴 | trojan | @ConfigsHUB | 16'
       - '🇩🇪DE | 🔴 | trojan | @iP_CF | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
