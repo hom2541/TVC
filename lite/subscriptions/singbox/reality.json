@@ -112,8 +112,7 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 135",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 16",
-                "TVCvveqollixu",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -131,8 +130,7 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 135",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 16",
-                "TVCvveqollixu",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -334,47 +332,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 16",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "pj2.bestirstorei.top",
-            "server_port": 51714,
-            "uuid": "Javid31",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "35EJSVcyfkkXYQ8b7jp1NA-yXPm43CPL9iwxVTY4ZUY",
-                    "short_id": "0dcf095d23b3a490"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "TVCvveqollixu",
-            "type": "vless",
-            "server": "youtube.happvpn.com",
+            "server": "night.dl.darinips.com",
             "server_port": 443,
-            "uuid": "d2de6d6d-4735-4fe3-b4b6-00a81ced69f5",
+            "uuid": "9cab5397-59a5-4eb5-8833-805dd57c6eb8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -384,16 +346,16 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "youtube.happvpn.com",
+                "server_name": "docker.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+                    "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
                     "short_id": ""
                 }
             }
