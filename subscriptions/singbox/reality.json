@@ -147,7 +147,8 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 13",
                 "🇰🇷KR | 🟢 | vless | @DailyV2RY | 19",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 7",
+                "TVCjugzsrnxsv",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 5",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 16",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
@@ -230,7 +231,8 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 12",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 13",
                 "🇰🇷KR | 🟢 | vless | @DailyV2RY | 19",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 7",
+                "TVCjugzsrnxsv",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 5",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 16",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
@@ -1498,11 +1500,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 7",
             "type": "vless",
-            "server": "nl1.clear-vpn.org",
-            "server_port": 443,
-            "uuid": "ab6ae524-eae1-47f6-966e-2cd6b777cef7",
+            "server": "62.60.248.14",
+            "server_port": 46395,
+            "uuid": "7c2e1ff7-a31c-4706-9bcc-623a423a9d4c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1512,7 +1514,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nl1.clear-vpn.org",
+                "server_name": "www.latimes.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1521,8 +1523,44 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tCsa9mOLB6gCTdF4cx-s4BhckPBw846-cxggHOhmkyw",
-                    "short_id": "fb228829c3da833b"
+                    "public_key": "R7rQRf2vm_y2RYIFDZcS5ucks0gNKgKthRT-bUtyymo",
+                    "short_id": "96973faa2f0bf0"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "\/@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "TVCjugzsrnxsv",
+            "type": "vless",
+            "server": "England.phantompanel.shop",
+            "server_port": 3681,
+            "uuid": "eaed68d5-9920-4487-93de-a59a7cd3779a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "England.phantompanel.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iEgw42MO585IunvN6WGEO6XlG7l0U3qmawuOBeXrMiM",
+                    "short_id": ""
                 }
             }
         },
