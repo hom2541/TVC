@@ -110,6 +110,7 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 3",
+                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 127",
                 "🇭🇰HK | 🟢 | vmess | @DailyV2RY | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -117,7 +118,7 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇸🇬SG | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
-                "🇺🇸US | 🟢 | vmess | @FreakConfig | 15"
+                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 17"
             ]
         },
         {
@@ -128,6 +129,7 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇳🇱NL | 🟢 | vmess | @oneclickvpnkeys | 3",
+                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 127",
                 "🇭🇰HK | 🟢 | vmess | @DailyV2RY | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
@@ -135,7 +137,7 @@
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇸🇬SG | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
-                "🇺🇸US | 🟢 | vmess | @FreakConfig | 15"
+                "🇩🇪DE | 🟢 | vmess | @FreakConfig | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -264,6 +266,23 @@
                 "headers": {
                     "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 127",
+            "type": "vmess",
+            "server": "91.98.72.199",
+            "server_port": 80,
+            "uuid": "39ac19f8-1dbc-4408-915c-e730351cdb6e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -468,11 +487,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @FreakConfig | 15",
+            "tag": "🇩🇪DE | 🟢 | vmess | @FreakConfig | 17",
             "type": "vmess",
-            "server": "188.114.96.1",
-            "server_port": 443,
-            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+            "server": "mci.yektanet.info",
+            "server_port": 55555,
+            "uuid": "a4b41dc8-b684-49e4-b3db-ade382c113d3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -482,23 +501,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/azumase.ren",
-                "headers": {
-                    "Host": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top"
-                }
             }
         }
     ],
