@@ -159,12 +159,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 16",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @free1_vpn | 8",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 13",
-                "TVChlrikkxlzt",
+                "TVCbcxvpmqiyj",
                 "🇭🇰HK | 🟢 | vless | @flyv2ray | 17",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 9",
@@ -241,12 +239,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 16",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-                "🇩🇪DE | 🔴 | vless | @free1_vpn | 8",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @Capoit | 12",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 13",
-                "TVChlrikkxlzt",
+                "TVCbcxvpmqiyj",
                 "🇭🇰HK | 🟢 | vless | @flyv2ray | 17",
                 "🇳🇱NL | 🔴 | vless | @flyv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 9",
@@ -1491,77 +1487,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "ce956f02-3dce-4742-e599-5a7e1140a643",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "dl.huskar.fonixapp.org",
-            "server_port": 56024,
-            "uuid": "4c1e7d8e-0335-46cc-ac9a-54ae5d1e0d48",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "steampowered.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tH91ArnAJMaxIheYR03XgVlF_MTUWQZFY49dJCLpgjU",
-                    "short_id": "b4"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @free1_vpn | 8",
-            "type": "vless",
-            "server": "37.221.125.227",
+            "server": "91.99.216.175",
             "server_port": 443,
-            "uuid": "ca72617f-337c-4b0e-84f0-d3c29f82d2b7",
+            "uuid": "Warpi-Free-Vpn-In-GooglePlay",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "37.221.125.227",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "37.221.125.227"
-                }
             }
         },
         {
@@ -1600,7 +1536,7 @@
             }
         },
         {
-            "tag": "TVChlrikkxlzt",
+            "tag": "TVCbcxvpmqiyj",
             "type": "vless",
             "server": "5.75.197.237",
             "server_port": 8880,
