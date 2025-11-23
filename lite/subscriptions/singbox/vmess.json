@@ -109,9 +109,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇩🇪DE | 🟢 | vmess | @free1_vpn | 7",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 4",
                 "🇸🇬SG | 🟢 | vmess | @v2Line | 5"
             ]
@@ -123,9 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇩🇪DE | 🟢 | vmess | @free1_vpn | 7",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
+                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 4",
                 "🇸🇬SG | 🟢 | vmess | @v2Line | 5"
             ],
@@ -225,41 +223,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @free1_vpn | 7",
-            "type": "vmess",
-            "server": "57.129.28.212",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fapeng.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "fapeng.org"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "87.107.162.243",
             "server_port": 25105,
@@ -283,7 +247,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "127.1.1.127",
             "server_port": 80,
