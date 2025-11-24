@@ -111,7 +111,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 135",
-                "🇳🇱NL | 🔴 | vless | @v2rayngvpn | 14",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 14",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -128,7 +128,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 135",
-                "🇳🇱NL | 🔴 | vless | @v2rayngvpn | 14",
+                "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 14",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -301,11 +301,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @v2rayngvpn | 14",
+            "tag": "🇫🇮FI | 🟢 | vless | @v2rayngvpn | 14",
             "type": "vless",
-            "server": "46.8.231.189",
-            "server_port": 80,
-            "uuid": "31b8c9e2-4ff4-4541-978a-99f6a45475e8",
+            "server": "fl.mizbanandata.com",
+            "server_port": 443,
+            "uuid": "b35e1a7b-1248-406c-a35c-d417cd6c830e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -315,7 +315,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "docker.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -324,16 +324,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "auO272-_OexAycHNbiFJCPjdAiujfj2XgjqyAvL5ewo",
-                    "short_id": "7ace7f5f"
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "fd1dff03520d8f56"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ShikaVPN-@ShikaVPN-@ShikaVPN",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
