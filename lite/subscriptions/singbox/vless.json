@@ -164,8 +164,7 @@
                 "❔XX | 🔴 | vless | @DailyV2RY | 15",
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @Capoit | 16",
@@ -252,8 +251,7 @@
                 "❔XX | 🔴 | vless | @DailyV2RY | 15",
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @Capoit | 16",
@@ -1587,9 +1585,9 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "dl5-it4-cdn.fastfilecdn.org",
+            "server": "dl5-be4-cdn.fastfilecdn.org",
             "server_port": 2052,
             "uuid": "f0421701-434d-4b7f-aba0-98b2ee1fce9b",
             "flow": "",
@@ -1603,28 +1601,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "dl5-it4-cdn.fastfilecdn.org"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "dl5-pl4-cdn.fastfilecdn.org",
-            "server_port": 2052,
-            "uuid": "f0421701-434d-4b7f-aba0-98b2ee1fce9b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dl5-pl4-cdn.fastfilecdn.org"
+                    "Host": "dl5-be4-cdn.fastfilecdn.org"
                 }
             }
         },

@@ -173,14 +173,13 @@
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
                 "❔XX | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🔴 | vless | @Capoit | 16",
@@ -277,14 +276,13 @@
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
                 "❔XX | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @free1_vpn | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🔴 | vless | @Capoit | 16",
@@ -1809,9 +1807,9 @@
             "plugin_opts": ""
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "dl5-it4-cdn.fastfilecdn.org",
+            "server": "dl5-be4-cdn.fastfilecdn.org",
             "server_port": 2052,
             "uuid": "f0421701-434d-4b7f-aba0-98b2ee1fce9b",
             "flow": "",
@@ -1825,28 +1823,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "dl5-it4-cdn.fastfilecdn.org"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "dl5-pl4-cdn.fastfilecdn.org",
-            "server_port": 2052,
-            "uuid": "f0421701-434d-4b7f-aba0-98b2ee1fce9b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dl5-pl4-cdn.fastfilecdn.org"
+                    "Host": "dl5-be4-cdn.fastfilecdn.org"
                 }
             }
         },
@@ -1964,11 +1941,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "210.0.158.219",
-            "server_port": 12909,
-            "uuid": "8259cb1c-dd6c-4739-9c88-af550d977525",
+            "server": "104.26.15.148",
+            "server_port": 80,
+            "uuid": "2f188c61-6622-4056-810e-a1a5f1c9b023",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1979,39 +1956,36 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "19.lwdh.us",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
+                "headers": {
+                    "Host": ""
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "172.67.196.170",
+            "server_port": 2086,
+            "uuid": "5e7429a4-b006-4a16-b1a3-1af2fbcddbc0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "19.lwdh.us"
+                    "Host": "172.67.196.170"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "abcacab-bcaa-baac-dacb-bcaabbcaccba",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
