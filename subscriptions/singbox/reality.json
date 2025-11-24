@@ -155,14 +155,14 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 14",
                 "🇬🇧GB | 🔴 | vless | @DailyV2RY | 15",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 0",
-                "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 1",
+                "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
                 "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 4",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 10",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
-                "🇰🇿KZ | 🟢 | vless | @FreakConfig | 13",
+                "🇰🇿KZ | 🟢 | vless | @FreakConfig | 14",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
                 "🇺🇸US | 🔴 | vless | @kiava | 1",
                 "🇺🇸US | 🔴 | vless | @kiava | 2",
@@ -251,14 +251,14 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 13",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 14",
                 "🇬🇧GB | 🔴 | vless | @DailyV2RY | 15",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 0",
-                "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 1",
+                "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 0",
                 "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 2",
                 "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 4",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 10",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
-                "🇰🇿KZ | 🟢 | vless | @FreakConfig | 13",
+                "🇰🇿KZ | 🟢 | vless | @FreakConfig | 14",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
                 "🇺🇸US | 🔴 | vless | @kiava | 1",
                 "🇺🇸US | 🔴 | vless | @kiava | 2",
@@ -1749,36 +1749,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 0",
-            "type": "vless",
-            "server": "fl.mizbanandata.com",
-            "server_port": 443,
-            "uuid": "b35e1a7b-1248-406c-a35c-d417cd6c830e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "docker.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "fd1dff03520d8f56"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 1",
+            "tag": "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 0",
             "type": "vless",
             "server": "al.spirako.com",
             "server_port": 443,
@@ -1865,7 +1836,36 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "fr.monkeyisland.xyz",
+            "server_port": 443,
+            "uuid": "6184fcfb-52e0-40bb-a271-bbd097b70a8e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr.monkeyisland.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4",
+                    "short_id": "0dd15ad462aad7fc"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
             "type": "vless",
             "server": "nld26.luckernld.org",
             "server_port": 443,
@@ -1894,7 +1894,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
             "server": "fr.monkeyisland.xyz",
             "server_port": 443,
@@ -1952,7 +1952,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | @FreakConfig | 13",
+            "tag": "🇰🇿KZ | 🟢 | vless | @FreakConfig | 14",
             "type": "vless",
             "server": "kz.nitroo-tech.ru",
             "server_port": 443,
