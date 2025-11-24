@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇬🇧GB | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 5"
@@ -122,9 +123,10 @@
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇨🇦CA | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇬🇧GB | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 5"
@@ -194,6 +196,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
+            "type": "vmess",
+            "server": "91.98.72.199",
+            "server_port": 80,
+            "uuid": "39ac19f8-1dbc-4408-915c-e730351cdb6e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -252,7 +271,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "104.19.47.65",
             "server_port": 443,
