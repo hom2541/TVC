@@ -112,7 +112,8 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 13",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 14",
+                "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇰🇿KZ | 🟢 | vless | @FreakConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 21",
@@ -132,7 +133,8 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 142",
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 13",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 14",
+                "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 18",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 4",
                 "🇰🇿KZ | 🟢 | vless | @FreakConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 21",
@@ -336,11 +338,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇦🇱AL | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "nld26.luckernld.org",
+            "server": "al.spirako.com",
             "server_port": 443,
-            "uuid": "40d7798a-6c76-4298-a9d4-9e6181cd2dd7",
+            "uuid": "2a30e90e-02be-4602-8c57-308eb4feff5b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -350,7 +352,36 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cybo.com",
+                "server_name": "spirako.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "nl2.srv.happvpn.com",
+            "server_port": 443,
+            "uuid": "9a12e2e5-7038-4ed8-91f3-a94d9b2d465f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -359,8 +390,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
+                    "public_key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
+                    "short_id": "c2a0b2d60a7fc300"
                 }
             }
         },
