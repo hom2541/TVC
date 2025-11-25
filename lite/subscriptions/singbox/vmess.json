@@ -110,8 +110,8 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 16",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
+                "❔XX | 🟢 | vmess | @Hope_Net | 15",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 16",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 5"
             ]
@@ -124,8 +124,8 @@
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 16",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
+                "❔XX | 🟢 | vmess | @Hope_Net | 15",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 16",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 5"
             ],
@@ -242,11 +242,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 16",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 15",
             "type": "vmess",
-            "server": "141.724064.xyz",
-            "server_port": 443,
-            "uuid": "f3878e79-8166-4140-8dbe-e1f35b650e1c",
+            "server": "server31.beheshtbaneh.com",
+            "server_port": 8880,
+            "uuid": "4154143c-bbba-47a4-9f79-c2ed087cbcc9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -257,30 +257,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "141.724064.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/gmvfvws",
+                "path": "\/",
                 "headers": {
-                    "Host": "141.724064.xyz"
+                    "Host": "server31.beheshtbaneh.com"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 17",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 16",
             "type": "vmess",
-            "server": "npmjs.com",
+            "server": "bolder-metal-comma.glitch.me",
             "server_port": 443,
-            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
+            "uuid": "dac61bb8-461c-4a4a-b14b-5a5ff6991fee",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -293,7 +283,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "npmjs.com",
+                "server_name": "bolder-metal-comma.glitch.me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -303,9 +293,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/QvtvPdDXXIlSdZMqnuxG",
+                "path": "\/dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess",
                 "headers": {
-                    "Host": "npmjs.com"
+                    "Host": "bolder-metal-comma.glitch.me"
                 }
             }
         },
