@@ -124,12 +124,11 @@
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 9",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 98",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 104",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 118",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
-                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 135",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -145,7 +144,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 0",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 1",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 2",
@@ -181,12 +179,11 @@
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 9",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 98",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 104",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 118",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
-                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 135",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -202,7 +199,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 0",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 1",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 2",
@@ -600,6 +596,23 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 98",
+            "type": "vmess",
+            "server": "dede.bedonemarz.site",
+            "server_port": 444,
+            "uuid": "96e0b619-bb98-49cb-a3fd-f0a1cebdd433",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 104",
             "type": "vmess",
             "server": "2001:bc8:32d7:302::10",
@@ -675,33 +688,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 135",
-            "type": "vmess",
-            "server": "www.infe.com.br.infe.com.br",
-            "server_port": 2096,
-            "uuid": "01TELEGRAM-ID-solavajavaab",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
             "type": "vmess",
             "server": "yichueng.org",
@@ -733,23 +719,6 @@
                 "headers": {
                     "Host": "yichueng.org"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 5",
-            "type": "vmess",
-            "server": "88.99.86.7",
-            "server_port": 8585,
-            "uuid": "71760ebf-6d52-41ef-a34c-e613e7780208",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1168,30 +1137,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "cdn.bootloader.cf",
-            "server_port": 80,
-            "uuid": "74758f06-f4b9-4ef1-a86c-f0a0cc82109f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/aries",
-                "headers": {
-                    "Host": "cdn.bootloader.cf"
                 }
             }
         },
