@@ -129,6 +129,10 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 118",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
+                "🇰🇷KR | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -184,6 +188,10 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 118",
                 "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
+                "🇰🇷KR | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -718,6 +726,135 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "yichueng.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
+            "type": "vmess",
+            "server": "m5u9c2.keeoomboom.de",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "m5u9c2.keeoomboom.de",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/26ifcat.m3u8",
+                "headers": {
+                    "Host": "m5u9c2.keeoomboom.de"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 9",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "576086f0-0a10-4a2c-b9ef-0217409e6381",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "node-fr-1.v2sv.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "node-fr-1.v2sv.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1e0c95f0-8c76-4d72-951d-4852869552fa",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "node-us-1.v2sv.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": "node-us-1.v2sv.top"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | 🟢 | vmess | @ConfigsHUB | 13",
+            "type": "vmess",
+            "server": "140.238.2.250",
+            "server_port": 443,
+            "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
