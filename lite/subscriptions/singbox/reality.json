@@ -114,11 +114,9 @@
                 "🇳🇱NL | 🟢 | vless | @proxy_kafee | 0",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 142",
-                "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 13",
-                "🇯🇵JP | 🟢 | vless | @v2rayngvpn | 14",
+                "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 14",
                 "🇨🇭CH | 🟢 | vless | @v2ray1_ng | 1",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 21",
-                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 22",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -137,11 +135,9 @@
                 "🇳🇱NL | 🟢 | vless | @proxy_kafee | 0",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 142",
-                "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 13",
-                "🇯🇵JP | 🟢 | vless | @v2rayngvpn | 14",
+                "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 14",
                 "🇨🇭CH | 🟢 | vless | @v2ray1_ng | 1",
-                "🇺🇸US | 🟢 | vless | @DailyV2RY | 21",
-                "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 22",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -400,7 +396,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 13",
+            "tag": "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 14",
             "type": "vless",
             "server": "213.176.18.183",
             "server_port": 443,
@@ -425,35 +421,6 @@
                     "enabled": true,
                     "public_key": "mChFHtaRmeuO2aDuDPqZvBFaCz6f34sVJIKuJcAR130",
                     "short_id": "fc45029be9d08fdc"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🟢 | vless | @v2rayngvpn | 14",
-            "type": "vless",
-            "server": "147.45.49.152",
-            "server_port": 443,
-            "uuid": "b127d2d2-277a-491e-bf80-2e8688fa85e2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ameba.jp",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xx7kFsgSVU_ovUPxmnKruzMKAs6oSUO8SvcvTRs6GnY",
-                    "short_id": "aea7080e57"
                 }
             }
         },
@@ -487,7 +454,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 21",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 22",
             "type": "vless",
             "server": "52.27.86.27",
             "server_port": 443,
@@ -512,35 +479,6 @@
                     "enabled": true,
                     "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
                     "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "147.45.49.152",
-            "server_port": 443,
-            "uuid": "b127d2d2-277a-491e-bf80-2e8688fa85e2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ameba.jp",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xx7kFsgSVU_ovUPxmnKruzMKAs6oSUO8SvcvTRs6GnY",
-                    "short_id": "aea7080e57"
                 }
             }
         },
