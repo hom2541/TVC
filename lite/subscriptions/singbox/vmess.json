@@ -107,9 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 4",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
@@ -121,9 +119,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 4",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
@@ -167,62 +163,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 8",
-            "type": "vmess",
-            "server": "frankfurt01.zgjok.com",
-            "server_port": 443,
-            "uuid": "b71579b1-6593-426d-90ac-f002fa96ade1",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "frankfurt01.zgjok.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "frankfurt01.zgjok.com"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | 🟢 | vmess | @v2ray1_ng | 4",
             "type": "vmess",
             "server": "5.79.71.184",
             "server_port": 8080,
             "uuid": "628171ee-048b-47be-85fe-7a659006e8a2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "38.14.99.179",
-            "server_port": 59807,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
