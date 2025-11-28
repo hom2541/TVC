@@ -115,10 +115,9 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 133",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 19",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇭🇰HK | 🟢 | vless | @ConfigsHUB | 18",
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 11",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -138,10 +137,9 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 133",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 19",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+                "🇭🇰HK | 🟢 | vless | @ConfigsHUB | 18",
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 4",
                 "🇩🇪DE | 🔴 | vless | @proxy_mtm | 11",
-                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -429,11 +427,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇭🇰HK | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "94.237.30.138",
-            "server_port": 36534,
-            "uuid": "28a6787d-b076-4c7a-be0c-772f5990a25d",
+            "server": "192.238.204.48",
+            "server_port": 55558,
+            "uuid": "1eb58333-3051-47c2-a2eb-44e5b64233c8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -443,7 +441,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "asos.com",
+                "server_name": "apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -452,8 +450,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Vq0bh06jdIg-3eyAjHfA8_RZKT9C-a9IbqRqzayWl28",
-                    "short_id": "41f255"
+                    "public_key": "LPatmFrK3hRMrtAybjzB7DBfqCaKnKQ6s95kmXrrFxg",
+                    "short_id": "b2defcc6"
                 }
             }
         },
@@ -492,42 +490,6 @@
             "server": "0wtadbshb4f3.zozodogg.com",
             "server_port": 2053,
             "uuid": "3750ee01-a30f-4249-ae7b-0a54ea0ff894",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_80k9z8fjFgVyF8jg79QuH6hc0gm0eztMq04rgBu8lw",
-                    "short_id": "e1be54"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Tel:@VPN_KING_V2RAY@VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY @VPN_KING_V2RAY",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 12",
-            "type": "vless",
-            "server": "91.99.215.235",
-            "server_port": 2053,
-            "uuid": "81a7fad8-43f0-45d0-8b89-5d333c25c353",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
