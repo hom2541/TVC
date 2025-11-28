@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
@@ -140,8 +140,8 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @vmessorg | 2",
                 "🇫🇷FR | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
-                "🇵🇱PL | 🔴 | vless | @v2rayngvpn | 14",
+                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 11",
+                "🇵🇱PL | 🔴 | vless | @v2rayngvpn | 12",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 4",
@@ -159,8 +159,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇪🇪EE | 🟢 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
@@ -186,7 +185,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
@@ -220,8 +219,8 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 4",
                 "🇫🇷FR | 🔴 | vless | @vmessorg | 2",
                 "🇫🇷FR | 🔴 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
-                "🇵🇱PL | 🔴 | vless | @v2rayngvpn | 14",
+                "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 11",
+                "🇵🇱PL | 🔴 | vless | @v2rayngvpn | 12",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 4",
@@ -239,8 +238,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇪🇪EE | 🟢 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 4",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
@@ -282,7 +280,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
             "type": "vless",
             "server": "cosmin.ns.cloudflare.com",
             "server_port": 443,
@@ -1055,21 +1053,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 13",
+            "tag": "🇫🇷FR | 🔴 | vless | @v2rayngvpn | 11",
             "type": "vless",
-            "server": "tarirari.avaaaal.ir",
-            "server_port": 26346,
-            "uuid": "43081188-35ca-4bf1-b6b3-4dfd45a1addc",
-            "flow": "",
+            "server": "pj2.bestirstorei.top",
+            "server_port": 51714,
+            "uuid": "TelPJ48",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "35EJSVcyfkkXYQ8b7jp1NA-yXPm43CPL9iwxVTY4ZUY",
+                    "short_id": "0dcf095d23b3a490"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇵🇱PL | 🔴 | vless | @v2rayngvpn | 14",
+            "tag": "🇵🇱PL | 🔴 | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "144.31.1.122",
             "server_port": 8080,
@@ -1455,11 +1475,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇪🇪EE | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "3db231e9-d64c-420a-89ee-e8d98e98390f",
+            "server": "185.252.177.178",
+            "server_port": 443,
+            "uuid": "976ca394-7957-468f-8e09-7265e17ba98a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1469,32 +1489,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.slideshare.net",
+                "server_name": "google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
+                    "public_key": "9_i2esq-OnjDFnQrhudpODxx8F8qSDe7dpbFNQrkAXg",
+                    "short_id": "e367ba4e2d8f2ffa"
                 }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "85.192.26.177",
-            "server_port": 26390,
-            "uuid": "883374fe-1ff9-4e38-c217-00df5490ccf1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
