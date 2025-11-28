@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
@@ -125,8 +125,6 @@
                 "🇺🇸US | 🔴 | vless | @lightning6 | 13",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 16",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 2",
-                "🇨🇿CZ | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇳🇱NL | 🟢 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -167,8 +165,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17",
-                "🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇳🇱NL | 🟢 | vmess | @free1_vpn | 5",
@@ -198,7 +196,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
@@ -217,8 +215,6 @@
                 "🇺🇸US | 🔴 | vless | @lightning6 | 13",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 16",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 2",
-                "🇨🇿CZ | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇳🇱NL | 🟢 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -259,8 +255,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17",
-                "🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 18",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇳🇱NL | 🟢 | vmess | @free1_vpn | 5",
@@ -306,7 +302,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
             "type": "vless",
             "server": "cosmin.ns.cloudflare.com",
             "server_port": 443,
@@ -737,41 +733,6 @@
                     "public_key": "4Xu_jqRD-mbhEwNyntlz_6zU4VhsE0-QWCxAbhEL_H4",
                     "short_id": "7ab467"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 2",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "7024fc2a-0202-4803-8d0e-0bbd0d14c29a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇿CZ | 🔴 | vless | @DarkTeam_VPN | 3",
-            "type": "vless",
-            "server": "194.182.79.240",
-            "server_port": 22727,
-            "uuid": "1aaaa494-9333-4d90-a65a-82213901ead8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1667,11 +1628,13 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17",
-            "type": "trojan",
-            "server": "153.121.44.99",
-            "server_port": 3093,
-            "password": "2cf6d686799e6fa95316394064f26c0a",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "blogtest.ghazatehran.ir",
+            "server_port": 2096,
+            "uuid": "bd60e683-4da1-4856-9451-991d40fed6a4",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1679,7 +1642,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.nintendogames.net",
+                "server_name": "blogtest.ghazatehran.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1689,11 +1652,13 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "160.16.116.227",
-            "server_port": 127,
-            "password": "2cf6d686799e6fa95316394064f26c0a",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "152.53.144.46",
+            "server_port": 22688,
+            "uuid": "6474da41-36d4-4675-9b3b-b68d49f64c16",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1701,12 +1666,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.nintendogames.net",
+                "server_name": "nike.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GKOroDaiSIgbEmu_f-SEPypLtVyMUVuPSXSMf3PfF38",
+                    "short_id": "3734ad"
                 }
             }
         },
