@@ -150,7 +150,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇭🇰HK | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -159,14 +158,14 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 24",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇱🇹LT | 🟢 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18",
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 13",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
+                "🇺🇸US | 🟢 | vless | @flyv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇳🇱NL | 🔴 | vless | @mehrosaboran | 7",
@@ -231,7 +230,6 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇭🇰HK | 🔴 | vless | @vmess_vless_v2rayng | 17",
@@ -240,14 +238,14 @@
                 "🇩🇪DE | 🔴 | vless | @DailyV2RY | 24",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
-                "🇱🇹LT | 🟢 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18",
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 13",
                 "🇺🇸US | 🔴 | vless | @FreakConfig | 14",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
+                "🇺🇸US | 🟢 | vless | @flyv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 10",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 6",
                 "🇳🇱NL | 🔴 | vless | @mehrosaboran | 7",
@@ -1251,37 +1249,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
-            "type": "vless",
-            "server": "172.67.166.211",
-            "server_port": 443,
-            "uuid": "c27bdfe9-929c-45cd-a917-aa47dae1cff7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "soft98m.dPdNS.OrG",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/eyJqdW5rIjoiM0tYeXg5RVVNIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==",
-                "headers": {
-                    "Host": "soft98m.dPdNS.OrG"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
             "type": "vless",
             "server": "172.67.141.140",
@@ -1457,35 +1424,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "wangcai181.cloudflare.182682.xyz",
-            "server_port": 443,
-            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2bff",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cho.chonon.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇱🇹LT | 🟢 | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "84.32.97.229",
-            "server_port": 2860,
-            "uuid": "b1163b14-3041-4817-a746-bc44b57d27dd",
+            "server": "152.53.143.63",
+            "server_port": 33046,
+            "uuid": "6fdc9193-6649-4cf4-9ddb-09c2e8dfc0c3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1495,7 +1438,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.microsoft.com",
+                "server_name": "yelp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1504,8 +1447,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Gld0oT2th0hU8263vPeQ4VIP0La9qZ8RhLiu0FOqYkc",
-                    "short_id": "0f4b32e37be08292"
+                    "public_key": "J-XIJJEgRInlpiaAXZRWaeGNXRZG6mmanXm4VuJXjTc",
+                    "short_id": "6cbbec"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "wolfy.ufavpn.ru",
+            "server_port": 27121,
+            "uuid": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ok.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
+                    "short_id": "fdc8125ea6f61323"
                 }
             }
         },
@@ -1631,11 +1603,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
+            "tag": "🇺🇸US | 🟢 | vless | @flyv2ray | 17",
             "type": "vless",
-            "server": "104.18.26.90",
-            "server_port": 2053,
-            "uuid": "1fcb692d-d35f-4295-bbc5-0512f51a3c41",
+            "server": "198.202.211.253",
+            "server_port": 2096,
+            "uuid": "2456f90c-5183-476d-b069-16ae74ce120f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1645,7 +1617,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "om3.omidsuccess.uk",
+                "server_name": "fast01.0860852.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1655,9 +1627,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/containers\/de",
+                "path": "\/",
                 "headers": {
-                    "Host": "om3.omidsuccess.uk"
+                    "Host": "fast01.0860852.xyz"
                 }
             }
         },
