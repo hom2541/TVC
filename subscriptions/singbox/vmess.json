@@ -129,10 +129,6 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 132",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 0",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 3",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 7",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -177,10 +173,6 @@
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 132",
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 0",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 3",
-                "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 7",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇳🇱NL | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -732,95 +724,6 @@
                 "headers": {
                     "Host": "yichueng.org"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "66.253.7.178",
-            "server_port": 20521,
-            "uuid": "d24c499b-3b25-441e-9c6e-b12421a91041",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 3",
-            "type": "vmess",
-            "server": "8.218.17.136",
-            "server_port": 4728,
-            "uuid": "a0e050ca-6d37-452f-bf5c-3e4e475ef36b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | vmess | @ConfigsHUB | 7",
-            "type": "vmess",
-            "server": "8.210.134.183",
-            "server_port": 3721,
-            "uuid": "e72f5c6b-220f-40b3-a115-2d81473458cf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "mci.yektanet.info",
-            "server_port": 55555,
-            "uuid": "a4b41dc8-b684-49e4-b3db-ade382c113d3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
