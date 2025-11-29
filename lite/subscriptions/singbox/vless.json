@@ -157,11 +157,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 9",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
@@ -234,11 +233,10 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 9",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 18",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 9",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 8",
@@ -1436,11 +1434,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "188.114.98.97",
+            "server": "www.visa.com.br",
             "server_port": 443,
-            "uuid": "6c0ed3fb-f0b0-5b53-a762-f8f8d832bdba",
+            "uuid": "69e9d6ac-df1c-43da-8345-c956cb05c403",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1450,7 +1448,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vfarid.xcdi.WoRkErS.DEV",
+                "server_name": "rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1460,24 +1458,41 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "vfarid.xcdi.WoRkErS.DEV"
+                    "Host": "rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "91.98.168.4",
-            "server_port": 8080,
-            "uuid": "46d1223c-97a5-449c-c127-82f8cffbbb8c",
+            "server": "172.66.47.156",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET"
+                }
             }
         },
         {
@@ -1520,37 +1535,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
-            "type": "vless",
-            "server": "172.66.47.156",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "wwW.oPEnsIGnAL.cOM.naynay09.Dynv6.nET"
-                }
             }
         },
         {
