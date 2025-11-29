@@ -165,8 +165,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇳🇱NL | 🟢 | vmess | @free1_vpn | 5",
@@ -255,8 +255,8 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
                 "🇩🇪DE | 🟢 | ss | @OutlineVpnOfficial | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇳🇱NL | 🟢 | vmess | @free1_vpn | 5",
@@ -1628,35 +1628,28 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "blogtest.ghazatehran.ir",
-            "server_port": 2096,
-            "uuid": "bd60e683-4da1-4856-9451-991d40fed6a4",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "mci.yektanet.info",
+            "server_port": 55555,
+            "uuid": "a4b41dc8-b684-49e4-b3db-ade382c113d3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "blogtest.ghazatehran.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "152.53.144.46",
-            "server_port": 22688,
-            "uuid": "6474da41-36d4-4675-9b3b-b68d49f64c16",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "e498fe2d-f299-42c8-a7e1-9dfc1c5974a7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1666,17 +1659,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nike.com",
+                "server_name": "www.slideshare.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "GKOroDaiSIgbEmu_f-SEPypLtVyMUVuPSXSMf3PfF38",
-                    "short_id": "3734ad"
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
                 }
             }
         },
