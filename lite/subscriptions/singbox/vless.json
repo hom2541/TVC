@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
@@ -157,7 +157,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 9",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
@@ -182,7 +183,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇸🇪SE | 🔴 | vless | @Parsashonam | 13",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
@@ -233,7 +234,8 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 13",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 9",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "🇨🇿CZ | 🔴 | vless | @Capoit | 19",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 17",
@@ -274,7 +276,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
             "type": "vless",
             "server": "cosmin.ns.cloudflare.com",
             "server_port": 443,
@@ -1350,7 +1352,7 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 19",
             "type": "vless",
-            "server": "159.89.50.126",
+            "server": "24.144.89.99",
             "server_port": 443,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1379,7 +1381,7 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
             "type": "vless",
-            "server": "157.245.241.173",
+            "server": "159.89.50.126",
             "server_port": 443,
             "uuid": "a7e04b44-855e-4fe7-8fa0-31894e928bce",
             "flow": "xtls-rprx-vision",
@@ -1434,11 +1436,42 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "144.31.1.122",
+            "server": "188.114.98.97",
+            "server_port": 443,
+            "uuid": "6c0ed3fb-f0b0-5b53-a762-f8f8d832bdba",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vfarid.xcdi.WoRkErS.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/",
+                "headers": {
+                    "Host": "vfarid.xcdi.WoRkErS.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "91.98.168.4",
             "server_port": 8080,
-            "uuid": "9036dc47-d0ec-4837-bf55-86f497937cff",
+            "uuid": "46d1223c-97a5-449c-c127-82f8cffbbb8c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
