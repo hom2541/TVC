@@ -155,8 +155,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇴NO | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 12",
@@ -229,8 +228,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇳🇴NO | 🔴 | vless | @ConfigsHUB | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 17",
                 "🇺🇸US | 🔴 | vless | @Capoit | 18",
                 "🇬🇧GB | 🔴 | vless | @FreakConfig | 12",
@@ -1414,11 +1412,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇳🇴NO | 🔴 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "151.101.3.6",
-            "server_port": 443,
-            "uuid": "9da7c06a-1a37-4157-aa70-b5f410e714cb",
+            "server": "141.227.166.221",
+            "server_port": 13154,
+            "uuid": "a677cf36-10b2-4dbd-b723-a2e963bed054",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1426,39 +1424,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.tm",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "151.101.195.6",
-            "server_port": 443,
-            "uuid": "9da7c06a-1a37-4157-aa70-b5f410e714cb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.tm",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me\/entryNETDEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
