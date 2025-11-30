@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vmess | @free1_vpn | 4",
@@ -122,7 +121,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vmess | @free1_vpn | 4",
@@ -159,23 +157,6 @@
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vmess | @ConfigsHUB | 16",
-            "type": "vmess",
-            "server": "178.62.220.64",
-            "server_port": 35416,
-            "uuid": "e017d65d-6da7-4cfe-bfaa-85b46158b82e",
-            "security": "auto",
-            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -281,8 +262,8 @@
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "acbaacb-acab-caab-bdac-cbaabacccabb",
+            "server_port": 1080,
+            "uuid": "aabcbca-bcaa-acab-dbac-acbbccaabbac",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -297,9 +278,9 @@
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "caacbab-cbaa-bcaa-dabc-abcbbcccabaa",
+            "server": "cfcdn3.sanfencdn9.com",
+            "server_port": 80,
+            "uuid": "cd47cb10-d851-489b-86cd-ffaf659ed943",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -309,6 +290,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/RPKZwKFW",
+                "headers": {
+                    "Host": "cfcdn3.sanfencdn9.com"
+                }
             }
         },
         {

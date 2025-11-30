@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
-                "🇺🇸US | 🔴 | vless | @EliV2ray | 10",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 13",
                 "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | 🔴 | vless | @XsV2ray | 3",
@@ -157,7 +157,8 @@
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 14",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Capoit | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 20",
@@ -181,7 +182,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
-                "🇺🇸US | 🔴 | vless | @EliV2ray | 10",
+                "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 13",
                 "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 1",
                 "🇬🇧GB | 🔴 | vless | @XsV2ray | 3",
@@ -231,7 +232,8 @@
                 "🇬🇧GB | 🟢 | vless | @DailyV2RY | 20",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
                 "🇩🇪DE | 🔴 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 14",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 15",
                 "🇺🇸US | 🟢 | vless | @free1_vpn | 5",
                 "🇺🇸US | 🔴 | vless | @Capoit | 19",
                 "🇺🇸US | 🔴 | vless | @Capoit | 20",
@@ -301,7 +303,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 10",
+            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
             "type": "vless",
             "server": "cosmin.ns.cloudflare.com",
             "server_port": 443,
@@ -1441,11 +1443,40 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "91.107.162.79",
-            "server_port": 7443,
-            "uuid": "33026d69-ba9b-4c4b-b96e-ee1392cf0d2b",
+            "server": "89.23.113.137",
+            "server_port": 49943,
+            "uuid": "_911331",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ietf.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw",
+                    "short_id": "ffffffffff"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "31.56.146.225",
+            "server_port": 53440,
+            "uuid": "43903c8d-5c42-4cb8-9da8-9d42178379c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
