@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 13",
                 "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 1",
@@ -136,8 +136,8 @@
                 "❔XX | 🔴 | vless | @vmessorg | 2",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 8",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 13",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 14",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 17",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 18",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 4",
@@ -154,7 +154,7 @@
                 "❔XX | 🔴 | vless | @DailyV2RY | 20",
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capoit | 17",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
@@ -178,7 +178,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+                "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
                 "🇨🇦CA | 🔴 | vless | @EliV2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 13",
                 "🇮🇷IR | 🔴 | vless | @NIM_VPN_ir | 1",
@@ -208,8 +208,8 @@
                 "❔XX | 🔴 | vless | @vmessorg | 2",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 8",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 13",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 14",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 17",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 18",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "❔XX | 🔴 | vless | @ServerNett | 4",
@@ -226,7 +226,7 @@
                 "❔XX | 🔴 | vless | @DailyV2RY | 20",
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capoit | 17",
                 "❔XX | 🔴 | vless | @Capoit | 18",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
@@ -266,7 +266,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @EliV2ray | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @EliV2ray | 9",
             "type": "vless",
             "server": "cosmin.ns.cloudflare.com",
             "server_port": 443,
@@ -971,11 +971,25 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 13",
+            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 17",
             "type": "vless",
-            "server": "141.227.180.236",
-            "server_port": 17275,
-            "uuid": "5db7b242-c82c-4991-9b32-d597805b32ee",
+            "server": "85.192.26.177",
+            "server_port": 26390,
+            "uuid": "883374fe-1ff9-4e38-c217-00df5490ccf1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 18",
+            "type": "vless",
+            "server": "141.227.134.128",
+            "server_port": 14407,
+            "uuid": "8b78a1cb-fe3b-47b8-bbb6-ad78af4cb581",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -986,42 +1000,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 14",
-            "type": "vless",
-            "server": "pj2.bestirstorei.top",
-            "server_port": 51714,
-            "uuid": "TelPJ51",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "35EJSVcyfkkXYQ8b7jp1NA-yXPm43CPL9iwxVTY4ZUY",
-                    "short_id": "0dcf095d23b3a490"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@ProxyPJ--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN--@FuseVPN",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -1371,23 +1349,31 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "91.107.141.33",
-            "server_port": 41850,
-            "uuid": "09e6b54d-ae00-47be-b534-cf4e74b9415f",
-            "flow": "",
+            "server": "89.58.55.196",
+            "server_port": 32133,
+            "uuid": "4e3663f5-b5d3-45fa-aaeb-52e13096e4d2",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------Telegram----@armanstore2--------",
-                "headers": {
-                    "Host": "91.107.141.33"
+            "tls": {
+                "enabled": true,
+                "server_name": "expedia.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4Qz4G28t9qnfp9i8prlehAmCaqI7w56OKuHgpfytXH8",
+                    "short_id": "5ff1a443"
                 }
             }
         },
