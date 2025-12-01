@@ -108,13 +108,15 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 13",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
-                "🇳🇱NL | 🟢 | vless | @rxv2ray | 18",
+                "🇳🇱NL | 🟢 | vless | @rxv2ray | 19",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇦🇹AT | 🟢 | vless | @prrofile_purple | 130",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 16",
+                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 14",
+                "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 15",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 19",
-                "🇮🇹IT | 🟢 | vless | @FreakConfig | 13",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
+                "🇮🇹IT | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -127,13 +129,15 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 13",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
-                "🇳🇱NL | 🟢 | vless | @rxv2ray | 18",
+                "🇳🇱NL | 🟢 | vless | @rxv2ray | 19",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇦🇹AT | 🟢 | vless | @prrofile_purple | 130",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 16",
+                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 14",
+                "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 15",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 19",
-                "🇮🇹IT | 🟢 | vless | @FreakConfig | 13",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
+                "🇮🇹IT | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -218,7 +222,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @rxv2ray | 18",
+            "tag": "🇳🇱NL | 🟢 | vless | @rxv2ray | 19",
             "type": "vless",
             "server": "eng30.digitunnel.org",
             "server_port": 443,
@@ -276,35 +280,6 @@
             }
         },
         {
-            "tag": "🇦🇹AT | 🟢 | vless | @prrofile_purple | 130",
-            "type": "vless",
-            "server": "aut-0001-xr.packet-drop-society.net",
-            "server_port": 443,
-            "uuid": "e71e700c-3751-4362-92a0-817ae5ec7fa4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws",
-                    "short_id": "31"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
             "type": "vless",
             "server": "ezalor.fonixapp.org",
@@ -334,7 +309,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 16",
+            "tag": "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 14",
+            "type": "vless",
+            "server": "193.36.132.87",
+            "server_port": 443,
+            "uuid": "793099c5-0712-4ea0-bbe1-455da88fc671",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+                    "short_id": "21181028b56c8702"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 15",
             "type": "vless",
             "server": "sandking.fonixapp.org",
             "server_port": 54399,
@@ -359,6 +363,35 @@
                     "enabled": true,
                     "public_key": "6ZX2uZOQb7FbLPeIyQLz3BIyCusoDlz1SmtlPXUALTo",
                     "short_id": "ca"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 1",
+            "type": "vless",
+            "server": "shadowshaman.fonixapp.org",
+            "server_port": 39321,
+            "uuid": "b5c04d3f-9eff-4939-a1f8-7b045854fd68",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "groww.in",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA",
+                    "short_id": "ecc1c4"
                 }
             }
         },
@@ -392,7 +425,36 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🟢 | vless | @FreakConfig | 13",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "89.23.113.137",
+            "server_port": 49943,
+            "uuid": "_911331",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ietf.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw",
+                    "short_id": "ffffffffff"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹IT | 🟢 | vless | @FreakConfig | 14",
             "type": "vless",
             "server": "cdi.chekino.ir",
             "server_port": 20811,
