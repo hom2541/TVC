@@ -115,8 +115,6 @@
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 19",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
-                "🇮🇹IT | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -136,8 +134,6 @@
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 19",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
-                "🇮🇹IT | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -421,64 +417,6 @@
                     "enabled": true,
                     "public_key": "RYsjWbL0kjpi144PPllR_2C_KK3a071iGBPUUCsHH1A",
                     "short_id": "a4844ba7"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "89.23.113.137",
-            "server_port": 49943,
-            "uuid": "_911331",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ietf.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw",
-                    "short_id": "ffffffffff"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇹IT | 🟢 | vless | @FreakConfig | 14",
-            "type": "vless",
-            "server": "cdi.chekino.ir",
-            "server_port": 20811,
-            "uuid": "a6b57d25-a1ca-4ce8-8a93-ac5eaaa8dae4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gameup.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "80GXkWEUDeEH0poV8IPGiukSZbn1BrMAZt9wxn2q00E",
-                    "short_id": "22b2598a025a3fde"
                 }
             }
         },
