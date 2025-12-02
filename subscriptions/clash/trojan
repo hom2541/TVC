@@ -155,6 +155,7 @@ proxies:
   - {"name":"🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"209.200.246.53","port":36774,"udp":false,"password":"Fv7ogJ6vfz","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.com"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
   - {"name":"🇵🇱PL | 🟢 | trojan | @VmessProtocol | 1","type":"trojan","server":"5.188.108.13","port":11790,"udp":false,"password":".+QAJot50sDi6mvb","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"runningshoes.purpletornado.click"}
+  - {"name":"🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17","type":"trojan","server":"52.199.79.149","port":1196,"udp":false,"password":"BxceQaOe","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"t.me/ripaojiedian"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -198,6 +199,7 @@ proxy-groups:
       - '🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '🇵🇱PL | 🟢 | trojan | @VmessProtocol | 1'
+      - '🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -241,6 +243,7 @@ proxy-groups:
       - '🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '🇵🇱PL | 🟢 | trojan | @VmessProtocol | 1'
+      - '🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -283,6 +286,7 @@ proxy-groups:
       - '🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '🇵🇱PL | 🟢 | trojan | @VmessProtocol | 1'
+      - '🇯🇵JP | 🟢 | trojan | @ConfigsHUB | 17'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
