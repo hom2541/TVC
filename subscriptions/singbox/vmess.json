@@ -149,7 +149,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 0",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 2",
@@ -206,7 +205,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
                 "🇭🇰HK | 🟢 | vmess | @v2Line | 0",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 2",
@@ -1301,30 +1299,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.198.249"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "jx.jixingnetwork.sbs",
-            "server_port": 2052,
-            "uuid": "6bdcb5de-dc42-4908-b090-46c1b2243641",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "jx.jixingnetwork.sbs"
                 }
             }
         },
