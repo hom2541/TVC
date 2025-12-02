@@ -128,7 +128,6 @@
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇲🇽MX | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 96",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 112",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 118",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 132",
@@ -184,7 +183,6 @@
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇲🇽MX | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
-                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 96",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 112",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 118",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 132",
@@ -704,40 +702,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 96",
-            "type": "vmess",
-            "server": "ace06-1.meiziba5566.com",
-            "server_port": 443,
-            "uuid": "081db274-313b-46d3-8c0a-197834208eec",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ace06-1.meiziba5566.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/081db274",
-                "headers": {
-                    "Host": "ace06-1.meiziba5566.com"
-                }
             }
         },
         {
