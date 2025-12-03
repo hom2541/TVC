@@ -116,8 +116,7 @@
                 "❔XX | 🟢 | vless | @v2rayngvpn | 14",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 3",
                 "❔XX | 🔴 | vless | @DailyV2RY | 18",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -138,8 +137,7 @@
                 "❔XX | 🟢 | vless | @v2rayngvpn | 14",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 3",
                 "❔XX | 🔴 | vless | @DailyV2RY | 18",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -463,11 +461,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "nl-3.atlanta-internet.ru",
-            "server_port": 8443,
-            "uuid": "669be00c-67b4-4b87-b08f-311c45abced2",
+            "server": "62.60.248.14",
+            "server_port": 28485,
+            "uuid": "5d3a0f39-07fe-4ed4-bb3b-cc8ec327aef7",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -477,7 +475,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pingless.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -486,38 +484,16 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI",
-                    "short_id": ""
+                    "public_key": "kP5lEpXBe5wbaSLOR6A9azX6kwMkfEk06bMkEpZxdSE",
+                    "short_id": "dc"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "185.42.163.177",
-            "server_port": 1888,
-            "uuid": "0f3c5d1e-21e7-4f5d-b57e-a308686e22f3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.kernel.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GaVpyGU5Xqyd5SYmchrCIajjTiXF69bmCnUdftmrwTM",
-                    "short_id": "16b7f8a207cda6e3"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me\/entryNET",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {

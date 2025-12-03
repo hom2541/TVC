@@ -111,8 +111,8 @@
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
                 "❔XX | 🟢 | vmess | @v2Line | 3",
                 "❔XX | 🟢 | vmess | @v2Line | 4"
             ]
@@ -126,8 +126,8 @@
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
                 "❔XX | 🟢 | vmess | @v2Line | 3",
                 "❔XX | 🟢 | vmess | @v2Line | 4"
             ],
@@ -295,7 +295,24 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "183.238.90.3",
+            "server_port": 40890,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
             "server": "45.130.147.178",
             "server_port": 40045,
@@ -315,30 +332,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "45.130.147.178"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "23.227.38.3",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "23.227.38.3"
                 }
             }
         },
