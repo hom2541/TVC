@@ -159,7 +159,7 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"38.96.254.102","port":18509,"udp":false,"password":".ie4rghJuMkcf0oF","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"shoppingmall.electricbanana.click"}
   - {"name":"❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 4","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
   - {"name":"❔XX | 🟢 | trojan | @VmessProtocol | 6","type":"trojan","server":"5.188.108.13","port":11790,"udp":false,"password":".+QAJot50sDi6mvb","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"runningshoes.purpletornado.click"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"34.22.190.30","port":443,"udp":false,"password":"fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"joss.gpj1.web.id"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 6","type":"trojan","server":"23.247.137.64","port":443,"udp":false,"password":"3c4e10af98c30972","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"n2.gladns.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -207,7 +207,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 6'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 6'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -255,7 +255,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 6'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 6'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -302,7 +302,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 4'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 6'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 6'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
