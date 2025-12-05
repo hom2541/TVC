@@ -139,10 +139,8 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 114",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 120",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -157,7 +155,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 2",
@@ -204,10 +201,8 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 114",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 120",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 3",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
                 "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -222,7 +217,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 2",
@@ -1065,68 +1059,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "37-telegram-id---V2box-v2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "z.looloolooloo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
-            "type": "vmess",
-            "server": "aq4714.keeoomboom.de",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aq4714.keeoomboom.de",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/bkhlciz0.m3u8",
-                "headers": {
-                    "Host": "aq4714.keeoomboom.de"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
             "type": "vmess",
             "server": "jl2klj.teeoomboom.de",
             "server_port": 443,
@@ -1160,7 +1093,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 6",
             "type": "vmess",
             "server": "wuspnd.zeeoomboom.de",
             "server_port": 443,
@@ -1560,30 +1493,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 8880,
-            "uuid": "de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/bcxQresd",
-                "headers": {
-                    "Host": "cfcdn1.sanfencdn9.com"
-                }
             }
         },
         {
