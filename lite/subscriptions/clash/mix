@@ -126,10 +126,9 @@ proxies:
   - {"name":"🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18","type":"ss","server":"77.238.224.29","port":55702,"password":"S2QudBxi0vRySw4YRLloPq","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵JP | 🔴 | trojan | @oneclickvpnkeys | 8","type":"trojan","server":"153.121.51.29","port":127,"udp":false,"password":"79314e99f0a473fe86efc7827942ad00","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.nintendogames.net"}
   - {"name":"🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 9","type":"trojan","server":"58.152.25.20","port":443,"udp":false,"password":"BxceQaOe","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"t.me/ripaojiedian"}
-  - {"name":"🇵🇾PY | 🟢 | ss | @OutlineVpnOfficial | 17","type":"ss","server":"38.165.233.18","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇨🇦CA | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"23.227.38.5","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip006.freegradely.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"172.67.75.194","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1789034.xyz"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"172.64.175.213","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
+  - {"name":"🇨🇦CA | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"23.227.38.5","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip006.freegradely.xyz"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -144,10 +143,9 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18'
       - '🇯🇵JP | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 9'
-      - '🇵🇾PY | 🟢 | ss | @OutlineVpnOfficial | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 2'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
+      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -162,10 +160,9 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18'
       - '🇯🇵JP | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 9'
-      - '🇵🇾PY | 🟢 | ss | @OutlineVpnOfficial | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 2'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
+      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -179,10 +176,9 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18'
       - '🇯🇵JP | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 9'
-      - '🇵🇾PY | 🟢 | ss | @OutlineVpnOfficial | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 2'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 3'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 2'
+      - '🇨🇦CA | 🟢 | vmess | @Hope_Net | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
