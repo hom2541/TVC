@@ -154,8 +154,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 0",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 1",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 2",
@@ -218,8 +216,6 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 0",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 1",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 2",
@@ -1455,47 +1451,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "172.64.198.249"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 10",
-            "type": "vmess",
-            "server": "zfd-moble.gatknqh.cn",
-            "server_port": 16120,
-            "uuid": "31e1b708-9e1f-3cd2-9928-39b909959d79",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-            "type": "vmess",
-            "server": "malaysia.com",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "malaysia.com"
                 }
             }
         },
