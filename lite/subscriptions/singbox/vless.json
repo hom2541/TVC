@@ -161,9 +161,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 17",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+                "🇫🇮FI | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "🇵🇱PL | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Capoit | 9",
                 "🇺🇸US | 🔴 | vless | @Capoit | 10",
                 "🇬🇧GB | 🟢 | vless | @FreakConfig | 13",
@@ -241,9 +241,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 17",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+                "🇫🇮FI | 🔴 | vless | @free1_vpn | 4",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 5",
-                "🇵🇱PL | 🔴 | vless | @free1_vpn | 6",
                 "🇺🇸US | 🔴 | vless | @Capoit | 9",
                 "🇺🇸US | 🔴 | vless | @Capoit | 10",
                 "🇬🇧GB | 🟢 | vless | @FreakConfig | 13",
@@ -1516,17 +1516,63 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "9f79b942-753c-48f6-82d0-5575f03e7f32",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "848178e4-78ac-4dbc-9fab-3d2f1e614ac0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @free1_vpn | 4",
+            "type": "vless",
+            "server": "bm.boulvarmoein.shop",
+            "server_port": 80,
+            "uuid": "تلگرامv2ray_fa3t",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bm.boulvarmoein.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@v2ray_fa3t=?ed=2560",
+                "headers": {
+                    "Host": "bm.boulvarmoein.shop"
+                }
             }
         },
         {
@@ -1541,30 +1587,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇵🇱PL | 🔴 | vless | @free1_vpn | 6",
-            "type": "vless",
-            "server": "plb.tunnelguard.ru",
-            "server_port": 443,
-            "uuid": "b278fc13-9be7-4e21-90cb-cb52ac0e2469",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "plb.tunnelguard.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
