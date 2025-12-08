@@ -115,7 +115,9 @@
                 "🇬🇧GB | 🟢 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 12",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vless | @FreakConfig | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -135,7 +137,9 @@
                 "🇬🇧GB | 🟢 | vless | @proxy_kafee | 3",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 4",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 12",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🟢 | vless | @FreakConfig | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 6",
@@ -423,11 +427,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @FreakConfig | 12",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "broodmother.fonixapp.org",
-            "server_port": 443,
-            "uuid": "3ac862a5-173b-456f-9d36-914ee34378d4",
+            "server": "87.242.101.25",
+            "server_port": 8443,
+            "uuid": "2a2a6062-003c-0012-b293-ee0d0416afee",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -437,7 +441,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "api.snapkit.com",
+                "server_name": "pimg.mycdn.me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -446,8 +450,66 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "O6czneYFqCn5RC0BgeJoTSbj7k4daIlSMsHTABIRQ2g",
-                    "short_id": "3c91"
+                    "public_key": "73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU",
+                    "short_id": "7c9cc821"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "176.123.162.253",
+            "server_port": 8443,
+            "uuid": "2a2a6062-003c-0004-b293-ee0d0416afee",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pimg.mycdn.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU",
+                    "short_id": "aea104e730"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @FreakConfig | 10",
+            "type": "vless",
+            "server": "dl.huskar.fonixapp.org",
+            "server_port": 443,
+            "uuid": "6526d72e-95b3-460d-a2e6-1b0b66d18b60",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "developer.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XjlDjEKKUfTB4uEdMjRYo35n8J_Rm1FQmvw87Mf4CTU",
+                    "short_id": "42fbfd"
                 }
             }
         },
