@@ -115,8 +115,6 @@
                 "❔XX | 🟢 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @proxy_kafee | 4",
                 "❔XX | 🟢 | vless | @customv2ray | 7",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vless | @FreakConfig | 9",
                 "❔XX | 🟢 | vless | @FreakConfig | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -138,8 +136,6 @@
                 "❔XX | 🟢 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @proxy_kafee | 4",
                 "❔XX | 🟢 | vless | @customv2ray | 7",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vless | @FreakConfig | 9",
                 "❔XX | 🟢 | vless | @FreakConfig | 10",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -425,64 +421,6 @@
                     "enabled": true,
                     "public_key": "7X3ayYDMuYR4Vz8Px8hDjOIxOMnRncjapXpWIzaKyls",
                     "short_id": "47"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "87.242.101.25",
-            "server_port": 8443,
-            "uuid": "2a2a6062-003c-0012-b293-ee0d0416afee",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pimg.mycdn.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU",
-                    "short_id": "7c9cc821"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "87.242.103.47",
-            "server_port": 8443,
-            "uuid": "2a2a6062-003c-0012-b293-ee0d0416afee",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pimg.mycdn.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "73XglR9lOaXBISd7mGgTEP60v28mz8pmCDivcDAF_WU",
-                    "short_id": "1596b946f2cb560c"
                 }
             }
         },
