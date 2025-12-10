@@ -116,6 +116,7 @@
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 13",
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 14",
                 "🇫🇷FR | 🟢 | vless | @v2ray1_ng | 7",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -137,6 +138,7 @@
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 13",
                 "🇩🇪DE | 🟢 | vless | @v2rayngvpn | 14",
                 "🇫🇷FR | 🟢 | vless | @v2ray1_ng | 7",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -450,6 +452,35 @@
                     "enabled": true,
                     "public_key": "15ZlM5p8DB5Fp4mtva2pvtC4IBtcxSxqeuZ0R7ffkRk",
                     "short_id": "4b8f669536c45c2b"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "russia1.okky.tech",
+            "server_port": 8080,
+            "uuid": "b59469e8-171c-4787-b56c-cd24ff7a48fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vk.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "pkBZq57b1NRpQsG5738qwz8Hdmn-GuJSbemIQZkdJ2o",
+                    "short_id": ""
                 }
             }
         },
