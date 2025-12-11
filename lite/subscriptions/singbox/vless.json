@@ -146,7 +146,6 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 5",
@@ -165,6 +164,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 6",
                 "🇮🇹IT | 🔴 | vless | @Capoit | 14",
@@ -175,8 +175,8 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 35",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 36",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 13",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 14",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 14",
                 "❔XX | 🔴 | vless | @kiava | 13",
                 "❔XX | 🔴 | vless | @kiava | 14",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 18",
@@ -233,7 +233,6 @@
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
-                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 8",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 9",
                 "🇺🇸US | 🔴 | vless | @ServerNett | 5",
@@ -252,6 +251,7 @@
                 "🇺🇸US | 🔴 | vless | @DailyV2RY | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 6",
                 "🇮🇹IT | 🔴 | vless | @Capoit | 14",
@@ -262,8 +262,8 @@
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 35",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 36",
-                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 13",
-                "🇺🇸US | 🔴 | vless | @mehrosaboran | 14",
+                "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
+                "🇩🇪DE | 🔴 | vless | @mehrosaboran | 14",
                 "❔XX | 🔴 | vless | @kiava | 13",
                 "❔XX | 🔴 | vless | @kiava | 14",
                 "🇺🇸US | 🔴 | vless | @nofiltering2 | 18",
@@ -1191,7 +1191,7 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
+            "server": "delilah.ns.cloudflare.com",
             "server_port": 8080,
             "uuid": "2781805a-0cf9-462f-c4af-b8f7e8366f88",
             "flow": "",
@@ -1200,37 +1200,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 16",
-            "type": "vless",
-            "server": "brenna.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "terazhedi.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/sghiyws",
-                "headers": {
-                    "Host": "terazhedi.info"
-                }
             }
         },
         {
@@ -1634,6 +1603,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "108.162.193.217",
+            "server_port": 443,
+            "uuid": "ee122f13-9b54-49b6-abc5-aa47b464fdb3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "azizoarjmand.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/yhowcws",
+                "headers": {
+                    "Host": "azizoarjmand.info"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
             "type": "vless",
             "server": "185.82.73.212",
@@ -1867,7 +1867,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 13",
+            "type": "vless",
+            "server": "test2.amin8263.ir",
+            "server_port": 2095,
+            "uuid": "904d6aa4-a648-4b3f-e7a4-fc8bdd58e3fc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam\/@XpnTeam@XpnTeam@XpnTeam",
+                "headers": {
+                    "Host": "test2.amin8263.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @mehrosaboran | 14",
             "type": "vless",
             "server": "159.69.112.17",
             "server_port": 2095,
@@ -1885,20 +1906,6 @@
                 "headers": {
                     "Host": "159.69.112.17"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @mehrosaboran | 14",
-            "type": "vless",
-            "server": "am288.amin-1.ir",
-            "server_port": 2082,
-            "uuid": "1bde3678-c2e4-4e11-f42e-0dd45bf28cc0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
