@@ -165,8 +165,8 @@
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇷FR | 🟢 | vless | @free1_vpn | 6",
                 "🇮🇹IT | 🔴 | vless | @Capoit | 12",
@@ -253,8 +253,8 @@
                 "🇨🇦CA | 🟢 | vless | @DailyV2RY | 18",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇩🇪DE | 🔴 | vless | @free1_vpn | 5",
                 "🇫🇷FR | 🟢 | vless | @free1_vpn | 6",
                 "🇮🇹IT | 🔴 | vless | @Capoit | 12",
@@ -1664,47 +1664,44 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "82.153.217.154",
-            "server_port": 2565,
-            "uuid": "24285832-c456-47f8-9e2f-520e84e33612",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "brenna.ns.cloudflare.com",
-            "server_port": 443,
-            "uuid": "1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63",
+            "server": "45.8.146.207",
+            "server_port": 80,
+            "uuid": "a6c4db3e-7785-429e-8bc5-9eaf7b1a79b1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "terazhedi.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/sghiyws",
+                "path": "\/vless\/?join---telegram---mtmvpn---join---telegram---mtmvpn---join---telegram---mtmvpn---join---telegram---mtmvpn?ed=2560",
                 "headers": {
-                    "Host": "terazhedi.info"
+                    "Host": "45.8.146.207"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "65.109.205.214",
+            "server_port": 443,
+            "uuid": "cdf23086-d9c7-458d-9b97-6a19013fbbdd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "65.109.205.214"
                 }
             }
         },
