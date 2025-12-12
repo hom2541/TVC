@@ -113,8 +113,8 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇻🇳VN | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇵🇱PL | 🟢 | vmess | @v2Line | 6",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 7"
             ]
@@ -130,8 +130,8 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇻🇳VN | 🟢 | vmess | @Hope_Net | 9",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇵🇱PL | 🟢 | vmess | @v2Line | 6",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 7"
             ],
@@ -316,11 +316,11 @@
             }
         },
         {
-            "tag": "🇻🇳VN | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "103.186.148.113",
-            "server_port": 80,
-            "uuid": "67468d89-cf87-443c-baca-49f1e73b5991",
+            "server": "ojje-laowang.apps.ir-thr-at1.arvan.run",
+            "server_port": 443,
+            "uuid": "2112b632-fb6c-4781-bb42-d4d310aa532f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -331,20 +331,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ojje-laowang.apps.ir-thr-at1.arvan.run",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/shopvpn.net",
+                "path": "\/laowang",
                 "headers": {
-                    "Host": "103.186.148.113"
+                    "Host": "ojje-laowang.apps.ir-thr-at1.arvan.run"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "23.156.152.106",
-            "server_port": 80,
-            "uuid": "2d9a81f6-e86e-48e6-9646-b3b1325f8d61",
+            "server": "ae.755657.xyz",
+            "server_port": 8443,
+            "uuid": "d8182760-49e8-4e76-abb2-f3ed213f1f7e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -355,11 +365,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "ae.755657.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/syjsq\/data",
+                "path": "\/javasdkjhugf",
                 "headers": {
-                    "Host": "23.156.152.106"
+                    "Host": "ae.755657.xyz"
                 }
             }
         },
