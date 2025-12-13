@@ -110,16 +110,15 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 17",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇨🇭CH | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @v2rayNG_Matsuri | 6",
+                "🇦🇪AE | 🔴 | vless | @v2rayngvpn | 13",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 1",
                 "🇦🇹AT | 🟢 | vless | @VmessProtocol | 9",
                 "🇬🇧GB | 🟢 | vless | @VmessProtocol | 10",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 16",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -136,16 +135,15 @@
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 17",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇨🇭CH | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @v2rayNG_Matsuri | 6",
+                "🇦🇪AE | 🔴 | vless | @v2rayngvpn | 13",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 1",
                 "🇦🇹AT | 🟢 | vless | @VmessProtocol | 9",
                 "🇬🇧GB | 🟢 | vless | @VmessProtocol | 10",
+                "🇺🇸US | 🟢 | vless | @DailyV2RY | 16",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
@@ -290,35 +288,6 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vless | @proxy_kafee | 1",
-            "type": "vless",
-            "server": "swiss.intfreed.ru",
-            "server_port": 443,
-            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "swiss.video.intfreed.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-                    "short_id": "7755e972daf8eec8"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
             "type": "vless",
             "server": "de.shvurgceo.online",
@@ -403,6 +372,42 @@
                     "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
                     "short_id": "aa7e96542880027a"
                 }
+            }
+        },
+        {
+            "tag": "🇦🇪AE | 🔴 | vless | @v2rayngvpn | 13",
+            "type": "vless",
+            "server": "uaeemar123.vtuix.ir",
+            "server_port": 7033,
+            "uuid": "2652fbc5-e1b1-691f-c9c7-11ad83e828a6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
+                    "short_id": "16b6cda7ab793526"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "7034vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -493,9 +498,9 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🟢 | vless | @DailyV2RY | 17",
+            "tag": "🇺🇸US | 🟢 | vless | @DailyV2RY | 16",
             "type": "vless",
-            "server": "54.74.228.168",
+            "server": "54.237.180.193",
             "server_port": 443,
             "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
             "flow": "xtls-rprx-vision",
@@ -522,11 +527,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇮🇪IE | 🟢 | vless | @DailyV2RY | 17",
             "type": "vless",
-            "server": "91.98.92.70",
-            "server_port": 2025,
-            "uuid": "40e5abcd-0770-4dee-9d76-a4827c776c12",
+            "server": "54.74.228.168",
+            "server_port": 443,
+            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -536,7 +541,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "miro.com",
+                "server_name": "chatgpt.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -545,52 +550,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LnDnwg2lFWruzisAY8t6ouWZ3JoQ_47XAl-jUx8tJx0",
-                    "short_id": "acd96c5fc628f1"
+                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
+                    "short_id": "f5"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "rusdokyav.vtuix.ir",
-            "server_port": 7033,
-            "uuid": "2652fbc5-e1b1-691f-c9c7-11ad83e828a6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telewebion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
-                    "short_id": "16b6cda7ab793526"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "7034vless",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
