@@ -135,7 +135,7 @@
                 "❔XX | 🔴 | vless | @V2rayNGn | 6",
                 "🇩🇪DE | 🔴 | vless | @V2rayNGn | 7",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 18",
-                "🇮🇪IE | 🔴 | vless | @prrofile_purple | 138",
+                "🇸🇪SE | 🔴 | vless | @prrofile_purple | 138",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 139",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
                 "❔XX | 🔴 | vless | @customv2ray | 8",
@@ -160,7 +160,8 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 12",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇧🇪BE | 🔴 | vless | @Capoit | 12",
                 "🇺🇸US | 🔴 | vless | @Capoit | 13",
@@ -216,7 +217,7 @@
                 "❔XX | 🔴 | vless | @V2rayNGn | 6",
                 "🇩🇪DE | 🔴 | vless | @V2rayNGn | 7",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 18",
-                "🇮🇪IE | 🔴 | vless | @prrofile_purple | 138",
+                "🇸🇪SE | 🔴 | vless | @prrofile_purple | 138",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 139",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 7",
                 "❔XX | 🔴 | vless | @customv2ray | 8",
@@ -241,7 +242,8 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 12",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 1",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 2",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇧🇪BE | 🔴 | vless | @Capoit | 12",
                 "🇺🇸US | 🔴 | vless | @Capoit | 13",
@@ -929,7 +931,7 @@
             }
         },
         {
-            "tag": "🇮🇪IE | 🔴 | vless | @prrofile_purple | 138",
+            "tag": "🇸🇪SE | 🔴 | vless | @prrofile_purple | 138",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
@@ -1477,32 +1479,38 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "fin.intfreed.ru",
-            "server_port": 443,
-            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
-            "flow": "xtls-rprx-vision",
+            "server": "91.98.46.169",
+            "server_port": 10200,
+            "uuid": "b786d9bd-b9f7-4587-a580-eb8a219f19f3",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "video.intfreed.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-                    "short_id": "7755e972daf8eec8"
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "91.98.46.169"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "128.140.14.218",
+            "server_port": 123,
+            "uuid": "0267c264-2d80-4eec-fc61-6a77e3e2fa93",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
