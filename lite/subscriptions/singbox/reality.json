@@ -116,8 +116,7 @@
                 "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 12",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 2",
                 "🇦🇹AT | 🟢 | vless | @VmessProtocol | 11",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 18",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -139,8 +138,7 @@
                 "🇨🇭CH | 🟢 | vless | @v2rayngvpn | 12",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 2",
                 "🇦🇹AT | 🟢 | vless | @VmessProtocol | 11",
-                "🇨🇦CA | 🟢 | vless | @DailyV2RY | 18",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -458,11 +456,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vless | @DailyV2RY | 18",
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "3.98.54.197",
+            "server": "fin.intfreed.ru",
             "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
+            "uuid": "bf92bdef-ab8d-4481-8798-2d39023357b2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -472,46 +470,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "chatgpt.com",
+                "server_name": "video.intfreed.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
-            "type": "vless",
-            "server": "217.16.24.170",
-            "server_port": 443,
-            "uuid": "a91e64f0-9295-499d-bf4a-661ad99d4938",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api-maps.yandex.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ",
-                    "short_id": "5540e44a53c3d01c"
+                    "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+                    "short_id": "7755e972daf8eec8"
                 }
             }
         },
