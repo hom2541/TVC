@@ -158,10 +158,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 15",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 6",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
                 "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 10",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 5",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 6",
@@ -257,10 +256,9 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 15",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 6",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
                 "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 10",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 5",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 6",
@@ -1835,9 +1833,38 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 7",
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "51.158.206.80",
+            "server_port": 23576,
+            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fuck.rkn",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+                    "short_id": "01"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "51.158.206.29",
             "server_port": 23576,
             "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
             "flow": "xtls-rprx-vision",
@@ -1889,64 +1916,6 @@
                     "enabled": true,
                     "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
                     "short_id": "01"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "51.158.206.29",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "de.u-team.ir",
-            "server_port": 5678,
-            "uuid": "bc66129c-bb06-0dac-a7fc-3d35b38f87e5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mKzDPCMzVSSDRLoXQzPZ9bxWacxNKNj4UjRP1vXBCBA",
-                    "short_id": "d59f3cc6a68619e8"
                 }
             }
         },
