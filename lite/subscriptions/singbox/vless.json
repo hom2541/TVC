@@ -158,12 +158,11 @@
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "❔XX | 🟢 | vless | @VmessProtocol | 9",
                 "❔XX | 🟢 | vless | @VmessProtocol | 10",
-                "❔XX | 🟢 | vless | @DailyV2RY | 16",
                 "❔XX | 🟢 | vless | @DailyV2RY | 17",
                 "❔XX | 🔴 | vless | @lrnbymaa | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 11",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 9",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capoit | 14",
@@ -242,12 +241,11 @@
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 18",
                 "❔XX | 🟢 | vless | @VmessProtocol | 9",
                 "❔XX | 🟢 | vless | @VmessProtocol | 10",
-                "❔XX | 🟢 | vless | @DailyV2RY | 16",
                 "❔XX | 🟢 | vless | @DailyV2RY | 17",
                 "❔XX | 🔴 | vless | @lrnbymaa | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 2",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 11",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 9",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capoit | 14",
@@ -1474,38 +1472,9 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 16",
-            "type": "vless",
-            "server": "54.237.180.193",
-            "server_port": 443,
-            "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chatgpt.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
-                    "short_id": "f5"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vless | @DailyV2RY | 17",
             "type": "vless",
-            "server": "54.74.228.168",
+            "server": "54.237.180.193",
             "server_port": 443,
             "uuid": "4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4",
             "flow": "xtls-rprx-vision",
@@ -1560,32 +1529,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "usaa.fastlynew.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "fe61af02-d4e2-4131-d263-592a89f35204",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegeam-@v2_city--",
-                "headers": {
-                    "Host": "usaa.fastlynew.hosting-ip.com"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "movivoolom.movementvip.ir",
-            "server_port": 2025,
-            "uuid": "cd19d8ac-5cf2-4a4a-8e67-2f1ccd704d65",
+            "server": "wolfy.ufavpn.ru",
+            "server_port": 27121,
+            "uuid": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1595,7 +1543,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "movivoolom.movementvip.ir",
+                "server_name": "www.ok.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1604,8 +1552,39 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-GSgOuj1kNP1sHwIVEHEwL9ZhGMRLlsBcqOGNhLVIkA",
-                    "short_id": "062f0288c08c"
+                    "public_key": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
+                    "short_id": "fdc8125ea6f61323"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "uk.api-music-fa.com",
+            "server_port": 2053,
+            "uuid": "1588ca4b-d27a-4447-9dfc-a772c3fe2baf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "uk.api-music-fa.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/J5aLQOY1R9ONWYCM",
+                "headers": {
+                    "Host": "uk.api-music-fa.com"
                 }
             }
         },
