@@ -111,8 +111,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ]
@@ -126,8 +126,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ],
@@ -268,7 +268,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
+            "type": "vmess",
+            "server": "45.67.32.147",
+            "server_port": 40413,
+            "uuid": "6a24c8a8-ac38-4dcc-bfe7-006beefc1dbe",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free.hardtofind.42web.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/makeacall",
+                "headers": {
+                    "Host": "free.hardtofind.42web.io"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
             "server": "104.19.51.232",
             "server_port": 2086,
@@ -288,40 +322,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "ip006.3196772.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "45.67.32.147",
-            "server_port": 28841,
-            "uuid": "c7084f43-9b71-4f3d-814f-6a806409c8f0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tbg9tvjd211uy821.robinhud.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/nevergonnagive",
-                "headers": {
-                    "Host": "tbg9tvjd211uy821.robinhud.com"
                 }
             }
         },
