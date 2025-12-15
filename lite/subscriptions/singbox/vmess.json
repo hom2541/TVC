@@ -109,10 +109,11 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 14",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ]
@@ -124,10 +125,11 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+                "🇷🇺RU | 🟢 | vmess | @Hope_Net | 14",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 6",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7"
             ],
@@ -210,6 +212,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 17",
+            "type": "vmess",
+            "server": "172.66.40.99",
+            "server_port": 443,
+            "uuid": "7181d266-d84a-11f0-a557-07cf6d010b33",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "turkye.looloolooloo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vpnjantit?telegram-id---v2box-v2\/www.speedtest.net:443",
+                "headers": {
+                    "Host": "turkye.looloolooloo.com"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -268,7 +304,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "🇷🇺RU | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
             "server": "45.67.32.147",
             "server_port": 40413,
@@ -302,7 +338,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
             "type": "vmess",
             "server": "104.19.51.232",
             "server_port": 2086,
