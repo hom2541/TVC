@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 18",
+                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
-                "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 18",
+                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +138,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 18",
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 18",
             "type": "shadowsocks",
             "server": "promo1o.bystrivpn.ru",
             "server_port": 443,
@@ -148,9 +148,9 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | 🟢 | ss | @OutlineVpnOfficial | 18",
+            "tag": "❔XX | 🟢 | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "79.127.200.162",
+            "server": "185.126.237.38",
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3",
