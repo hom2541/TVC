@@ -111,6 +111,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 128",
+                "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 3",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
@@ -132,6 +133,7 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 128",
+                "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 15",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 3",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
@@ -305,6 +307,35 @@
                     "enabled": true,
                     "public_key": "NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE",
                     "short_id": "08aa0813199a4c38"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 15",
+            "type": "vless",
+            "server": "84.201.173.57",
+            "server_port": 443,
+            "uuid": "81c5e9f6-daf6-4ce9-9fb7-4b0d4e53b85e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnv-img.perekrestok.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "M_1zEYq4wjbrRnpTOOsfzoFhAHZgyPR09ahuI2Fw7ko",
+                    "short_id": "71f81391c503c9a9"
                 }
             }
         },
