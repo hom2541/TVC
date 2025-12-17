@@ -157,10 +157,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
-                "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 0",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 7",
@@ -255,10 +252,7 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
-                "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 4",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 0",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 7",
@@ -1804,11 +1798,11 @@
             }
         },
         {
-            "tag": "🇱🇻LV | 🟢 | vless | @ConfigsHUB | 4",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "185.176.220.154",
-            "server_port": 443,
-            "uuid": "a0e804c3-55e2-4d51-82c7-33976d6748cb",
+            "server": "msk.ru.srv.oplcdn.link",
+            "server_port": 8443,
+            "uuid": "3116cc23-0c39-4bb6-8154-d3f332e9017e",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1818,104 +1812,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "ign.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU",
-                    "short_id": "9eb31eb7572c0882"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 6",
-            "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "cf804de9-d65f-4b49-9990-ea611fdcbc10",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.zhaket.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "185.200.190.159",
-            "server_port": 34045,
-            "uuid": "d8dd94fd-540e-461d-b5d4-acebef02c22a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA",
-                    "short_id": "e8ab71d0"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "5.75.192.6",
-            "server_port": 443,
-            "uuid": "c4b46615-5a3c-4431-f3b9-01b16a9fde69",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "iubenda.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fVtKLgnLnnS9SXhHujGSWEiqQipzlTV1lG7C2dNThSM",
-                    "short_id": "48"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
