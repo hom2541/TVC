@@ -110,11 +110,10 @@
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇵🇱PL | 🟢 | vless | @proxy_kafee | 0",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | 🟢 | vless | @prrofile_purple | 131",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 132",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
-                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -130,11 +129,10 @@
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "🇵🇱PL | 🟢 | vless | @proxy_kafee | 0",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | 🟢 | vless | @prrofile_purple | 131",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 132",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
-                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
@@ -278,11 +276,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 17",
+            "tag": "🇸🇪SE | 🟢 | vless | @prrofile_purple | 131",
             "type": "vless",
-            "server": "213.176.16.74",
+            "server": "sweden11.clearorbitllc.com",
             "server_port": 443,
-            "uuid": "d7fbe279896e40118c23d15fe537dddd",
+            "uuid": "26c99015-b58e-47d2-a4ce-4f4b05b70400",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -292,17 +290,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "apple.com",
+                "server_name": "sweden11.clearorbitllc.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "XNL_xB1Spd09CQQQGnjeMPPK6_tPnFuYI_nLKk3EiWc",
-                    "short_id": "aabbccdd"
+                    "public_key": "6i0TALpH7qy8-xzwJkI13mRsgi2e7lHqKQyAcDSg8Uc",
+                    "short_id": "4af2"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 132",
+            "type": "vless",
+            "server": "turkey8.yourbot.me",
+            "server_port": 443,
+            "uuid": "041b0e57-d4f6-4332-8296-a06a046241fc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ftp.debian.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "OBKACuWea1rLl-_caAlsIu_V40AGwisGpq84qQwWRks",
+                    "short_id": "a26808"
                 }
             }
         },
@@ -361,64 +388,6 @@
                     "enabled": true,
                     "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
                     "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "fra.germany-14.com",
-            "server_port": 2087,
-            "uuid": "2b7ff221-0ea2-4474-ab4e-686e6a11dc65",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "p8D0V1jYr98lK4kU8FlBYfQ1kMO6zgIx5qI_p5dr_Bc",
-                    "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "ch.srv.oplcdn.link",
-            "server_port": 8443,
-            "uuid": "3116cc23-0c39-4bb6-8154-d3f332e9017e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ign.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
