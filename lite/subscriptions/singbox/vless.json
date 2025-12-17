@@ -150,7 +150,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
@@ -158,8 +158,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇫🇷FR | 🔴 | vless | @Capoit | 17",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 18",
@@ -232,7 +232,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @MsV2ray | 2",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 4",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 18",
@@ -240,8 +240,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 2",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 3",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 13",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇫🇷FR | 🔴 | vless | @Capoit | 17",
                 "🇩🇪DE | 🔴 | vless | @Capoit | 18",
@@ -1235,7 +1235,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "45.12.138.8",
             "server_port": 443,
@@ -1425,11 +1425,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "185.231.205.152",
-            "server_port": 443,
-            "uuid": "2b74e019-81b0-4c77-9f41-2f3aaf04132d",
+            "server": "V2ngnet.heloisfood.ir",
+            "server_port": 4488,
+            "uuid": "0d25085e-b6c4-410a-b206-4dde607cff6c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1437,30 +1437,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "ads.x5.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/uefsanws",
-                "headers": {
-                    "Host": "ads.x5.ru"
-                }
+                "type": "grpc",
+                "service_name": "@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 14",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "38021ff2-6778-4363-92b1-d70ac11acf51",
+            "server": "masterserver1.heloisfood.ir",
+            "server_port": 6423,
+            "uuid": "0d25085e-b6c4-410a-b206-4dde607cff6c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1468,22 +1458,12 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "svsfes.hatlikarious.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "svsfes.hatlikarious.org"
-                }
+                "type": "grpc",
+                "service_name": "@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
