@@ -113,9 +113,8 @@
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 135",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
-                "🇰🇿KZ | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
-                "🇵🇱PL | 🟢 | vless | @FreakConfig | 15",
+                "🇦🇹AT | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -133,9 +132,8 @@
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 135",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 13",
-                "🇰🇿KZ | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
-                "🇵🇱PL | 🟢 | vless | @FreakConfig | 15",
+                "🇦🇹AT | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -365,35 +363,6 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "176.120.72.63",
-            "server_port": 38339,
-            "uuid": "481c5606-b586-44d7-bc2e-d8ef30d67f62",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "o0MFuznHh_Wztg0FTAMhFXm3hjAqOJAJIIVNn-_A9WA",
-                    "short_id": "e16883e511"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "91.99.75.34",
@@ -423,11 +392,11 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @FreakConfig | 15",
+            "tag": "🇦🇹AT | 🟢 | vless | @FreakConfig | 14",
             "type": "vless",
-            "server": "poland.geodema.network",
-            "server_port": 8443,
-            "uuid": "eb7c7631-6c7c-4f34-a65a-974b4565d01d",
+            "server": "5.181.21.101",
+            "server_port": 4443,
+            "uuid": "edb3d24d-1a55-42f7-8752-6ae216f18cf4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -437,7 +406,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "music.yandex.ru",
+                "server_name": "github.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -446,8 +415,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ",
-                    "short_id": "5540e44a53c3d01c"
+                    "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
+                    "short_id": "aa7e96542880027a"
                 }
             }
         },
