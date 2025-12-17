@@ -127,12 +127,11 @@ proxies:
   - {"name":"🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"185.212.171.204","port":58670,"udp":false,"password":"fri4wn77p7urww5on3bt","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ads.x5.ru"}
   - {"name":"🇺🇸US | 🔴 | trojan | @v2ray1_ng | 3","type":"trojan","server":"172.67.134.185","port":443,"udp":false,"password":"POORIARED","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"reDfRee8.REDFree8.ir"}
   - {"name":"🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4","type":"vmess","server":"cpanel.navar1.ir","port":"100","cipher":"auto","uuid":"bbecd967-a6d2-4766-910e-fd84a8b71809","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇷🇴RO | 🟢 | ss | @OutlineVpnOfficial | 17","type":"ss","server":"185.126.237.38","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"172.67.134.185","port":443,"udp":false,"password":"POORIARED","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"reDfRee8.REDFree8.ir"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 16","type":"ss","server":"92.112.126.90","port":443,"password":"9tqhMdIrTkgQ46PvhyAtMH","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇵🇱PL | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"172.64.198.249","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"172.64.175.213","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @v2Line | 8","type":"vmess","server":"209.126.84.189","port":"443","cipher":"auto","uuid":"2c981164-9b93-4bca-94ff-b78d3f8498d7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"209.126.84.189"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @v2Line | 7","type":"vmess","server":"209.126.84.189","port":"443","cipher":"auto","uuid":"2c981164-9b93-4bca-94ff-b78d3f8498d7","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmessws","headers":{"host":"209.126.84.189"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -148,12 +147,11 @@ proxy-groups:
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 3'
       - '🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4'
-      - '🇷🇴RO | 🟢 | ss | @OutlineVpnOfficial | 17'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 16'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇵🇱PL | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
+      - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -169,12 +167,11 @@ proxy-groups:
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 3'
       - '🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4'
-      - '🇷🇴RO | 🟢 | ss | @OutlineVpnOfficial | 17'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 16'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇵🇱PL | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
+      - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -189,12 +186,11 @@ proxy-groups:
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @v2ray1_ng | 3'
       - '🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 4'
-      - '🇷🇴RO | 🟢 | ss | @OutlineVpnOfficial | 17'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7'
+      - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 16'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '🇵🇱PL | 🟢 | vmess | @Hope_Net | 4'
       - '🇺🇸US | 🟢 | vmess | @Hope_Net | 5'
-      - '🇺🇸US | 🟢 | vmess | @v2Line | 8'
+      - '🇺🇸US | 🟢 | vmess | @v2Line | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
