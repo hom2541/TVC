@@ -112,8 +112,8 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 8"
             ]
@@ -128,8 +128,8 @@
                 "🇩🇪DE | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
                 "🇳🇱NL | 🟢 | vmess | @Hope_Net | 2",
-                "❔XX | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 7",
                 "🇫🇷FR | 🟢 | vmess | @v2Line | 8"
             ],
@@ -297,11 +297,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "136.244.101.16",
-            "server_port": 59400,
-            "uuid": "e9758e0c-130f-414e-8df8-c779e65e31b5",
+            "server": "104.21.52.103",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -311,14 +311,31 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "aveiror.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "aveiror.com"
+                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇳🇱NL | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cbaabac-baac-baca-dcba-babaabcccbca",
+            "server": "136.244.101.16",
+            "server_port": 59400,
+            "uuid": "e9758e0c-130f-414e-8df8-c779e65e31b5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
