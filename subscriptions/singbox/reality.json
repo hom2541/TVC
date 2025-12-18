@@ -138,6 +138,7 @@
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 0",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 1",
+                "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 0",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 0",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 3",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 1",
@@ -155,11 +156,11 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
+                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
+                "🇺🇸US | 🟢 | vless | @FreakConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
                 "🇺🇸US | 🔴 | vless | @kiava | 1",
                 "🇺🇸US | 🔴 | vless | @kiava | 2",
@@ -229,6 +230,7 @@
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 0",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 1",
+                "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 0",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 0",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 3",
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 1",
@@ -246,11 +248,11 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 15",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
+                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 1",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 5",
+                "🇺🇸US | 🟢 | vless | @FreakConfig | 0",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
                 "🇺🇸US | 🔴 | vless | @kiava | 1",
                 "🇺🇸US | 🔴 | vless | @kiava | 2",
@@ -1239,6 +1241,35 @@
             }
         },
         {
+            "tag": "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 0",
+            "type": "vless",
+            "server": "193.160.209.95",
+            "server_port": 4443,
+            "uuid": "0a587061-6ccb-407c-86b8-c7d78b6bee5e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "github.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
+                    "short_id": "aa7e96542880027a"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 0",
             "type": "vless",
             "server": "de2.srv.oplcdn.link",
@@ -1732,11 +1763,11 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 0",
             "type": "vless",
-            "server": "212.134.174.249",
-            "server_port": 48778,
-            "uuid": "92d12a33-19c1-487c-b7e0-122014793fce",
+            "server": "a.confignor.site",
+            "server_port": 35493,
+            "uuid": "5ec0b800-0392-421d-acc6-75afb0c3cbcb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1746,26 +1777,33 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "apple.com",
+                "server_name": "www.cdn77.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "W8s0O7u6tZqZcYjy53w-_O2PZyO_HjUNIJTKFNMkyQM",
-                    "short_id": "cc82826f"
+                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
+                    "short_id": "9c24"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "Evay-vpn.octacityroleplay.ir",
-            "server_port": 1122,
-            "uuid": "c294a5f8-2aa8-41cf-a596-420df7bd7e99",
+            "server": "ch1.tunnely.ru",
+            "server_port": 443,
+            "uuid": "aee540f8-fb73-4ee7-98f9-125d4d1d41ff",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1775,46 +1813,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.zhaket.com",
+                "server_name": "ch1.tunnely.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
-                    "short_id": "4c7b0ea36fc7f0c4"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "89.23.123.8",
-            "server_port": 4443,
-            "uuid": "0a587061-6ccb-407c-86b8-c7d78b6bee5e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "github.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
-                    "short_id": "aa7e96542880027a"
+                    "public_key": "pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM",
+                    "short_id": "2e40144ddc07e8e1"
                 }
             }
         },
@@ -1873,6 +1882,35 @@
                     "enabled": true,
                     "public_key": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
                     "short_id": "cf4d"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @FreakConfig | 0",
+            "type": "vless",
+            "server": "15.204.97.155",
+            "server_port": 23576,
+            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fuck.rkn",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+                    "short_id": "01"
                 }
             }
         },
