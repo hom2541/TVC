@@ -130,8 +130,6 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 7",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -148,7 +146,7 @@
                 "❔XX | 🟢 | vmess | @v2Line | 3",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @FreakConfig | 3"
+                "❔XX | 🟢 | vmess | @FreakConfig | 4"
             ]
         },
         {
@@ -179,8 +177,6 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 133",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 7",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -197,7 +193,7 @@
                 "❔XX | 🟢 | vmess | @v2Line | 3",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @FreakConfig | 3"
+                "❔XX | 🟢 | vmess | @FreakConfig | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -707,57 +703,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
-            "type": "vmess",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "305e9e74-dc3a-11f0-84da-abeeaa5a5248",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vpnjantit?telegram-id---v2box-v2\/www.speedtest.net:443",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
-            "type": "vmess",
-            "server": "91.99.27.55",
-            "server_port": 8880,
-            "uuid": "f3025961-167b-4f49-e4e3-86505fe980fd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -1198,7 +1143,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 3",
+            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 4",
             "type": "vmess",
             "server": "8.218.105.196",
             "server_port": 52752,
