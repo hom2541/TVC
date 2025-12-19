@@ -159,7 +159,6 @@ proxies:
   - {"name":"🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"45.63.40.126","port":13345,"udp":false,"password":"Szb=-Zguo53QhmivcJqEAWtpdPX6Y","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ads.x5.ru"}
   - {"name":"🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"205.185.115.223","port":19258,"udp":false,"password":"iWnFtzMiac","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cloudflare.com"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"seagull.missionsec.io","port":28333,"udp":false,"password":"xXg9OC4uqBaRRA3T8OpCjSC7w8eIe03xKFc2nEDF3y3Yy6DDZAl5NpSYZzalSa","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"seagull.missionsec.io"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -205,7 +204,6 @@ proxy-groups:
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -251,7 +249,6 @@ proxy-groups:
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -296,7 +293,6 @@ proxy-groups:
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 9'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
