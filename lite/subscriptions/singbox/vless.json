@@ -117,7 +117,7 @@
                 "❔XX | 🔴 | vless | @VlessConfig | 16",
                 "❔XX | 🔴 | vless | @melov2ray | 1",
                 "❔XX | 🔴 | vless | @V2pedia | 9",
-                "❔XX | 🔴 | vless | @ARv2ray | 13",
+                "❔XX | 🔴 | vless | @ARv2ray | 11",
                 "❔XX | 🔴 | vless | @shh_proxy | 11",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
                 "❔XX | 🟢 | vless | @rxv2ray | 14",
@@ -159,8 +159,8 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
                 "❔XX | 🔴 | vless | @lrnbymaa | 4",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capoit | 20",
@@ -201,7 +201,7 @@
                 "❔XX | 🔴 | vless | @VlessConfig | 16",
                 "❔XX | 🔴 | vless | @melov2ray | 1",
                 "❔XX | 🔴 | vless | @V2pedia | 9",
-                "❔XX | 🔴 | vless | @ARv2ray | 13",
+                "❔XX | 🔴 | vless | @ARv2ray | 11",
                 "❔XX | 🔴 | vless | @shh_proxy | 11",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
                 "❔XX | 🟢 | vless | @rxv2ray | 14",
@@ -243,8 +243,8 @@
                 "❔XX | 🟢 | vless | @DailyV2RY | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
                 "❔XX | 🔴 | vless | @lrnbymaa | 4",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capoit | 20",
@@ -554,7 +554,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ARv2ray | 13",
+            "tag": "❔XX | 🔴 | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -568,7 +568,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.pdri.blog",
+                "server_name": "ww.pdri.blog",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -580,7 +580,7 @@
                 "type": "ws",
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
-                    "Host": "www.pdri.blog"
+                    "Host": "ww.pdri.blog"
                 }
             }
         },
@@ -1445,45 +1445,61 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "172.66.156.81",
-            "server_port": 80,
-            "uuid": "dff1412c-ed90-4214-b076-3dde8425a02f",
-            "flow": "",
+            "server": "158.160.191.241",
+            "server_port": 443,
+            "uuid": "4d7a559b-6379-41a7-9e51-41ef759846aa",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
-                "headers": {
-                    "Host": "172.66.156.81"
+            "tls": {
+                "enabled": true,
+                "server_name": "ya.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MofBU4YalVzrV7O_T5OmaUA5BmkITNw8qbkVSeOMvTE",
+                    "short_id": "ed3eb3256dee971f"
                 }
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "V2ngnet.heloisfood.ir",
-            "server_port": 4488,
-            "uuid": "0d25085e-b6c4-410a-b206-4dde607cff6c",
-            "flow": "",
+            "server": "185.136.132.171",
+            "server_port": 24170,
+            "uuid": "fe21e399-ec6f-4cb5-8441-e911178665b1",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4",
+                    "short_id": "2fb2106a629b"
+                }
             }
         },
         {
