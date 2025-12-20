@@ -157,9 +157,7 @@ proxies:
   - {"name":"🇬🇧GB | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"64.176.184.129","port":18756,"udp":false,"password":"pk9Cl5J4dpSzj-.O21q0L","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"io.ozone.ru"}
   - {"name":"🚩CF | 🔴 | trojan | @v2ray1_ng | 4","type":"trojan","server":"172.67.134.185","port":443,"udp":false,"password":"POORIARED","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"reDfRee8.REDFree8.ir"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 4","type":"trojan","server":"172.67.134.185","port":443,"udp":false,"password":"POORIARED","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"reDfRee8.REDFree8.ir"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 7","type":"trojan","server":"104.19.171.2","port":443,"udp":false,"password":"984e400bf5d541b7b0815913fe0c432a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareertoday.com"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 8","type":"trojan","server":"162.159.152.246","port":443,"udp":false,"password":"tg-dns68","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"vip.putata.eu.org"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"3.18.70.22","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -203,9 +201,7 @@ proxy-groups:
       - '🇬🇧GB | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 7'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -249,9 +245,7 @@ proxy-groups:
       - '🇬🇧GB | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 7'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -294,9 +288,7 @@ proxy-groups:
       - '🇬🇧GB | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 7'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 8'
+      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
