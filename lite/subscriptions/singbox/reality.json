@@ -114,8 +114,9 @@
                 "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-                "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 18",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -134,8 +135,9 @@
                 "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
-                "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 18",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -394,11 +396,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "de2.srv.oplcdn.link",
-            "server_port": 8443,
-            "uuid": "c51fac89-9c57-4416-b48b-c780d6710605",
+            "server": "nh.gpairnetwork369.de",
+            "server_port": 3030,
+            "uuid": "50897f87-f946-41f8-a709-48c3e588686f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -408,22 +410,51 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ign.com",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "6ba85179e30d4fc2"
+                    "public_key": "NVjEaDFrdzaFQHvMt8BPORsLFR3iD8NA31Dpn-1HRFk",
+                    "short_id": "ecd8d10c1518fb7b"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "130.193.35.232",
+            "server_port": 8443,
+            "uuid": "ac8c53f1-226e-4a33-b7d7-838ff8d017ec",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
+                    "short_id": "4ffc99daad0f261f"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "91.99.75.34",
             "server_port": 4678,
