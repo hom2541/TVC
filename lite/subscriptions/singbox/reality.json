@@ -106,16 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | @Parsashonam | 16",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
-                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 15",
+                "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 15",
+                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 16",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -126,16 +128,18 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | @Parsashonam | 16",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
-                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 15",
+                "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 15",
+                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 16",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @vpn_go67 | 20",
                 "❔XX | 🔴 | vless | @vpn_go67 | 21",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -160,35 +164,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @Parsashonam | 16",
-            "type": "vless",
-            "server": "188.245.217.190",
-            "server_port": 443,
-            "uuid": "Parsashonam-322",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
-                    "short_id": "0a8b4a1ad485"
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | 🟢 | vless | @v2_team | 0",
@@ -278,6 +253,35 @@
             }
         },
         {
+            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
+            "type": "vless",
+            "server": "72.56.74.74",
+            "server_port": 443,
+            "uuid": "90c9c25c-df6c-4438-83d3-ef97166a9184",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sun6-22.userapi.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yP1V_oAX1Sehc_102nMHuQgTOYk7T9KbJQmTlK4maVE",
+                    "short_id": "a9d7905eeee12d56"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
             "type": "vless",
             "server": "147.45.234.51",
@@ -307,7 +311,36 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 15",
+            "tag": "🇷🇺RU | 🟢 | vless | @v2rayngvpn | 15",
+            "type": "vless",
+            "server": "5.129.249.134",
+            "server_port": 443,
+            "uuid": "mega2499",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ir.ozone.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "F14RpPKCKo_qPcW7EFVu1M18JsAT8c04O08cIi0Ghg4",
+                    "short_id": "ab1cd2"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 16",
             "type": "vless",
             "server": "5.129.236.170",
             "server_port": 4443,
@@ -394,6 +427,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "a.confignor.site",
+            "server_port": 35493,
+            "uuid": "e5097617-273a-4d52-8110-c2f67cf80147",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
+                    "short_id": "9c24"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "91.99.75.34",
@@ -423,7 +492,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
+            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 14",
             "type": "vless",
             "server": "45.8.145.182",
             "server_port": 443,
