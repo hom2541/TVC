@@ -128,8 +128,8 @@ proxies:
   - {"name":"🇷🇺RU | 🟢 | vless | @VmessProtocol | 2","type":"vless","server":"51.250.24.245","port":4249,"udp":true,"uuid":"4a6de183-2ad3-456c-b420-feeac81f6257","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"api-maps.yandex.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇺🇸US | 🟢 | vless | @DailyV2RY | 11","type":"vless","server":"13.59.104.176","port":443,"udp":true,"uuid":"4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"chatgpt.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4","short-id":"f5"}}
   - {"name":"🇮🇪IE | 🟢 | vless | @DailyV2RY | 12","type":"vless","server":"3.255.97.249","port":443,"udp":true,"uuid":"4c26ebc3-7784-46d8-b52a-7b0ccae6f4b4","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"chatgpt.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4","short-id":"f5"}}
-  - {"name":"🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18","type":"vless","server":"51.250.73.31","port":443,"udp":true,"uuid":"76f385df-bb5c-4e92-b60b-fce540b0a6a0","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"ads.x5.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg","short-id":"f85b0cdd7d20c84c"}}
-  - {"name":"🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19","type":"vless","server":"51.250.75.158","port":443,"udp":true,"uuid":"76f385df-bb5c-4e92-b60b-fce540b0a6a0","tls":true,"network":"tcp","client-fingerprint":null,"servername":"api-maps.yandex.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg","short-id":"3f200574d011010f"}}
+  - {"name":"🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13","type":"vless","server":"real2.amirsala2.ir","port":443,"udp":true,"uuid":"6851100b-eacf-4b1d-b3d7-649ba5206815","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"sanjesh.org","reality-opts":{"public-key":"_ETTlR1wp_GEhrcuaz4aXRSz6mq6pNXzcmN5f76bqG4","short-id":"be94a5cabdd96058"}}
+  - {"name":"🇷🇺RU | 🔴 | vless | @ConfigsHUB | 14","type":"vless","server":"51.250.6.178","port":444,"udp":true,"uuid":"c495cf08-e046-4311-aa4b-82cc16576992","tls":true,"network":"grpc","client-fingerprint":null,"servername":"ads.x5.ru","grpc-opts":{"grpc-service-name":"ads.x5.ru"},"reality-opts":{"public-key":"L0ZCh9LynIMEkK9BZq3gC--mzL6xnR4bkBJmXHSwVCM","short-id":"0614386789abcdef"}}
   - {"name":"❔XX | 🔴 | vless | @vpn_go67 | 21","type":"vless","server":"public.alpanel.top","port":1403,"udp":true,"uuid":"4c6451ba-6594-4d67-a8ae-4df79815a4e3","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"tuyacn.com","grpc-opts":{"grpc-service-name":"@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam"},"reality-opts":{"public-key":"rCdor1DLbQcXbNBD9aiLIoCYHwqTMh8ao9MIPMXo0yA","short-id":"99"}}
 proxy-groups:
   - name: MANUAL
@@ -145,8 +145,8 @@ proxy-groups:
       - '🇷🇺RU | 🟢 | vless | @VmessProtocol | 2'
       - '🇺🇸US | 🟢 | vless | @DailyV2RY | 11'
       - '🇮🇪IE | 🟢 | vless | @DailyV2RY | 12'
-      - '🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18'
-      - '🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19'
+      - '🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13'
+      - '🇷🇺RU | 🔴 | vless | @ConfigsHUB | 14'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
   - name: URL-TEST
     type: url-test
@@ -162,8 +162,8 @@ proxy-groups:
       - '🇷🇺RU | 🟢 | vless | @VmessProtocol | 2'
       - '🇺🇸US | 🟢 | vless | @DailyV2RY | 11'
       - '🇮🇪IE | 🟢 | vless | @DailyV2RY | 12'
-      - '🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18'
-      - '🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19'
+      - '🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13'
+      - '🇷🇺RU | 🔴 | vless | @ConfigsHUB | 14'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
   - name: FALLBACK
     type: fallback
@@ -178,8 +178,8 @@ proxy-groups:
       - '🇷🇺RU | 🟢 | vless | @VmessProtocol | 2'
       - '🇺🇸US | 🟢 | vless | @DailyV2RY | 11'
       - '🇮🇪IE | 🟢 | vless | @DailyV2RY | 12'
-      - '🇷🇺RU | 🟢 | vless | @ConfigsHUB | 18'
-      - '🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19'
+      - '🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13'
+      - '🇷🇺RU | 🔴 | vless | @ConfigsHUB | 14'
       - '❔XX | 🔴 | vless | @vpn_go67 | 21'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
