@@ -157,6 +157,8 @@ proxies:
   - {"name":"🇨🇦CA | 🟢 | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"149.248.50.17","port":15349,"udp":false,"password":"89str_hbFiA4Re5VKxLYnDPgy","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ya.ru"}
   - {"name":"🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"144.202.8.250","port":23239,"udp":false,"password":"25IYE1_dhFCBi6omM3qf9","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"api-maps.yandex.ru"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 0","type":"trojan","server":"162.159.152.212","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"162.159.153.32","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -202,6 +204,8 @@ proxy-groups:
       - '🇨🇦CA | 🟢 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 0'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -247,6 +251,8 @@ proxy-groups:
       - '🇨🇦CA | 🟢 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 0'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -291,6 +297,8 @@ proxy-groups:
       - '🇨🇦CA | 🟢 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 8'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 0'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
