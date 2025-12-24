@@ -113,11 +113,11 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 0",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 1",
-                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 16",
+                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 1",
+                "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -136,11 +136,11 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 0",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 1",
-                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 16",
+                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 17",
                 "🇩🇪DE | 🔴 | vless | @ShadowProxy66 | 1",
+                "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -371,7 +371,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 16",
+            "tag": "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 17",
             "type": "vless",
             "server": "45.67.139.117",
             "server_port": 443,
@@ -425,6 +425,35 @@
                     "enabled": true,
                     "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
                     "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 0",
+            "type": "vless",
+            "server": "45.8.144.198",
+            "server_port": 443,
+            "uuid": "1a539db6-d162-42f4-9b56-687bd57bfbc2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mirror.yandex.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KXA-hPtvy_hzNER1ZNtUxBv_VrGGKfmIyi4CQAyjGxs",
+                    "short_id": "d94e8f45"
                 }
             }
         },
@@ -483,35 +512,6 @@
                     "enabled": true,
                     "public_key": "TGlPtfVzGIVpMauPRMGJj2Uu6GUiCpu5ZizIIjw-wx4",
                     "short_id": "f5"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "158.160.196.107",
-            "server_port": 8443,
-            "uuid": "3b2247e7-914c-4d8d-a20c-5edef1e5d00d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tradingview.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "zr8_rtHm86s_G1gfRwNtunStGngYZSdYkA3PyBFXpDg",
-                    "short_id": "04bf0403f96e5b4b"
                 }
             }
         },
