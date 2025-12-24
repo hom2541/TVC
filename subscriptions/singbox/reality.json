@@ -159,7 +159,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 11",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇦🇱AL | 🟢 | vless | @FreakConfig | 4",
@@ -252,7 +253,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 10",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 11",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 12",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 11",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇦🇱AL | 🟢 | vless | @FreakConfig | 4",
@@ -1859,11 +1861,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 4",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "wolfy.ufavpn.ru",
-            "server_port": 27121,
-            "uuid": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c",
+            "server": "185.130.114.219",
+            "server_port": 443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1873,7 +1875,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.ok.ru",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1882,8 +1884,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
-                    "short_id": "fdc8125ea6f61323"
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "51.250.65.209",
+            "server_port": 443,
+            "uuid": "abff54b1-a5a6-46a6-a202-08452fd07ae7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+                    "short_id": "6354585c37827955"
                 }
             }
         },
