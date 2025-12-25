@@ -117,6 +117,7 @@
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 12",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @rxv2ray | 14",
@@ -154,10 +155,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 15",
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 3",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 2",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 22",
                 "🇳🇱NL | 🔴 | vless | @Capoit | 23",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 14",
@@ -196,6 +195,7 @@
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇺🇸US | 🔴 | vless | @V2pedia | 9",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+                "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 12",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @rxv2ray | 14",
@@ -233,10 +233,8 @@
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 15",
                 "🇬🇧GB | 🔴 | vless | @lrnbymaa | 3",
                 "🇳🇱NL | 🔴 | vless | @lrnbymaa | 4",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
-                "🇺🇸US | 🔴 | vless | @free1_vpn | 2",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 22",
                 "🇳🇱NL | 🔴 | vless | @Capoit | 23",
                 "🇷🇺RU | 🟢 | vless | @FreakConfig | 14",
@@ -516,6 +514,37 @@
         },
         {
             "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 10",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "i.arfilter2.blog",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "i.arfilter2.blog"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1359,53 +1388,17 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.18.14.19",
-            "server_port": 8080,
-            "uuid": "252d7c6c-3f50-44fb-9a51-13963fc727e0",
+            "server": "91.107.243.172",
+            "server_port": 39140,
+            "uuid": "986b6f0f-4809-43d5-87cc-c5e1971dc744",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.18.14.19"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "51.250.6.207",
-            "server_port": 443,
-            "uuid": "66682125-9866-4554-8ef0-cbaf0e7edb9c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ads.x5.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-                    "short_id": "43dcff53849b81e6"
-                }
             }
         },
         {
@@ -1434,37 +1427,6 @@
                     "enabled": true,
                     "public_key": "BlJ5Z1axnxAolXgpkVCdRkGb6t6J0yvPisHIPxNchV0",
                     "short_id": "1114c1fd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @free1_vpn | 2",
-            "type": "vless",
-            "server": "saas.sin.fan",
-            "server_port": 443,
-            "uuid": "17ebee4e-97ea-4cad-8737-cc228478ca9d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lively-brook-c471.nedena3319.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "lively-brook-c471.nedena3319.workers.dev"
                 }
             }
         },
