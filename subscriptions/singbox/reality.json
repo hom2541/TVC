@@ -117,7 +117,7 @@
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 0",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 2",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 4",
                 "🇧🇬BG | 🟢 | vless | @rxv2ray | 6",
@@ -163,10 +163,11 @@
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 15",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 3",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 1",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 5",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇹🇷TR | 🟢 | vless | @FreakConfig | 8",
@@ -220,7 +221,7 @@
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 0",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 2",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 4",
                 "🇧🇬BG | 🟢 | vless | @rxv2ray | 6",
@@ -266,10 +267,11 @@
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 13",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 14",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 15",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 3",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 8",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
-                "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 1",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
+                "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 5",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇹🇷TR | 🟢 | vless | @FreakConfig | 8",
@@ -647,7 +649,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 0",
+            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
             "type": "vless",
             "server": "31.222.238.127",
             "server_port": 8043,
@@ -2002,11 +2004,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 3",
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "51.250.65.209",
+            "server": "world-of.ru",
             "server_port": 443,
-            "uuid": "76f385df-bb5c-4e92-b60b-fce540b0a6a0",
+            "uuid": "bbb1687c-0c13-45c3-8e77-04b70fd5ae67",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2016,26 +2018,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "api-maps.yandex.ru",
+                "server_name": "google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
-                    "short_id": "2476f063981ffd92"
+                    "public_key": "6bdxTggpMa9veyosJjxCvB3UPZmj-OquWTqp1iXAP3Y",
+                    "short_id": "785be44fdf"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 8",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "109.248.203.71",
+            "server": "OP.generator-filmmaker.com",
             "server_port": 443,
-            "uuid": "6142e134-346a-4ffe-bf5b-c3fb7e3c9dfb",
+            "uuid": "13824b37-c2bf-4c6d-9d0e-24bc9c050565",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2045,26 +2047,84 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.google.com",
+                "server_name": "sourceforge.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "PfxP7-Pvot9Y8z5boZwuG3Afyb_zdm0C2HCZezNMTiQ",
-                    "short_id": "85225c27630d023f"
+                    "public_key": "hIhC_wOCNWiJTds4texe-vWhUT_-JqsFsS6FxdvwnQA",
+                    "short_id": "a500da"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "🇨🇭CH | 🟢 | vless | @ConfigsHUB | 5",
             "type": "vless",
-            "server": "cute-kittens.store",
-            "server_port": 8443,
-            "uuid": "1110a364-4c94-42b7-84d9-085a34eabee4",
+            "server": "144.31.216.16",
+            "server_port": 444,
+            "uuid": "e500b0a1-dffa-4983-9217-484913715071",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eh.vk.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wMbKwMppoyj--v07kQdzy73hrnQ2MaM_WfVf4zVqJko",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "rez1.generator-filmmaker.com",
+            "server_port": 443,
+            "uuid": "a028620e-f800-4416-b30a-3f46a2dd1bd5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L0T9ktp1wL9UBQJZATIoia23FvNFQtkKNOBinisAwA8",
+                    "short_id": "e05e"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "130.193.59.3",
+            "server_port": 443,
+            "uuid": "dc117fd8-6edd-444b-a56a-9cfee67f7257",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2079,41 +2139,12 @@
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mfBIs4jfBLzL_gqBO0QmbzwhSqamg2heEb_uNpGu3Rc",
-                    "short_id": "ffb82d9a35846463"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "static.cdn-assets-v3.fonts.googleapis-com.edge-cache.deepcloudview.com",
-            "server_port": 443,
-            "uuid": "30837eab-df8b-404e-bee7-02c9c0c971b3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fonts.googleapis.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
                     "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "oB-k13V7puuNgwAmA7Ol-TGIVOkU1vJEnXs8CBjXtnk",
-                    "short_id": "42843d2219"
+                    "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
+                    "short_id": "8ba12e75110b7a9c"
                 }
             }
         },
