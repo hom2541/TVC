@@ -110,10 +110,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇲🇾MY | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5"
             ]
@@ -126,10 +127,11 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇲🇾MY | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | 🟢 | vmess | @v2ray1_ng | 1",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5"
             ],
@@ -246,6 +248,23 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "91.107.243.172",
+            "server_port": 27587,
+            "uuid": "c873c015-7553-40f3-ae4b-63783da95ffc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -306,9 +325,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "gt021.bestforxray.buzz",
-            "server_port": 443,
-            "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
+            "server": "104.17.148.22",
+            "server_port": 2082,
+            "uuid": "691d7622-44cd-4a99-9f0a-34e3b6b9b115",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,33 +337,16 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ausgt02.bestforxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "ausgt02.bestforxray.buzz"
-                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "indiavideo.sbs",
-            "server_port": 443,
-            "uuid": "425c5e6e-30a0-4984-8a13-ee6f72053162",
+            "server": "183.236.51.23",
+            "server_port": 54104,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -352,23 +354,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "indiavideo.sbs"
-                }
             }
         },
         {
