@@ -153,6 +153,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"mfyousheng.nl.eu.org","port":443,"udp":false,"password":"Puj01Rc8UcA9IzcFcYOs8KMOhCz6aX2Q","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"mfyousheng.nl.eu.org"}
   - {"name":"🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"saas.sin.fan","port":443,"udp":false,"password":"87d1bfd4-574e-4c96-ad42-0426f27461ff","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"_acme-challenge.2go.cloudns.be"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
+  - {"name":"🇵🇱PL | 🔴 | trojan | @ConfigsHUB | 2","type":"trojan","server":"5.188.108.13","port":11790,"udp":false,"password":". QAJot50sDi6mvb","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"5.188.108.13"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -194,6 +195,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9'
+      - '🇵🇱PL | 🔴 | trojan | @ConfigsHUB | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -235,6 +237,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9'
+      - '🇵🇱PL | 🔴 | trojan | @ConfigsHUB | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -275,6 +278,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9'
+      - '🇵🇱PL | 🔴 | trojan | @ConfigsHUB | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
