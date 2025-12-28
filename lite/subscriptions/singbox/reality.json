@@ -120,10 +120,10 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 4",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 16",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 17",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
-                "🇷🇺RU | 🟢 | vless | @FreakConfig | 14",
+                "🇦🇹AT | 🟢 | vless | @FreakConfig | 14",
+                "🇷🇺RU | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -148,10 +148,10 @@
                 "🇺🇸US | 🟢 | vless | @VmessProtocol | 4",
                 "🇮🇪IE | 🟢 | vless | @DailyV2RY | 16",
                 "🇺🇸US | 🟢 | vless | @DailyV2RY | 17",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 2",
-                "🇷🇺RU | 🟢 | vless | @FreakConfig | 14",
+                "🇦🇹AT | 🟢 | vless | @FreakConfig | 14",
+                "🇷🇺RU | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -591,39 +591,10 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "78.159.247.229",
-            "server_port": 5443,
-            "uuid": "55d5c995-b3c7-4055-98d2-af263d7ba8f1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "max.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jgFDtr4s5Exp90r1O4OHFCnPcRgcMHBqn7-S_jGNvXk",
-                    "short_id": "090c8dc552c6589a"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
             "server": "64.188.74.220",
-            "server_port": 8443,
+            "server_port": 7443,
             "uuid": "e6e6d7b7-778c-42cb-b704-553126743195",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
@@ -634,7 +605,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ign.com",
+                "server_name": "77.88.8.8",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -678,7 +649,36 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @FreakConfig | 14",
+            "tag": "🇦🇹AT | 🟢 | vless | @FreakConfig | 14",
+            "type": "vless",
+            "server": "5.181.21.72",
+            "server_port": 443,
+            "uuid": "e4b8df56-b680-4a34-ab47-5bf5738ed718",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8",
+                    "short_id": "85225c27630d023f"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @FreakConfig | 15",
             "type": "vless",
             "server": "90.156.150.229",
             "server_port": 443,
