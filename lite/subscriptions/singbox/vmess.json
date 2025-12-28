@@ -110,11 +110,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4"
             ]
@@ -127,11 +126,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇫🇷FR | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 4"
             ],
@@ -258,23 +256,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "91.99.27.55",
-            "server_port": 8880,
-            "uuid": "f3025961-167b-4f49-e4e3-86505fe980fd",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -333,7 +314,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "type": "vmess",
+            "server": "104.16.61.8",
+            "server_port": 80,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hms02.fxiaomi.sbs\/link",
+                "headers": {
+                    "Host": "104.16.61.8"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "104.26.13.72",
             "server_port": 443,
@@ -363,30 +368,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "cake.capellare.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
-            "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 80,
-            "uuid": "6149b865-0d3c-4472-bf9c-3c61bfafa61a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/V2LINE-TELEGRAM-CHANNEL-VMESS-WS",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
