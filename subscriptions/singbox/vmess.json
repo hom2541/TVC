@@ -129,7 +129,7 @@
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "🇲🇾MY | 🟢 | vmess | @prrofile_purple | 117",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 131",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
@@ -138,8 +138,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 0",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 1",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 2",
@@ -174,7 +176,7 @@
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "🇲🇾MY | 🟢 | vmess | @prrofile_purple | 117",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 131",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
@@ -183,8 +185,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 0",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 1",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 2",
@@ -736,7 +740,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "v2ray.codefyinc.com",
             "server_port": 443,
@@ -1002,7 +1006,75 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 0",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "104.21.8.4",
+            "server_port": 2083,
+            "uuid": "ac679897-af78-4197-9bf3-a2afe972a383",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rbv2.frtm99d.cyou",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "rbv2.frtm99d.cyou"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+            "type": "vmess",
+            "server": "172.67.204.84",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 8080,
@@ -1019,7 +1091,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "172.66.168.173",
             "server_port": 80,
