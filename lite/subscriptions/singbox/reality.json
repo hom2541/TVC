@@ -115,14 +115,12 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
                 "❔XX | 🟢 | vless | @customv2ray | 0",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 1",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 2",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 4",
-                "❔XX | 🟢 | vless | @DailyV2RY | 16",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @DailyV2RY | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
                 "❔XX | 🟢 | vless | @proxystore11 | 2",
-                "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -142,14 +140,12 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
                 "❔XX | 🟢 | vless | @customv2ray | 0",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 1",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 2",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 4",
-                "❔XX | 🟢 | vless | @DailyV2RY | 16",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @DailyV2RY | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
                 "❔XX | 🟢 | vless | @proxystore11 | 2",
-                "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -444,7 +440,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 1",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 2",
             "type": "vless",
             "server": "s9.vless-balancer.ru",
             "server_port": 4443,
@@ -473,7 +469,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 2",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 3",
             "type": "vless",
             "server": "78.159.131.51",
             "server_port": 443,
@@ -531,7 +527,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 16",
+            "tag": "❔XX | 🟢 | vless | @DailyV2RY | 17",
             "type": "vless",
             "server": "195.78.49.158",
             "server_port": 4443,
@@ -560,11 +556,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "79.127.133.77",
-            "server_port": 8443,
-            "uuid": "291a2db3-04b5-4089-af90-adb5d1ce05ff",
+            "server": "195.78.49.158",
+            "server_port": 4443,
+            "uuid": "f228db24-3602-4dd2-bdec-2d7faa61e70b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -574,7 +570,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tradingview.com",
+                "server_name": "github.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -583,37 +579,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-                    "short_id": "f4b4a6365558ea2e"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "64.188.74.220",
-            "server_port": 7443,
-            "uuid": "e6e6d7b7-778c-42cb-b704-553126743195",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "77.88.8.8",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "6ba85179e30d4fc2"
+                    "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
+                    "short_id": "aa7e96542880027a"
                 }
             }
         },
@@ -643,35 +610,6 @@
                     "enabled": true,
                     "public_key": "BlJ5Z1axnxAolXgpkVCdRkGb6t6J0yvPisHIPxNchV0",
                     "short_id": "1114c1fd"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 15",
-            "type": "vless",
-            "server": "5.181.21.72",
-            "server_port": 443,
-            "uuid": "e4b8df56-b680-4a34-ab47-5bf5738ed718",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "v9CxKfIPtkKH1cTGKEer-1i-3JL31vZPpPl2Ujnbjh8",
-                    "short_id": "85225c27630d023f"
                 }
             }
         },
