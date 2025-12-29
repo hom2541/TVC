@@ -146,10 +146,11 @@
                 "🇷🇺RU | 🔴 | vless | @DailyV2RY | 5",
                 "🇳🇱NL | 🟢 | vless | @DailyV2RY | 14",
                 "🇷🇺RU | 🟢 | vless | @DailyV2RY | 19",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 9",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
-                "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 11",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 8",
+                "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 10",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 0",
@@ -231,10 +232,11 @@
                 "🇷🇺RU | 🔴 | vless | @DailyV2RY | 5",
                 "🇳🇱NL | 🟢 | vless | @DailyV2RY | 14",
                 "🇷🇺RU | 🟢 | vless | @DailyV2RY | 19",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 9",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
-                "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 11",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 8",
+                "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 10",
                 "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 13",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 1",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 0",
@@ -1480,7 +1482,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 9",
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 6",
             "type": "vless",
             "server": "51.250.37.12",
             "server_port": 443,
@@ -1509,7 +1511,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
             "server": "51.250.73.31",
             "server_port": 443,
@@ -1538,7 +1540,7 @@
             }
         },
         {
-            "tag": "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 11",
+            "tag": "🇭🇺HU | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
             "server": "79.127.133.77",
             "server_port": 8443,
@@ -1592,6 +1594,35 @@
                     "enabled": true,
                     "public_key": "L0T9ktp1wL9UBQJZATIoia23FvNFQtkKNOBinisAwA8",
                     "short_id": "e05e"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "51.250.43.47",
+            "server_port": 8443,
+            "uuid": "d36ffc6c-6a4d-4298-8c79-431f6fc4ada6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ya.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+                    "short_id": "3f8ad1"
                 }
             }
         },
