@@ -125,6 +125,8 @@
                 "🇲🇾MY | 🟢 | vmess | @prrofile_purple | 122",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 0",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -137,7 +139,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 0",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 1",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 2",
@@ -169,6 +170,8 @@
                 "🇲🇾MY | 🟢 | vmess | @prrofile_purple | 122",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 0",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 1",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -181,7 +184,6 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 0",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 1",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 2",
@@ -593,6 +595,23 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @DailyV2RY | 0",
             "type": "vmess",
+            "server": "172.234.132.232",
+            "server_port": 10001,
+            "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @DailyV2RY | 1",
+            "type": "vmess",
             "server": "82.198.246.97",
             "server_port": 180,
             "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
@@ -605,6 +624,33 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
+            "type": "vmess",
+            "server": "mizan.andishehnegar404.ir",
+            "server_port": 2096,
+            "uuid": "3e332efd-ace0-469d-885a-a90a295445a3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mizan.andishehnegar404.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -935,40 +981,6 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "aveiror.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "hms082.gwdef.sbs",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
