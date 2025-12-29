@@ -126,7 +126,6 @@
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 0",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 1",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -171,7 +170,6 @@
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 0",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 1",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -624,33 +622,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 1",
-            "type": "vmess",
-            "server": "mizan.andishehnegar404.ir",
-            "server_port": 2096,
-            "uuid": "3e332efd-ace0-469d-885a-a90a295445a3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mizan.andishehnegar404.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {
