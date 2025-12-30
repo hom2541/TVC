@@ -112,8 +112,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 5"
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6"
             ]
         },
         {
@@ -126,8 +126,8 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 7",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
-                "🇨🇦CA | 🟢 | vmess | @v2Line | 5"
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -293,40 +293,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
-            "type": "vmess",
-            "server": "23.162.200.227",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "158.51.121.63",
@@ -357,6 +323,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "seribus.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 6",
+            "type": "vmess",
+            "server": "209.126.84.189",
+            "server_port": 443,
+            "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmessws",
+                "headers": {
+                    "Host": ""
                 }
             }
         }
