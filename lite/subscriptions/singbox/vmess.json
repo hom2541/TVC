@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5"
             ]
@@ -124,8 +124,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 5"
             ],
@@ -242,6 +242,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "172.67.170.11",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "127.0.0.1",
@@ -256,40 +290,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
-            "type": "vmess",
-            "server": "104.21.94.64",
-            "server_port": 443,
-            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linja05.hwcar.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linja05.hwcar.sbs"
-                }
             }
         },
         {
