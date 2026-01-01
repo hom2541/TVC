@@ -114,7 +114,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
@@ -135,7 +135,8 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 15",
-                "🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 0",
+                "🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 0",
+                "🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 1",
                 "🇫🇷FR | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇦🇹AT | 🟢 | vless | @prrofile_purple | 132",
@@ -205,7 +206,7 @@
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 14",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 15",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
-                "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+                "🇺🇸US | 🔴 | vless | @V2pedia | 8",
                 "🇺🇸US | 🔴 | vless | @ARv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
@@ -226,7 +227,8 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 15",
-                "🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 0",
+                "🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 0",
+                "🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 1",
                 "🇫🇷FR | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "🇦🇹AT | 🟢 | vless | @prrofile_purple | 132",
@@ -497,7 +499,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 9",
+            "tag": "🇺🇸US | 🔴 | vless | @V2pedia | 8",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -967,7 +969,29 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 0",
+            "tag": "🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 0",
+            "type": "trojan",
+            "server": "45.63.40.126",
+            "server_port": 13345,
+            "password": "Szb=-Zguo53QhmivcJqEAWtpdPX6Y",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 1",
             "type": "trojan",
             "server": "trunker.cc",
             "server_port": 8080,
