@@ -109,11 +109,11 @@
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇦🇹AT | 🟢 | vless | @prrofile_purple | 133",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 18",
+                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 15",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -127,11 +127,11 @@
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇦🇹AT | 🟢 | vless | @prrofile_purple | 133",
-                "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 18",
+                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 15",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 2",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
+                "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -245,11 +245,11 @@
             }
         },
         {
-            "tag": "🇦🇹AT | 🟢 | vless | @prrofile_purple | 133",
+            "tag": "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 15",
             "type": "vless",
-            "server": "at.monkeyisland.life",
-            "server_port": 443,
-            "uuid": "df5fc3f7-6b01-489a-a73c-e1297b14a3dd",
+            "server": "maxb17.getssserver.ir",
+            "server_port": 8080,
+            "uuid": "df297d5e-f1dd-4a71-8089-44ee2c025b5b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -259,54 +259,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "at.monkeyisland.life",
+                "server_name": "chatgpt.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "aILMLxhAsgJvx7TY3EsxOdmIc1uB0V7aJVIXaKYPPk4",
-                    "short_id": "c06a59f9d546bd63"
+                    "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+                    "short_id": "b7b70c104ad267b8"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2rayngvpn | 18",
-            "type": "vless",
-            "server": "bshs-3421-fAst-25621.configfast.ir",
-            "server_port": 28246,
-            "uuid": "34d3f0b3-b3d3-4605-bdf6-56d8e441bc3a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.cdn77.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5Rg4x2irzNsoxsEvsKYluVLslSRhQbetRGguNWWOHAg",
-                    "short_id": "9a02e6ab8dffd0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -393,6 +357,35 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | @flyv2ray | 12",
+            "type": "vless",
+            "server": "79.141.174.148",
+            "server_port": 8443,
+            "uuid": "642c8b3122424e2b9c14f252d3f5e49c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CII8qTx-cNDEjvAqdmLhjJKMHP3QFDLtR5bRhzPvels",
+                    "short_id": "aabbccdd"
                 }
             }
         },
