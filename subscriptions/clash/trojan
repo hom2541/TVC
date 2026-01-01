@@ -146,7 +146,7 @@ proxies:
   - {"name":"🚩CF | 🔴 | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"108.162.192.207","port":443,"udp":false,"password":"2e752fd9-923d-4687-8657-4eaaafd5a354","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"nl-0.fw-node.cc"}
   - {"name":"🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"45.63.40.126","port":13345,"udp":false,"password":"Szb=-Zguo53QhmivcJqEAWtpdPX6Y","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ads.x5.ru"}
   - {"name":"🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"trunker.cc","port":8080,"udp":false,"password":"nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wikipedia.org"}
-  - {"name":"🇨🇦CA | 🔴 | trojan | @vmess_vless_v2rayng | 9","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -181,7 +181,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 3'
-      - '🇨🇦CA | 🔴 | trojan | @vmess_vless_v2rayng | 9'
+      - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -216,7 +216,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 3'
-      - '🇨🇦CA | 🔴 | trojan | @vmess_vless_v2rayng | 9'
+      - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -250,7 +250,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '🇹🇷TR | 🔴 | trojan | @oneclickvpnkeys | 3'
-      - '🇨🇦CA | 🔴 | trojan | @vmess_vless_v2rayng | 9'
+      - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
