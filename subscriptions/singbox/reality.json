@@ -114,6 +114,7 @@
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 5",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 7",
                 "🇧🇬BG | 🟢 | vless | @rxv2ray | 9",
@@ -132,7 +133,7 @@
                 "🇺🇸US | 🟢 | vless | @prrofile_purple | 117",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 128",
                 "🇦🇹AT | 🟢 | vless | @prrofile_purple | 133",
-                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 4",
+                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 5",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 1",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 1",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 4",
@@ -193,6 +194,7 @@
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
                 "❔XX | 🟢 | vless | @XsV2ray | 0",
                 "🇫🇮FI | 🔴 | vless | @melov2ray | 1",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 5",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 7",
                 "🇧🇬BG | 🟢 | vless | @rxv2ray | 9",
@@ -211,7 +213,7 @@
                 "🇺🇸US | 🟢 | vless | @prrofile_purple | 117",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 128",
                 "🇦🇹AT | 🟢 | vless | @prrofile_purple | 133",
-                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 4",
+                "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 5",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 1",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 1",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 4",
@@ -509,6 +511,42 @@
                     "public_key": "dnQjj0veNVgsQNC_tkbU3XKj4L3pqkS3LmVeyKuRa1Q",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 1",
+            "type": "vless",
+            "server": "185.234.65.122",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uXUe3HEy4MjZ2nqFa8eMxxB24AxQEbxGdEAbdjxEMgQ",
+                    "short_id": "7a0bea4731381dda"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1055,7 +1093,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 4",
+            "tag": "🇫🇷FR | 🟢 | vless | @v2rayngvpn | 5",
             "type": "vless",
             "server": "maxb17.getssserver.ir",
             "server_port": 8080,
