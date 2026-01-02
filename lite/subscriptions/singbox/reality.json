@@ -111,6 +111,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @DailyV2RY | 19",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 12",
                 "❔XX | 🟢 | vless | @flyv2ray | 13",
@@ -129,6 +130,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @DailyV2RY | 19",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 12",
                 "❔XX | 🟢 | vless | @flyv2ray | 13",
@@ -300,6 +302,42 @@
                     "public_key": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
                     "short_id": "fdc8125ea6f61323"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "144.31.0.77",
+            "server_port": 8443,
+            "uuid": "05071212-5966-430d-a53b-d4472581ddc8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "12UHjWCU_BNIkRmxt-6QKAuVuSIFzoS2jkN1BIMzGjM",
+                    "short_id": "cdce15b3e2179ce8"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "google.com",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
