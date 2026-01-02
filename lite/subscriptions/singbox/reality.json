@@ -113,6 +113,7 @@
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 13",
                 "🇪🇪EE | 🟢 | vless | @customv2ray | 5",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
+                "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -131,6 +132,7 @@
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 13",
                 "🇪🇪EE | 🟢 | vless | @customv2ray | 5",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
+                "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 13",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -364,6 +366,35 @@
                     "enabled": true,
                     "public_key": "dzCEYTfWxJ4R24_lYQXceGBU_aPXjY2OKRH1GADRVyU",
                     "short_id": "73eb7dae65e25f"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @free1_vpn | 5",
+            "type": "vless",
+            "server": "188.166.7.40",
+            "server_port": 6048,
+            "uuid": "2f30aa44-c87c-e73d-a715-0813c68ee9b2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8KraKuYxjT-2mqg_y_yJvME2zxbc7BUDPoPvUMWNXmE",
+                    "short_id": "cdc30097"
                 }
             }
         },
