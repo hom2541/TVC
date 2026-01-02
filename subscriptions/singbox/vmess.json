@@ -126,7 +126,8 @@
                 "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 12",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -162,7 +163,8 @@
                 "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 8",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 12",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 11",
+                "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 14",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -619,11 +621,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 13",
+            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 11",
             "type": "vmess",
-            "server": "172.66.40.99",
-            "server_port": 443,
-            "uuid": "bia--to-@v2rayng_hub",
+            "server": "162.19.248.238",
+            "server_port": 550,
+            "uuid": "ede27a79-b039-490b-932c-495de4b68880",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -633,23 +635,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ml.looloolooloo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@v2rayng_hub\/@v2rayng_hub\/@v2rayng_hub\/@v2rayng_hub\/@v2rayng_hub\/@v2rayng_hub\/@v2rayng_hub\/@v2rayng_hub\/www.speedtest.net:443",
-                "headers": {
-                    "Host": "ml.looloolooloo.com"
-                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "2.56.242.210",
+            "server_port": 34895,
+            "uuid": "6fe6b62a-dfbe-4753-d795-e02f2561edea",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
