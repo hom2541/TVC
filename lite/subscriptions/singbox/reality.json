@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 11",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 11",
-                "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇪🇪EE | 🟢 | vless | @customv2ray | 31",
-                "🇵🇱PL | 🟢 | vless | @v2rayngvpn | 14",
-                "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 4",
-                "🇦🇷AR | 🟢 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ARv2ray | 11",
+                "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 17",
+                "❔XX | 🟢 | vless | @customv2ray | 31",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 13",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 4",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -126,12 +126,12 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 11",
                 "🇩🇪DE | 🟢 | vless | @v2_team | 0",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 11",
-                "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
-                "🇪🇪EE | 🟢 | vless | @customv2ray | 31",
-                "🇵🇱PL | 🟢 | vless | @v2rayngvpn | 14",
-                "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 4",
-                "🇦🇷AR | 🟢 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ARv2ray | 11",
+                "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 17",
+                "❔XX | 🟢 | vless | @customv2ray | 31",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 13",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 4",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -216,7 +216,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 11",
+            "tag": "❔XX | 🔴 | vless | @ARv2ray | 11",
             "type": "vless",
             "server": "185.234.65.122",
             "server_port": 443,
@@ -252,7 +252,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
+            "tag": "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 17",
             "type": "vless",
             "server": "91.107.254.202",
             "server_port": 8443,
@@ -281,7 +281,7 @@
             }
         },
         {
-            "tag": "🇪🇪EE | 🟢 | vless | @customv2ray | 31",
+            "tag": "❔XX | 🟢 | vless | @customv2ray | 31",
             "type": "vless",
             "server": "144.31.178.168",
             "server_port": 443,
@@ -310,7 +310,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @v2rayngvpn | 14",
+            "tag": "❔XX | 🟢 | vless | @v2rayngvpn | 13",
             "type": "vless",
             "server": "145.239.31.99",
             "server_port": 7005,
@@ -339,7 +339,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 4",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "62.84.102.162",
             "server_port": 443,
@@ -368,11 +368,11 @@
             }
         },
         {
-            "tag": "🇦🇷AR | 🟢 | vless | @ConfigsHUB | 18",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "38.180.185.170",
+            "server": "ro1.instavpn.ru",
             "server_port": 443,
-            "uuid": "3c0e49cb-8940-561a-83b8-1efbb17f7cf7",
+            "uuid": "854eea7a-c834-4f62-9e17-ae63d1086f36",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -382,7 +382,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vk.cc",
+                "server_name": "tradingview.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -391,8 +391,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LrRmw4PAZNoF8a2aMG7OU2rnkloGbsglIqTRxWK_4R4",
-                    "short_id": "9298df71"
+                    "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+                    "short_id": "868419504747f6de"
                 }
             }
         },
