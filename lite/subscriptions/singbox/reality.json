@@ -113,10 +113,8 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | 🔴 | vless | @V2rayNGn | 1",
-                "🇷🇺RU | 🔴 | vless | @prrofile_purple | 124",
                 "🇪🇪EE | 🟢 | vless | @customv2ray | 31",
-                "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 1",
-                "TVCeomebybalb",
+                "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "🇦🇱AL | 🟢 | vless | @kingofilter | 0",
@@ -135,10 +133,8 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "🇫🇷FR | 🔴 | vless | @V2rayNGn | 1",
-                "🇷🇺RU | 🔴 | vless | @prrofile_purple | 124",
                 "🇪🇪EE | 🟢 | vless | @customv2ray | 31",
-                "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 1",
-                "TVCeomebybalb",
+                "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "🇦🇱AL | 🟢 | vless | @kingofilter | 0",
@@ -170,7 +166,7 @@
             "type": "vless",
             "server": "46.224.126.160",
             "server_port": 443,
-            "uuid": "Parsashonam-327",
+            "uuid": "Parsashonam-328",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -383,42 +379,6 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @prrofile_purple | 124",
-            "type": "vless",
-            "server": "51.250.106.64",
-            "server_port": 443,
-            "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI",
-                    "short_id": "123abc"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇪🇪EE | 🟢 | vless | @customv2ray | 31",
             "type": "vless",
             "server": "144.31.178.168",
@@ -448,7 +408,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 1",
+            "tag": "🇫🇮FI | 🟢 | vless | @v2ray1_ng | 2",
             "type": "vless",
             "server": "free12.shomboli.blog",
             "server_port": 443,
@@ -473,35 +433,6 @@
                     "enabled": true,
                     "public_key": "YLSRUKO-sm6In4ckqgVjagHKrWcA5r2aV7khO5brOUQ",
                     "short_id": "e3c5c005cae07eb7"
-                }
-            }
-        },
-        {
-            "tag": "TVCeomebybalb",
-            "type": "vless",
-            "server": "gr.yasharmobile.com",
-            "server_port": 443,
-            "uuid": "06b259e1-fb2b-4198-9c96-f89ab9236198",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gr.yasharmobile.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "tw6uAbjXzRSIKChb6pDbHVNjnU9Don4hbv6dHRkmJx8",
-                    "short_id": ""
                 }
             }
         },
