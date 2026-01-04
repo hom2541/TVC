@@ -123,11 +123,11 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "🇬🇧GB | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 101",
                 "🇩🇪DE | 🟢 | vmess | @customv2ray | 38",
                 "❔XX | 🟢 | vmess | @customv2ray | 39",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 8",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -160,11 +160,11 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 10",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "🇬🇧GB | 🟢 | vmess | @DeamNet_Proxy | 13",
+                "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 101",
                 "🇩🇪DE | 🟢 | vmess | @customv2ray | 38",
                 "❔XX | 🟢 | vmess | @customv2ray | 39",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 10",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 8",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 1",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -553,6 +553,30 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vmess | @prrofile_purple | 101",
+            "type": "vmess",
+            "server": "cpanel.navar2.ir",
+            "server_port": 100,
+            "uuid": "bbecd967-a6d2-4766-910e-fd84a8b71809",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vmess | @customv2ray | 38",
             "type": "vmess",
             "server": "162.19.248.238",
@@ -633,23 +657,6 @@
             "server": "172.234.132.232",
             "server_port": 10001,
             "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 1",
-            "type": "vmess",
-            "server": "46.224.77.158",
-            "server_port": 21639,
-            "uuid": "00c95086-613c-4278-bd8f-e61e31548e61",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
