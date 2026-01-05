@@ -107,14 +107,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
-                "🇩🇪DE | 🟢 | vless | @v2_team | 0",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 15",
+                "❔XX | 🟢 | vless | @v2_team | 0",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 16",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
+                "🇷🇺RU | 🔴 | vless | @prrofile_purple | 139",
                 "🇪🇪EE | 🟢 | vless | @customv2ray | 40",
                 "🇫🇷FR | 🔴 | vless | @vmessorg | 7",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 2",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -126,14 +127,15 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @Parsashonam | 14",
-                "🇩🇪DE | 🟢 | vless | @v2_team | 0",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 15",
+                "❔XX | 🟢 | vless | @v2_team | 0",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 16",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
+                "🇷🇺RU | 🔴 | vless | @prrofile_purple | 139",
                 "🇪🇪EE | 🟢 | vless | @customv2ray | 40",
                 "🇫🇷FR | 🔴 | vless | @vmessorg | 7",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 2",
-                "🇩🇪DE | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -189,7 +191,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2_team | 0",
+            "tag": "❔XX | 🟢 | vless | @v2_team | 0",
             "type": "vless",
             "server": "parsonline.aparat-movies-download.ir",
             "server_port": 4450,
@@ -218,7 +220,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 15",
+            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 16",
             "type": "vless",
             "server": "185.234.65.132",
             "server_port": 443,
@@ -280,6 +282,42 @@
                     "public_key": "4Xu_jqRD-mbhEwNyntlz_6zU4VhsE0-QWCxAbhEL_H4",
                     "short_id": "7ab467"
                 }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | @prrofile_purple | 139",
+            "type": "vless",
+            "server": "51.250.106.64",
+            "server_port": 443,
+            "uuid": "4a6de183-2ad3-456c-b420-feeac81f6257",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FCg2XiFJrpH-2XlELSSSyEC7zkeW29HOgp4rfrqXEAI",
+                    "short_id": "123abc"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -370,6 +408,35 @@
             }
         },
         {
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "176.108.246.233",
+            "server_port": 4441,
+            "uuid": "f2e4aa7b-5677-49fc-9faa-39094d8ff81b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.vk.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hzUot1mj4w4cTHBieKFjoT9s2Dp73cE_xWLs4moXVnQ",
+                    "short_id": "8e28288158deb597"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | 🟢 | vless | @free1_vpn | 2",
             "type": "vless",
             "server": "free12.shomboli.blog",
@@ -395,35 +462,6 @@
                     "enabled": true,
                     "public_key": "YLSRUKO-sm6In4ckqgVjagHKrWcA5r2aV7khO5brOUQ",
                     "short_id": "e3c5c005cae07eb7"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capoit | 8",
-            "type": "vless",
-            "server": "dee.imsoon.net",
-            "server_port": 443,
-            "uuid": "22eb6939-d6b2-4ba6-a26b-8357ff71046a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dee.imsoon.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7tn4g8vttJtGhVDeTRu8KA1TGPgKTcU6se7oLw9rWxg",
-                    "short_id": "8e52b641"
                 }
             }
         },
