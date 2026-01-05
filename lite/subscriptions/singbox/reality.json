@@ -112,7 +112,8 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 1",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 11",
-                "🇷🇺RU | 🟢 | vless | @DailyV2RY | 16",
+                "🇷🇺RU | 🟢 | vless | @DailyV2RY | 17",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -131,7 +132,8 @@
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 17",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 1",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 11",
-                "🇷🇺RU | 🟢 | vless | @DailyV2RY | 16",
+                "🇷🇺RU | 🟢 | vless | @DailyV2RY | 17",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 15",
                 "🇩🇪DE | 🟢 | vless | @FreakConfig | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -341,7 +343,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @DailyV2RY | 16",
+            "tag": "🇷🇺RU | 🟢 | vless | @DailyV2RY | 17",
             "type": "vless",
             "server": "130.193.35.232",
             "server_port": 443,
@@ -366,6 +368,35 @@
                     "enabled": true,
                     "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
                     "short_id": "6419bed7fd0a2cff"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "maxa19.gatesrev.ir",
+            "server_port": 8080,
+            "uuid": "ec6901a9-0837-4d55-a29b-f5623d138af7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chatgpt.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+                    "short_id": "b7b70c104ad267b8"
                 }
             }
         },
