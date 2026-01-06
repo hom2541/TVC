@@ -114,9 +114,12 @@
                 "🇳🇱NL | 🟢 | vless | @V2rayNGn | 8",
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 2",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
-                "🇫🇷FR | 🟢 | vless | @Capoit | 7",
+                "🇫🇷FR | 🟢 | vless | @Capoit | 8",
+                "🇫🇷FR | 🟢 | vless | @Capoit | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -135,9 +138,12 @@
                 "🇳🇱NL | 🟢 | vless | @V2rayNGn | 8",
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 0",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 2",
                 "🇫🇮FI | 🟢 | vless | @free1_vpn | 4",
-                "🇫🇷FR | 🟢 | vless | @Capoit | 7",
+                "🇫🇷FR | 🟢 | vless | @Capoit | 8",
+                "🇫🇷FR | 🟢 | vless | @Capoit | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @SvnTeam | 5",
@@ -403,6 +409,64 @@
             }
         },
         {
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "65.109.184.27",
+            "server_port": 443,
+            "uuid": "de14ae87-5b0b-4012-a9d6-890f7813801a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "morxJfGxtCi0KeEAY4q73DaWGCL4uJVLwcPemGoikRE",
+                    "short_id": "37"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "VoPi.pVnoCo.Ir",
+            "server_port": 558,
+            "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "15ZlM5p8DB5Fp4mtva2pvtC4IBtcxSxqeuZ0R7ffkRk",
+                    "short_id": "4b8f669536c45c2b"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | 🟢 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "bshs-187271-isbshs-18181717.bawqrataaui.ir",
@@ -461,7 +525,36 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @Capoit | 7",
+            "tag": "🇫🇷FR | 🟢 | vless | @Capoit | 8",
+            "type": "vless",
+            "server": "maxb08.musicdoon.ir",
+            "server_port": 8080,
+            "uuid": "d5ac3a03-713f-4f03-aa3a-6d8b2f286414",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chatgpt.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+                    "short_id": "b7b70c104ad267b8"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @Capoit | 9",
             "type": "vless",
             "server": "maxa21.gatesrev.ir",
             "server_port": 8080,
