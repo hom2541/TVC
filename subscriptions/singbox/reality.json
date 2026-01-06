@@ -152,9 +152,13 @@
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 5",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
-                "❔XX | 🔴 | vless | @DailyV2RY | 7",
-                "❔XX | 🔴 | vless | @DailyV2RY | 16",
+                "❔XX | 🔴 | vless | @DailyV2RY | 8",
+                "❔XX | 🔴 | vless | @DailyV2RY | 17",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 2",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 12",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
                 "❔XX | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🟢 | vless | @Capoit | 6",
@@ -242,9 +246,13 @@
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 5",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
-                "❔XX | 🔴 | vless | @DailyV2RY | 7",
-                "❔XX | 🔴 | vless | @DailyV2RY | 16",
+                "❔XX | 🔴 | vless | @DailyV2RY | 8",
+                "❔XX | 🔴 | vless | @DailyV2RY | 17",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 2",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 12",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
                 "❔XX | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🟢 | vless | @Capoit | 6",
@@ -1699,7 +1707,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @DailyV2RY | 7",
+            "tag": "❔XX | 🔴 | vless | @DailyV2RY | 8",
             "type": "vless",
             "server": "84.32.231.44",
             "server_port": 443,
@@ -1728,7 +1736,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @DailyV2RY | 16",
+            "tag": "❔XX | 🔴 | vless | @DailyV2RY | 17",
             "type": "vless",
             "server": "84.32.188.88",
             "server_port": 443,
@@ -1757,11 +1765,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "51.250.25.172",
-            "server_port": 4248,
-            "uuid": "d2d79fd8-a3d4-4792-9766-e472e1fe8a5f",
+            "server": "31.57.158.131",
+            "server_port": 58992,
+            "uuid": "e542ea7b-460d-4a03-b34e-6dbe3202a43b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1771,7 +1779,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ads.x5.ru",
+                "server_name": "www.amazon.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1780,8 +1788,124 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "public_key": "1fe0y80bo5TtPnyHQnFCushSfPIBvAV44fmLzPshSz8",
+                    "short_id": "be"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "166.1.131.4",
+            "server_port": 993,
+            "uuid": "40730d97-ffa7-1108-2c53-761516eb5fda",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "maxa11.gatesrev.ir",
+            "server_port": 8080,
+            "uuid": "ec6901a9-0837-4d55-a29b-f5623d138af7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chatgpt.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+                    "short_id": "b7b70c104ad267b8"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "maxb20.musicdoon.ir",
+            "server_port": 8080,
+            "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chatgpt.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+                    "short_id": "b7b70c104ad267b8"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "maxb01.musicdoon.ir",
+            "server_port": 8080,
+            "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chatgpt.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
+                    "short_id": "b7b70c104ad267b8"
                 }
             }
         },
