@@ -157,8 +157,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 0",
                 "❔XX | 🔴 | vless | @lrnbymaa | 4",
                 "❔XX | 🔴 | vless | @lrnbymaa | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
                 "❔XX | 🔴 | vless | @Capoit | 7",
                 "❔XX | 🔴 | vless | @Capoit | 8",
@@ -237,8 +237,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 0",
                 "❔XX | 🔴 | vless | @lrnbymaa | 4",
                 "❔XX | 🔴 | vless | @lrnbymaa | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
                 "❔XX | 🔴 | vless | @Capoit | 7",
                 "❔XX | 🔴 | vless | @Capoit | 8",
@@ -1478,26 +1478,12 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.66.44.254",
-            "server_port": 8880,
-            "uuid": "eee42454-c782-440e-9feb-4822bb2dfc9c",
+            "server": "25.129.197.138",
+            "server_port": 2096,
+            "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
             "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "62.60.176.189",
-            "server_port": 443,
-            "uuid": "aa497581-d3ac-4602-8512-7747ca016eac",
-            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1506,18 +1492,34 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "sni.111000.de5.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1_viA0ySJICqaFUpADZ4ZTBfntNMYvRJIVHCWVNdNCA",
-                    "short_id": "4969fd2d5085d535"
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "sni.111000.de5.net"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "tnl34.vipradvin.ir",
+            "server_port": 7050,
+            "uuid": "f7da8517-a4cb-4e8b-9dc4-9b5db7bb79d7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
