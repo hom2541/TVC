@@ -166,8 +166,9 @@ proxies:
   - {"name":"🇹🇭TH | 🟢 | vmess | @DeamNet_Proxy | 3","type":"vmess","server":"185.84.161.150","port":"20086","cipher":"auto","uuid":"ebba0676-e05a-49ec-8344-d96d749e01c0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"185.84.161.150"}}}
   - {"name":"🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 6","type":"vmess","server":"95.164.4.88","port":"80","cipher":"auto","uuid":"c04c3b34-70fd-4fec-963e-c12d09f36bef","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"host":"95.164.4.88"}}}
   - {"name":"🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14","type":"ss","server":"45.87.175.155","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"38.60.168.10","port":26390,"udp":false,"password":"Z3PEQ5hMBdqF7H41g9LyaxpGD1rn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"m.vk.com"}
-  - {"name":"🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"58.152.110.104","port":443,"udp":false,"password":"381f2e86233720eacda26d50e9aa26da","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.nintendogames.net"}
+  - {"name":"🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"45.63.40.126","port":13345,"udp":false,"password":"Szb=-Zguo53QhmivcJqEAWtpdPX6Y","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ads.x5.ru"}
+  - {"name":"🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"38.60.168.10","port":26390,"udp":false,"password":"Z3PEQ5hMBdqF7H41g9LyaxpGD1rn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"m.vk.com"}
+  - {"name":"🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"58.152.110.104","port":443,"udp":false,"password":"381f2e86233720eacda26d50e9aa26da","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.nintendogames.net"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 13","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
   - {"name":"🇺🇸US | 🟢 | ss | @vmess_vless_v2rayng | 19","type":"ss","server":"45.87.175.171","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 4","type":"ss","server":"82.38.31.218","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
@@ -233,8 +234,9 @@ proxy-groups:
       - '🇹🇭TH | 🟢 | vmess | @DeamNet_Proxy | 3'
       - '🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 6'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14'
-      - '🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 0'
-      - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 3'
+      - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 0'
+      - '🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 1'
+      - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 13'
       - '🇺🇸US | 🟢 | ss | @vmess_vless_v2rayng | 19'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 4'
@@ -300,8 +302,9 @@ proxy-groups:
       - '🇹🇭TH | 🟢 | vmess | @DeamNet_Proxy | 3'
       - '🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 6'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14'
-      - '🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 0'
-      - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 3'
+      - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 0'
+      - '🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 1'
+      - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 13'
       - '🇺🇸US | 🟢 | ss | @vmess_vless_v2rayng | 19'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 4'
@@ -366,8 +369,9 @@ proxy-groups:
       - '🇹🇭TH | 🟢 | vmess | @DeamNet_Proxy | 3'
       - '🇧🇷BR | 🟢 | vmess | @DeamNet_Proxy | 6'
       - '🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 14'
-      - '🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 0'
-      - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 3'
+      - '🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 0'
+      - '🇲🇾MY | 🔴 | trojan | @oneclickvpnkeys | 1'
+      - '🇭🇰HK | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 13'
       - '🇺🇸US | 🟢 | ss | @vmess_vless_v2rayng | 19'
       - '🇳🇱NL | 🟢 | ss | @OutlineVpnOfficial | 4'
