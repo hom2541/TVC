@@ -128,12 +128,14 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 13",
-                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 2",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 12",
+                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 14",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 3",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -175,12 +177,14 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 13",
-                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 2",
-                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 12",
+                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 14",
+                "🇺🇸US | 🟢 | vmess | @DailyV2RY | 3",
+                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
+                "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 8",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -713,7 +717,31 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nasnet\/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 1",
             "type": "vmess",
             "server": "57.129.25.26",
             "server_port": 443,
@@ -747,7 +775,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 2",
+            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": "162.19.248.238",
             "server_port": 550,
@@ -764,7 +792,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
             "server": "57.129.59.201",
             "server_port": 443,
@@ -798,7 +826,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 13",
+            "tag": "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 14",
             "type": "vmess",
             "server": "yichueng.org",
             "server_port": 443,
@@ -832,7 +860,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @DailyV2RY | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @DailyV2RY | 3",
             "type": "vmess",
             "server": "46.254.106.77",
             "server_port": 10000,
@@ -856,7 +884,31 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/nasnet\/cdn",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | @ConfigsHUB | 8",
             "type": "vmess",
             "server": "141.94.155.229",
             "server_port": 443,
