@@ -161,8 +161,8 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 18",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @Capoit | 7",
@@ -246,8 +246,8 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-                "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 19",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 18",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @Capoit | 7",
@@ -1531,11 +1531,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "joinArshiavpn12.sefryasad.ir",
-            "server_port": 2082,
-            "uuid": "9fa627c0-1a04-43ca-8e5e-0c82845c8487",
+            "server": "persians.france-learns.ir",
+            "server_port": 42555,
+            "uuid": "6f9b3b98-68d5-4934-9a93-46ce66d2a0cf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1545,11 +1545,11 @@
             }
         },
         {
-            "tag": "🇦🇹AT | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "External-Net.fast199.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "3ff60b54-f6d6-467f-9189-df1a0567c647",
+            "server": "25.26.27.158",
+            "server_port": 2096,
+            "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1557,11 +1557,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "sni.111000.de5.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2052?---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "External-Net.fast199.hosting-ip.com"
+                    "Host": "sni.111000.de5.net"
                 }
             }
         },
