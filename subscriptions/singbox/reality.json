@@ -145,9 +145,9 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 3",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 12",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 13",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 5",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+                "🇦🇺AU | 🟢 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
                 "🇷🇺RU | 🟢 | vless | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
@@ -227,9 +227,9 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 3",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 12",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 13",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 5",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+                "🇦🇺AU | 🟢 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
                 "🇷🇺RU | 🟢 | vless | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
@@ -1473,11 +1473,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "🇦🇺AU | 🟢 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "109.120.188.227",
-            "server_port": 1488,
-            "uuid": "d2d79fd8-a3d4-4792-9766-e472e1fe8a5f",
+            "server": "45.15.185.69",
+            "server_port": 8443,
+            "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1487,26 +1487,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ads.x5.ru",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+                    "public_key": "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY",
+                    "short_id": "7cad5040"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "play.worldpulse.sbs",
-            "server_port": 47656,
-            "uuid": "7594283e-e175-4dfc-9c44-a9c3c3db3933",
+            "server": "167.224.64.75",
+            "server_port": 47009,
+            "uuid": "1b07b61e-7c71-75fa-f97d-f4a82c66cfb5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1516,22 +1516,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.sony.com",
+                "server_name": "sun6-21.userapi.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "CvSH6MkYA0guUODWOxQoWr-qOEdB9qLfvMHSmyButlE",
-                    "short_id": "8bdf7ad2a13e"
+                    "public_key": "tr79fhd6jVvu8d-Rp9gCEO8XtMyNpusiu3rLmIiKEnU",
+                    "short_id": "e21f2248d3f24140"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 14",
             "type": "vless",
             "server": "r1.iran-mehrbu.ir",
             "server_port": 3060,
