@@ -135,7 +135,6 @@
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇦🇺AU | 🟢 | vmess | @DailyV2RY | 7",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 11",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -191,7 +190,6 @@
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇦🇺AU | 🟢 | vmess | @DailyV2RY | 7",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 11",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -911,40 +909,6 @@
                 "path": "\/vpnjantit",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 4",
-            "type": "vmess",
-            "server": "74.117.196.232",
-            "server_port": 33533,
-            "uuid": "b01d1e26-2f84-48da-88a1-1d06a77857f3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "imafake.locker",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "imafake.locker"
                 }
             }
         },
