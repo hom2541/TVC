@@ -118,8 +118,7 @@
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
-                "❔XX | 🔴 | vless | @SvnTeam | 5",
-                "❔XX | 🔴 | vless | @SvnTeam | 6"
+                "❔XX | 🔴 | vless | @SvnTeam | 5"
             ]
         },
         {
@@ -138,8 +137,7 @@
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
-                "❔XX | 🔴 | vless | @SvnTeam | 5",
-                "❔XX | 🔴 | vless | @SvnTeam | 6"
+                "❔XX | 🔴 | vless | @SvnTeam | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -565,35 +563,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @SvnTeam | 6",
-            "type": "vless",
-            "server": "public.misvn.ir",
-            "server_port": 443,
-            "uuid": "SVNTEAM-2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
