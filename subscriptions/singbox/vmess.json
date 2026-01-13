@@ -133,8 +133,6 @@
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇦🇺AU | 🟢 | vmess | @DailyV2RY | 4",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 6",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -186,8 +184,6 @@
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇦🇺AU | 🟢 | vmess | @DailyV2RY | 4",
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 6",
-                "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
-                "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 6",
                 "🇺🇸US | 🟢 | vmess | @proxystore11 | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -855,57 +851,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @ConfigsHUB | 5",
-            "type": "vmess",
-            "server": "74.117.196.232",
-            "server_port": 33533,
-            "uuid": "35f332d0-0b05-4cc6-91cb-ec0d4465055f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "imafake.locker",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "imafake.locker"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @ConfigsHUB | 6",
-            "type": "vmess",
-            "server": "91.107.235.169",
-            "server_port": 59470,
-            "uuid": "7903929a-6204-4c9b-f739-aa7756f5b6bb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
