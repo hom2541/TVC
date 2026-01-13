@@ -159,7 +159,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇬🇧GB | 🔴 | vless | @v2ray1_ng | 1",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18",
@@ -169,13 +169,13 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
@@ -257,7 +257,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇬🇧GB | 🔴 | vless | @v2ray1_ng | 1",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18",
@@ -267,13 +267,13 @@
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
                 "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
@@ -1519,7 +1519,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
             "type": "vless",
             "server": "DEADSEECtelegram.blackandwhiteshop.ir",
             "server_port": 80,
@@ -1732,9 +1732,9 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "External-Net.fastly140.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "8cf4d179-a921-49e5-934c-dcacd276c620",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1742,32 +1742,50 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "DiGIkALaA.dpdns.ORG",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ma?ed=2560\/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
+                "path": "\/eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560",
                 "headers": {
-                    "Host": "External-Net.fastly140.hosting-ip.com"
+                    "Host": "DiGIkALaA.dpdns.ORG"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "151.101.195.8",
-            "server_port": 80,
-            "uuid": "3ff60b54-f6d6-467f-9189-df1a0567c647",
-            "flow": "",
+            "server": "r1.iran-mehrbu.ir",
+            "server_port": 3060,
+            "uuid": "3acc0e1f-0b1e-4aa3-aff6-a883292cb196",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2052?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "151.101.195.8"
+            "tls": {
+                "enabled": true,
+                "server_name": "use.fontawesome.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LnJ4SXxNsRigl5MVmGlQ5_I0G1fT3DYEYiL7KUEihxo",
+                    "short_id": "c7d80f2b01a1d1fe"
                 }
             }
         },
@@ -1875,6 +1893,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "3e5cda0a-6122-4f54-9e3c-3f49e7a526f9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
             "server": "104.19.55.79",
             "server_port": 2052,
             "uuid": "d6b6d982-d52f-465a-b988-85670b23f64a",
@@ -1894,23 +1936,6 @@
                 "headers": {
                     "Host": "104.19.55.79"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "ipir.proxystore11.ru",
-            "server_port": 80,
-            "uuid": "7192fa3c-71c6-4662-be3f-3a19a3b7ac4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
