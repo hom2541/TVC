@@ -112,7 +112,7 @@
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
@@ -128,7 +128,7 @@
                 "🇺🇸US | 🟢 | vmess | @DailyV2RY | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
@@ -294,11 +294,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "kr02.elizabethgilbert.buzz",
-            "server_port": 80,
-            "uuid": "8aa67fc2-83d7-4554-8d66-4f06c63de0da",
+            "server": "104.19.58.185",
+            "server_port": 2052,
+            "uuid": "d6b6d982-d52f-465a-b988-85670b23f64a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -313,18 +313,18 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "kr02.elizabethgilbert.buzz"
+                    "Host": "104.19.58.185"
                 }
             }
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "7c5df627-a185-468b-a90a-1b162e673a68",
+            "server": "38.33.46.91",
+            "server_port": 37000,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -333,11 +333,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "38.33.46.91",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/path\/152409182214",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "38.33.46.91"
                 }
             }
         },
