@@ -112,8 +112,8 @@
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ]
@@ -128,8 +128,8 @@
                 "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ],
@@ -304,11 +304,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "ipir.proxystore11.ru",
-            "server_port": 80,
-            "uuid": "7192fa3c-71c6-4662-be3f-3a19a3b7ac4d",
+            "server": "128.199.151.232",
+            "server_port": 54217,
+            "uuid": "ff03a4d5-1b50-40d2-8dd6-2ca0223d8eea",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -321,13 +321,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "38.33.45.87",
-            "server_port": 37000,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "beyonddbc.sbs",
+            "server_port": 443,
+            "uuid": "8d90c129-4156-4d6c-9115-24df25f26a02",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -338,7 +338,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "38.33.45.87",
+                "server_name": "beyonddbc.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -348,9 +348,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/133220121417",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "38.33.45.87"
+                    "Host": "beyonddbc.sbs"
                 }
             }
         },
