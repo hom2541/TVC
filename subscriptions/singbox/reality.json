@@ -145,8 +145,10 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 5",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 7",
                 "🇫🇷FR | 🔴 | vless | @DailyV2RY | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 10",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
                 "🇷🇺RU | 🟢 | vless | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
@@ -225,8 +227,10 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 5",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 7",
                 "🇫🇷FR | 🔴 | vless | @DailyV2RY | 15",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
+                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 10",
+                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 11",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
                 "🇷🇺RU | 🟢 | vless | @proxystore11 | 1",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
@@ -1469,11 +1473,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 6",
             "type": "vless",
-            "server": "45.77.100.91",
-            "server_port": 12345,
-            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
+            "server": "movivoolom.movementvip.ir",
+            "server_port": 2025,
+            "uuid": "cd19d8ac-5cf2-4a4a-8e67-2f1ccd704d65",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1483,7 +1487,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "movivoolom.movementvip.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1492,20 +1496,71 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
-                    "short_id": "c57d2373"
+                    "public_key": "-GSgOuj1kNP1sHwIVEHEwL9ZhGMRLlsBcqOGNhLVIkA",
+                    "short_id": "062f0288c08c"
                 }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "refersion.com"
-                ],
-                "path": "\/"
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "51.250.73.31",
+            "server_port": 443,
+            "uuid": "64bc8910-bc0f-453e-b3f3-a101a5dce03e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+                    "short_id": "87cc0414902bee2d"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "84.201.140.155",
+            "server_port": 443,
+            "uuid": "bcf31ced-07e7-4bd3-ae6d-9280d9a47834",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sso.passport.yandex.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "a3j3TH-VYPCGR_ecpyzkojGcszOGWdu0R9w0b1GAFU4",
+                    "short_id": "a20d3ed244c76426"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 13",
             "type": "vless",
             "server": "r1.iran-mehrbu.ir",
             "server_port": 3060,
