@@ -115,8 +115,7 @@
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇷🇺RU | 🔴 | vless | @ServerNett | 1",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 0",
-                "🇫🇷FR | 🔴 | vless | @DailyV2RY | 18",
-                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 19",
+                "🇫🇷FR | 🔴 | vless | @DailyV2RY | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -137,8 +136,7 @@
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇷🇺RU | 🔴 | vless | @ServerNett | 1",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 0",
-                "🇫🇷FR | 🔴 | vless | @DailyV2RY | 18",
-                "🇳🇱NL | 🔴 | vless | @DailyV2RY | 19",
+                "🇫🇷FR | 🔴 | vless | @DailyV2RY | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -448,7 +446,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @DailyV2RY | 18",
+            "tag": "🇫🇷FR | 🔴 | vless | @DailyV2RY | 19",
             "type": "vless",
             "server": "fr.locations-sub.com",
             "server_port": 3030,
@@ -473,35 +471,6 @@
                     "enabled": true,
                     "public_key": "04E0TOQrXL1Z40zAF99p6MR3WC4-iaAcVB4WNcDpuXo",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @DailyV2RY | 19",
-            "type": "vless",
-            "server": "84.32.231.44",
-            "server_port": 443,
-            "uuid": "a553d8fb-69f2-4929-8cdc-913ba65779e2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SwPnfWBSnMtxVvsNEzcoS4U8OmKLUYZi54FLskdxgA4",
-                    "short_id": "123abc"
                 }
             }
         },
