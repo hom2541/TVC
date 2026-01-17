@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ]
@@ -124,8 +124,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "🇨🇦CA | 🟢 | vmess | @Hope_Net | 3",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ],
@@ -242,6 +242,40 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
+            "type": "vmess",
+            "server": "v2ray.wefuckgfw.ga",
+            "server_port": 2096,
+            "uuid": "ca89295f-58be-4e4b-b4f6-7d8baf188ed3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray.wefuckgfw.ga",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/H8VswtUJ\/",
+                "headers": {
+                    "Host": "v2ray.wefuckgfw.ga"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "23.227.38.3",
@@ -262,30 +296,6 @@
                 "path": "\/github.com\/Alvin9999",
                 "headers": {
                     "Host": "23.227.38.3"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 4",
-            "type": "vmess",
-            "server": "120.232.240.56",
-            "server_port": 16928,
-            "uuid": "5f6b3c3f-b0a8-33f5-95c6-371f8c6af973",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v2ray",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
