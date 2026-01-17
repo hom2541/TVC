@@ -113,7 +113,8 @@
                 "🇷🇺RU | 🔴 | vless | @prrofile_purple | 135",
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 1",
-                "🇰🇷KR | 🔴 | vless | @DailyV2RY | 18",
+                "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -132,7 +133,8 @@
                 "🇷🇺RU | 🔴 | vless | @prrofile_purple | 135",
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 1",
-                "🇰🇷KR | 🔴 | vless | @DailyV2RY | 18",
+                "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -384,7 +386,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR | 🔴 | vless | @DailyV2RY | 18",
+            "tag": "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
             "type": "vless",
             "server": "8.220.219.39",
             "server_port": 443,
@@ -409,6 +411,35 @@
                     "enabled": true,
                     "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "wolfy.ufavpn.ru",
+            "server_port": 27121,
+            "uuid": "cbf1ec03-2cff-4b1f-9eb5-5929c13fc20c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.ok.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QNLEBa5tV9JCrubA4hlAWhho06ddr2dtsT8LKZsGTgA",
+                    "short_id": "fdc8125ea6f61323"
                 }
             }
         },
