@@ -163,8 +163,8 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 8",
@@ -248,8 +248,8 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 8",
@@ -1631,11 +1631,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "212.113.109.101",
-            "server_port": 2584,
-            "uuid": "038a50c3-229c-41ef-a7ef-7abb504e4f33",
+            "server": "en.sardarr.top",
+            "server_port": 2035,
+            "uuid": "c78e34bb-4840-443f-8e9b-c400c2043530",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1645,17 +1645,32 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "0566baab-9d3d-4da7-cd81-af7eed13dc74",
-            "flow": "",
+            "server": "eng.dodbib.ir",
+            "server_port": 1024,
+            "uuid": "2b98e878-ab63-438f-90d5-08925ca06143",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sFgTIJFnMoj6ke5FMGqf3qWtXHftTuQk2FSTqPMHTmc",
+                    "short_id": ""
+                }
             }
         },
         {
