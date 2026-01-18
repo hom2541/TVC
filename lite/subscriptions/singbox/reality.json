@@ -116,7 +116,8 @@
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 1",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 19",
-                "🇦🇱AL | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -138,7 +139,8 @@
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 1",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 19",
-                "🇦🇱AL | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
+                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -477,11 +479,11 @@
             }
         },
         {
-            "tag": "🇦🇱AL | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "185.177.238.99",
-            "server_port": 443,
-            "uuid": "f22c9b63-f93b-4650-80d7-937c5422c471",
+            "server": "144.31.111.182",
+            "server_port": 8443,
+            "uuid": "535235d3-5088-4746-8722-8720e820c043",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -491,7 +493,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "al.cdn.stun.su",
+                "server_name": "cloudlane.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -500,8 +502,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
-                    "short_id": "0b18a830a9db0111"
+                    "public_key": "nGpFJVvSeovPXUN32QWht5nxg16Mwus--TLdY0JBHjY",
+                    "short_id": "5a53bd202e47bab8"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "144.31.90.98",
+            "server_port": 8104,
+            "uuid": "ca2b2268-e2c4-4a78-beee-111189a861e7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4gcDJumxa0bTaHvrZRL4Hb5ItXPha6ZYZ0fGmMD_k0A",
+                    "short_id": "1afc9d750da1ba88"
                 }
             }
         },
