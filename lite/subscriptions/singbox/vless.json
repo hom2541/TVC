@@ -153,7 +153,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇬🇧GB | 🔴 | vless | @v2ray1_ng | 1",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 0",
@@ -163,8 +163,7 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 8",
@@ -238,7 +237,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇬🇧GB | 🔴 | vless | @v2ray1_ng | 1",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
+                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇬🇧GB | 🔴 | vless | @VmessProtocol | 0",
@@ -248,8 +247,7 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 8",
@@ -1395,7 +1393,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 2",
             "type": "vless",
             "server": "DEADSEECtelegram.blackandwhiteshop.ir",
             "server_port": 80,
@@ -1631,45 +1629,23 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "en.sardarr.top",
-            "server_port": 2035,
-            "uuid": "c78e34bb-4840-443f-8e9b-c400c2043530",
+            "server": "bastion.h3.speed.cloudflare.com",
+            "server_port": 80,
+            "uuid": "👉👉BanV2ray👈👈",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "eng.dodbib.ir",
-            "server_port": 1024,
-            "uuid": "2b98e878-ab63-438f-90d5-08925ca06143",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sFgTIJFnMoj6ke5FMGqf3qWtXHftTuQk2FSTqPMHTmc",
-                    "short_id": ""
+            "transport": {
+                "type": "ws",
+                "path": "\/www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143",
+                "headers": {
+                    "Host": "bastion.h3.speed.cloudflare.com"
                 }
             }
         },
