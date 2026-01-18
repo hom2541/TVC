@@ -164,13 +164,13 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 8",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 62",
@@ -251,13 +251,13 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
+                "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 16",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 8",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
+                "🇺🇸US | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 10",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 11",
                 "🇺🇸US | 🔴 | vless | @iP_CF | 62",
@@ -1623,46 +1623,45 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇮🇹IT | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "208.67.105.196",
-            "server_port": 443,
-            "uuid": "c931b432-cbab-47f4-ae30-917b17e5fb1f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tradingview.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ameppwaxPsbMnl1d5xQ4nbkdiRLRQL7XLsFDwOv2XAY",
-                    "short_id": "ba2e91d5d7be"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "joinArshiavpn12.sefryasad.ir",
-            "server_port": 2082,
-            "uuid": "9fa627c0-1a04-43ca-8e5e-0c82845c8487",
+            "server": "pizaitaliano.gojustore.site",
+            "server_port": 7035,
+            "uuid": "e265fc78-e269-46b2-9b6a-85f573dab3d5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pizaitaliano.gojustore.site"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "91.107.129.24",
+            "server_port": 2052,
+            "uuid": "99bfccdb-c4ac-4add-e42c-cc7172970dab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@hashmakvpn 🇩🇪",
+                "headers": {
+                    "Host": "91.107.129.24"
+                }
             }
         },
         {
@@ -1769,7 +1768,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @FreakConfig | 7",
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 7",
             "type": "vless",
             "server": "Evay_vpn.fast.hosting-ip.com",
             "server_port": 80,
