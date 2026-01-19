@@ -172,8 +172,8 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -272,8 +272,8 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 19",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
+                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
@@ -1862,41 +1862,33 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "92.60.78.221",
-            "server_port": 443,
-            "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7",
-            "flow": "xtls-rprx-vision",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tradingview.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "pkIWxbuPAasjatPaHnAaTnCxVj1RkDFsJEWpLUTOcWY",
-                    "short_id": "9917d2350096"
+            "transport": {
+                "type": "ws",
+                "path": "\/---@MiTiVPN\/---@MiTiVPN\/---@MiTiVPN\/---@MiTiVPN\/---@MiTiVPN",
+                "headers": {
+                    "Host": "151.101.3.8"
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "46.21.245.143",
+            "server": "5a8zk0c-rv2iu7qvhjvxcxkwqeru95sw.lymary829.workers.dev",
             "server_port": 443,
-            "uuid": "e34a84c4-8a52-4b4e-9a7d-cfa1a4d77e95",
-            "flow": "xtls-rprx-vision",
+            "uuid": "e5620157-a9aa-4c61-aeee-111d905a0f11",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1905,17 +1897,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ads.x5.ru",
+                "server_name": "5A8ZK0c-RV2Iu7QvHjVxCxkwqeru95sw.LyMarY829.WoRKERS.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_1CdC4TRCkeTD3sHtnnZo2kkCGZkbYzLO2I-mJsWvmk",
-                    "short_id": "e3b1c4d5a6f70912"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/eyJqdW5rIjoieXI0ZlhmZktNUTUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560",
+                "headers": {
+                    "Host": "5A8ZK0c-RV2Iu7QvHjVxCxkwqeru95sw.LyMarY829.WoRKERS.dev"
                 }
             }
         },
