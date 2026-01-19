@@ -132,6 +132,7 @@ proxies:
   - {"name":"🇳🇱NL | 🟢 | vless | @FreakConfig | 6","type":"vless","server":"45.8.144.198","port":443,"udp":true,"uuid":"1a539db6-d162-42f4-9b56-687bd57bfbc2","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"mirror.yandex.ru","reality-opts":{"public-key":"KXA-hPtvy_hzNER1ZNtUxBv_VrGGKfmIyi4CQAyjGxs","short-id":"d94e8f45"}}
   - {"name":"❔XX | 🔴 | vless | @vpn_go67 | 18","type":"vless","server":"public.alpanel.top","port":1380,"udp":true,"uuid":"58c15a7e-8111-4abb-afd2-47590085c3f4","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"www.iranserver.com","grpc-opts":{"grpc-service-name":"@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam"},"reality-opts":{"public-key":"u2Xf8Og6H4iPcoYIZC8Cm8ziH2LA4ifvpHxEpp8bfUw","short-id":"4c5aaad0"}}
   - {"name":"❔XX | 🔴 | vless | @vpn_go67 | 19","type":"vless","server":"public.alpanel.top","port":1403,"udp":true,"uuid":"671b9a72-7c75-46b9-be82-db2734bae2fc","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"tuyacn.com","grpc-opts":{"grpc-service-name":"@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam,@vmesskhodam"},"reality-opts":{"public-key":"rCdor1DLbQcXbNBD9aiLIoCYHwqTMh8ao9MIPMXo0yA","short-id":"99"}}
+  - {"name":"🇳🇱NL | 🔴 | vless | @GozargahVPN | 10","type":"vless","server":"142.93.133.94","port":443,"udp":true,"uuid":"437d47c9-18b5-471f-b91d-8716f90ecef5","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"applepay.cdn-apple.com","grpc-opts":{"grpc-service-name":"@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN-@GozargahVPN"},"reality-opts":{"public-key":"QCnbjMlzSdZkUdwD2lFQ6N2EZJ8hi7wgND67f_Pqlg0"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -150,6 +151,7 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | vless | @FreakConfig | 6'
       - '❔XX | 🔴 | vless | @vpn_go67 | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 19'
+      - '🇳🇱NL | 🔴 | vless | @GozargahVPN | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -168,6 +170,7 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | vless | @FreakConfig | 6'
       - '❔XX | 🔴 | vless | @vpn_go67 | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 19'
+      - '🇳🇱NL | 🔴 | vless | @GozargahVPN | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -185,6 +188,7 @@ proxy-groups:
       - '🇳🇱NL | 🟢 | vless | @FreakConfig | 6'
       - '❔XX | 🔴 | vless | @vpn_go67 | 18'
       - '❔XX | 🔴 | vless | @vpn_go67 | 19'
+      - '🇳🇱NL | 🔴 | vless | @GozargahVPN | 10'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
