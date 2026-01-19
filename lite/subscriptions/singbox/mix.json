@@ -132,7 +132,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 4",
-                "🇸🇪SE | 🟢 | vless | @V2rayNGn | 10",
+                "🇵🇹PT | 🟢 | vless | @V2rayNGn | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 19",
@@ -170,13 +170,14 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
+                "🇨🇿CZ | 🔴 | vless | @ConfigsHUB | 19",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 1",
@@ -229,7 +230,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 4",
-                "🇸🇪SE | 🟢 | vless | @V2rayNGn | 10",
+                "🇵🇹PT | 🟢 | vless | @V2rayNGn | 10",
                 "🇺🇸US | 🔴 | vless | @V2rayNGn | 11",
                 "🇫🇷FR | 🟢 | trojan | @PrivateVPNs | 18",
                 "🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 19",
@@ -267,13 +268,14 @@
                 "🇩🇪DE | 🔴 | vless | @SafeNet_Server | 0",
                 "🇺🇸US | 🔴 | vless | @lrnbymaa | 6",
                 "🇦🇲AM | 🔴 | vless | @lrnbymaa | 7",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+                "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
+                "🇨🇿CZ | 🔴 | vless | @ConfigsHUB | 19",
                 "🇭🇰HK | 🔴 | vless | @proxystore11 | 2",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
                 "🇬🇧GB | 🔴 | vless | @Capoit | 1",
@@ -909,7 +911,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @V2rayNGn | 10",
+            "tag": "🇵🇹PT | 🟢 | vless | @V2rayNGn | 10",
             "type": "vless",
             "server": "ip-range.coin.name.ng",
             "server_port": 8443,
@@ -1807,11 +1809,40 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "🇫🇷FR | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "165.22.76.143",
-            "server_port": 443,
-            "uuid": "b7f3b0bc-9173-4b5d-8bf9-3f274e70ea1e",
+            "server": "fr.atlanta-internet.ru",
+            "server_port": 8443,
+            "uuid": "669be00c-67b4-4b87-b08f-311c45abced2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pingless.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇿CZ | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "194.182.79.163",
+            "server_port": 45153,
+            "uuid": "15efde17-96f5-4cc5-b4d5-1d0ef1e03b6e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1820,11 +1851,11 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "165.22.76.143"
-                }
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1929,7 +1960,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "cold-dawn-9246.fly.dev",
             "server_port": 443,
@@ -1963,7 +1994,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "104.19.38.18",
             "server_port": 2052,
