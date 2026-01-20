@@ -114,8 +114,6 @@
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 12",
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 18",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇯🇵JP | 🟢 | vless | @free1_vpn | 1",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
@@ -136,8 +134,6 @@
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 12",
                 "🇫🇮FI | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
-                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 18",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
                 "🇯🇵JP | 🟢 | vless | @free1_vpn | 1",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
@@ -408,64 +404,6 @@
                     "enabled": true,
                     "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "216.106.189.166",
-            "server_port": 8443,
-            "uuid": "dc2a5a85-afcc-4977-bda6-249722d19a37",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tradingview.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
-                    "short_id": "ece180c605b5453c"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "109.107.166.133",
-            "server_port": 8443,
-            "uuid": "55e9b476-53fb-4a91-9d0e-48098267d926",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sun6-22.userapi.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0",
-                    "short_id": "808e2d36726ee97e"
                 }
             }
         },
