@@ -110,10 +110,12 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇹🇷TR | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 37",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 38",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 11",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ]
@@ -126,10 +128,12 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇹🇷TR | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 37",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 38",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @Hope_Net | 11",
+                "🇸🇪SE | 🟢 | vmess | @Hope_Net | 11",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ],
@@ -239,6 +243,74 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 37",
+            "type": "vmess",
+            "server": "chatgpt.com",
+            "server_port": 443,
+            "uuid": "ac158da9-7ec9-4e23-a6d7-80836da39895",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dl3.hupcloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dl3.hupcloud.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 38",
+            "type": "vmess",
+            "server": "chatgpt.com",
+            "server_port": 443,
+            "uuid": "235a5c32-da94-4b9e-ace1-91e5c0ee9dda",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "S1.shahanpanel.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "S1.shahanpanel.link"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -299,43 +371,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 2053,
-            "uuid": "00fb7867-95ad-4eaf-99f1-22255beb6251",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "104.17.148.22",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
-            "type": "vmess",
-            "server": "uk01.xiaoqi99.cf",
-            "server_port": 1022,
-            "uuid": "fbf813bf-8df7-4729-8e94-667b17544e0f",
+            "server": "172.67.171.56",
+            "server_port": 80,
+            "uuid": "27d46493-8693-4dc0-af97-0776591ad1a7",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -348,9 +386,43 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": "uk01.xiaoqi99.cf"
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vmess | @Hope_Net | 11",
+            "type": "vmess",
+            "server": "185.146.173.59",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
