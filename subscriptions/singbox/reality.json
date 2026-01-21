@@ -134,10 +134,14 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 3",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 5",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
+                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 2",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 3",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 11",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
                 "🇷🇺RU | 🟢 | vless | @proxystore11 | 1",
-                "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
+                "❔XX | 🟢 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
-                "🇷🇺RU | 🔴 | vless | @flyv2ray | 9",
+                "🇷🇺RU | 🔴 | vless | @flyv2ray | 15",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
                 "🇺🇸US | 🔴 | vless | @kiava | 1",
                 "🇺🇸US | 🔴 | vless | @kiava | 2",
@@ -199,10 +203,14 @@
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 3",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 5",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
+                "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 2",
+                "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 3",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 11",
+                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
                 "🇷🇺RU | 🟢 | vless | @proxystore11 | 1",
-                "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
+                "❔XX | 🟢 | vless | @proxystore11 | 3",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
-                "🇷🇺RU | 🔴 | vless | @flyv2ray | 9",
+                "🇷🇺RU | 🔴 | vless | @flyv2ray | 15",
                 "🇸🇪SE | 🔴 | vless | @kiava | 0",
                 "🇺🇸US | 🔴 | vless | @kiava | 1",
                 "🇺🇸US | 🔴 | vless | @kiava | 2",
@@ -1113,6 +1121,122 @@
             }
         },
         {
+            "tag": "🇬🇧GB | 🟢 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "45.140.167.94",
+            "server_port": 2096,
+            "uuid": "c274799d-6bbd-48a8-b985-e203217f79b2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "2606:4700:4700::1111",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IqnFESYrPnkV7KUaekX8cL8TSRwDZHuUIKmD0N99Fxc",
+                    "short_id": "2880ee24bb417d46"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "158.180.69.174",
+            "server_port": 39193,
+            "uuid": "29ac9b7e-b5ef-42e6-8c11-00441d6af76f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "download-installer.cdn.mozilla.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
+                    "short_id": "5c53b7e0"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "89.23.107.188",
+            "server_port": 443,
+            "uuid": "TMG_119293995",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_fLNb14FxS25F7oKOOeLGi4W0VV7FZoJyAPAOw2mqQc",
+                    "short_id": "c7196c06b2"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "130.193.59.3",
+            "server_port": 443,
+            "uuid": "dc117fd8-6edd-444b-a56a-9cfee67f7257",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
+                    "short_id": "8ba12e75110b7a9c"
+                }
+            }
+        },
+        {
             "tag": "🇷🇺RU | 🟢 | vless | @proxystore11 | 1",
             "type": "vless",
             "server": "87.242.100.82",
@@ -1142,7 +1266,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @proxystore11 | 3",
+            "tag": "❔XX | 🟢 | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "bshs-187271-isbshs-18181717.bawqrataaui.ir",
             "server_port": 1501,
@@ -1200,7 +1324,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @flyv2ray | 9",
+            "tag": "🇷🇺RU | 🔴 | vless | @flyv2ray | 15",
             "type": "vless",
             "server": "digishop.ruxsias.ramvadminshop.com",
             "server_port": 56222,
