@@ -129,8 +129,6 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 3",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
@@ -164,8 +162,6 @@
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🇩🇪DE | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
-                "🇨🇳CN | 🟢 | vmess | @Hope_Net | 3",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
@@ -666,47 +662,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/video\/GQ2qE5Us9g",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 2",
-            "type": "vmess",
-            "server": "183.238.202.173",
-            "server_port": 51193,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇳CN | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "120.232.240.56",
-            "server_port": 16928,
-            "uuid": "5f6b3c3f-b0a8-33f5-95c6-371f8c6af973",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v2ray",
                 "headers": {
                     "Host": ""
                 }
