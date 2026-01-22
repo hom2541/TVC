@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 14",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 18",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 12",
@@ -123,7 +122,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | 🔴 | vless | @ARv2ray | 14",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇩🇪DE | 🔴 | vless | @CUSTOMVPNSERVER | 18",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 12",
@@ -154,42 +152,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 14",
-            "type": "vless",
-            "server": "185.234.65.143",
-            "server_port": 4423,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uXUe3HEy4MjZ2nqFa8eMxxB24AxQEbxGdEAbdjxEMgQ",
-                    "short_id": "7a0bea4731381dda"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2rayy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
         },
         {
             "tag": "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
@@ -375,6 +337,35 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @kiava | 26",
             "type": "vless",
+            "server": "44.195.26.151",
+            "server_port": 443,
+            "uuid": "ffc72831-b9d7-4ad5-9f42-1a3e1b9e438d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8dXXyqUHrV8BA_p1rtXczvvUCCkIPPcCQOMLz8Kglm0",
+                    "short_id": "72e10a"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kiava | 27",
+            "type": "vless",
             "server": "18.213.246.134",
             "server_port": 443,
             "uuid": "9b580363-e1d2-443d-89b4-75836b6c0e4c",
@@ -397,35 +388,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "GaKaPbKnpd9HXEnDwp_N84e8e-bh4W5Ht1V1JmnUyQw",
-                    "short_id": "9d19629262"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kiava | 27",
-            "type": "vless",
-            "server": "98.82.19.157",
-            "server_port": 443,
-            "uuid": "497938d1-5383-4b7e-b276-07e62387360d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "juzywey621hi-9050fwF9aN6KfYkO9ICP7L41vRDiiI",
                     "short_id": "9d19629262"
                 }
             }
