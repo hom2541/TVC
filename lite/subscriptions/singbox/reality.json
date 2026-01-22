@@ -113,8 +113,8 @@
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 12",
+                "🇹🇷TR | 🟢 | vless | @vmessorg | 34",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 6",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
                 "🇺🇸US | 🔴 | vless | @kiava | 26",
@@ -134,8 +134,8 @@
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 12",
+                "🇹🇷TR | 🟢 | vless | @vmessorg | 34",
                 "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
                 "🇳🇱NL | 🟢 | vless | @proxystore11 | 6",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 6",
                 "🇺🇸US | 🔴 | vless | @kiava | 26",
@@ -381,6 +381,35 @@
             }
         },
         {
+            "tag": "🇹🇷TR | 🟢 | vless | @vmessorg | 34",
+            "type": "vless",
+            "server": "107.161.174.155",
+            "server_port": 8443,
+            "uuid": "48845b16-2920-467d-ad47-cb897df93e76",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.latimes.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JwcYeOFGhlDbhTr44h7L7GCE9lirqgd8qSqsBNnX1Dk",
+                    "short_id": "05de51b169e897de"
+                }
+            }
+        },
+        {
             "tag": "🇰🇷KR | 🔴 | vless | @DailyV2RY | 19",
             "type": "vless",
             "server": "8.220.219.39",
@@ -406,35 +435,6 @@
                     "enabled": true,
                     "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "sp.download100.ir",
-            "server_port": 6005,
-            "uuid": "4321c760-b7ec-4d09-9928-933ae35978db",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OitwUdqlEAuXnUN5Yt2D9SOeYRc0bAoo4hfMMBCyaiU",
-                    "short_id": "609fa05109af62f1"
                 }
             }
         },
