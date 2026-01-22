@@ -337,6 +337,35 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @kiava | 26",
             "type": "vless",
+            "server": "44.222.95.250",
+            "server_port": 443,
+            "uuid": "709a48e3-f14d-4817-9661-4f6b98214954",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HBLaseMw_WXSGMZ0klzaSyNKOca3ytEWtb1-L8fKuls",
+                    "short_id": "f2bd6e14"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @kiava | 27",
+            "type": "vless",
             "server": "44.195.26.151",
             "server_port": 443,
             "uuid": "ffc72831-b9d7-4ad5-9f42-1a3e1b9e438d",
@@ -360,35 +389,6 @@
                     "enabled": true,
                     "public_key": "8dXXyqUHrV8BA_p1rtXczvvUCCkIPPcCQOMLz8Kglm0",
                     "short_id": "72e10a"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kiava | 27",
-            "type": "vless",
-            "server": "18.213.246.134",
-            "server_port": 443,
-            "uuid": "9b580363-e1d2-443d-89b4-75836b6c0e4c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GaKaPbKnpd9HXEnDwp_N84e8e-bh4W5Ht1V1JmnUyQw",
-                    "short_id": "9d19629262"
                 }
             }
         },
