@@ -119,7 +119,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇭🇰HK | 🟢 | vmess | @proxystore11 | 5",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
@@ -159,7 +160,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 15",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇭🇰HK | 🟢 | vmess | @proxystore11 | 5",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
@@ -423,7 +425,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
+            "tag": "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "type": "vmess",
+            "server": "172.66.40.229",
+            "server_port": 8443,
+            "uuid": "f9227d36-b630-4758-8805-cf16a47e4e63",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lithusha.riyon.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/lithusha",
+                "headers": {
+                    "Host": "lithusha.riyon.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "ssr-de-152.rosena.ggff.net",
             "server_port": 14080,
