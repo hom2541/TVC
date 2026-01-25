@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 8",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ]
@@ -120,8 +119,7 @@
             "outbounds": [
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 8",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ],
@@ -211,11 +209,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "37.114.53.223",
-            "server_port": 3307,
-            "uuid": "a861157a-e465-44bf-8a81-338cf1aa030b",
+            "server": "144.31.247.25",
+            "server_port": 19065,
+            "uuid": "bde6931c-7cb2-4654-98a7-f32c46f0e16b",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -225,53 +223,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nobitex.ir",
+                "server_name": "www.latimes.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3u3zdIGxebaKEVMQs5PL9IjPLbO4fMKVtHAIkn_0ph0",
-                    "short_id": "e2abaab23527ed3f"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Contact-->discord:sadra",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @flyv2ray | 8",
-            "type": "vless",
-            "server": "ss.02020.sbs",
-            "server_port": 8443,
-            "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dropbox.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "safari"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+                    "public_key": "Ur7GsMISFGoltpbGPhGGuptwm9spqHs_Y5eumIKirDM",
+                    "short_id": "761ffb8b"
                 }
             }
         },
