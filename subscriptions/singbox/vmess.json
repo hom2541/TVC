@@ -123,11 +123,8 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 15",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 12",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 2",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 3",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 12",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇭🇰HK | 🟢 | vmess | @proxystore11 | 5",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -135,7 +132,6 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @fnet00 | 8",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
@@ -164,11 +160,8 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 15",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @prrofile_purple | 12",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 2",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 3",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 12",
-                "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 13",
                 "🇭🇰HK | 🟢 | vmess | @proxystore11 | 5",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -176,7 +169,6 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 1",
                 "🚩CF | 🟢 | vmess | @fnet00 | 8",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
@@ -524,6 +516,23 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @prrofile_purple | 12",
+            "type": "vmess",
+            "server": "172.234.132.232",
+            "server_port": 10001,
+            "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
             "type": "vmess",
             "server": "yichueng.org",
@@ -555,74 +564,6 @@
                 "headers": {
                     "Host": "yichueng.org"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 2",
-            "type": "vmess",
-            "server": "cDN-3.GxNeT.cAm",
-            "server_port": 3008,
-            "uuid": "8e8e2d17-7bc9-441c-b9d7-697b5446b251",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 3",
-            "type": "vmess",
-            "server": "cDN-3.GxNeT.cAm",
-            "server_port": 4951,
-            "uuid": "8e8e2d17-7bc9-441c-b9d7-697b5446b251",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 12",
-            "type": "vmess",
-            "server": "91.206.171.169",
-            "server_port": 8083,
-            "uuid": "7b84451c-ad72-42b4-b556-0266e1b750f5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | @ConfigsHUB | 13",
-            "type": "vmess",
-            "server": "91.206.171.169",
-            "server_port": 8085,
-            "uuid": "7b84451c-ad72-42b4-b556-0266e1b750f5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -813,30 +754,6 @@
                 "path": "\/&Telegram🇨🇳 @WangCai2",
                 "headers": {
                     "Host": "104.19.47.168"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 1",
-            "type": "vmess",
-            "server": "104.17.148.128",
-            "server_port": 80,
-            "uuid": "2d14e84b-226b-412a-9a3c-ffce70b02bdf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.17.148.128"
                 }
             }
         },
