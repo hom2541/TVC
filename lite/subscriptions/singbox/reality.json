@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ]
@@ -119,7 +118,6 @@
             "outbounds": [
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ],
@@ -205,35 +203,6 @@
                     "enabled": true,
                     "public_key": "WRbzjN-95L5QSe2N4RPgFoXSBtlTs8G18_VSm2ict1k",
                     "short_id": "36306863"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "144.31.247.25",
-            "server_port": 19065,
-            "uuid": "bde6931c-7cb2-4654-98a7-f32c46f0e16b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.latimes.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Ur7GsMISFGoltpbGPhGGuptwm9spqHs_Y5eumIKirDM",
-                    "short_id": "761ffb8b"
                 }
             }
         },
