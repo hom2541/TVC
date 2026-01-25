@@ -122,14 +122,16 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 10",
-                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 27",
-                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 30",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 38",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 39",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 40",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 43",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 0",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 4",
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 12",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 1",
                 "🇬🇧GB | 🟢 | vless | @proxystore11 | 1",
                 "🇵🇱PL | 🟢 | vless | @proxystore11 | 2",
                 "🇷🇺RU | 🔴 | vless | @kiava | 1",
@@ -173,14 +175,16 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 3",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 5",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 10",
-                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 27",
-                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 30",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 38",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 39",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 40",
+                "🇳🇱NL | 🟢 | vless | @prrofile_purple | 43",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 0",
                 "🇳🇱NL | 🟢 | vless | @customv2ray | 4",
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
-                "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 12",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 1",
                 "🇬🇧GB | 🟢 | vless | @proxystore11 | 1",
                 "🇵🇱PL | 🟢 | vless | @proxystore11 | 2",
                 "🇷🇺RU | 🔴 | vless | @kiava | 1",
@@ -709,7 +713,65 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @prrofile_purple | 27",
+            "tag": "🇷🇺RU | 🟢 | vless | @prrofile_purple | 38",
+            "type": "vless",
+            "server": "45.129.2.84",
+            "server_port": 7443,
+            "uuid": "06ced943-82ef-4145-b480-56c048047df0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "77.88.8.8",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @prrofile_purple | 39",
+            "type": "vless",
+            "server": "37.139.33.57",
+            "server_port": 8443,
+            "uuid": "232cfc27-281b-4f61-9ece-f6638acfeef7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
+                    "short_id": "6419bed7fd0a2cff"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @prrofile_purple | 40",
             "type": "vless",
             "server": "37.139.33.57",
             "server_port": 51101,
@@ -738,7 +800,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @prrofile_purple | 30",
+            "tag": "🇳🇱NL | 🟢 | vless | @prrofile_purple | 43",
             "type": "vless",
             "server": "test.country-8.eu-ffast.com",
             "server_port": 443,
@@ -912,11 +974,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @ConfigsHUB | 12",
+            "tag": "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "ss.02020.sbs",
-            "server_port": 8443,
-            "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
+            "server": "144.31.2.86",
+            "server_port": 443,
+            "uuid": "bd40d3c6-ac3d-4845-bb3a-adfd172e30a8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -926,17 +988,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dropbox.com",
+                "server_name": "google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
+                    "public_key": "PuHKrJNt4shNVTNZ_leD7SmOI0QhxJ9SVnkV70i1xho",
+                    "short_id": "cbdfef7f3ede2072"
                 }
             }
         },
