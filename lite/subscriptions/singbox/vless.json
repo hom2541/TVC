@@ -148,8 +148,6 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 1",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
@@ -160,8 +158,8 @@
                 "🇨🇭CH | 🔴 | vless | @FreakConfig | 5",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 6",
                 "🇭🇰HK | 🔴 | vless | @flyv2ray | 7",
-                "🇺🇸US | 🔴 | vless | @kiava | 27",
-                "🇺🇸US | 🔴 | vless | @kiava | 28",
+                "🇩🇪DE | 🟢 | vless | @kiava | 25",
+                "🇳🇱NL | 🔴 | vless | @kiava | 26",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "🇮🇷IR | 🔴 | vless | @GozargahVPN | 7",
@@ -217,8 +215,6 @@
                 "🇫🇷FR | 🔴 | vless | @VmessProtocol | 1",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-                "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 14",
                 "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 9",
@@ -229,8 +225,8 @@
                 "🇨🇭CH | 🔴 | vless | @FreakConfig | 5",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 6",
                 "🇭🇰HK | 🔴 | vless | @flyv2ray | 7",
-                "🇺🇸US | 🔴 | vless | @kiava | 27",
-                "🇺🇸US | 🔴 | vless | @kiava | 28",
+                "🇩🇪DE | 🟢 | vless | @kiava | 25",
+                "🇳🇱NL | 🔴 | vless | @kiava | 26",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "🇮🇷IR | 🔴 | vless | @GozargahVPN | 7",
@@ -1247,41 +1243,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "c0f973a2-3631-4590-9cfb-b513d174717d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🔴 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "FaStly2.YaShArMoBiLe.cOm",
-            "server_port": 8880,
-            "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2080",
-                "headers": {
-                    "Host": "FaStly2.YaShArMoBiLe.cOm"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 7",
             "type": "vless",
             "server": "109.122.197.172",
@@ -1548,26 +1509,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kiava | 27",
+            "tag": "🇩🇪DE | 🟢 | vless | @kiava | 25",
             "type": "vless",
-            "server": "151.101.25.242",
-            "server_port": 80,
-            "uuid": "13a33102-c0ce-488d-9558-694c62726574",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @kiava | 28",
-            "type": "vless",
-            "server": "104.18.32.47",
+            "server": "185.126.67.73",
             "server_port": 443,
-            "uuid": "72f175f6-e2e4-4bb7-9165-8de10dd6c463",
-            "flow": "",
+            "uuid": "95abaefc-7861-417a-81b7-166cb788ce1a",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1576,19 +1523,38 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "starping.starpingshop.org",
+                "server_name": "apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU",
+                    "short_id": "00684d2eae2cdd16"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @kiava | 26",
+            "type": "vless",
+            "server": "185.229.251.44",
+            "server_port": 8080,
+            "uuid": "80746ab5-6c08-4a35-c2f8-558577613f64",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "starping.starpingshop.org"
+                    "Host": "185.229.251.44"
                 }
             }
         },
