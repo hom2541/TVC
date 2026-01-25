@@ -107,10 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
-                "🇱🇹LT | 🔴 | vless | @vmessorg | 35",
-                "🇷🇺RU | 🟢 | vless | @vmessorg | 36",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 5",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ]
@@ -120,10 +118,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
-                "🇱🇹LT | 🔴 | vless | @vmessorg | 35",
-                "🇷🇺RU | 🟢 | vless | @vmessorg | 36",
                 "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 5",
+                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ],
@@ -184,71 +180,6 @@
             }
         },
         {
-            "tag": "🇱🇹LT | 🔴 | vless | @vmessorg | 35",
-            "type": "vless",
-            "server": "5.199.162.232",
-            "server_port": 2083,
-            "uuid": "95abaefc-7861-417a-81b7-166cb788ce1a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
-                    "short_id": "6da16b1335651b38"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "UpdateService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @vmessorg | 36",
-            "type": "vless",
-            "server": "109.172.101.234",
-            "server_port": 443,
-            "uuid": "4fe214fb-048e-431f-b939-4518dc9df6a2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sun6-21.userapi.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5JkeRhrvxxdW7Y-jJNnvMUZ6W37yWegXl4-Ea-zl9BU",
-                    "short_id": "89bee0f1e450d3cf"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮FI | 🔴 | vless | @MehradLearn | 2",
             "type": "vless",
             "server": "komki.marras1300.com",
@@ -278,11 +209,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 11",
             "type": "vless",
-            "server": "test.country-8.eu-ffast.com",
-            "server_port": 443,
-            "uuid": "74be5a30-e7ca-47fa-9e6a-8d602739ec6c",
+            "server": "84.21.189.63",
+            "server_port": 8080,
+            "uuid": "0b12f5e0-b23e-4555-96d0-ced10fe6e4f3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -292,17 +223,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ams.eu-ffast.com",
+                "server_name": "www.latimes.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-                    "short_id": "50"
+                    "public_key": "KzxTSXu6qhbthLT4RtoFFeNa0vvG6ehwHGNPahg0en0",
+                    "short_id": "be7084"
                 }
             }
         },
