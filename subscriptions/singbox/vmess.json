@@ -122,7 +122,8 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 0",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 58",
                 "🇨🇦CA | 🟢 | vmess | @prrofile_purple | 59",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 90",
@@ -136,8 +137,7 @@
                 "🚩CF | 🟢 | vmess | @fnet00 | 8",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 2",
-                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 1"
+                "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ]
         },
         {
@@ -160,7 +160,8 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 0",
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 18",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 58",
                 "🇨🇦CA | 🟢 | vmess | @prrofile_purple | 59",
                 "🇺🇸US | 🟢 | vmess | @prrofile_purple | 90",
@@ -174,8 +175,7 @@
                 "🚩CF | 🟢 | vmess | @fnet00 | 8",
                 "🇯🇵JP | 🟢 | vmess | @v2Line | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
-                "🇺🇸US | 🟢 | vmess | @v2Line | 2",
-                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 1"
+                "🇺🇸US | 🟢 | vmess | @v2Line | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -494,7 +494,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "type": "vmess",
+            "server": "69.63.210.35",
+            "server_port": 24943,
+            "uuid": "a89feda9-ec30-48c1-ae6b-1a6f5b573f6b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/a89feda9-ec30-48c1-ae6b-1a6f5b573f6b-vm",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": "47.251.91.241",
             "server_port": 42899,
@@ -900,23 +924,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 1",
-            "type": "vmess",
-            "server": "t.aiteamplus.ir",
-            "server_port": 6020,
-            "uuid": "7f5d5bc0-1ae1-44a2-a85e-d5d50e79e0ac",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         }
     ],
