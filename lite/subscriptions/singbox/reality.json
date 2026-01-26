@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇦🇱AL | 🔴 | vless | @UnlimitedDev | 9",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🟢 | vless | @vmessorg | 23",
                 "🇬🇧GB | 🟢 | vless | @proxystore11 | 4",
+                "🇹🇷TR | 🔴 | vless | @kiava | 53",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ]
@@ -120,8 +121,9 @@
             "outbounds": [
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇦🇱AL | 🔴 | vless | @UnlimitedDev | 9",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+                "🇳🇱NL | 🟢 | vless | @vmessorg | 23",
                 "🇬🇧GB | 🟢 | vless | @proxystore11 | 4",
+                "🇹🇷TR | 🔴 | vless | @kiava | 53",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ],
@@ -211,11 +213,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+            "tag": "🇳🇱NL | 🟢 | vless | @vmessorg | 23",
             "type": "vless",
-            "server": "202.148.53.142",
-            "server_port": 8443,
-            "uuid": "120cedcb-c8a0-4096-8fa0-137b041d41ed",
+            "server": "ndt.fasti.win",
+            "server_port": 443,
+            "uuid": "3bd011c9-c5ec-4024-8aaa-6d79db4e97d3",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -225,17 +227,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pingless.com",
+                "server_name": "ndt.fasti.win",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI",
-                    "short_id": ""
+                    "public_key": "XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs",
+                    "short_id": "992f3294e2336744"
                 }
             }
         },
@@ -265,6 +267,35 @@
                     "enabled": true,
                     "public_key": "4Nl2QYNNS6Cl_b0PJJ07mLRjc_ABly6FtFLuCtDMo3w",
                     "short_id": "c1"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🔴 | vless | @kiava | 53",
+            "type": "vless",
+            "server": "tr-node.vopn.net",
+            "server_port": 443,
+            "uuid": "f4695c75-13cc-45d7-b06e-6d86c3165a42",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tr-node.vopn.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lBCt9m_PzWWdm1HvyZtJyCupmcySkfphwArSyPLPKXk",
+                    "short_id": "63c359bdc3f8562b"
                 }
             }
         },
