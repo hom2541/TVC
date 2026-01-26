@@ -129,9 +129,8 @@
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 8",
-                "🇬🇧GB | 🟢 | vless | @proxystore11 | 1",
-                "🇵🇱PL | 🟢 | vless | @proxystore11 | 2",
+                "🇬🇧GB | 🟢 | vless | @proxystore11 | 2",
+                "🇵🇱PL | 🟢 | vless | @proxystore11 | 3",
                 "🇷🇺RU | 🔴 | vless | @kiava | 37",
                 "🇷🇺RU | 🔴 | vless | @kiava | 38",
                 "🇷🇺RU | 🔴 | vless | @kiava | 39",
@@ -180,9 +179,8 @@
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
-                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 8",
-                "🇬🇧GB | 🟢 | vless | @proxystore11 | 1",
-                "🇵🇱PL | 🟢 | vless | @proxystore11 | 2",
+                "🇬🇧GB | 🟢 | vless | @proxystore11 | 2",
+                "🇵🇱PL | 🟢 | vless | @proxystore11 | 3",
                 "🇷🇺RU | 🔴 | vless | @kiava | 37",
                 "🇷🇺RU | 🔴 | vless | @kiava | 38",
                 "🇷🇺RU | 🔴 | vless | @kiava | 39",
@@ -912,36 +910,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 8",
-            "type": "vless",
-            "server": "santa-clara-02.ptu.ink",
-            "server_port": 443,
-            "uuid": "e5041986-523e-4311-95ea-de6e667e67f4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.microsoft.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Z_V0NAxK8Srw4gsBd3LvF53JCgvP3ihwH9yxKVu5Q0U",
-                    "short_id": "2bab2c945dcd675f"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | vless | @proxystore11 | 1",
+            "tag": "🇬🇧GB | 🟢 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "5bra.solonettochka.ru",
             "server_port": 443,
@@ -970,7 +939,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @proxystore11 | 2",
+            "tag": "🇵🇱PL | 🟢 | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "pl.spirako.com",
             "server_port": 443,
