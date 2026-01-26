@@ -107,6 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
+                "🇦🇱AL | 🔴 | vless | @UnlimitedDev | 9",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
                 "🇬🇧GB | 🟢 | vless | @proxystore11 | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -117,6 +119,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
+                "🇦🇱AL | 🔴 | vless | @UnlimitedDev | 9",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
                 "🇬🇧GB | 🟢 | vless | @proxystore11 | 4",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -175,6 +179,64 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇦🇱AL | 🔴 | vless | @UnlimitedDev | 9",
+            "type": "vless",
+            "server": "78.159.131.23",
+            "server_port": 443,
+            "uuid": "c38e6142-9223-47ef-84ce-2a84a308cafb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "al.cdn.stun.su",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
+                    "short_id": "b0207954e822d0e4"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "202.148.53.142",
+            "server_port": 8443,
+            "uuid": "120cedcb-c8a0-4096-8fa0-137b041d41ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pingless.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FscaEWx0paNBzL7GWHj4Fll7Xc-KxdhKgTthBAnByWI",
+                    "short_id": ""
+                }
             }
         },
         {
