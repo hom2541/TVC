@@ -110,6 +110,7 @@
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇦🇱AL | 🔴 | vless | @UnlimitedDev | 9",
+                "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ]
@@ -122,6 +123,7 @@
                 "🇷🇺RU | 🔴 | vless | @rxv2ray | 9",
                 "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 11",
                 "🇦🇱AL | 🔴 | vless | @UnlimitedDev | 9",
+                "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ],
@@ -265,6 +267,35 @@
                     "enabled": true,
                     "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
                     "short_id": "b0207954e822d0e4"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸ES | 🟢 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "es-1.seemsflower.ru",
+            "server_port": 8443,
+            "uuid": "df7f9ba3-ea64-4275-b2aa-d4fef07d9ab7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "samsung.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
