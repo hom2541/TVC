@@ -123,9 +123,9 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 75",
+                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 79",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 11",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -160,9 +160,9 @@
                 "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🚩CF | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 75",
+                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 79",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
-                "🚩CF | 🟢 | vmess | @ConfigsHUB | 11",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -499,7 +499,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 75",
+            "tag": "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 79",
             "type": "vmess",
             "server": "sezarlink.storm1.ir",
             "server_port": 8080,
@@ -550,11 +550,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 11",
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 0",
             "type": "vmess",
-            "server": "172.67.204.84",
-            "server_port": 8080,
-            "uuid": "nasnet",
+            "server": "162.159.5.245",
+            "server_port": 8443,
+            "uuid": "6bad5162-c626-43ce-a4da-f8c7d9e6846f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -565,11 +565,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jhgdsfuysojjhffgkhgfyiyludysgfkhgdfksytiyef.vajiko.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/nasnet\/cdn",
+                "path": "\/jhgdsfuysojjhffgkhgfyiyludysgfkhgdfksytiyef",
                 "headers": {
-                    "Host": ""
+                    "Host": "jhgdsfuysojjhffgkhgfyiyludysgfkhgdfksytiyef.vajiko.ir"
                 }
             }
         },
