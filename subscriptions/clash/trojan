@@ -159,7 +159,8 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | @DirectVPN | 18","type":"trojan","server":"18.198.0.30","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | @DirectVPN | 19","type":"trojan","server":"15.236.72.233","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"104.17.163.123","port":8443,"udp":false,"password":"wz2vh0awz8iw","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"y98fk7q84z0wfcjuirh.zjde5.de5.net"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"172.64.152.23","port":443,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 4","type":"trojan","server":"104.16.223.200","port":443,"udp":false,"password":"11fd7d06-a1fb-4a47-a490-e0a62d1e1c0e","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"young-water-da76.shbanysrwsh.workers.dev"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -207,7 +208,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 18'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 19'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 18'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -255,7 +257,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 18'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 19'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 18'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -302,7 +305,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | @DirectVPN | 18'
       - '🇫🇷FR | 🟢 | trojan | @DirectVPN | 19'
       - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 18'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
