@@ -147,8 +147,8 @@
                 "🇳🇱NL | 🔴 | vless | @MehradLearn | 2",
                 "🇦🇪AE | 🔴 | vless | @MehradLearn | 3",
                 "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 15",
+                "🇰🇿KZ | 🟢 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
@@ -216,8 +216,8 @@
                 "🇳🇱NL | 🔴 | vless | @MehradLearn | 2",
                 "🇦🇪AE | 🔴 | vless | @MehradLearn | 3",
                 "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
-                "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+                "🇺🇸US | 🟢 | vless | @ConfigsHUB | 15",
+                "🇰🇿KZ | 🟢 | vless | @ConfigsHUB | 16",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 2",
                 "🇺🇸US | 🔴 | vless | @proxystore11 | 3",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 0",
@@ -1261,11 +1261,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "🇺🇸US | 🟢 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "66.81.247.155",
+            "server": "172.67.186.255",
             "server_port": 443,
-            "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1275,7 +1275,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1285,24 +1285,39 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=512",
+                "path": "\/",
                 "headers": {
-                    "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @ConfigsHUB | 11",
+            "tag": "🇰🇿KZ | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "cls.1mrsub.site",
-            "server_port": 8880,
-            "uuid": "1221ce8d-3fb2-44d0-aae1-9fd00b7d5975",
-            "flow": "",
+            "server": "194.110.55.21",
+            "server_port": 443,
+            "uuid": "45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
+                }
             }
         },
         {
