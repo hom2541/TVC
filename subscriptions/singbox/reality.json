@@ -122,11 +122,13 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 6",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 8",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 13",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 79",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 87",
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
                 "🇫🇮FI | 🟢 | vless | @DailyV2RY | 2",
+                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 4",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 13",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 4",
                 "🇦🇪AE | 🟢 | vless | @kiava | 45",
@@ -167,11 +169,13 @@
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 6",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 8",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 13",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 79",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 87",
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
                 "🇫🇮FI | 🟢 | vless | @DailyV2RY | 2",
+                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 4",
+                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 13",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🟢 | vless | @flyv2ray | 4",
                 "🇦🇪AE | 🟢 | vless | @kiava | 45",
@@ -697,7 +701,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 79",
+            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 87",
             "type": "vless",
             "server": "94.141.123.12",
             "server_port": 558,
@@ -838,6 +842,64 @@
                     "enabled": true,
                     "public_key": "brMfFpfxMeNeqGqG0ZmWdwlnvZBfBTY92Jjyfz8Qyz4",
                     "short_id": "0274c94d298e"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "aws.vulltr.ir",
+            "server_port": 1005,
+            "uuid": "0eb73b59-9ec7-4b84-b011-2ef1959e0da0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aEyXUqZ4doy7Qse745h5IKGo31Jc2YEK3QOVaOuPPns",
+                    "short_id": "4f2087146c1f587a"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "80.79.4.129",
+            "server_port": 8443,
+            "uuid": "530fe089-007a-49e5-933e-177898374e3f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sun6-21.userapi.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+                    "short_id": "44103f58"
                 }
             }
         },
