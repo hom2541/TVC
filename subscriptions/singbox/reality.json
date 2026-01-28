@@ -126,7 +126,13 @@
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 2",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 3",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 6",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 7",
+                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 8",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 10",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 11",
                 "🇷🇺RU | 🟢 | vless | @iP_CF | 1",
                 "🇩🇪DE | 🟢 | vless | @kiava | 28",
                 "🇦🇪AE | 🟢 | vless | @kiava | 33",
@@ -171,7 +177,13 @@
                 "🇵🇱PL | 🟢 | vless | @FalconPolV2rayNG | 3",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 13",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 2",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 3",
+                "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 6",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 7",
+                "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 8",
+                "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 10",
+                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 11",
                 "🇷🇺RU | 🟢 | vless | @iP_CF | 1",
                 "🇩🇪DE | 🟢 | vless | @kiava | 28",
                 "🇦🇪AE | 🟢 | vless | @kiava | 33",
@@ -813,11 +825,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 10",
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "iar.blackhoster.com",
-            "server_port": 351,
-            "uuid": "563c07c5-d7a7-4f67-abee-ca323b5ce0ba",
+            "server": "uk1.miyazono-kaori.com",
+            "server_port": 443,
+            "uuid": "937f8940-ad8a-409f-93c3-4d6249af628f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -827,7 +839,152 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "www.bp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_dsOu_vxEU7pY3sIeGJxIpR0Ac2KoqIyBor2Bx0CwGA",
+                    "short_id": "d923"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "94.228.213.201",
+            "server_port": 443,
+            "uuid": "45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "48720c"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🔴 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "151.115.123.228",
+            "server_port": 443,
+            "uuid": "45e3b7ad-03b6-42fc-b616-1e92bdd0a5b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "86e999a2cdc2"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "208.67.105.196",
+            "server_port": 443,
+            "uuid": "c931b432-cbab-47f4-ae30-917b17e5fb1f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ameppwaxPsbMnl1d5xQ4nbkdiRLRQL7XLsFDwOv2XAY",
+                    "short_id": "ba2e91d5d7be"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭CH | 🔴 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "03030.sbs",
+            "server_port": 8443,
+            "uuid": "431dfd3c-728c-41f2-9c8f-cf0d3a75a008",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dropbox.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "uk2.miyazono-kaori.com",
+            "server_port": 443,
+            "uuid": "937f8940-ad8a-409f-93c3-4d6249af628f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.bp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -836,8 +993,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
-                    "short_id": "fd1dff03520d8f56"
+                    "public_key": "QdYs12kmf0mAXNOEPgMpLN5dbZUlgvRK2zCqynOmqBk",
+                    "short_id": "20"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "nl2.miyazono-kaori.com",
+            "server_port": 443,
+            "uuid": "937f8940-ad8a-409f-93c3-4d6249af628f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.philips.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Ax50I4wgBCS5ejrqH-QGRL28oyr5-ocbBw6U7rHFzXI",
+                    "short_id": "883d8dad940eb1"
                 }
             }
         },
