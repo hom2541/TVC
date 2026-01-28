@@ -108,8 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
@@ -127,8 +126,7 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
@@ -194,11 +192,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
-            "server": "157.230.153.13",
-            "server_port": 443,
-            "uuid": "d0563aa0-8fdd-481e-bf8a-ae3923c540b5",
+            "server": "94.232.247.165",
+            "server_port": 45653,
+            "uuid": "9e91d19a-c73f-4276-adbc-b337c374259c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,57 +206,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cg1c11.waimaojd.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/v1\/graphql",
-                "headers": {
-                    "Host": "cg1c11.waimaojd.com"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 5",
-            "type": "vmess",
-            "server": "46.17.43.220",
-            "server_port": 443,
-            "uuid": "d0563aa0-8fdd-481e-bf8a-ae3923c540b5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cg1c08.waimaojd.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/v1\/graphql",
-                "headers": {
-                    "Host": "cg1c08.waimaojd.com"
-                }
             }
         },
         {
@@ -322,9 +269,9 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "nodejs.org",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -337,41 +284,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hdfy1c1.cpiforpersia.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/QvtvPdDXXIlSdZMqnuxG",
-                "headers": {
-                    "Host": "hdfy1c1.cpiforpersia.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -383,7 +296,41 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 15",
+            "type": "vmess",
+            "server": "172.67.204.84",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
                 }
             }
         },
