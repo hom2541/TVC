@@ -112,8 +112,8 @@
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
@@ -131,8 +131,8 @@
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
-                "🇮🇷IR | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @fnet00 | 8",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
                 "🇺🇸US | 🟢 | vmess | @v2Line | 2",
@@ -303,11 +303,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "slime-rhinestone-spy.glitch.me",
-            "server_port": 443,
-            "uuid": "83a5c82d-a047-418e-9ad9-6ce8c5aaba59",
+            "server": "vm.dogyun.v2ty.top",
+            "server_port": 37916,
+            "uuid": "56bf566e-40e2-42f0-aede-57b00e1a2d12",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,30 +318,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess",
+                "path": "\/cctv13\/hd.m3u8",
                 "headers": {
-                    "Host": ""
+                    "Host": "vm.dogyun.v2ty.top"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "a8205f07-37bf-4882-acff-88c83c5695fa",
+            "server": "104.21.20.155",
+            "server_port": 443,
+            "uuid": "4804f14b-c1f8-452d-a6ec-eff1490aeac9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -354,7 +344,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kingo.hightechservice.ir",
+                "server_name": "hdfy6c3.foriran.trade",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -364,9 +354,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/lRkGCkYS9X5GDNJYMWXN7kCm3lL",
                 "headers": {
-                    "Host": "kingo.hightechservice.ir"
+                    "Host": "hdfy6c3.foriran.trade"
                 }
             }
         },
