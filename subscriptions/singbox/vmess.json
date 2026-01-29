@@ -125,7 +125,6 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 14",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 1",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -173,7 +172,6 @@
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 14",
                 "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇨🇦CA | 🟢 | vmess | @oneclickvpnkeys | 1",
-                "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @vmess_vless_v2rayng | 17",
                 "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
                 "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
@@ -627,40 +625,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/IOebhLMhl1CTbFHbL95myfRX2",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vmess | @oneclickvpnkeys | 4",
-            "type": "vmess",
-            "server": "46.246.126.154",
-            "server_port": 443,
-            "uuid": "f2fd0786-1059-4f64-d54e-3f3a568c6c68",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
                 "headers": {
                     "Host": ""
                 }
