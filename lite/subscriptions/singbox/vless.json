@@ -124,6 +124,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 2",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
                 "🇳🇱NL | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -147,7 +148,7 @@
                 "🇫🇮FI | 🟢 | vless | @DailyV2RY | 14",
                 "🇳🇱NL | 🔴 | vless | @MehradLearn | 2",
                 "❔XX | 🔴 | vless | @MehradLearn | 3",
-                "🇿🇦ZA | 🔴 | vless | @lrnbymaa | 4",
+                "🇦🇪AE | 🔴 | vless | @lrnbymaa | 4",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 5",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 2",
@@ -192,6 +193,7 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 1",
                 "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 2",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
                 "🇳🇱NL | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
@@ -215,7 +217,7 @@
                 "🇫🇮FI | 🟢 | vless | @DailyV2RY | 14",
                 "🇳🇱NL | 🔴 | vless | @MehradLearn | 2",
                 "❔XX | 🔴 | vless | @MehradLearn | 3",
-                "🇿🇦ZA | 🔴 | vless | @lrnbymaa | 4",
+                "🇦🇪AE | 🔴 | vless | @lrnbymaa | 4",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 5",
                 "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇮🇷IR | 🔴 | vless | @free1_vpn | 2",
@@ -697,6 +699,20 @@
                 "headers": {
                     "Host": "104.17.162.123"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "t.aparat-movies-download.ir",
+            "server_port": 42535,
+            "uuid": "d6bf6e21-f19c-4aaf-b4a5-c3a9a18a08f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1276,7 +1292,7 @@
             }
         },
         {
-            "tag": "🇿🇦ZA | 🔴 | vless | @lrnbymaa | 4",
+            "tag": "🇦🇪AE | 🔴 | vless | @lrnbymaa | 4",
             "type": "vless",
             "server": "ipbaz.ping-box.com",
             "server_port": 8443,
