@@ -106,9 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 11",
-                "🇫🇮FI | 🟢 | vless | @DailyV2RY | 16",
                 "🇩🇪DE | 🔴 | vless | @kiava | 52",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -119,9 +117,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 11",
-                "🇫🇮FI | 🟢 | vless | @DailyV2RY | 16",
                 "🇩🇪DE | 🔴 | vless | @kiava | 52",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -146,35 +142,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-            "type": "vless",
-            "server": "89.208.86.65",
-            "server_port": 443,
-            "uuid": "3a83ab7a-9b6f-460c-a128-1799f63695e3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tradingview.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
-                    "short_id": "f32140952ba18e18"
-                }
-            }
         },
         {
             "tag": "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 11",
@@ -202,35 +169,6 @@
                     "enabled": true,
                     "public_key": "lBCt9m_PzWWdm1HvyZtJyCupmcySkfphwArSyPLPKXk",
                     "short_id": "63c359bdc3f8562b"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @DailyV2RY | 16",
-            "type": "vless",
-            "server": "hield.ru",
-            "server_port": 3389,
-            "uuid": "5050caf4-5814-44ed-a81b-26db0abfabf3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "brMfFpfxMeNeqGqG0ZmWdwlnvZBfBTY92Jjyfz8Qyz4",
-                    "short_id": "0274c94d298e"
                 }
             }
         },
