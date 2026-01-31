@@ -118,9 +118,9 @@
                 "❔XX | 🔴 | vless | @shh_proxy | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 3",
-                "🇸🇬SG | 🔴 | vless | @rxv2ray | 4",
-                "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 18",
-                "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 19",
+                "❔XX | 🔴 | vless | @rxv2ray | 4",
+                "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 19",
+                "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 20",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 7",
                 "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 8",
@@ -134,6 +134,7 @@
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "❔XX | 🔴 | vless | @prrofile_purple | 90",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 91",
+                "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
                 "🇮🇷IR | 🔴 | vless | @UnlimitedDev | 6",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 7",
@@ -184,9 +185,9 @@
                 "❔XX | 🔴 | vless | @shh_proxy | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
                 "🇺🇸US | 🔴 | vless | @rxv2ray | 3",
-                "🇸🇬SG | 🔴 | vless | @rxv2ray | 4",
-                "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 18",
-                "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 19",
+                "❔XX | 🔴 | vless | @rxv2ray | 4",
+                "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 19",
+                "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 20",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @DarkTeam_VPN | 7",
                 "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 8",
@@ -200,6 +201,7 @@
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
                 "❔XX | 🔴 | vless | @prrofile_purple | 90",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 91",
+                "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
                 "🇮🇷IR | 🔴 | vless | @UnlimitedDev | 6",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 7",
@@ -573,7 +575,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @rxv2ray | 4",
+            "tag": "❔XX | 🔴 | vless | @rxv2ray | 4",
             "type": "vless",
             "server": "fn11.irsbv2.ir",
             "server_port": 443,
@@ -594,7 +596,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 18",
+            "tag": "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 19",
             "type": "vless",
             "server": "85.133.204.132",
             "server_port": 80,
@@ -615,7 +617,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 19",
+            "tag": "🇹🇷TR | 🔴 | vless | @CUSTOMVPNSERVER | 20",
             "type": "vless",
             "server": "tr-node.vopn.net",
             "server_port": 443,
@@ -1004,6 +1006,37 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "yyzsuabw9e3qd5ud7ihi5dxm96oglnsvr83cjojnm1efncfhr9ucordq.zjde5.de5.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
+            "type": "vless",
+            "server": "104.18.4.130",
+            "server_port": 8443,
+            "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "r4fnviw9jl4i4rx.zjde5.de5.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/XIXVPN?ed",
+                "headers": {
+                    "Host": "r4fnviw9jl4i4rx.zjde5.de5.net"
                 }
             }
         },
@@ -1450,6 +1483,37 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 15",
             "type": "vless",
+            "server": "104.18.32.47",
+            "server_port": 443,
+            "uuid": "c9b0932d-8d1c-43c5-b64b-e9a74719c76d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "freuddd.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hsdgsws",
+                "headers": {
+                    "Host": "freuddd.info"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
+            "type": "vless",
             "server": "104.17.163.123",
             "server_port": 8443,
             "uuid": "83adcc98-ac23-4e51-9ae0-788a73fd9939",
@@ -1475,37 +1539,6 @@
                 "path": "\/?ed",
                 "headers": {
                     "Host": "vjv62pggz1658fuliaf9lri7rra85l8utox0kjtogve4whop.zjde5.de5.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 16",
-            "type": "vless",
-            "server": "zzula.ir",
-            "server_port": 443,
-            "uuid": "c249ca6f-1bde-479b-af96-da0e948a3800",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zitel.digikala-aparat-zula.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/admin",
-                "headers": {
-                    "Host": "zitel.digikala-aparat-zula.com"
                 }
             }
         },
