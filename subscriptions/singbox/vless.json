@@ -239,6 +239,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 7",
@@ -255,7 +256,7 @@
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 19",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 20",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 21",
-                "🇩🇪DE | 🔴 | vless | @v2ray_swhil | 22",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 22",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 23",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 24",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 25",
@@ -597,6 +598,7 @@
                 "🇺🇸US | 🔴 | vless | @customv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 7",
@@ -613,7 +615,7 @@
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 19",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 20",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 21",
-                "🇩🇪DE | 🔴 | vless | @v2ray_swhil | 22",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 22",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 23",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 24",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 25",
@@ -4172,6 +4174,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1",
+            "type": "vless",
+            "server": "Cf.xuiprospeed.ir",
+            "server_port": 2096,
+            "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "meraj-nol.hhgksdghfggg.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "meraj-nol.hhgksdghfggg.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 5",
             "type": "vless",
             "server": "funnelytics.io",
@@ -4628,7 +4661,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2ray_swhil | 22",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 22",
             "type": "vless",
             "server": "Arv2ray.fastly80.hosting-ip.com",
             "server_port": 80,
