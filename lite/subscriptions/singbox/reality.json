@@ -109,7 +109,8 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇵🇱PL | 🔴 | vless | @proxy_kafee | 3",
                 "🇳🇱NL | 🟢 | vless | @proxy_kafee | 4",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
+                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 15",
+                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 8",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -127,7 +128,8 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇵🇱PL | 🔴 | vless | @proxy_kafee | 3",
                 "🇳🇱NL | 🟢 | vless | @proxy_kafee | 4",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
+                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 15",
+                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 8",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -245,7 +247,36 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 15",
+            "type": "vless",
+            "server": "100niggavs100.mrpixanos.ir",
+            "server_port": 4070,
+            "uuid": "4a9b3f56-a868-4c04-b877-59510560b676",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-XVO_AVyhvBv4PorM1tZ0eL2on5zD2Q80UEWO1unXAo",
+                    "short_id": "a5f7a9d97e282be9"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
             "type": "vless",
             "server": "morgentop.ru",
             "server_port": 52006,
