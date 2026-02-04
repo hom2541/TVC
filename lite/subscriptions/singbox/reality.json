@@ -107,8 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
-                "❔XX | 🔴 | vless | @proxy_kafee | 2",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
@@ -125,8 +125,8 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
-                "❔XX | 🔴 | vless | @proxy_kafee | 2",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
@@ -187,6 +187,35 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "festivity.top",
+            "server_port": 443,
+            "uuid": "e4840713-0708-4302-a5ff-7552c6362ed0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eh.vk.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KZvWAhkTcdXO5_pJCX9h0AzKL1ime5_ZHrHj9lYI-Fc",
+                    "short_id": "cca410"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @proxy_kafee | 1",
             "type": "vless",
             "server": "178.250.246.80",
@@ -212,35 +241,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 2",
-            "type": "vless",
-            "server": "tunnyl.ru",
-            "server_port": 3443,
-            "uuid": "863de463-ec18-4a5d-a5e8-bf5fe4187fec",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.bing.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VuGbF41ZZJnNSTXTnQiT59bug135kyLp6MNx0_rO2Bo",
-                    "short_id": "f2b23eb38f49f2"
                 }
             }
         },
