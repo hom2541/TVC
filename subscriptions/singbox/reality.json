@@ -114,7 +114,7 @@
                 "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @proxy_kafee | 2",
-                "❔XX | 🔴 | vless | @proxy_kafee | 4",
+                "❔XX | 🔴 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 3",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 5",
@@ -127,9 +127,9 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
-                "❔XX | 🟢 | vless | @prrofile_purple | 55",
-                "❔XX | 🟢 | vless | @prrofile_purple | 57",
-                "❔XX | 🟢 | vless | @prrofile_purple | 73",
+                "❔XX | 🟢 | vless | @prrofile_purple | 59",
+                "❔XX | 🟢 | vless | @prrofile_purple | 61",
+                "❔XX | 🟢 | vless | @prrofile_purple | 77",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 13",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
@@ -192,7 +192,7 @@
                 "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @proxy_kafee | 2",
-                "❔XX | 🔴 | vless | @proxy_kafee | 4",
+                "❔XX | 🔴 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 3",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 5",
@@ -205,9 +205,9 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
-                "❔XX | 🟢 | vless | @prrofile_purple | 55",
-                "❔XX | 🟢 | vless | @prrofile_purple | 57",
-                "❔XX | 🟢 | vless | @prrofile_purple | 73",
+                "❔XX | 🟢 | vless | @prrofile_purple | 59",
+                "❔XX | 🟢 | vless | @prrofile_purple | 61",
+                "❔XX | 🟢 | vless | @prrofile_purple | 77",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 10",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 13",
                 "❔XX | 🟢 | vless | @free1_vpn | 2",
@@ -432,6 +432,35 @@
         {
             "tag": "❔XX | 🔴 | vless | @proxy_kafee | 0",
             "type": "vless",
+            "server": "festivity.top",
+            "server_port": 443,
+            "uuid": "e4840713-0708-4302-a5ff-7552c6362ed0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eh.vk.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KZvWAhkTcdXO5_pJCX9h0AzKL1ime5_ZHrHj9lYI-Fc",
+                    "short_id": "cca410"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 1",
+            "type": "vless",
             "server": "178.250.246.80",
             "server_port": 1488,
             "uuid": "d6b1327d-2bec-4366-a3a1-9b1284f95841",
@@ -459,7 +488,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "tunnyl.ru",
             "server_port": 3443,
@@ -488,7 +517,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 2",
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "217.16.26.158",
             "server_port": 7443,
@@ -513,35 +542,6 @@
                     "enabled": true,
                     "public_key": "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs",
                     "short_id": "a20d3ed244c76426"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "pol01-rblx01.tcp-reset-club.net",
-            "server_port": 443,
-            "uuid": "e108f3eb-4d3a-4e20-a09b-7008e333bc23",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hls-svod.itunes.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
-                    "short_id": "86e999a2cdc2"
                 }
             }
         },
@@ -901,7 +901,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 55",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 59",
             "type": "vless",
             "server": "78.159.122.223",
             "server_port": 443,
@@ -930,7 +930,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 57",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 61",
             "type": "vless",
             "server": "8.219.75.210",
             "server_port": 443,
@@ -959,7 +959,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 73",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 77",
             "type": "vless",
             "server": "188.253.26.39",
             "server_port": 442,
