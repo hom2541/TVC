@@ -107,10 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🔴 | vless | @V2rayCollector | 0",
-                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 16",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 17",
-                "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
+                "🇷🇺RU | 🔴 | vless | @V2rayCollector | 1",
+                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 17",
+                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "🇩🇪DE | 🔴 | vless | @kiava | 52",
@@ -124,10 +123,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🔴 | vless | @V2rayCollector | 0",
-                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 16",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 17",
-                "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
+                "🇷🇺RU | 🔴 | vless | @V2rayCollector | 1",
+                "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 17",
+                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "🇩🇪DE | 🔴 | vless | @kiava | 52",
@@ -185,7 +183,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @V2rayCollector | 0",
+            "tag": "🇷🇺RU | 🔴 | vless | @V2rayCollector | 1",
             "type": "vless",
             "server": "178.250.246.80",
             "server_port": 1488,
@@ -214,7 +212,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 16",
+            "tag": "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 17",
             "type": "vless",
             "server": "100niggavs100.mrpixanos.ir",
             "server_port": 4070,
@@ -243,7 +241,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 17",
+            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 18",
             "type": "vless",
             "server": "morgentop.ru",
             "server_port": 52006,
@@ -268,35 +266,6 @@
                     "enabled": true,
                     "public_key": "4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik",
                     "short_id": "d8c6b58bcbb0c323"
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
-            "type": "vless",
-            "server": "212.111.85.1",
-            "server_port": 51102,
-            "uuid": "d4d031ec-0ba6-486a-aa0c-dce2b7cb8933",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "m.vk.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc",
-                    "short_id": "8f222b3475800821"
                 }
             }
         },
