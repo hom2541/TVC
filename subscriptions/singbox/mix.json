@@ -298,7 +298,6 @@
                 "🇦🇱AL | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🚩CF | 🔴 | vless | @customv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 6",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
@@ -460,12 +459,10 @@
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 2",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 3",
                 "🚩CF | 🔴 | vless | @FreakConfig | 4",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🚩CF | 🔴 | vless | @iP_CF | 0",
                 "🇮🇷IR | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
@@ -731,7 +728,6 @@
                 "🇦🇱AL | 🔴 | vless | @customv2ray | 1",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🚩CF | 🔴 | vless | @customv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @customv2ray | 6",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 1",
@@ -893,12 +889,10 @@
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 2",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 3",
                 "🚩CF | 🔴 | vless | @FreakConfig | 4",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 6",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 3",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 4",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 5",
-                "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
                 "🚩CF | 🔴 | vless | @iP_CF | 0",
                 "🇮🇷IR | 🔴 | vless | @mehrosaboran | 0",
                 "🇺🇸US | 🔴 | vless | @mehrosaboran | 2",
@@ -5625,37 +5619,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @customv2ray | 6",
-            "type": "vless",
-            "server": "v1.dabache.top",
-            "server_port": 443,
-            "uuid": "d89d6641-3b1a-4f51-a194-9c9109fd21b6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DiprOX.pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Tel-@V2rayAlpha",
-                "headers": {
-                    "Host": "DiprOX.pages.DEV"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 3",
             "type": "vless",
             "server": "fa.faraz360.ir",
@@ -9984,37 +9947,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 6",
-            "type": "vless",
-            "server": "ipbaz.ping-box.com",
-            "server_port": 443,
-            "uuid": "21f9985c-d363-4eee-957f-720e9e9f9b8d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "teams.live.com.afrcloud1.c01.kr",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "teams.live.com.afrcloud1.c01.kr"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "f3.springpaatogh8.store",
@@ -10092,30 +10024,6 @@
             "server": "f1.springpaatogh8.store",
             "server_port": 2083,
             "uuid": "5d463baa-8f3d-4bb1-8b6c-c192c0fa1e9d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gamepc.sorza.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 6",
-            "type": "vless",
-            "server": "f1.springpaatogh8.store",
-            "server_port": 2083,
-            "uuid": "d95ff592-1709-4050-bb6e-b4799449c8ed",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
