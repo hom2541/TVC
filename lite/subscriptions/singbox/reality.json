@@ -107,13 +107,14 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 0",
+                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 0",
+                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 16",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 17",
                 "🇵🇱PL | 🟢 | vless | @prrofile_purple | 89",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 4",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 5",
                 "🇩🇪DE | 🔴 | vless | @kiava | 52",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -125,13 +126,14 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 0",
+                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 0",
+                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 16",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 17",
                 "🇵🇱PL | 🟢 | vless | @prrofile_purple | 89",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 4",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 5",
                 "🇩🇪DE | 🔴 | vless | @kiava | 52",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
@@ -187,7 +189,36 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🔴 | vless | @proxy_kafee | 0",
+            "tag": "🇹🇷TR | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "77.83.245.220",
+            "server_port": 443,
+            "uuid": "3ff03067-b0dd-4361-a21f-27bb9474b9b8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mailru.ookcdn.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇭CH | 🔴 | vless | @proxy_kafee | 1",
             "type": "vless",
             "server": "199.68.196.108",
             "server_port": 8443,
@@ -361,7 +392,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 4",
+            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "77.239.124.88",
             "server_port": 443,
