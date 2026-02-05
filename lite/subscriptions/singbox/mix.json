@@ -132,7 +132,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 15",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 17",
@@ -141,6 +141,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 97",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -159,8 +160,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
@@ -214,7 +215,7 @@
                 "🇩🇪DE | 🟢 | trojan | @DirectVPN | 15",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 16",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3",
                 "🇳🇱NL | 🔴 | vless | @Outline_Vpn | 17",
@@ -223,6 +224,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 97",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -241,8 +243,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇺🇸US | 🔴 | vless | @free1_vpn | 2",
-                "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+                "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
                 "🇺🇸US | 🔴 | vless | @fnet00 | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
@@ -877,14 +879,28 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | ss | @DeamNet_Proxy | 16",
-            "type": "shadowsocks",
-            "server": "135.125.247.29",
-            "server_port": 11201,
-            "method": "chacha20-ietf-poly1305",
-            "password": "333c4cae01f8bacf",
-            "plugin": "",
-            "plugin_opts": ""
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
+            "type": "vmess",
+            "server": "149.30.232.103",
+            "server_port": 31469,
+            "uuid": "5381445d-6ae4-4948-b61a-a16d9498d21b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/arki",
+                "headers": {
+                    "Host": "149.30.232.103"
+                }
+            }
         },
         {
             "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
@@ -1113,6 +1129,27 @@
                 "path": "\/Tel-@V2rayAlpha",
                 "headers": {
                     "Host": "DiprOX.pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
+            "type": "vless",
+            "server": "www.fastly.com",
+            "server_port": 80,
+            "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/--Telegram---MiTiVPN\/---@MiTiVPN\/---@MiTiVPN\/---@MiTiVPN",
+                "headers": {
+                    "Host": "www.fastly.com"
                 }
             }
         },
@@ -1534,7 +1571,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "188.114.96.221",
+            "server_port": 80,
+            "uuid": "9ac947aa-de86-41c3-9a60-4c061c7c95f0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "jahfkjha.cfd",
             "server_port": 443,
@@ -1564,40 +1625,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 4",
-            "type": "vmess",
-            "server": "104.16.60.8",
-            "server_port": 8443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "8eh-band-d994.gijica5932.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "8eh-band-d994.gijica5932.workers.dev"
                 }
             }
         },

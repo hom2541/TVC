@@ -132,6 +132,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 97",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -197,6 +198,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 97",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 2",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 3",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
@@ -899,6 +901,27 @@
                 "path": "\/Tel-@V2rayAlpha",
                 "headers": {
                     "Host": "DiprOX.pages.DEV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 4",
+            "type": "vless",
+            "server": "www.fastly.com",
+            "server_port": 80,
+            "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/--Telegram---MiTiVPN\/---@MiTiVPN\/---@MiTiVPN\/---@MiTiVPN",
+                "headers": {
+                    "Host": "www.fastly.com"
                 }
             }
         },
