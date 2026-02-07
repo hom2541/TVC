@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇷FR | 🟢 | vless | @V2rayCollector | 0",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 0",
@@ -127,7 +126,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇷FR | 🟢 | vless | @V2rayCollector | 0",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 0",
@@ -187,35 +185,6 @@
                     "enabled": true,
                     "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
                     "short_id": "f32140952ba18e18"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vless | @V2rayCollector | 0",
-            "type": "vless",
-            "server": "35.181.154.164",
-            "server_port": 20096,
-            "uuid": "309c4bd0-7430-b8aa-2238-1075e9e29370",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "wikipedia.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RlpFwwJWAb7YPkfaLyZcycZol3ejIdH8yLe0TXsJ_QA",
-                    "short_id": "50a3"
                 }
             }
         },
