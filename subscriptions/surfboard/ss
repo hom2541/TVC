@@ -11,11 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0 = ss, 66.94.121.161, 20207, encrypt-method = chacha20-ietf-poly1305, password = 9653c37eda1c0cca
+🇸🇦SA | 🟢 | ss | @DeamNet_Proxy | 0 = ss, 154.205.134.155, 24854, encrypt-method = chacha20-ietf-poly1305, password = 2916150efedd2d17
+🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 1 = ss, mx2.drawnrisha.one, 55988, encrypt-method = chacha20-ietf-poly1305, password = rUX6AnPwS4ymf9RKDwaW21vyxXuwVnVCrmmLsxUXjjZi7CfCJxoMbNrzwQfZSogzbDPHhkB8za1Ruhj1hGnwyTn3q1no1XRX
+🇯🇴JO | 🟢 | ss | @DeamNet_Proxy | 2 = ss, 91.106.109.17, 48210, encrypt-method = chacha20-ietf-poly1305, password = 1a17c1f74cdc51d5
+🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 7 = ss, 66.94.121.161, 20207, encrypt-method = chacha20-ietf-poly1305, password = 9653c37eda1c0cca
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0
-URL-TEST = url-test,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0
-FALLBACK = fallback,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 0
+MANUAL = select,URL-TEST,FALLBACK,🇸🇦SA | 🟢 | ss | @DeamNet_Proxy | 0,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 1,🇯🇴JO | 🟢 | ss | @DeamNet_Proxy | 2,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 7
+URL-TEST = url-test,🇸🇦SA | 🟢 | ss | @DeamNet_Proxy | 0,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 1,🇯🇴JO | 🟢 | ss | @DeamNet_Proxy | 2,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 7
+FALLBACK = fallback,🇸🇦SA | 🟢 | ss | @DeamNet_Proxy | 0,🇫🇮FI | 🟢 | ss | @DeamNet_Proxy | 1,🇯🇴JO | 🟢 | ss | @DeamNet_Proxy | 2,🇺🇸US | 🟢 | ss | @DeamNet_Proxy | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
