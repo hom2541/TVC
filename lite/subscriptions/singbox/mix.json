@@ -131,13 +131,13 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 14",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 0",
                 "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 16",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
-                "🇩🇪DE | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
@@ -209,13 +209,13 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 14",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 18",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 0",
                 "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 16",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 143",
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 144",
-                "🇩🇪DE | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 9",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 10",
                 "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 10",
@@ -841,6 +841,40 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vmess | @DeamNet_Proxy | 18",
+            "type": "vmess",
+            "server": "57.129.25.22",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "o.metuji.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "o.metuji.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 0",
             "type": "trojan",
             "server": "www.calmlunch.com",
@@ -1011,20 +1045,6 @@
                 "headers": {
                     "Host": "myservicefid.get-service.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @ShadowSocks_s | 0",
-            "type": "vless",
-            "server": "vip-80.f-sub.cfd",
-            "server_port": 1517,
-            "uuid": "3412c147-a0fe-4951-8a11-9a975cc6fec8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
