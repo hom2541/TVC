@@ -107,12 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 14",
+                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
+                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
                 "🇳🇱NL | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "🇫🇮FI | 🟢 | vless | @FreakConfig | 5",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 4",
                 "🇭🇰HK | 🟢 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -125,12 +126,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 14",
+                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
+                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
                 "🇳🇱NL | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "🇫🇮FI | 🟢 | vless | @FreakConfig | 5",
+                "🇳🇱NL | 🟢 | vless | @FreakConfig | 4",
                 "🇭🇰HK | 🟢 | vless | @flyv2ray | 3",
                 "🇩🇪DE | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -187,11 +189,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 14",
+            "tag": "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
             "type": "vless",
-            "server": "vpn-de.spend.tg",
-            "server_port": 8443,
-            "uuid": "f4e28bf7-c5f6-40de-be3e-b560a4bef575",
+            "server": "146.103.100.160",
+            "server_port": 4443,
+            "uuid": "3cceef33-56ff-4f21-8479-2e1719e04886",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -201,17 +203,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "apple.com",
+                "server_name": "github.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "kt-wshmPVd-J1dlU-tsXUoGag2-oFwYQ5UafScaAfzQ",
-                    "short_id": ""
+                    "public_key": "5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE",
+                    "short_id": "aa7e96542880027a"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
+            "type": "vless",
+            "server": "146.185.196.25",
+            "server_port": 59984,
+            "uuid": "881268a6-b20d-46de-bb8a-f6b00deb1cc7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eh.vk.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LDMOxwtivbGTx-vhAhrT66N_oaEt_ScqXj9QhbQxHDc",
+                    "short_id": "5acf"
                 }
             }
         },
@@ -332,11 +363,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @FreakConfig | 5",
+            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 4",
             "type": "vless",
-            "server": "38.244.137.198",
+            "server": "77.239.124.88",
             "server_port": 443,
-            "uuid": "09748875-9da3-440e-9809-9752e1dda1e4",
+            "uuid": "ca911bd2-e08f-42d8-aefb-3117494d3367",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -346,7 +377,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "mskhost.outlinekeys.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -355,8 +386,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o",
-                    "short_id": "365c07ed"
+                    "public_key": "3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ",
+                    "short_id": ""
                 }
             }
         },
