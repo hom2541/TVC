@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇺HU | 🟢 | vmess | @iP_CF | 7"
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @iP_CF | 7"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
                 "🇫🇷FR | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇺HU | 🟢 | vmess | @iP_CF | 7"
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @iP_CF | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "tag": "🇨🇦CA | 🟢 | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
-            "server": "47.242.192.233",
-            "server_port": 34659,
-            "uuid": "8482671e-846f-45c7-aec4-531c79f775ec",
+            "server": "148.113.176.192",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,6 +198,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fapeng.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "fapeng.org"
+                }
             }
         },
         {
@@ -276,7 +293,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -310,7 +327,7 @@
             }
         },
         {
-            "tag": "🇭🇺HU | 🟢 | vmess | @iP_CF | 7",
+            "tag": "❔XX | 🟢 | vmess | @iP_CF | 7",
             "type": "vmess",
             "server": "pq-Hungary1.09vpn.com",
             "server_port": 80,
