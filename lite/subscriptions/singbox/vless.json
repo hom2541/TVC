@@ -122,19 +122,19 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 4",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
+                "🇫🇷FR | 🟢 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🟢 | vless | @V2rayCollector | 3",
                 "🇮🇷IR | 🔴 | vless | @V2rayCollector | 4",
-                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
+                "❔XX | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 135",
                 "❔XX | 🔴 | vless | @prrofile_purple | 136",
                 "❔XX | 🟢 | vless | @customv2ray | 12",
                 "❔XX | 🔴 | vless | @customv2ray | 13",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
@@ -190,19 +190,19 @@
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @DarkTeam_VPN | 3",
                 "🇫🇷FR | 🔴 | vless | @DarkTeam_VPN | 4",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
+                "🇫🇷FR | 🟢 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🟢 | vless | @V2rayCollector | 3",
                 "🇮🇷IR | 🔴 | vless | @V2rayCollector | 4",
-                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
+                "❔XX | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 135",
                 "❔XX | 🔴 | vless | @prrofile_purple | 136",
                 "❔XX | 🟢 | vless | @customv2ray | 12",
                 "❔XX | 🔴 | vless | @customv2ray | 13",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 12",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
@@ -633,7 +633,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
+            "tag": "🇫🇷FR | 🟢 | vless | @proxy_kafee | 2",
+            "type": "vless",
+            "server": "94.232.247.168",
+            "server_port": 41360,
+            "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+                    "short_id": "1aab45"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "chatgpt.com",
             "server_port": 2082,
@@ -644,37 +673,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 3",
-            "type": "vless",
-            "server": "172.67.180.92",
-            "server_port": 443,
-            "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "web.abcallcenter.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@vpnbaz-@vpnbaz-@vpnbaz-@vpnbaz-@vpnbaz-@vpnbaz-@vpnbaz",
-                "headers": {
-                    "Host": "web.abcallcenter.com"
-                }
             }
         },
         {
@@ -773,7 +771,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
+            "tag": "❔XX | 🔴 | vless | @Outline_Vpn | 16",
             "type": "vless",
             "server": "ip.hamrahto.com",
             "server_port": 2082,
@@ -928,7 +926,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 12",
             "type": "vless",
             "server": "167.82.92.159",
             "server_port": 80,
