@@ -109,12 +109,12 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 43",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 44",
+                "🇭🇰HK | 🟢 | vmess | @DailyV2RY | 45",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @iP_CF | 7"
             ]
         },
@@ -125,12 +125,12 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
-                "❔XX | 🟢 | vmess | @DailyV2RY | 43",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 44",
+                "🇭🇰HK | 🟢 | vmess | @DailyV2RY | 45",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @iP_CF | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -205,7 +205,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 43",
+            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 44",
             "type": "vmess",
             "server": "pq-Hungary1.09vpn.com",
             "server_port": 80,
@@ -229,7 +229,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DailyV2RY | 44",
+            "tag": "🇭🇰HK | 🟢 | vmess | @DailyV2RY | 45",
             "type": "vmess",
             "server": "n1761214907.74qxv.top",
             "server_port": 443,
@@ -321,11 +321,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "104.19.47.130",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "129.159.33.199",
+            "server_port": 45328,
+            "uuid": "842c33ff-31b5-410c-a96e-0cb52a99a6da",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -338,18 +338,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.19.47.130"
+                    "Host": "129.159.33.199"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "beyonddsz.cfd",
-            "server_port": 443,
-            "uuid": "9b456c2a-f2c1-45e1-87a9-b7628b04bb24",
+            "server": "129.150.61.170",
+            "server_port": 29493,
+            "uuid": "ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -360,21 +360,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "beyonddsz.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "beyonddsz.cfd"
+                    "Host": "129.150.61.170"
                 }
             }
         },
