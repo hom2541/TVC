@@ -107,9 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 131",
-                "❔XX | 🟢 | vless | @ShadowSocks_s | 1",
-                "❔XX | 🟢 | vless | @customv2ray | 12",
+                "🇳🇱NL | 🟢 | vless | @customv2ray | 12",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
@@ -124,9 +122,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 131",
-                "❔XX | 🟢 | vless | @ShadowSocks_s | 1",
-                "❔XX | 🟢 | vless | @customv2ray | 12",
+                "🇳🇱NL | 🟢 | vless | @customv2ray | 12",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
@@ -185,65 +181,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🔴 | vless | @prrofile_purple | 131",
-            "type": "vless",
-            "server": "gra.mobileemdad.top",
-            "server_port": 443,
-            "uuid": "d1f69de0-513f-4ac4-9151-5613f0331a92",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "9PxmdoqWZ1yGffnxot86y07c24AlIoFCcSzHf6epWmM",
-                    "short_id": "c6da5fa7bbc4d0e3"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ShadowSocks_s | 1",
-            "type": "vless",
-            "server": "146.185.208.206",
-            "server_port": 443,
-            "uuid": "914b0493-7094-4840-b94d-8ec3e92e9c43",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yandex.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "do22ES2nDjO0EggET4H9Gf8_tEY7PwZv76zVXPrDojQ",
-                    "short_id": "5f22"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @customv2ray | 12",
+            "tag": "🇳🇱NL | 🟢 | vless | @customv2ray | 12",
             "type": "vless",
             "server": "51.158.206.93",
             "server_port": 23576,
