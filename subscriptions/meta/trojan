@@ -160,7 +160,7 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"de4.nnvpn.io","port":443,"udp":false,"password":"mk7J60Z9VYojAL44EPfaUEfsdCt8KFKo","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"pl.nnvpn.io","port":443,"udp":false,"password":"mk7J60Z9VYojAL44EPfaUEfsdCt8KFKo","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"15.188.162.81","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 18","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
+  - {"name":"🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18","type":"trojan","server":"creativecommons.org","port":2053,"udp":false,"password":"YwuvGJk36B","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"kotlet.arshiacomplus.dpdns.org"}
   - {"name":"🚩CF | 🔴 | trojan | @iP_CF | 3","type":"trojan","server":"104.18.32.37","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.gossipglove.com"}
 proxy-groups:
   - name: MANUAL
@@ -208,7 +208,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 18'
+      - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18'
       - '🚩CF | 🔴 | trojan | @iP_CF | 3'
   - name: URL-TEST
     type: url-test
@@ -256,7 +256,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 18'
+      - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18'
       - '🚩CF | 🔴 | trojan | @iP_CF | 3'
   - name: FALLBACK
     type: fallback
@@ -303,7 +303,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '❔XX | 🔴 | trojan | @vmess_vless_v2rayng | 18'
+      - '🇺🇸US | 🔴 | trojan | @vmess_vless_v2rayng | 18'
       - '🚩CF | 🔴 | trojan | @iP_CF | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
