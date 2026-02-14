@@ -184,7 +184,9 @@ proxies:
   - {"name":"❔XX | 🔴 | vless | @DarkTeam_VPN | 0","type":"vless","server":"nld14.freednet.org","port":443,"udp":true,"uuid":"6fd9f786-d974-49d0-b5c4-397678de69a2","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.cybo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs"}}
   - {"name":"❔XX | 🔴 | vless | @DarkTeam_VPN | 2","type":"vless","server":"151.101.9.80","port":80,"udp":false,"uuid":"5a1d2c0c-abfa-4050-918f-bfab3eaee62a","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/?ed"}}
   - {"name":"❔XX | 🔴 | vless | @DarkTeam_VPN | 3","type":"vless","server":"45.89.220.212","port":1010,"udp":false,"uuid":"e1606e63-ad64-45a2-90b4-cbd067306556","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🟢 | vless | @proxy_kafee | 0","type":"vless","server":"57.129.49.1","port":23576,"udp":true,"uuid":"48ff2b70-e180-582f-8866-d9a2edeed5f5","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"fuck.rkn","flow":"xtls-rprx-vision","reality-opts":{"public-key":"1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s","short-id":"01"}}
+  - {"name":"❔XX | 🔴 | vless | @proxy_kafee | 0","type":"vless","server":"14.102.228.238","port":2096,"udp":false,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"sni.jpmj.dev","ws-opts":{"path":"/","headers":{"host":"sni.jpmj.dev"}}}
+  - {"name":"❔XX | 🔴 | vless | @proxy_kafee | 1","type":"vless","server":"51.250.87.167","port":443,"udp":true,"uuid":"c690db76-e866-4bca-b184-4965d29ab086","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"ads.x5.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg","short-id":"a76ea384b29a4f79"}}
+  - {"name":"❔XX | 🟢 | vless | @proxy_kafee | 2","type":"vless","server":"57.129.49.1","port":23576,"udp":true,"uuid":"48ff2b70-e180-582f-8866-d9a2edeed5f5","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"fuck.rkn","flow":"xtls-rprx-vision","reality-opts":{"public-key":"1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s","short-id":"01"}}
   - {"name":"🚩CF | 🔴 | vless | @V2rayCollector | 0","type":"vless","server":"190.93.245.94","port":443,"udp":false,"uuid":"e765eb5b-8442-40e3-9532-857ba5ececa7","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"vbox.ping-box.com"}
   - {"name":"❔XX | 🟢 | trojan | @PrivateVPNs | 0","type":"trojan","server":"13.37.147.199","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"❔XX | 🟢 | trojan | @PrivateVPNs | 1","type":"trojan","server":"13.36.58.242","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -404,16 +406,17 @@ proxies:
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 2","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 3","type":"vmess","server":"admin.arzonhost.ir","port":"2086","cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 0","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"ab1ee1ac-884c-44dc-ab65-d533d32e2b1a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"3c5046b4-1a9c-427c-8a55-e355846a9e4a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/Zo98PYfE","headers":{"host":"kvjqqknzjp6.yofnhkfc.xyz"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 3","type":"vmess","server":"104.22.30.97","port":"80","cipher":"auto","uuid":"2ac4e269-1576-4f41-8c0d-6242e3c5fd8c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz."}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"nodejs.org","port":"443","cipher":"auto","uuid":"6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/QvtvPdDXXIlSdZMqnuxG","headers":{"host":"hdfy1c1.cpiforpersia.uk"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"172.67.164.164","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms07.xfixedfloat.cfd"}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"141.101.115.19","port":"80","cipher":"auto","uuid":"2ac4e269-1576-4f41-8c0d-6242e3c5fd8c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz."}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"45.131.208.228","port":"80","cipher":"none","uuid":"f491cbe4-7548-446c-8d3e-64008e3b1325","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz."}}}
-  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"198.41.193.181","port":"80","cipher":"none","uuid":"92791642-1471-4b93-980a-81030985f3ce","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz."}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"155.138.164.71","port":"8881","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"35.79.166.8","port":"44573","cipher":"auto","uuid":"d5862d3a-154f-43c9-bfa4-335361c020ba","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 0","type":"vmess","server":"23.162.152.6","port":"22324","cipher":"auto","uuid":"04621bae-ab36-11ec-b909-0242ac120002","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"ab1ee1ac-884c-44dc-ab65-d533d32e2b1a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 2","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"3c5046b4-1a9c-427c-8a55-e355846a9e4a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/Zo98PYfE","headers":{"host":"kvjqqknzjp6.yofnhkfc.xyz"}}}
+  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"104.22.30.97","port":"80","cipher":"auto","uuid":"2ac4e269-1576-4f41-8c0d-6242e3c5fd8c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz."}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"nodejs.org","port":"443","cipher":"auto","uuid":"6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/QvtvPdDXXIlSdZMqnuxG","headers":{"host":"hdfy1c1.cpiforpersia.uk"}}}
+  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 6","type":"vmess","server":"172.67.164.164","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms07.xfixedfloat.cfd"}}}
+  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 7","type":"vmess","server":"141.101.115.19","port":"80","cipher":"auto","uuid":"2ac4e269-1576-4f41-8c0d-6242e3c5fd8c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz."}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"45.131.208.228","port":"80","cipher":"none","uuid":"f491cbe4-7548-446c-8d3e-64008e3b1325","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz."}}}
+  - {"name":"🚩CF | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"198.41.193.181","port":"80","cipher":"none","uuid":"92791642-1471-4b93-980a-81030985f3ce","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz."}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"155.138.164.71","port":"8881","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 12","type":"vmess","server":"35.79.166.8","port":"44573","cipher":"auto","uuid":"d5862d3a-154f-43c9-bfa4-335361c020ba","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🔴 | vless | @fnet00 | 0","type":"vless","server":"45.85.118.209","port":443,"udp":false,"uuid":"573c787d-d549-4171-b05f-29984bc0266c","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipv4.farazteams.ir","ws-opts":{"path":"/@AmirGeekTech-@FNET00","headers":{"host":"ipv4.farazteams.ir"}}}
   - {"name":"🚩CF | 🔴 | vless | @fnet00 | 2","type":"vless","server":"104.16.139.160","port":443,"udp":false,"uuid":"573c787d-d549-4171-b05f-29984bc0266c","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipv4.farazteams.ir","ws-opts":{"path":"/@AmirGeekTech-@FNET00","headers":{"host":"ipv4.farazteams.ir"}}}
   - {"name":"🚩CF | 🔴 | vless | @fnet00 | 3","type":"vless","server":"104.18.32.47","port":443,"udp":false,"uuid":"573c787d-d549-4171-b05f-29984bc0266c","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"ipv4.farazteams.ir","ws-opts":{"path":"/@AmirGeekTech-@FNET00","headers":{"host":"ipv4.farazteams.ir"}}}
@@ -607,7 +610,9 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 0'
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 2'
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 3'
-      - '❔XX | 🟢 | vless | @proxy_kafee | 0'
+      - '❔XX | 🔴 | vless | @proxy_kafee | 0'
+      - '❔XX | 🔴 | vless | @proxy_kafee | 1'
+      - '❔XX | 🟢 | vless | @proxy_kafee | 2'
       - '🚩CF | 🔴 | vless | @V2rayCollector | 0'
       - '❔XX | 🟢 | trojan | @PrivateVPNs | 0'
       - '❔XX | 🟢 | trojan | @PrivateVPNs | 1'
@@ -829,14 +834,15 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '❔XX | 🟢 | vmess | @Hope_Net | 0'
       - '❔XX | 🟢 | vmess | @Hope_Net | 1'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 4'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 5'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 2'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 6'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 9'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '❔XX | 🟢 | vmess | @Hope_Net | 11'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 12'
       - '❔XX | 🔴 | vless | @fnet00 | 0'
       - '🚩CF | 🔴 | vless | @fnet00 | 2'
       - '🚩CF | 🔴 | vless | @fnet00 | 3'
@@ -1030,7 +1036,9 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 0'
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 2'
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 3'
-      - '❔XX | 🟢 | vless | @proxy_kafee | 0'
+      - '❔XX | 🔴 | vless | @proxy_kafee | 0'
+      - '❔XX | 🔴 | vless | @proxy_kafee | 1'
+      - '❔XX | 🟢 | vless | @proxy_kafee | 2'
       - '🚩CF | 🔴 | vless | @V2rayCollector | 0'
       - '❔XX | 🟢 | trojan | @PrivateVPNs | 0'
       - '❔XX | 🟢 | trojan | @PrivateVPNs | 1'
@@ -1252,14 +1260,15 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '❔XX | 🟢 | vmess | @Hope_Net | 0'
       - '❔XX | 🟢 | vmess | @Hope_Net | 1'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 4'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 5'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 2'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 6'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 9'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '❔XX | 🟢 | vmess | @Hope_Net | 11'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 12'
       - '❔XX | 🔴 | vless | @fnet00 | 0'
       - '🚩CF | 🔴 | vless | @fnet00 | 2'
       - '🚩CF | 🔴 | vless | @fnet00 | 3'
@@ -1452,7 +1461,9 @@ proxy-groups:
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 0'
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 2'
       - '❔XX | 🔴 | vless | @DarkTeam_VPN | 3'
-      - '❔XX | 🟢 | vless | @proxy_kafee | 0'
+      - '❔XX | 🔴 | vless | @proxy_kafee | 0'
+      - '❔XX | 🔴 | vless | @proxy_kafee | 1'
+      - '❔XX | 🟢 | vless | @proxy_kafee | 2'
       - '🚩CF | 🔴 | vless | @V2rayCollector | 0'
       - '❔XX | 🟢 | trojan | @PrivateVPNs | 0'
       - '❔XX | 🟢 | trojan | @PrivateVPNs | 1'
@@ -1674,14 +1685,15 @@ proxy-groups:
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '❔XX | 🟢 | vmess | @Hope_Net | 0'
       - '❔XX | 🟢 | vmess | @Hope_Net | 1'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 3'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 4'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 5'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 2'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
       - '🚩CF | 🟢 | vmess | @Hope_Net | 6'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
-      - '🚩CF | 🟢 | vmess | @Hope_Net | 9'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 7'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 9'
+      - '🚩CF | 🟢 | vmess | @Hope_Net | 10'
       - '❔XX | 🟢 | vmess | @Hope_Net | 11'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 12'
       - '❔XX | 🔴 | vless | @fnet00 | 0'
       - '🚩CF | 🔴 | vless | @fnet00 | 2'
       - '🚩CF | 🔴 | vless | @fnet00 | 3'

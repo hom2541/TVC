@@ -112,7 +112,8 @@
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @DarkTeam_VPN | 0",
-                "❔XX | 🟢 | vless | @proxy_kafee | 0",
+                "❔XX | 🔴 | vless | @proxy_kafee | 1",
+                "❔XX | 🟢 | vless | @proxy_kafee | 2",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 5",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 11",
@@ -190,7 +191,8 @@
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @DarkTeam_VPN | 0",
-                "❔XX | 🟢 | vless | @proxy_kafee | 0",
+                "❔XX | 🔴 | vless | @proxy_kafee | 1",
+                "❔XX | 🟢 | vless | @proxy_kafee | 2",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 5",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 11",
@@ -459,7 +461,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 0",
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 1",
+            "type": "vless",
+            "server": "51.250.87.167",
+            "server_port": 443,
+            "uuid": "c690db76-e866-4bca-b184-4965d29ab086",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+                    "short_id": "a76ea384b29a4f79"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "57.129.49.1",
             "server_port": 23576,
