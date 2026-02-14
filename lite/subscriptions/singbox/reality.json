@@ -107,9 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🟢 | vless | @proxy_kafee | 6",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 16",
+                "🇷🇺RU | 🟢 | vless | @proxy_kafee | 7",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 0",
+                "❔XX | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vless | @lrnbymaa | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -127,9 +128,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🟢 | vless | @proxy_kafee | 6",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 16",
+                "🇷🇺RU | 🟢 | vless | @proxy_kafee | 7",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 0",
+                "❔XX | 🟢 | vless | @FalconPolV2rayNG | 2",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vless | @lrnbymaa | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -191,7 +193,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @proxy_kafee | 6",
+            "tag": "🇷🇺RU | 🟢 | vless | @proxy_kafee | 7",
             "type": "vless",
             "server": "212.111.84.82",
             "server_port": 8443,
@@ -220,7 +222,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 16",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 16",
             "type": "vless",
             "server": "fl-2.bot-iphone.ru",
             "server_port": 8443,
@@ -274,6 +276,35 @@
                     "enabled": true,
                     "public_key": "RdhlZ8FX6D8znsqujb8fJ29mGJocrN2m8DEbdULkV0w",
                     "short_id": "3a622700e73c6642"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FalconPolV2rayNG | 2",
+            "type": "vless",
+            "server": "94.232.247.168",
+            "server_port": 41360,
+            "uuid": "e16a35ea-6715-4e75-9845-d20358bd0876",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TY6w1zP-qUFKVCAQdQT2ZEJsZBrPO4hZjZYBSS6h6DU",
+                    "short_id": "1aab45"
                 }
             }
         },
