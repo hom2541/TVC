@@ -131,7 +131,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇨🇳CN | 🔴 | vless | @V2rayCollector | 0",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
-                "❔XX | 🔴 | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🔴 | vless | @prrofile_purple | 117",
                 "❔XX | 🔴 | vless | @customv2ray | 11",
@@ -164,7 +164,8 @@
                 "❔XX | 🔴 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @iP_CF | 4",
-                "❔XX | 🔴 | vless | @mehrosaboran | 5",
+                "❔XX | 🔴 | vless | @mehrosaboran | 2",
+                "❔XX | 🔴 | vless | @mehrosaboran | 3",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @kiava | 44",
                 "❔XX | 🔴 | vless | @nofiltering2 | 3",
@@ -204,7 +205,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇨🇳CN | 🔴 | vless | @V2rayCollector | 0",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
-                "❔XX | 🔴 | vless | @Outline_Vpn | 17",
+                "🇸🇪SE | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🔴 | vless | @prrofile_purple | 117",
                 "❔XX | 🔴 | vless | @customv2ray | 11",
@@ -237,7 +238,8 @@
                 "❔XX | 🔴 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @iP_CF | 4",
-                "❔XX | 🔴 | vless | @mehrosaboran | 5",
+                "❔XX | 🔴 | vless | @mehrosaboran | 2",
+                "❔XX | 🔴 | vless | @mehrosaboran | 3",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @kiava | 44",
                 "❔XX | 🔴 | vless | @nofiltering2 | 3",
@@ -881,7 +883,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Outline_Vpn | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | @Outline_Vpn | 17",
             "type": "vless",
             "server": "dd.openaccessnode.com",
             "server_port": 504,
@@ -1702,11 +1704,32 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @mehrosaboran | 5",
+            "tag": "❔XX | 🔴 | vless | @mehrosaboran | 2",
             "type": "vless",
-            "server": "172.67.180.92",
-            "server_port": 443,
-            "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+            "server": "65.109.203.5",
+            "server_port": 18521,
+            "uuid": "bbb0d738-975d-41c5-ebfe-164f8cdc914f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "65.109.203.5"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @mehrosaboran | 3",
+            "type": "vless",
+            "server": "188.114.99.243",
+            "server_port": 2096,
+            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1716,7 +1739,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "web.abcallcenter.com",
+                "server_name": "sni.111000.indevs.in",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1726,9 +1749,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/--Telegram---@MiTiVPN\/---@MiTiVPN\/---@MiTiVPN\/---@MiTiVPN?ed=2560",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "web.abcallcenter.com"
+                    "Host": "sni.111000.indevs.in"
                 }
             }
         },
