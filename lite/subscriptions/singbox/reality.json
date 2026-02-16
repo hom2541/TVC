@@ -107,10 +107,9 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇵🇱PL | 🟢 | vless | @proxy_kafee | 4",
-                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 119",
+                "❔XX | 🟢 | vless | @prrofile_purple | 119",
                 "❔XX | 🔴 | vless | @prrofile_purple | 120",
-                "🇫🇷FR | 🟢 | vless | @FalconPolV2rayNG | 3",
+                "❔XX | 🟢 | vless | @FalconPolV2rayNG | 3",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 18",
                 "❔XX | 🟢 | vless | @lrnbymaa | 26",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -127,10 +126,9 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇵🇱PL | 🟢 | vless | @proxy_kafee | 4",
-                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 119",
+                "❔XX | 🟢 | vless | @prrofile_purple | 119",
                 "❔XX | 🔴 | vless | @prrofile_purple | 120",
-                "🇫🇷FR | 🟢 | vless | @FalconPolV2rayNG | 3",
+                "❔XX | 🟢 | vless | @FalconPolV2rayNG | 3",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 18",
                 "❔XX | 🟢 | vless | @lrnbymaa | 26",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -191,36 +189,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "195.3.223.143",
-            "server_port": 443,
-            "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pl.jojack.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw",
-                    "short_id": "a7ab02dfcc1f2c04"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 119",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 119",
             "type": "vless",
             "server": "155.212.110.2",
             "server_port": 993,
@@ -285,7 +254,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @FalconPolV2rayNG | 3",
+            "tag": "❔XX | 🟢 | vless | @FalconPolV2rayNG | 3",
             "type": "vless",
             "server": "94.232.247.168",
             "server_port": 41360,
