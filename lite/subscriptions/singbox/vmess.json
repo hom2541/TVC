@@ -110,7 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇹🇷TR | 🟢 | vmess | @v2Line | 0",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
+                "🇹🇷TR | 🟢 | vmess | @v2Line | 2",
                 "🇩🇪DE | 🟢 | vmess | @FreakConfig | 8"
             ]
         },
@@ -122,7 +123,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇹🇷TR | 🟢 | vmess | @v2Line | 0",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
+                "🇹🇷TR | 🟢 | vmess | @v2Line | 2",
                 "🇩🇪DE | 🟢 | vmess | @FreakConfig | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -238,7 +240,41 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vmess | @v2Line | 0",
+            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 1",
+            "type": "vmess",
+            "server": "15.235.85.147",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pelang.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "pelang.org"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "45.141.148.143",
             "server_port": 5059,
