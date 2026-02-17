@@ -133,8 +133,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @free1_vpn | 4",
+                "❔XX | 🟢 | vmess | @free1_vpn | 9",
                 "❔XX | 🟢 | vmess | @v2Line | 0",
                 "❔XX | 🟢 | vmess | @FreakConfig | 5",
+                "❔XX | 🟢 | vmess | @iP_CF | 0",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 3"
             ]
         },
@@ -169,8 +171,10 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @free1_vpn | 4",
+                "❔XX | 🟢 | vmess | @free1_vpn | 9",
                 "❔XX | 🟢 | vmess | @v2Line | 0",
                 "❔XX | 🟢 | vmess | @FreakConfig | 5",
+                "❔XX | 🟢 | vmess | @iP_CF | 0",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -767,6 +771,40 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @free1_vpn | 9",
+            "type": "vmess",
+            "server": "141.95.126.134",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @v2Line | 0",
             "type": "vmess",
             "server": "45.141.148.143",
@@ -821,6 +859,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @iP_CF | 0",
+            "type": "vmess",
+            "server": "57.129.25.23",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yichueng.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "yichueng.org"
                 }
             }
         },
