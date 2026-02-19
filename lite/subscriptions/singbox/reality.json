@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 19",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 4",
                 "🇷🇺RU | 🔴 | vless | @DailyV2RY | 5",
@@ -124,7 +123,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 18",
                 "🇩🇪DE | 🟢 | vless | @vmess_vless_v2rayng | 19",
                 "🇳🇱NL | 🔴 | vless | @DailyV2RY | 4",
                 "🇷🇺RU | 🔴 | vless | @DailyV2RY | 5",
@@ -181,35 +179,6 @@
                     "enabled": true,
                     "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
                     "short_id": "f32140952ba18e18"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 18",
-            "type": "vless",
-            "server": "38.244.137.198",
-            "server_port": 443,
-            "uuid": "09748875-9da3-440e-9809-9752e1dda1e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o",
-                    "short_id": "365c07ed"
                 }
             }
         },
