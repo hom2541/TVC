@@ -127,6 +127,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 7",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 116",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 145",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 146",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 1",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 2",
@@ -169,6 +171,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 7",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 116",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 145",
+                "❔XX | 🟢 | vmess | @prrofile_purple | 146",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 1",
                 "❔XX | 🟢 | vmess | @DailyV2RY | 2",
@@ -615,6 +619,47 @@
                 "headers": {
                     "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 145",
+            "type": "vmess",
+            "server": "ast.nvtnl.blog",
+            "server_port": 8888,
+            "uuid": "abee1ed3-9cad-4ee8-9a15-6e0db76ae8f6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @prrofile_purple | 146",
+            "type": "vmess",
+            "server": "81.12.33.167",
+            "server_port": 1008,
+            "uuid": "62eec4d6-a82a-4823-92a5-0aaa036d5fd2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
