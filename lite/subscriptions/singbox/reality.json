@@ -107,9 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 18",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 19",
-                "❔XX | 🔴 | vless | @DailyV2RY | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 9",
                 "❔XX | 🟢 | vless | @lrnbymaa | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -126,9 +124,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 18",
                 "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 19",
-                "❔XX | 🔴 | vless | @DailyV2RY | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 9",
                 "❔XX | 🟢 | vless | @lrnbymaa | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -189,35 +185,6 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @Outline_Vpn | 18",
-            "type": "vless",
-            "server": "38.244.137.198",
-            "server_port": 443,
-            "uuid": "09748875-9da3-440e-9809-9752e1dda1e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QXGsw1KqljvUiarkvFdBs3T1TeUQq4skwHFlsmbj31o",
-                    "short_id": "365c07ed"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 19",
             "type": "vless",
             "server": "91.107.244.240",
@@ -243,35 +210,6 @@
                     "enabled": true,
                     "public_key": "A-uda057zISQMYHNFlfW1PQefk11bqT_RnI8aPi3YnU",
                     "short_id": "3f9bee6a2f7f"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @DailyV2RY | 1",
-            "type": "vless",
-            "server": "spb.roblugo.su",
-            "server_port": 443,
-            "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "spb.roblugo.su",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
-                    "short_id": "bbfb4f7a53e22dd3"
                 }
             }
         },
