@@ -124,7 +124,6 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 123",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 1",
@@ -139,7 +138,7 @@
                 "❔XX | 🟢 | vmess | @v2Line | 3",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @iP_CF | 3",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 3"
+                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 3"
             ]
         },
         {
@@ -164,7 +163,6 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
                 "❔XX | 🟢 | vmess | @prrofile_purple | 123",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 1",
@@ -179,7 +177,7 @@
                 "❔XX | 🟢 | vmess | @v2Line | 3",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @iP_CF | 3",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 3"
+                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -529,30 +527,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
-            "type": "vmess",
-            "server": "tgju.org",
-            "server_port": 8080,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/nasnet\/cdn",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -965,7 +939,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @nofiltering2 | 3",
+            "tag": "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 3",
             "type": "vmess",
             "server": "193.151.128.37",
             "server_port": 3131,
