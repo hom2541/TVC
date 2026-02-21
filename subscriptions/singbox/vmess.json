@@ -131,15 +131,14 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🚩CF | 🟢 | vmess | @free1_vpn | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 0",
-                "🚩CF | 🟢 | vmess | @v2Line | 1",
-                "❔XX | 🟢 | vmess | @v2Line | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 3",
-                "❔XX | 🟢 | vmess | @v2Line | 4",
-                "❔XX | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @v2Line | 6",
-                "🇩🇪DE | 🟢 | vmess | @iP_CF | 3",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 0",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
+                "🚩CF | 🟢 | vmess | @v2Line | 2",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 4",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+                "❔XX | 🟢 | vmess | @iP_CF | 3",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 5"
             ]
         },
@@ -172,15 +171,14 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🚩CF | 🟢 | vmess | @free1_vpn | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 0",
-                "🚩CF | 🟢 | vmess | @v2Line | 1",
-                "❔XX | 🟢 | vmess | @v2Line | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 3",
-                "❔XX | 🟢 | vmess | @v2Line | 4",
-                "❔XX | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @v2Line | 6",
-                "🇩🇪DE | 🟢 | vmess | @iP_CF | 3",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 0",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
+                "🚩CF | 🟢 | vmess | @v2Line | 2",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 4",
+                "🇺🇸US | 🟢 | vmess | @v2Line | 5",
+                "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
+                "❔XX | 🟢 | vmess | @iP_CF | 3",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -746,11 +744,11 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @free1_vpn | 2",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 0",
             "type": "vmess",
-            "server": "104.19.37.10",
-            "server_port": 8080,
-            "uuid": "nasnet",
+            "server": "57.129.24.124",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -761,16 +759,26 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/NASNET\/cdn",
+                "path": "\/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 0",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
             "type": "vmess",
             "server": "57.129.28.214",
             "server_port": 443,
@@ -804,7 +812,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2Line | 1",
+            "tag": "🚩CF | 🟢 | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "104.19.173.68",
             "server_port": 8080,
@@ -828,7 +836,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 2",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "57.129.28.63",
             "server_port": 443,
@@ -862,7 +870,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 3",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "57.129.24.125",
             "server_port": 443,
@@ -896,7 +904,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "172.233.229.91",
             "server_port": 14102,
@@ -913,7 +921,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
             "server": "15.235.85.147",
             "server_port": 443,
@@ -947,31 +955,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 6",
-            "type": "vmess",
-            "server": "45.141.148.143",
-            "server_port": 5059,
-            "uuid": "e720d2b6-80dd-4664-b64e-6cc784bce329",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | @iP_CF | 3",
+            "tag": "❔XX | 🟢 | vmess | @iP_CF | 3",
             "type": "vmess",
             "server": "57.129.25.23",
             "server_port": 443,
