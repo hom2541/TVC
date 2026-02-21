@@ -109,11 +109,12 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 14",
-                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
+                "❔XX | 🟢 | vless | @lrnbymaa | 14",
+                "❔XX | 🟢 | vless | @lrnbymaa | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @mehrosaboran | 7",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @flyv2ray | 4",
+                "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -126,11 +127,12 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 14",
-                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
+                "❔XX | 🟢 | vless | @lrnbymaa | 14",
+                "❔XX | 🟢 | vless | @lrnbymaa | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @mehrosaboran | 7",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @flyv2ray | 4",
+                "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -243,7 +245,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @lrnbymaa | 14",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 14",
             "type": "vless",
             "server": "51.250.86.102",
             "server_port": 443,
@@ -272,7 +274,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 15",
             "type": "vless",
             "server": "spb.roblugo.su",
             "server_port": 443,
@@ -330,7 +332,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -359,7 +361,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 7",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 4",
+            "type": "vless",
+            "server": "138.124.90.159",
+            "server_port": 8443,
+            "uuid": "56d64a42-eeb2-4011-bfa9-f1c3a67b1d9b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g7tux4qJl3BQyNwNpamBVd_53ZmybBXmRO2KZ6vIdVw",
+                    "short_id": "a24ed855f275"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "51.250.86.102",
             "server_port": 443,
