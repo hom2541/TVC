@@ -107,13 +107,14 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "❔XX | 🟢 | vless | @lrnbymaa | 12",
+                "❔XX | 🟢 | vless | @lrnbymaa | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 17",
                 "❔XX | 🟢 | vless | @FreakConfig | 18",
-                "❔XX | 🟢 | vless | @mehrosaboran | 5",
+                "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -124,13 +125,14 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "❔XX | 🟢 | vless | @lrnbymaa | 12",
+                "❔XX | 🟢 | vless | @lrnbymaa | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 17",
                 "❔XX | 🟢 | vless | @FreakConfig | 18",
-                "❔XX | 🟢 | vless | @mehrosaboran | 5",
+                "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -185,6 +187,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
+            "type": "vless",
+            "server": "178.17.50.172",
+            "server_port": 443,
+            "uuid": "57313ede-d53b-4c2c-8639-a02ae154dc14",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de.moktana.digital",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XRfSpOsx2yMDCfnWMka8zVIxww4WpuJNYZH5Vs7EEWU",
+                    "short_id": "5c188ae7c249c0e8"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
             "type": "vless",
             "server": "57.129.49.1",
@@ -214,7 +245,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 12",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 17",
             "type": "vless",
             "server": "152.89.244.61",
             "server_port": 443,
@@ -359,7 +390,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 5",
+            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "51.250.86.102",
             "server_port": 443,
