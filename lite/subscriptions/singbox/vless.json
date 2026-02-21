@@ -133,9 +133,9 @@
                 "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
-                "❔XX | 🔴 | vless | @v2ray_swhil | 44",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 18",
@@ -145,6 +145,7 @@
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🟢 | vless | @lrnbymaa | 14",
                 "❔XX | 🟢 | vless | @lrnbymaa | 15",
+                "❔XX | 🔴 | vless | @free1_vpn | 2",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @fnet00 | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -197,9 +198,9 @@
                 "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @customv2ray | 17",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
-                "❔XX | 🔴 | vless | @v2ray_swhil | 44",
+                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
-                "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 18",
@@ -209,6 +210,7 @@
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🟢 | vless | @lrnbymaa | 14",
                 "❔XX | 🟢 | vless | @lrnbymaa | 15",
+                "❔XX | 🔴 | vless | @free1_vpn | 2",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @fnet00 | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -932,7 +934,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray_swhil | 44",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -963,6 +965,37 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 1",
+            "type": "vless",
+            "server": "poli.appleseraj.ir",
+            "server_port": 2096,
+            "uuid": "75d8e7bb-74f8-4c25-a72f-dc3d983fb6d7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "isranrol.appleseraj.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "isranrol.appleseraj.ir"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 2",
             "type": "vless",
             "server": "b.pabloping.cloud",
@@ -974,37 +1007,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray1_ng | 3",
-            "type": "vless",
-            "server": "chatgpt.com",
-            "server_port": 2096,
-            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni.111000.indevs.in",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "sni.111000.indevs.in"
-                }
             }
         },
         {
@@ -1225,6 +1227,37 @@
                     "enabled": true,
                     "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
                     "short_id": "bbfb4f7a53e22dd3"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @free1_vpn | 2",
+            "type": "vless",
+            "server": "chatgpt.com",
+            "server_port": 2096,
+            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sni.111000.indevs.in",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed",
+                "headers": {
+                    "Host": "sni.111000.indevs.in"
                 }
             }
         },
