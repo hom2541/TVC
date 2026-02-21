@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇳🇱NL | 🔴 | vless | @DarkTeam_VPN | 5",
+                "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 9",
                 "❔XX | 🟢 | vless | @lrnbymaa | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -125,6 +126,7 @@
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇳🇱NL | 🔴 | vless | @DarkTeam_VPN | 5",
+                "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇩🇪DE | 🟢 | vless | @customv2ray | 9",
                 "❔XX | 🟢 | vless | @lrnbymaa | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -210,6 +212,35 @@
                     "enabled": true,
                     "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowSocks_s | 0",
+            "type": "vless",
+            "server": "15.204.97.219",
+            "server_port": 23576,
+            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fuck.rkn",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+                    "short_id": "01"
                 }
             }
         },
