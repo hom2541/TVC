@@ -112,6 +112,7 @@
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @free1_vpn | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 6",
@@ -128,6 +129,7 @@
                 "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @free1_vpn | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 6",
@@ -300,6 +302,30 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @free1_vpn | 4",
+            "type": "vmess",
+            "server": "104.19.37.10",
+            "server_port": 8080,
+            "uuid": "nasnet",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/NASNET\/cdn",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
