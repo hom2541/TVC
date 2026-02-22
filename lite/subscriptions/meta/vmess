@@ -126,7 +126,6 @@ proxies:
   - {"name":"🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 5","type":"vmess","server":"213.183.54.243","port":"443","cipher":"auto","uuid":"d7f56688-56a0-448c-bc04-fd83c6ac17d0","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 0","type":"vmess","server":"183.236.51.23","port":"51707","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 1","type":"vmess","server":"mci.mosi.mosipro.ml","port":"443","cipher":"auto","uuid":"4c2a6b41-3138-43fe-aaa6-222a3b0600ee","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"❔XX | 🟢 | vmess | @v2Line | 6","type":"vmess","server":"172.233.229.91","port":"14102","cipher":"auto","uuid":"27ba87fc-583f-4763-9060-83cf0b9264db","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
@@ -140,7 +139,6 @@ proxy-groups:
       - '🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 5'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '❔XX | 🟢 | vmess | @Hope_Net | 0'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 1'
       - '❔XX | 🟢 | vmess | @v2Line | 6'
   - name: URL-TEST
     type: url-test
@@ -154,7 +152,6 @@ proxy-groups:
       - '🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 5'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '❔XX | 🟢 | vmess | @Hope_Net | 0'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 1'
       - '❔XX | 🟢 | vmess | @v2Line | 6'
   - name: FALLBACK
     type: fallback
@@ -167,7 +164,6 @@ proxy-groups:
       - '🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 5'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
       - '❔XX | 🟢 | vmess | @Hope_Net | 0'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 1'
       - '❔XX | 🟢 | vmess | @v2Line | 6'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
