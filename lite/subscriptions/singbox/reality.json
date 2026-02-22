@@ -107,11 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🟢 | vless | @vmess_vless_v2rayng | 19",
+                "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 19",
                 "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @flyv2ray | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 9",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -123,11 +122,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🟢 | vless | @vmess_vless_v2rayng | 19",
+                "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 19",
                 "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @flyv2ray | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 9",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -183,7 +181,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @vmess_vless_v2rayng | 19",
+            "tag": "❔XX | 🟢 | vless | @vmess_vless_v2rayng | 19",
             "type": "vless",
             "server": "de2.srv.oplcdn.link",
             "server_port": 8443,
@@ -295,35 +293,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @flyv2ray | 4",
-            "type": "vless",
-            "server": "138.124.90.159",
-            "server_port": 8443,
-            "uuid": "56d64a42-eeb2-4011-bfa9-f1c3a67b1d9b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g7tux4qJl3BQyNwNpamBVd_53ZmybBXmRO2KZ6vIdVw",
-                    "short_id": "a24ed855f275"
                 }
             }
         },

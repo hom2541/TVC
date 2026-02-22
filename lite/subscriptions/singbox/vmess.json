@@ -115,8 +115,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 6",
-                "❔XX | 🟢 | vmess | @v2Line | 7",
                 "❔XX | 🟢 | vmess | @iP_CF | 4"
             ]
         },
@@ -133,8 +133,8 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 6",
-                "❔XX | 🟢 | vmess | @v2Line | 7",
                 "❔XX | 🟢 | vmess | @iP_CF | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -376,9 +376,9 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 6",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
-            "server": "15.235.85.147",
+            "server": "57.129.24.125",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
@@ -393,7 +393,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pelang.org",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -405,16 +405,16 @@
                 "type": "ws",
                 "path": "\/linkvws",
                 "headers": {
-                    "Host": "pelang.org"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 7",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 6",
             "type": "vmess",
-            "server": "45.141.148.143",
-            "server_port": 5059,
-            "uuid": "e720d2b6-80dd-4664-b64e-6cc784bce329",
+            "server": "172.233.229.91",
+            "server_port": 14102,
+            "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -424,13 +424,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
