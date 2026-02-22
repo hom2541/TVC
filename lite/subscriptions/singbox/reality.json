@@ -107,12 +107,13 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 2",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "❔XX | 🟢 | vless | @lrnbymaa | 14",
-                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
+                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 14",
+                "❔XX | 🟢 | vless | @lrnbymaa | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🟢 | vless | @flyv2ray | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🟢 | vless | @kiava | 43",
@@ -125,12 +126,13 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 2",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "❔XX | 🟢 | vless | @lrnbymaa | 14",
-                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
+                "🇷🇺RU | 🟢 | vless | @lrnbymaa | 14",
+                "❔XX | 🟢 | vless | @lrnbymaa | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🟢 | vless | @flyv2ray | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🟢 | vless | @kiava | 43",
@@ -187,7 +189,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
+            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "178.17.50.172",
             "server_port": 443,
@@ -245,7 +247,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 14",
+            "tag": "🇷🇺RU | 🟢 | vless | @lrnbymaa | 14",
             "type": "vless",
             "server": "51.250.86.102",
             "server_port": 443,
@@ -274,7 +276,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @lrnbymaa | 15",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 15",
             "type": "vless",
             "server": "spb.roblugo.su",
             "server_port": 443,
@@ -357,6 +359,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 16",
+            "type": "vless",
+            "server": "game.pineappled.org",
+            "server_port": 443,
+            "uuid": "18f72be7-0651-4037-928b-8a309d685796",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qFBIVGsvXTMeJcdJz6GiL7DG0XNhCg7rItza7t0qTgU",
+                    "short_id": "9eb31eb7572c0882"
                 }
             }
         },
