@@ -108,11 +108,11 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 6",
                 "❔XX | 🟢 | vmess | @iP_CF | 3"
@@ -124,11 +124,11 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 1",
+                "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 6",
                 "❔XX | 🟢 | vmess | @iP_CF | 3"
@@ -188,7 +188,41 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇷🇺RU | 🟢 | vmess | @oneclickvpnkeys | 4",
+            "type": "vmess",
+            "server": "213.183.54.243",
+            "server_port": 443,
+            "uuid": "d7f56688-56a0-448c-bc04-fd83c6ac17d0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "45.13.227.118",
             "server_port": 80,
@@ -206,30 +240,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
-            "type": "vmess",
-            "server": "104.19.37.10",
-            "server_port": 8080,
-            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/NASNET\/cdn",
                 "headers": {
                     "Host": ""
                 }
@@ -294,7 +304,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
             "server": "104.21.94.64",
             "server_port": 443,
