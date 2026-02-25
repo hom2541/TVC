@@ -123,6 +123,7 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 102",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -130,12 +131,12 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 0",
-                "🇭🇰HK | 🟢 | vmess | @v2Line | 1",
-                "🇹🇼TW | 🟢 | vmess | @v2Line | 2",
-                "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
-                "🇩🇪DE | 🟢 | vmess | @v2Line | 4",
+                "❔XX | 🟢 | vmess | @v2Line | 1",
+                "❔XX | 🟢 | vmess | @v2Line | 2",
+                "❔XX | 🟢 | vmess | @v2Line | 3",
+                "❔XX | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 7"
+                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7"
             ]
         },
         {
@@ -159,6 +160,7 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🚩CF | 🟢 | vmess | @prrofile_purple | 102",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -166,12 +168,12 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 0",
-                "🇭🇰HK | 🟢 | vmess | @v2Line | 1",
-                "🇹🇼TW | 🟢 | vmess | @v2Line | 2",
-                "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
-                "🇩🇪DE | 🟢 | vmess | @v2Line | 4",
+                "❔XX | 🟢 | vmess | @v2Line | 1",
+                "❔XX | 🟢 | vmess | @v2Line | 2",
+                "❔XX | 🟢 | vmess | @v2Line | 3",
+                "❔XX | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 7"
+                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -500,6 +502,40 @@
             }
         },
         {
+            "tag": "🚩CF | 🟢 | vmess | @prrofile_purple | 102",
+            "type": "vmess",
+            "server": "104.17.77.77",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/lMnsZUN4\/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
             "tag": "🚩CF | 🟢 | vmess | @customv2ray | 8",
             "type": "vmess",
             "server": "104.24.169.183",
@@ -698,7 +734,7 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @v2Line | 1",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 1",
             "type": "vmess",
             "server": "149.88.95.217",
             "server_port": 35760,
@@ -715,7 +751,7 @@
             }
         },
         {
-            "tag": "🇹🇼TW | 🟢 | vmess | @v2Line | 2",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "165.154.195.38",
             "server_port": 35034,
@@ -732,7 +768,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "57.129.24.124",
             "server_port": 443,
@@ -766,7 +802,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 4",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "57.129.28.214",
             "server_port": 443,
@@ -834,7 +870,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @nofiltering2 | 7",
+            "tag": "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7",
             "type": "vmess",
             "server": "193.151.128.37",
             "server_port": 3131,
