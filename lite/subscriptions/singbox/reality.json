@@ -108,9 +108,10 @@
                 "URL-TEST",
                 "🇩🇪DE | 🔴 | vless | @NIM_VPN_ir | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🟢 | vless | @lrnbymaa | 18",
+                "🇨🇾CY | 🟢 | vless | @proxy_kafee | 0",
+                "🇺🇸US | 🟢 | vless | @lrnbymaa | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @flyv2ray | 9",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -123,9 +124,10 @@
             "outbounds": [
                 "🇩🇪DE | 🔴 | vless | @NIM_VPN_ir | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🟢 | vless | @lrnbymaa | 18",
+                "🇨🇾CY | 🟢 | vless | @proxy_kafee | 0",
+                "🇺🇸US | 🟢 | vless | @lrnbymaa | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @flyv2ray | 9",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -210,7 +212,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 18",
+            "tag": "🇨🇾CY | 🟢 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "45.15.128.75",
+            "server_port": 8443,
+            "uuid": "fad2b7e0-d80c-4b7b-a84f-d86e0e49f627",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "max.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BSsqyfTD-avgb1CyUdy_qJA95HwyMadBMJt7-EQjggk",
+                    "short_id": "e473bbc75224b9df"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vless | @lrnbymaa | 18",
             "type": "vless",
             "server": "142.248.80.157",
             "server_port": 443,
@@ -268,7 +299,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,

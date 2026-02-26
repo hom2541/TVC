@@ -112,8 +112,9 @@
                 "🇮🇳IN | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @v2Line | 3",
-                "❔XX | 🟢 | vmess | @v2Line | 4"
+                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 4"
             ]
         },
         {
@@ -126,8 +127,9 @@
                 "🇮🇳IN | 🟢 | vmess | @oneclickvpnkeys | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @v2Line | 3",
-                "❔XX | 🟢 | vmess | @v2Line | 4"
+                "❔XX | 🟢 | vmess | @Hope_Net | 0",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -293,7 +295,24 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 3",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 0",
+            "type": "vmess",
+            "server": "216.128.136.23",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "57.129.24.124",
             "server_port": 443,
@@ -327,7 +346,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 4",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "57.129.28.214",
             "server_port": 443,
