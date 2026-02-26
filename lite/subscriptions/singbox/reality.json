@@ -113,6 +113,7 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 17",
+                "❔XX | 🟢 | vless | @FreakConfig | 18",
                 "❔XX | 🟢 | vless | @flyv2ray | 3",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -130,6 +131,7 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 17",
+                "❔XX | 🟢 | vless | @FreakConfig | 18",
                 "❔XX | 🟢 | vless | @flyv2ray | 3",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -338,6 +340,35 @@
         },
         {
             "tag": "❔XX | 🟢 | vless | @FreakConfig | 17",
+            "type": "vless",
+            "server": "103.231.75.185",
+            "server_port": 443,
+            "uuid": "f078abea-a480-44c7-a785-4436c767835a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U",
+                    "short_id": "0bce"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 18",
             "type": "vless",
             "server": "51.158.206.98",
             "server_port": 23576,
