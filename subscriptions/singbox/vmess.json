@@ -120,7 +120,6 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🚩CF | 🟢 | vmess | @prrofile_purple | 133",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -154,7 +153,6 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
-                "🚩CF | 🟢 | vmess | @prrofile_purple | 133",
                 "🚩CF | 🟢 | vmess | @customv2ray | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -441,40 +439,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "payload.xyz-my.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🚩CF | 🟢 | vmess | @prrofile_purple | 133",
-            "type": "vmess",
-            "server": "104.17.77.77",
-            "server_port": 8443,
-            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray1.dozapp.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/lMnsZUN4\/",
-                "headers": {
-                    "Host": "v2ray1.dozapp.xyz"
                 }
             }
         },
