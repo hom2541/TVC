@@ -110,6 +110,8 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @FreakConfig | 18",
+                "❔XX | 🟢 | vless | @flyv2ray | 8",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -123,6 +125,8 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @FreakConfig | 18",
+                "❔XX | 🟢 | vless | @flyv2ray | 8",
                 "❔XX | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
@@ -260,6 +264,64 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 18",
+            "type": "vless",
+            "server": "195.26.224.112",
+            "server_port": 8443,
+            "uuid": "db444bee-8212-5ff5-be40-47e1a7509eb8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vk.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HE-fVd73NsTheypCLSyeNxgkg2EJOfXWGxjUOcvPZyQ",
+                    "short_id": "938f14cf6757a249"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 8",
+            "type": "vless",
+            "server": "103.231.75.185",
+            "server_port": 443,
+            "uuid": "c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ve8spuAYBeV8j7QnofoqGecdYl1KZYYcykiyHHzNg1U",
+                    "short_id": "0bce"
                 }
             }
         },
