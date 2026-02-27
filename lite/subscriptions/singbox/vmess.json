@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇸🇬SG | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
@@ -121,7 +121,7 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "🇸🇬SG | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
@@ -182,11 +182,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇸🇬SG | 🟢 | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
-            "server": "bnhhy.1ll.ccwu.cc",
-            "server_port": 80,
-            "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
+            "server": "payload.xyz-my.eu.org",
+            "server_port": 443,
+            "uuid": "1491462a-979a-4ac0-b5dd-7409a91e62fb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -197,11 +197,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "payload.xyz-my.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/iSRWSKUJKNuXvVzsYHmsMrnO",
+                "path": "\/vmess",
                 "headers": {
-                    "Host": ""
+                    "Host": "payload.xyz-my.eu.org"
                 }
             }
         },
