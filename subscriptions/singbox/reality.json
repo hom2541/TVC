@@ -114,10 +114,13 @@
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
-                "❔XX | 🟢 | vless | @prrofile_purple | 74",
-                "❔XX | 🟢 | vless | @prrofile_purple | 76",
-                "❔XX | 🟢 | vless | @prrofile_purple | 88",
-                "❔XX | 🟢 | vless | @free1_vpn | 1",
+                "❔XX | 🟢 | vless | @prrofile_purple | 48",
+                "❔XX | 🟢 | vless | @prrofile_purple | 53",
+                "❔XX | 🟢 | vless | @prrofile_purple | 54",
+                "❔XX | 🟢 | vless | @prrofile_purple | 58",
+                "❔XX | 🟢 | vless | @prrofile_purple | 61",
+                "❔XX | 🟢 | vless | @prrofile_purple | 79",
+                "❔XX | 🟢 | vless | @prrofile_purple | 81",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -150,9 +153,8 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🟢 | vless | @iP_CF | 0",
-                "❔XX | 🟢 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @kiava | 26",
-                "🇩🇪DE | 🔴 | vless | @kiava | 30",
+                "❔XX | 🔴 | vless | @kiava | 30",
                 "🇩🇪DE | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -181,10 +183,13 @@
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
-                "❔XX | 🟢 | vless | @prrofile_purple | 74",
-                "❔XX | 🟢 | vless | @prrofile_purple | 76",
-                "❔XX | 🟢 | vless | @prrofile_purple | 88",
-                "❔XX | 🟢 | vless | @free1_vpn | 1",
+                "❔XX | 🟢 | vless | @prrofile_purple | 48",
+                "❔XX | 🟢 | vless | @prrofile_purple | 53",
+                "❔XX | 🟢 | vless | @prrofile_purple | 54",
+                "❔XX | 🟢 | vless | @prrofile_purple | 58",
+                "❔XX | 🟢 | vless | @prrofile_purple | 61",
+                "❔XX | 🟢 | vless | @prrofile_purple | 79",
+                "❔XX | 🟢 | vless | @prrofile_purple | 81",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -217,9 +222,8 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🟢 | vless | @iP_CF | 0",
-                "❔XX | 🟢 | vless | @mehrosaboran | 0",
                 "❔XX | 🔴 | vless | @kiava | 26",
-                "🇩🇪DE | 🔴 | vless | @kiava | 30",
+                "❔XX | 🔴 | vless | @kiava | 30",
                 "🇩🇪DE | 🟢 | vless | @kiava | 43",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
                 "❔XX | 🔴 | vless | @vpn_go67 | 8",
@@ -502,7 +506,152 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 74",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 48",
+            "type": "vless",
+            "server": "maxb08.ava-shop.ir",
+            "server_port": 2096,
+            "uuid": "7553f8fe-2b75-4864-8717-00634a9e2e27",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
+                    "short_id": "42c0b628ba6a42a9"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 53",
+            "type": "vless",
+            "server": "my.kiomars.shop",
+            "server_port": 6665,
+            "uuid": "e0ff845c-92d7-4f9b-81f5-53bf9625aac4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
+                    "short_id": "c3b6ed4da7a983c7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 54",
+            "type": "vless",
+            "server": "my.kiomars.shop",
+            "server_port": 6664,
+            "uuid": "e0ff845c-92d7-4f9b-81f5-53bf9625aac4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
+                    "short_id": "c3b6ed4da7a983c7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 58",
+            "type": "vless",
+            "server": "my.kiomars.shop",
+            "server_port": 6664,
+            "uuid": "cfa44910-d8e0-4469-8e0c-88a9f5e96e6b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
+                    "short_id": "c3b6ed4da7a983c7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 61",
+            "type": "vless",
+            "server": "my.kiomars.shop",
+            "server_port": 6665,
+            "uuid": "cfa44910-d8e0-4469-8e0c-88a9f5e96e6b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
+                    "short_id": "c3b6ed4da7a983c7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 79",
             "type": "vless",
             "server": "my.kiomars.shop",
             "server_port": 6665,
@@ -531,7 +680,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 76",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 81",
             "type": "vless",
             "server": "my.kiomars.shop",
             "server_port": 6664,
@@ -556,64 +705,6 @@
                     "enabled": true,
                     "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
                     "short_id": "c3b6ed4da7a983c7"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 88",
-            "type": "vless",
-            "server": "81.12.91.190",
-            "server_port": 443,
-            "uuid": "daa76981-27fb-4943-8311-c46391ff0847",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "git-scm.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "U6FRH-QtDwZPWgVlOnm3TTcknf2uZMB4j4IZJoi8ezM",
-                    "short_id": "e081d94bd1f9bd56"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @free1_vpn | 1",
-            "type": "vless",
-            "server": "51.158.206.29",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
                 }
             }
         },
@@ -1574,35 +1665,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 0",
-            "type": "vless",
-            "server": "maxb08.ava-shop.ir",
-            "server_port": 2096,
-            "uuid": "7553f8fe-2b75-4864-8717-00634a9e2e27",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E",
-                    "short_id": "42c0b628ba6a42a9"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @kiava | 26",
             "type": "vless",
             "server": "94.141.123.137",
@@ -1632,7 +1694,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @kiava | 30",
+            "tag": "❔XX | 🔴 | vless | @kiava | 30",
             "type": "vless",
             "server": "prime.dissertationhelpspecialist.com",
             "server_port": 8443,
