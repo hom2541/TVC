@@ -129,15 +129,14 @@
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
-                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
-                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 3",
+                "❔XX | 🟢 | vless | @lrnbymaa | 1",
+                "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @free1_vpn | 2",
                 "❔XX | 🔴 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
@@ -187,15 +186,14 @@
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
-                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
-                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 3",
+                "❔XX | 🟢 | vless | @lrnbymaa | 1",
+                "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @free1_vpn | 2",
                 "❔XX | 🔴 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
@@ -792,20 +790,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @v2ray1_ng | 0",
-            "type": "vless",
-            "server": "152.42.147.18",
-            "server_port": 35689,
-            "uuid": "bf1b45af-c13a-438f-8d32-3b5a31b6735b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
             "type": "vless",
             "server": "172.67.141.140",
@@ -938,25 +922,40 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @lrnbymaa | 2",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 1",
             "type": "vless",
-            "server": "185.226.118.143",
-            "server_port": 43019,
-            "uuid": "17a6c797-9234-41b4-f2b9-07360cf74793",
-            "flow": "",
+            "server": "1.cdnconn.com",
+            "server_port": 23335,
+            "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7Gi8eiUU9TIVbGuvSU16gl5-Aqt7tcCSB9x6CSxyvik",
+                    "short_id": "67b1e94e4dd1ef90"
+                }
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @lrnbymaa | 3",
+            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 2",
             "type": "vless",
-            "server": "srvfree.iranai.space",
-            "server_port": 41314,
-            "uuid": "6bf2c61f-db69-4e00-9dc5-249b83e69d73",
+            "server": "185.226.118.143",
+            "server_port": 43019,
+            "uuid": "17a6c797-9234-41b4-f2b9-07360cf74793",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
