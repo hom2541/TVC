@@ -127,17 +127,15 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayCollector | 12",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 18",
-                "🇺🇸US | 🟢 | vless | @prrofile_purple | 89",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 90",
-                "🇳🇱NL | 🟢 | vless | @vmessorg | 15",
-                "🇳🇱NL | 🟢 | vless | @vmessorg | 16",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 76",
+                "🇸🇨SC | 🔴 | vless | @prrofile_purple | 77",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
@@ -186,17 +184,15 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayCollector | 12",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 18",
-                "🇺🇸US | 🟢 | vless | @prrofile_purple | 89",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 90",
-                "🇳🇱NL | 🟢 | vless | @vmessorg | 15",
-                "🇳🇱NL | 🟢 | vless | @vmessorg | 16",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 76",
+                "🇸🇨SC | 🔴 | vless | @prrofile_purple | 77",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 1",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
@@ -715,11 +711,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @prrofile_purple | 89",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 76",
             "type": "vless",
-            "server": "cd.reata.ir",
+            "server": "193.84.255.103",
+            "server_port": 7071,
+            "uuid": "e0ff845c-92d7-4f9b-81f5-53bf9625aac4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇨SC | 🔴 | vless | @prrofile_purple | 77",
+            "type": "vless",
+            "server": "45.130.125.198",
             "server_port": 2053,
-            "uuid": "de541d61-6b3f-437f-8429-bbf3f672f885",
+            "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -729,7 +739,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de2.diiginet.ir",
+                "server_name": "kaja.thisiswe.uno",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -741,79 +751,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "de2.diiginet.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 90",
-            "type": "vless",
-            "server": "3.70.248.224",
-            "server_port": 57160,
-            "uuid": "8b80c5d9-24c7-47bc-fca7-7fe80efc93ab",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @vmessorg | 15",
-            "type": "vless",
-            "server": "nl01r.easyserf.top",
-            "server_port": 443,
-            "uuid": "12adb397-701e-0004-91f6-e0c766f87fa4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl01r.easyserf.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vOT7HS9pA9aciDsuhwD0ch5-Wn1n2IMuYynFOWS9Knw",
-                    "short_id": "1a7f2b3d9e4058c6"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @vmessorg | 16",
-            "type": "vless",
-            "server": "nl.tortvpnbot.world",
-            "server_port": 80,
-            "uuid": "a001c9c4-ece2-4dc1-9658-cbad90fcd2e0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stats.vk-portal.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
-                    "short_id": "6ba85179e30d4fc2"
+                    "Host": "kaja.thisiswe.uno"
                 }
             }
         },
@@ -946,7 +884,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -967,7 +905,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
+            "tag": "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
