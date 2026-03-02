@@ -110,7 +110,6 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 5",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
-                "🇮🇷IR | 🔴 | vless | @frev2ray | 0",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
@@ -143,12 +142,11 @@
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 1",
                 "🇮🇷IR | 🔴 | vless | @ServerNett | 0",
-                "❔XX | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 11",
@@ -191,7 +189,6 @@
                 "❔XX | 🔴 | vless | @XsV2ray | 5",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 16",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 17",
-                "🇮🇷IR | 🔴 | vless | @frev2ray | 0",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
@@ -224,12 +221,11 @@
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 1",
                 "🇮🇷IR | 🔴 | vless | @ServerNett | 0",
-                "❔XX | 🟢 | vmess | @V2rayng_Fast | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 11",
@@ -388,20 +384,6 @@
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @frev2ray | 0",
-            "type": "vless",
-            "server": "185.215.229.66",
-            "server_port": 2037,
-            "uuid": "312fc303-f529-4283-8acb-a1db2aace2e3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1048,23 +1030,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @V2rayng_Fast | 0",
-            "type": "vmess",
-            "server": "iran.anonnexuse.com",
-            "server_port": 101,
-            "uuid": "5be9d7fc-fe59-8619-1cce-ea1bd00fd5ed",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -1169,7 +1134,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
@@ -1343,11 +1308,11 @@
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
-            "server": "120.232.153.40",
-            "server_port": 35601,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "192.210.231.59",
+            "server_port": 58164,
+            "uuid": "39a1dff4-9c7d-487b-9917-2f2c8e9572f2",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1360,11 +1325,11 @@
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "38.33.19.91",
-            "server_port": 37000,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "ca-v2ray.ipracevpn.com",
+            "server_port": 443,
+            "uuid": "1b3d460b-91cc-46f9-909d-73823128ee0a",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1375,19 +1340,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "38.33.19.91",
+                "server_name": "ca-v2ray.ipracevpn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path\/191019072927",
-                "headers": {
-                    "Host": "38.33.19.91"
                 }
             }
         },
