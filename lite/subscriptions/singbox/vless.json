@@ -122,10 +122,10 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 52",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 53",
-                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 1",
-                "❔XX | 🔴 | vless | @ShadowSocks_s | 2",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 50",
+                "🇮🇷IR | 🟢 | vless | @prrofile_purple | 51",
+                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
+                "❔XX | 🔴 | vless | @ShadowSocks_s | 3",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 1",
                 "🇮🇷IR | 🔴 | vless | @ServerNett | 0",
@@ -135,8 +135,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
-                "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
-                "❔XX | 🔴 | vless | @lrnbymaa | 11",
+                "❔XX | 🔴 | vless | @MehradLearn | 1",
+                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 11",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 12",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @fnet00 | 3",
@@ -180,10 +180,10 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 18",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 52",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 53",
-                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 1",
-                "❔XX | 🔴 | vless | @ShadowSocks_s | 2",
+                "🇺🇸US | 🔴 | vless | @prrofile_purple | 50",
+                "🇮🇷IR | 🟢 | vless | @prrofile_purple | 51",
+                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
+                "❔XX | 🔴 | vless | @ShadowSocks_s | 3",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
                 "🇺🇸US | 🟢 | vless | @FalconPolV2rayNG | 1",
                 "🇮🇷IR | 🔴 | vless | @ServerNett | 0",
@@ -193,8 +193,8 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
-                "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
-                "❔XX | 🔴 | vless | @lrnbymaa | 11",
+                "❔XX | 🔴 | vless | @MehradLearn | 1",
+                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 11",
                 "🇮🇷IR | 🔴 | vless | @lrnbymaa | 12",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @fnet00 | 3",
@@ -628,42 +628,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 52",
+            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 50",
             "type": "vless",
-            "server": "162.159.194.86",
-            "server_port": 2087,
-            "uuid": "ba099f67-fc1f-4339-b36e-bcbbcc38fe8f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "amorix.abresani.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "amorix.abresani.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 53",
-            "type": "vless",
-            "server": "fastly2.hamrahflow.ir",
+            "server": "cf2.bntabriz.ir",
             "server_port": 443,
-            "uuid": "5e07e5e7-35ae-4848-9b5b-4abd4e65682f",
+            "uuid": "e7623987-2e5f-245c-0975-249864348b56",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -673,24 +642,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "default.ssl.fastly.net",
+                "server_name": "de2.www.hitgram.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🟢 | vless | @prrofile_purple | 51",
+            "type": "vless",
+            "server": "my.kiomars.shop",
+            "server_port": 6620,
+            "uuid": "af5100bf-ffe6-43de-bee5-b16cf5a3528e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "default.ssl.fastly.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RSnbrHpLJYL8AtxWie8gbcnfs68h9rHAZX-gS3EQtSM",
+                    "short_id": "c3b6ed4da7a983c7"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 1",
+            "tag": "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
             "type": "vless",
             "server": "81.12.33.100",
             "server_port": 7710,
@@ -711,7 +702,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ShadowSocks_s | 2",
+            "tag": "❔XX | 🔴 | vless | @ShadowSocks_s | 3",
             "type": "vless",
             "server": "epzNPHlZlVczqpBI2npY",
             "server_port": 0,
@@ -940,7 +931,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
+            "tag": "❔XX | 🔴 | vless | @MehradLearn | 1",
             "type": "vless",
             "server": "104.17.74.206",
             "server_port": 2053,
@@ -971,7 +962,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 11",
+            "tag": "🇮🇷IR | 🔴 | vless | @lrnbymaa | 11",
             "type": "vless",
             "server": "tak8.khabaronlinestar.site",
             "server_port": 8083,
