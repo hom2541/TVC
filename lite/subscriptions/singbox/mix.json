@@ -130,7 +130,8 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 18",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 51",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 55",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 56",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 0",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 1",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -155,17 +156,17 @@
                 "🇭🇺HU | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
                 "🇮🇷IR | 🔴 | vless | @Capoit | 2",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 15",
-                "🇬🇧GB | 🟢 | vless | @FreakConfig | 16",
+                "❔XX | 🟢 | vless | @FreakConfig | 15",
+                "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
-                "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
+                "❔XX | 🔴 | vless | @iP_CF | 0",
                 "❔XX | 🔴 | vless | @kiava | 36",
                 "❔XX | 🔴 | vless | @kiava | 37",
                 "❔XX | 🔴 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @GozargahVPN | 3",
-                "🇮🇷IR | 🔴 | vless | @GozargahVPN | 4",
+                "❔XX | 🔴 | vless | @GozargahVPN | 4",
                 "❔XX | 🔴 | vless | @V2FETCH | 0"
             ]
         },
@@ -197,7 +198,8 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 18",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 51",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 55",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 56",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 0",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 1",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 0",
@@ -222,17 +224,17 @@
                 "🇭🇺HU | 🟢 | vmess | @v2Line | 4",
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
                 "🇮🇷IR | 🔴 | vless | @Capoit | 2",
-                "🇩🇪DE | 🟢 | vless | @FreakConfig | 15",
-                "🇬🇧GB | 🟢 | vless | @FreakConfig | 16",
+                "❔XX | 🟢 | vless | @FreakConfig | 15",
+                "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
-                "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
+                "❔XX | 🔴 | vless | @iP_CF | 0",
                 "❔XX | 🔴 | vless | @kiava | 36",
                 "❔XX | 🔴 | vless | @kiava | 37",
                 "❔XX | 🔴 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @GozargahVPN | 3",
-                "🇮🇷IR | 🔴 | vless | @GozargahVPN | 4",
+                "❔XX | 🔴 | vless | @GozargahVPN | 4",
                 "❔XX | 🔴 | vless | @V2FETCH | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -799,7 +801,28 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 51",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 55",
+            "type": "vless",
+            "server": "81.12.33.100",
+            "server_port": 7710,
+            "uuid": "83b8e95b-df6e-4a80-b897-273cd4524caf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "qwemmqwoedmqwoemdoqwmedpmqwedmpm",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 56",
             "type": "vless",
             "server": "sr-d-2.sedarchahar.top",
             "server_port": 9102,
@@ -1371,7 +1394,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @FreakConfig | 15",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 15",
             "type": "vless",
             "server": "wolfb24.servers1mart.ir",
             "server_port": 2096,
@@ -1400,7 +1423,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @FreakConfig | 16",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 16",
             "type": "vless",
             "server": "germ-node.genadata.online",
             "server_port": 2040,
@@ -1450,7 +1473,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @iP_CF | 0",
+            "tag": "❔XX | 🔴 | vless | @iP_CF | 0",
             "type": "vless",
             "server": "91.247.171.156",
             "server_port": 99,
@@ -1602,7 +1625,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @GozargahVPN | 4",
+            "tag": "❔XX | 🔴 | vless | @GozargahVPN | 4",
             "type": "vless",
             "server": "94.182.151.28",
             "server_port": 8587,
