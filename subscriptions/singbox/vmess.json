@@ -128,14 +128,13 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 0",
-                "❔XX | 🟢 | vmess | @v2Line | 1",
-                "❔XX | 🟢 | vmess | @v2Line | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 3",
-                "❔XX | 🟢 | vmess | @v2Line | 4",
-                "❔XX | 🟢 | vmess | @v2Line | 5",
-                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7"
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
+                "🇹🇷TR | 🟢 | vmess | @v2Line | 2",
+                "🇬🇧GB | 🟢 | vmess | @v2Line | 3",
+                "🇭🇺HU | 🟢 | vmess | @v2Line | 4",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
+                "❔XX | 🟢 | vmess | @nofiltering2 | 7"
             ]
         },
         {
@@ -164,14 +163,13 @@
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 0",
                 "🇨🇦CA | 🟢 | vmess | @v2Line | 0",
-                "❔XX | 🟢 | vmess | @v2Line | 1",
-                "❔XX | 🟢 | vmess | @v2Line | 2",
-                "❔XX | 🟢 | vmess | @v2Line | 3",
-                "❔XX | 🟢 | vmess | @v2Line | 4",
-                "❔XX | 🟢 | vmess | @v2Line | 5",
-                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7"
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
+                "🇹🇷TR | 🟢 | vmess | @v2Line | 2",
+                "🇬🇧GB | 🟢 | vmess | @v2Line | 3",
+                "🇭🇺HU | 🟢 | vmess | @v2Line | 4",
+                "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
+                "❔XX | 🟢 | vmess | @nofiltering2 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -633,40 +631,6 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 0",
-            "type": "vmess",
-            "server": "104.21.94.64",
-            "server_port": 443,
-            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linja05.hwcar.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linja05.hwcar.sbs"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | 🟢 | vmess | @v2Line | 0",
             "type": "vmess",
             "server": "15.235.85.156",
@@ -701,7 +665,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 1",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 1",
             "type": "vmess",
             "server": "57.129.2.121",
             "server_port": 443,
@@ -735,7 +699,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 2",
+            "tag": "🇹🇷TR | 🟢 | vmess | @v2Line | 2",
             "type": "vmess",
             "server": "185.104.189.38",
             "server_port": 80,
@@ -759,7 +723,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 3",
+            "tag": "🇬🇧GB | 🟢 | vmess | @v2Line | 3",
             "type": "vmess",
             "server": "57.128.189.240",
             "server_port": 443,
@@ -793,7 +757,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 4",
+            "tag": "🇭🇺HU | 🟢 | vmess | @v2Line | 4",
             "type": "vmess",
             "server": "45.12.132.183",
             "server_port": 80,
@@ -817,7 +781,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2Line | 5",
+            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "57.129.24.124",
             "server_port": 443,
@@ -851,7 +815,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7",
+            "tag": "❔XX | 🟢 | vmess | @nofiltering2 | 7",
             "type": "vmess",
             "server": "193.151.128.37",
             "server_port": 3131,
