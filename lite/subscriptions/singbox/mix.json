@@ -131,8 +131,8 @@
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 69",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 70",
+                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 1",
-                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 2",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -147,14 +147,14 @@
                 "🇺🇿UZ | 🟢 | ss | @OutlineVpnOfficial | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 2",
+                "🇬🇧GB | 🔴 | vless | @fnet00 | 1",
+                "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
-                "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🔴 | vless | @Capoit | 7",
-                "❔XX | 🟢 | vless | @Capoit | 8",
+                "❔XX | 🟢 | vmess | @v2Line | 5",
+                "❔XX | 🔴 | vless | @Capoit | 8",
+                "❔XX | 🔴 | vless | @Capoit | 9",
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
@@ -198,8 +198,8 @@
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 69",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 70",
+                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 0",
                 "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 1",
-                "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 2",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 5",
@@ -214,14 +214,14 @@
                 "🇺🇿UZ | 🟢 | ss | @OutlineVpnOfficial | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
-                "🇺🇸US | 🔴 | vless | @fnet00 | 2",
+                "🇬🇧GB | 🔴 | vless | @fnet00 | 1",
+                "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
-                "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
-                "❔XX | 🔴 | vless | @Capoit | 7",
-                "❔XX | 🟢 | vless | @Capoit | 8",
+                "❔XX | 🟢 | vmess | @v2Line | 5",
+                "❔XX | 🔴 | vless | @Capoit | 8",
+                "❔XX | 🔴 | vless | @Capoit | 9",
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
@@ -837,6 +837,20 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 0",
+            "type": "vless",
+            "server": "emg3.saipasamandemg3.sbs",
+            "server_port": 2003,
+            "uuid": "f75305e2-de53-4add-acc8-f9308394f5a4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 1",
             "type": "vless",
             "server": "finland.dehnavy.ir",
@@ -855,20 +869,6 @@
                 "headers": {
                     "Host": "finland.dehnavy.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @ShadowSocks_s | 2",
-            "type": "vless",
-            "server": "79.127.40.197",
-            "server_port": 30118,
-            "uuid": "2d210fde-7afa-47e0-bfd1-954bd5abd41b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1176,7 +1176,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @fnet00 | 1",
+            "tag": "🇬🇧GB | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "45.85.118.209",
             "server_port": 443,
@@ -1207,7 +1207,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @fnet00 | 2",
+            "tag": "❔XX | 🔴 | vless | @fnet00 | 2",
             "type": "vless",
             "server": "104.16.139.160",
             "server_port": 443,
@@ -1320,7 +1320,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
+            "tag": "❔XX | 🟢 | vmess | @v2Line | 5",
             "type": "vmess",
             "server": "57.129.24.124",
             "server_port": 443,
@@ -1354,7 +1354,21 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capoit | 7",
+            "tag": "❔XX | 🔴 | vless | @Capoit | 8",
+            "type": "vless",
+            "server": "g1-de2-user.a1mshop.ir",
+            "server_port": 14300,
+            "uuid": "14110bc1-454f-4536-9ac5-74754e77b4d5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @Capoit | 9",
             "type": "vless",
             "server": "dl-film.digitalvortex.ir",
             "server_port": 3038,
@@ -1371,35 +1385,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "dl-film.digitalvortex.ir"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @Capoit | 8",
-            "type": "vless",
-            "server": "85.133.240.82",
-            "server_port": 35812,
-            "uuid": "6e1bdcda-c17f-4a65-9d7c-f03536236541",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "learn.microsoft.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LOS87LofEJA0paPzrS2mIFhmTaqkOZC-AUFgNvE1UEs",
-                    "short_id": "82cada35130f1ef2"
                 }
             }
         },
