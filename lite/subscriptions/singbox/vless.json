@@ -133,9 +133,9 @@
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "🇮🇷IR | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
@@ -190,9 +190,9 @@
                 "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 5",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "🇮🇷IR | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
@@ -666,9 +666,9 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 70",
             "type": "vless",
-            "server": "srv-c0.netmaster.cam",
-            "server_port": 8008,
-            "uuid": "7e1d32bf-741f-30f3-1b0c-0452b695c07f",
+            "server": "78.157.37.186",
+            "server_port": 2099,
+            "uuid": "d203ceae-d9a9-45bb-a07c-0eb52baf9130",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -677,32 +677,25 @@
                 "max_streams": 32
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "1"
-                }
+                "type": "grpc",
+                "service_name": "vless",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
             "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 71",
             "type": "vless",
-            "server": "pl1.heliyadak.ir",
-            "server_port": 3228,
-            "uuid": "91f8b4d5-b9eb-4740-b560-df710cc3c5e2",
+            "server": "6t8q56c58d.0g97vcf0bhjg6sa4n1xx.realytag.com",
+            "server_port": 882,
+            "uuid": "8bc21af8-96d9-48a9-9bd7-6361684bedac",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pl1.heliyadak.ir"
-                }
             }
         },
         {
@@ -743,9 +736,9 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 8",
             "type": "vless",
-            "server": "212.80.8.48",
-            "server_port": 9987,
-            "uuid": "7c7d2112-89cc-418a-8e45-d874fbc6536f",
+            "server": "speed.mobilekamali.com",
+            "server_port": 41000,
+            "uuid": "6f4bb999-4f5b-4ed2-83b3-d0d89077aed2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -757,9 +750,9 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @vmessorg | 9",
             "type": "vless",
-            "server": "sdl7.shahramv1.site",
-            "server_port": 80,
-            "uuid": "45aabe77-c056-415e-9481-eec241348ecc",
+            "server": "212.80.8.48",
+            "server_port": 9987,
+            "uuid": "7c7d2112-89cc-418a-8e45-d874fbc6536f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -859,7 +852,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+            "tag": "❔XX | 🔴 | vless | @vless_vmess | 18",
             "type": "vless",
             "server": "172.67.141.140",
             "server_port": 8880,
@@ -880,7 +873,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -901,7 +894,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
+            "tag": "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
