@@ -118,7 +118,8 @@
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
-                "🇺🇦UA | 🔴 | vless | @proxy_kafee | 0",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🟢 | vmess | @azadi_az_inja_migzare | 0",
@@ -142,12 +143,12 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
-                "🇮🇷IR | 🔴 | vless | @VmessProtocol | 0",
+                "❔XX | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
-                "🇺🇿UZ | 🟢 | ss | @OutlineVpnOfficial | 16",
+                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 16",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -188,7 +189,8 @@
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
                 "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
-                "🇺🇦UA | 🔴 | vless | @proxy_kafee | 0",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
+                "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🟢 | vmess | @azadi_az_inja_migzare | 0",
@@ -212,12 +214,12 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
-                "🇮🇷IR | 🔴 | vless | @VmessProtocol | 0",
+                "❔XX | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
-                "🇺🇿UZ | 🟢 | ss | @OutlineVpnOfficial | 16",
+                "❔XX | 🟢 | ss | @OutlineVpnOfficial | 16",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -557,11 +559,11 @@
             }
         },
         {
-            "tag": "🇺🇦UA | 🔴 | vless | @proxy_kafee | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 0",
             "type": "vless",
-            "server": "31.42.190.76",
-            "server_port": 443,
-            "uuid": "5ac2d3b6-33cc-4442-9c0b-ae3909cabaae",
+            "server": "F2.HaMrAhCoNf.Ir",
+            "server_port": 8443,
+            "uuid": "5fdc186d-f881-4fc4-9346-1f3d8fae9339",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -569,12 +571,36 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "uktkq.secoxi.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "31.42.190.76"
+                    "Host": "uktkq.secoxi.site"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
+            "type": "vless",
+            "server": "151.101.193.57",
+            "server_port": 80,
+            "uuid": "4964455b-dbdc-40ad-8967-14f2ec6b2d2b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1097,7 +1123,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -1132,7 +1158,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @VmessProtocol | 0",
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 0",
             "type": "vless",
             "server": "ja1.diiginet.ir",
             "server_port": 2000,
@@ -1208,7 +1234,7 @@
             }
         },
         {
-            "tag": "🇺🇿UZ | 🟢 | ss | @OutlineVpnOfficial | 16",
+            "tag": "❔XX | 🟢 | ss | @OutlineVpnOfficial | 16",
             "type": "shadowsocks",
             "server": "93.174.164.89",
             "server_port": 11201,
