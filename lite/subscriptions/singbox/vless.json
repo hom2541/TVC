@@ -124,8 +124,8 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 49",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 50",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 43",
+                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 44",
                 "🇮🇷IR | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
@@ -136,9 +136,9 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
-                "❔XX | 🔴 | vless | @MehradLearn | 1",
+                "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -179,8 +179,8 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 49",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 50",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 43",
+                "🇳🇱NL | 🔴 | vless | @prrofile_purple | 44",
                 "🇮🇷IR | 🟢 | vless | @ShadowSocks_s | 0",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
@@ -191,9 +191,9 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
+                "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
-                "❔XX | 🔴 | vless | @MehradLearn | 1",
+                "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -684,11 +684,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 49",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 43",
             "type": "vless",
-            "server": "tt.onepiecefamily.ir",
-            "server_port": 57263,
-            "uuid": "6230f6ae-e514-4a4c-a403-389b5a78698f",
+            "server": "ez.pubgping.com",
+            "server_port": 8080,
+            "uuid": "9d15d7ab-5867-4857-b813-bf1924510bca",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -698,17 +698,24 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 50",
+            "tag": "🇳🇱NL | 🔴 | vless | @prrofile_purple | 44",
             "type": "vless",
-            "server": "h1.msljha8844.site",
-            "server_port": 2020,
-            "uuid": "619815c6-fce7-4448-b881-4f58d82ce990",
+            "server": "31.42.190.76",
+            "server_port": 443,
+            "uuid": "5ac2d3b6-33cc-4442-9c0b-ae3909cabaae",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "31.42.190.76"
+                }
             }
         },
         {
@@ -951,7 +958,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vmess_vless_v2rayng | 19",
             "type": "vless",
             "server": "172.66.40.99",
             "server_port": 8080,
@@ -996,7 +1003,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @MehradLearn | 1",
+            "tag": "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
             "type": "vless",
             "server": "104.17.74.206",
             "server_port": 2053,
