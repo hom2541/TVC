@@ -129,6 +129,7 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 18",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
@@ -193,6 +194,7 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 18",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 17",
@@ -792,6 +794,25 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
+            "type": "trojan",
+            "server": "ct.877774.xyz",
+            "server_port": 443,
+            "password": "22367c45-f6c4-4ca8-8d52-d9787d7bbe91",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hot\/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80",
+                "headers": {
+                    "Host": "cm22-bgphhh.pages.dev"
+                }
             }
         },
         {
