@@ -895,40 +895,23 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 40",
             "type": "vless",
-            "server": "92.114.24.195",
-            "server_port": 443,
-            "uuid": "b9233171-b534-4bdd-8826-7921c3ac59ac",
+            "server": "85.133.202.80",
+            "server_port": 27497,
+            "uuid": "6bd7cd4b-8772-4da2-8660-20fa511b1c73",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api.meibourse.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/no?ed=443",
-                "headers": {
-                    "Host": "api.meibourse.com"
-                }
             }
         },
         {
             "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 41",
             "type": "vless",
-            "server": "185.206.92.110",
-            "server_port": 52478,
-            "uuid": "1eb7abea-0cde-48cc-851c-4ae602db5737",
+            "server": "sv.letknow.shop",
+            "server_port": 1001,
+            "uuid": "578d7696-fe6e-421e-afcc-5ad3d30b8658",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
