@@ -131,10 +131,10 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 71",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 72",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 77",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 78",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
+                "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
@@ -146,9 +146,9 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🔴 | vless | @fnet00 | 0",
+                "🇬🇧GB | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
@@ -191,10 +191,10 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
-                "🇺🇸US | 🔴 | vless | @prrofile_purple | 71",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 72",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 77",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 78",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 6",
-                "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
+                "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
@@ -206,9 +206,9 @@
                 "🇮🇷IR | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🔴 | vless | @fnet00 | 0",
+                "🇬🇧GB | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vmess | @v2Line | 4",
                 "❔XX | 🟢 | vmess | @v2Line | 5",
                 "❔XX | 🔴 | vless | @FreakConfig | 11",
@@ -833,42 +833,25 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @prrofile_purple | 71",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 77",
             "type": "vless",
-            "server": "104.26.15.21",
-            "server_port": 443,
-            "uuid": "d9a83363-40a6-4a21-9dbe-cb2b7d287048",
+            "server": "mlh.mynethub99.top",
+            "server_port": 2083,
+            "uuid": "9920d8dc-6823-4be6-a9ac-522e8584fbca",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrcloud22.mmv.kr",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/107.174.121.122=443",
-                "headers": {
-                    "Host": "afrcloud22.mmv.kr"
-                }
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 72",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 78",
             "type": "vless",
-            "server": "meow.panbe.mom",
-            "server_port": 443,
-            "uuid": "431b5aea-099c-4f86-9302-698166870680",
+            "server": "starv1.meepo1.com",
+            "server_port": 19971,
+            "uuid": "29eb504a-f25f-4d5d-ac7f-d643ec83686e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -892,7 +875,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @FalconPolV2rayNG | 7",
+            "tag": "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
             "type": "vless",
             "server": "185.136.135.164",
             "server_port": 8086,
@@ -1171,7 +1154,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @fnet00 | 0",
+            "tag": "🇬🇧GB | 🔴 | vless | @fnet00 | 0",
             "type": "vless",
             "server": "45.85.118.209",
             "server_port": 443,
@@ -1231,7 +1214,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
