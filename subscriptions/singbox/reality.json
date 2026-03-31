@@ -114,6 +114,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @prrofile_purple | 44",
                 "❔XX | 🟢 | vless | @prrofile_purple | 72",
+                "❔XX | 🟢 | vless | @prrofile_purple | 77",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -143,14 +144,14 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 2",
                 "❔XX | 🟢 | vless | @FreakConfig | 4",
                 "❔XX | 🔴 | vless | @FreakConfig | 7",
-                "🇩🇪DE | 🟢 | vless | @kiava | 39",
-                "🇮🇷IR | 🔴 | vless | @kiava | 43",
-                "🇫🇮FI | 🟢 | vless | @kiava | 44",
-                "🇺🇸US | 🟢 | vless | @kiava | 45",
+                "❔XX | 🟢 | vless | @kiava | 39",
+                "❔XX | 🔴 | vless | @kiava | 43",
+                "❔XX | 🟢 | vless | @kiava | 44",
+                "❔XX | 🟢 | vless | @kiava | 45",
                 "❔XX | 🟢 | vless | @kiava | 52",
-                "🇷🇺RU | 🟢 | vless | @kiava | 54",
-                "🇷🇺RU | 🔴 | vless | @kiava | 55",
-                "🇮🇷IR | 🟢 | vless | @kiava | 58",
+                "❔XX | 🟢 | vless | @kiava | 54",
+                "❔XX | 🔴 | vless | @kiava | 55",
+                "❔XX | 🟢 | vless | @kiava | 58",
                 "❔XX | 🔴 | vless | @kiava | 74",
                 "❔XX | 🔴 | vless | @kiava | 75",
                 "❔XX | 🔴 | vless | @kiava | 76",
@@ -181,6 +182,7 @@
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @prrofile_purple | 44",
                 "❔XX | 🟢 | vless | @prrofile_purple | 72",
+                "❔XX | 🟢 | vless | @prrofile_purple | 77",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -210,14 +212,14 @@
                 "❔XX | 🟢 | vless | @FreakConfig | 2",
                 "❔XX | 🟢 | vless | @FreakConfig | 4",
                 "❔XX | 🔴 | vless | @FreakConfig | 7",
-                "🇩🇪DE | 🟢 | vless | @kiava | 39",
-                "🇮🇷IR | 🔴 | vless | @kiava | 43",
-                "🇫🇮FI | 🟢 | vless | @kiava | 44",
-                "🇺🇸US | 🟢 | vless | @kiava | 45",
+                "❔XX | 🟢 | vless | @kiava | 39",
+                "❔XX | 🔴 | vless | @kiava | 43",
+                "❔XX | 🟢 | vless | @kiava | 44",
+                "❔XX | 🟢 | vless | @kiava | 45",
                 "❔XX | 🟢 | vless | @kiava | 52",
-                "🇷🇺RU | 🟢 | vless | @kiava | 54",
-                "🇷🇺RU | 🔴 | vless | @kiava | 55",
-                "🇮🇷IR | 🟢 | vless | @kiava | 58",
+                "❔XX | 🟢 | vless | @kiava | 54",
+                "❔XX | 🔴 | vless | @kiava | 55",
+                "❔XX | 🟢 | vless | @kiava | 58",
                 "❔XX | 🔴 | vless | @kiava | 74",
                 "❔XX | 🔴 | vless | @kiava | 75",
                 "❔XX | 🔴 | vless | @kiava | 76",
@@ -498,6 +500,35 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 77",
+            "type": "vless",
+            "server": "51.250.95.176",
+            "server_port": 443,
+            "uuid": "72adc5b8-146a-4bfe-921b-5c9e1df016e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg",
+                    "short_id": "95ec618532fa065e"
                 }
             }
         },
@@ -1371,7 +1402,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @kiava | 39",
+            "tag": "❔XX | 🟢 | vless | @kiava | 39",
             "type": "vless",
             "server": "57.129.53.181",
             "server_port": 23576,
@@ -1400,7 +1431,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @kiava | 43",
+            "tag": "❔XX | 🔴 | vless | @kiava | 43",
             "type": "vless",
             "server": "185.218.139.138",
             "server_port": 443,
@@ -1436,7 +1467,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @kiava | 44",
+            "tag": "❔XX | 🟢 | vless | @kiava | 44",
             "type": "vless",
             "server": "92.60.78.221",
             "server_port": 443,
@@ -1465,7 +1496,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @kiava | 45",
+            "tag": "❔XX | 🟢 | vless | @kiava | 45",
             "type": "vless",
             "server": "ing.anti-vpn.ru",
             "server_port": 52006,
@@ -1523,7 +1554,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @kiava | 54",
+            "tag": "❔XX | 🟢 | vless | @kiava | 54",
             "type": "vless",
             "server": "176.124.214.188",
             "server_port": 443,
@@ -1552,7 +1583,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @kiava | 55",
+            "tag": "❔XX | 🔴 | vless | @kiava | 55",
             "type": "vless",
             "server": "82.202.159.119",
             "server_port": 443,
@@ -1581,7 +1612,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vless | @kiava | 58",
+            "tag": "❔XX | 🟢 | vless | @kiava | 58",
             "type": "vless",
             "server": "mail.tomandjery.eu",
             "server_port": 1001,
