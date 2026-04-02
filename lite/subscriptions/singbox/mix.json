@@ -131,8 +131,8 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5",
                 "🇨🇷CR | 🟢 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
-                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 81",
                 "🇮🇷IR | 🟢 | vless | @prrofile_purple | 82",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 83",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -155,9 +155,9 @@
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
                 "🇸🇪SE | 🔴 | vless | @FreakConfig | 11",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🔴 | vless | @kiava | 83",
+                "❔XX | 🔴 | vless | @kiava | 83",
                 "🇩🇪DE | 🔴 | vless | @kiava | 84",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
+                "❔XX | 🔴 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @GozargahVPN | 0",
@@ -193,8 +193,8 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5",
                 "🇨🇷CR | 🟢 | vless | @Outline_Vpn | 14",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 15",
-                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 81",
                 "🇮🇷IR | 🟢 | vless | @prrofile_purple | 82",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 83",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 7",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
@@ -217,9 +217,9 @@
                 "🇩🇪DE | 🟢 | vmess | @v2Line | 5",
                 "🇸🇪SE | 🔴 | vless | @FreakConfig | 11",
                 "🇮🇷IR | 🔴 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🔴 | vless | @kiava | 83",
+                "❔XX | 🔴 | vless | @kiava | 83",
                 "🇩🇪DE | 🔴 | vless | @kiava | 84",
-                "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
+                "❔XX | 🔴 | vless | @nofiltering2 | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19",
                 "❔XX | 🔴 | vless | @GozargahVPN | 0",
@@ -832,30 +832,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 81",
-            "type": "vmess",
-            "server": "185.181.183.124",
-            "server_port": 28094,
-            "uuid": "a6440729-1046-4a9c-bc19-7c0ede4bf4d4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇮🇷IR | 🟢 | vless | @prrofile_purple | 82",
             "type": "vless",
             "server": "94.101.179.197",
@@ -882,6 +858,20 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": "6ba85179e30d4fc2"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 83",
+            "type": "vless",
+            "server": "meow.panbe.mom",
+            "server_port": 443,
+            "uuid": "431b5aea-099c-4f86-9302-698166870680",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1388,7 +1378,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @kiava | 83",
+            "tag": "❔XX | 🔴 | vless | @kiava | 83",
             "type": "vless",
             "server": "partners.dissertationhelpspecialist.com",
             "server_port": 8443,
@@ -1460,7 +1450,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @nofiltering2 | 9",
+            "tag": "❔XX | 🔴 | vless | @nofiltering2 | 9",
             "type": "vless",
             "server": "167.82.95.129",
             "server_port": 80,
