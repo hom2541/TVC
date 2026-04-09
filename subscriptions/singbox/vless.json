@@ -200,10 +200,6 @@
                 "❔XX | 🔴 | vless | @Outline_Vpn | 12",
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 13",
                 "🚩CF | 🟢 | vless | @Outline_Vpn | 14",
-                "❔XX | 🔴 | vless | @prrofile_purple | 36",
-                "❔XX | 🔴 | vless | @prrofile_purple | 37",
-                "❔XX | 🔴 | vless | @prrofile_purple | 38",
-                "❔XX | 🔴 | vless | @prrofile_purple | 39",
                 "❔XX | 🔴 | vless | @prrofile_purple | 40",
                 "❔XX | 🟢 | vless | @prrofile_purple | 41",
                 "❔XX | 🔴 | vless | @prrofile_purple | 42",
@@ -238,6 +234,10 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 73",
                 "❔XX | 🔴 | vless | @prrofile_purple | 74",
                 "❔XX | 🔴 | vless | @prrofile_purple | 75",
+                "❔XX | 🔴 | vless | @prrofile_purple | 76",
+                "❔XX | 🔴 | vless | @prrofile_purple | 77",
+                "❔XX | 🔴 | vless | @prrofile_purple | 78",
+                "❔XX | 🔴 | vless | @prrofile_purple | 79",
                 "🚩CF | 🔴 | vless | @vmessorg | 0",
                 "❔XX | 🔴 | vless | @vmessorg | 1",
                 "❔XX | 🔴 | vless | @vmessorg | 2",
@@ -527,10 +527,6 @@
                 "❔XX | 🔴 | vless | @Outline_Vpn | 12",
                 "🚩CF | 🔴 | vless | @Outline_Vpn | 13",
                 "🚩CF | 🟢 | vless | @Outline_Vpn | 14",
-                "❔XX | 🔴 | vless | @prrofile_purple | 36",
-                "❔XX | 🔴 | vless | @prrofile_purple | 37",
-                "❔XX | 🔴 | vless | @prrofile_purple | 38",
-                "❔XX | 🔴 | vless | @prrofile_purple | 39",
                 "❔XX | 🔴 | vless | @prrofile_purple | 40",
                 "❔XX | 🟢 | vless | @prrofile_purple | 41",
                 "❔XX | 🔴 | vless | @prrofile_purple | 42",
@@ -565,6 +561,10 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 73",
                 "❔XX | 🔴 | vless | @prrofile_purple | 74",
                 "❔XX | 🔴 | vless | @prrofile_purple | 75",
+                "❔XX | 🔴 | vless | @prrofile_purple | 76",
+                "❔XX | 🔴 | vless | @prrofile_purple | 77",
+                "❔XX | 🔴 | vless | @prrofile_purple | 78",
+                "❔XX | 🔴 | vless | @prrofile_purple | 79",
                 "🚩CF | 🔴 | vless | @vmessorg | 0",
                 "❔XX | 🔴 | vless | @vmessorg | 1",
                 "❔XX | 🔴 | vless | @vmessorg | 2",
@@ -3171,69 +3171,6 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 36",
-            "type": "vless",
-            "server": "zone.ca.f2zone.ir",
-            "server_port": 17759,
-            "uuid": "3cbad916-d882-4773-8dfb-15564f2d29fe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 37",
-            "type": "vless",
-            "server": "prime.starfast.site",
-            "server_port": 8585,
-            "uuid": "5b25b820-16a4-4e03-99da-fc334bf381f6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 38",
-            "type": "vless",
-            "server": "213.165.39.93",
-            "server_port": 44217,
-            "uuid": "a02f6161-ed4a-4b27-afa8-d2cbf34d69b4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 39",
-            "type": "vless",
-            "server": "185.143.234.235",
-            "server_port": 80,
-            "uuid": "00c2d153-ab37-4725-a465-7e1960aecef9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.143.234.235"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @prrofile_purple | 40",
             "type": "vless",
             "server": "vip.securnetwork.lol",
@@ -3849,6 +3786,98 @@
                 "path": "\/",
                 "headers": {
                     "Host": "kvm.iranhosting.mom"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 76",
+            "type": "vless",
+            "server": "snapp.ir",
+            "server_port": 80,
+            "uuid": "c20fa220-f6fe-46df-84a8-55d8c2ae8146",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "snapp.ir"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 77",
+            "type": "vless",
+            "server": "cloud.vpsino.com",
+            "server_port": 63822,
+            "uuid": "ea881ca2-b34a-8b3b-133d-f9d8763cab57",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 78",
+            "type": "vless",
+            "server": "104.64.32.87",
+            "server_port": 443,
+            "uuid": "1effb118-1f2d-4577-a689-20e21fb50b13",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.telewebion.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LXCcjZmNLdp52SG4KRQ6n_yTjkMO9ZkxQGBf3RJ8tiM",
+                    "short_id": "cf5415b64e15"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "mci.ir",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 79",
+            "type": "vless",
+            "server": "snapp.ir",
+            "server_port": 80,
+            "uuid": "7b85b51d-4b64-4931-854c-5130389297ab",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "snapp.ir"
                 }
             }
         },
