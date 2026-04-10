@@ -106,7 +106,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🔴 | vless | @XsV2ray | 1",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 0",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 1",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 2",
@@ -142,8 +141,8 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 12",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 13",
-                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
+                "❔XX | 🔴 | vless | @Lockey_vpn | 14",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 15",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
                 "❔XX | 🔴 | vless | @rxv2ray | 0",
@@ -302,7 +301,6 @@
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "❔XX | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 5",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 6",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 7",
@@ -495,7 +493,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🔴 | vless | @XsV2ray | 1",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 0",
                 "🇩🇪DE | 🔴 | vless | @VlessConfig | 1",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 2",
@@ -531,8 +528,8 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 12",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 13",
-                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
+                "❔XX | 🔴 | vless | @Lockey_vpn | 14",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 15",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
                 "❔XX | 🔴 | vless | @rxv2ray | 0",
@@ -691,7 +688,6 @@
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 4",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 5",
-                "❔XX | 🔴 | vless | @FalconPolV2rayNG | 6",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 5",
                 "🚩CF | 🔴 | vless | @v2ray_swhil | 6",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 7",
@@ -898,20 +894,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @XsV2ray | 1",
-            "type": "vless",
-            "server": "am3.estarlink1.us",
-            "server_port": 51234,
-            "uuid": "a8ec0c05-e040-4b7c-b04d-39bd63db4661",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
         },
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 0",
@@ -1834,7 +1816,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Lockey_vpn | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1848,7 +1830,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
+            "tag": "❔XX | 🔴 | vless | @Lockey_vpn | 14",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -5274,20 +5256,6 @@
             "server": "VIP2.xQFire.iR",
             "server_port": 811,
             "uuid": "f25e7ea5-ef6b-4f63-8617-8151ca31b7b1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @FalconPolV2rayNG | 6",
-            "type": "vless",
-            "server": "de-2-tun-single.starping1.fun",
-            "server_port": 8083,
-            "uuid": "ee73ff6e-af32-43df-854e-754253bd1bd8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
