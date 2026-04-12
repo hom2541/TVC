@@ -123,8 +123,8 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇨🇷CR | 🟢 | vless | @Outline_Vpn | 14",
-                "❔XX | 🔴 | vless | @prrofile_purple | 57",
-                "❔XX | 🔴 | vless | @prrofile_purple | 58",
+                "❔XX | 🔴 | vless | @prrofile_purple | 61",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 62",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 5",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 6",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 3",
@@ -137,8 +137,7 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
-                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 0",
-                "🇬🇧GB | 🔴 | vless | @fnet00 | 0",
+                "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 0",
@@ -176,8 +175,8 @@
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇨🇷CR | 🟢 | vless | @Outline_Vpn | 14",
-                "❔XX | 🔴 | vless | @prrofile_purple | 57",
-                "❔XX | 🔴 | vless | @prrofile_purple | 58",
+                "❔XX | 🔴 | vless | @prrofile_purple | 61",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 62",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 5",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 6",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 3",
@@ -190,8 +189,7 @@
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "🇺🇸US | 🔴 | vless | @MehradLearn | 1",
-                "🇮🇷IR | 🔴 | vless | @lrnbymaa | 0",
-                "🇬🇧GB | 🔴 | vless | @fnet00 | 0",
+                "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 0",
@@ -665,11 +663,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 57",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 61",
             "type": "vless",
-            "server": "po.tehranionliine.ir",
+            "server": "vix.idcenter.top",
             "server_port": 80,
-            "uuid": "1a239b2c-a103-4645-9ef8-8ceb23e5f061",
+            "uuid": "547ed413-be08-4b04-b915-ff471b3e3173",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -681,16 +679,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "po.tehranionliine.ir"
+                    "Host": "vix.idcenter.top"
                 }
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 58",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 62",
             "type": "vless",
-            "server": "bo2.ghognus.com",
-            "server_port": 29096,
-            "uuid": "832169cc-30ca-4e00-bb34-fdee426ef46c",
+            "server": "193.151.130.62",
+            "server_port": 15011,
+            "uuid": "789db5da-ddf5-4922-b55a-8e91ea34b6a6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -974,38 +972,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @lrnbymaa | 0",
-            "type": "vless",
-            "server": "varzesh3.com",
-            "server_port": 443,
-            "uuid": "c387b0f2-5d9e-4c95-882d-1d5eeb443ce2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/movie",
-                "headers": {
-                    "Host": "nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🔴 | vless | @fnet00 | 0",
+            "tag": "❔XX | 🔴 | vless | @fnet00 | 0",
             "type": "vless",
             "server": "45.85.118.209",
             "server_port": 443,
