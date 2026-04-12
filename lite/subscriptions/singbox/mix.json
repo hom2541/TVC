@@ -127,12 +127,12 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
-                "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3",
+                "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇨🇷CR | 🟢 | vless | @Outline_Vpn | 14",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 26",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 27",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 21",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 22",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 2",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 3",
@@ -148,7 +148,7 @@
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
+                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -195,12 +195,12 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
-                "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3",
+                "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇨🇷CR | 🟢 | vless | @Outline_Vpn | 14",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 26",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 27",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 21",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 22",
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 0",
                 "🇮🇷IR | 🔴 | vless | @vmessorg | 2",
                 "🇮🇷IR | 🔴 | vless | @FalconPolV2rayNG | 3",
@@ -216,7 +216,7 @@
                 "❔XX | 🔴 | vless | @MehradLearn | 0",
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
+                "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 0",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -755,26 +755,9 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3",
+            "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 2",
             "type": "trojan",
-            "server": "104.18.11.110",
+            "server": "www.multiplydose.com",
             "server_port": 443,
             "password": "humanity",
             "multiplex": {
@@ -788,6 +771,23 @@
                 "headers": {
                     "Host": "www.multiplydose.com"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -853,11 +853,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 26",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 21",
             "type": "vless",
-            "server": "1.9.reflecion.shop",
-            "server_port": 35116,
-            "uuid": "f08fd73b-6ec6-4bc5-80ec-34d3fa6cc6d5",
+            "server": "bayernfan.lyragrid.ir",
+            "server_port": 56948,
+            "uuid": "53a9fc69-20e2-4c11-9ca5-5bb2f15de363",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -867,11 +867,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 27",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 22",
             "type": "vless",
-            "server": "snapp.ir",
-            "server_port": 443,
-            "uuid": "e5933eb3-2aa8-4f20-b622-92677bf618f8",
+            "server": "185.143.234.235",
+            "server_port": 80,
+            "uuid": "0d96abbd-df86-495b-bc1b-8174cb913f95",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -879,21 +879,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "info.siilaam.online",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "info.siilaam.online"
+                    "Host": "185.143.234.235"
                 }
             }
         },
@@ -1251,7 +1241,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @v2ray_vpn_ir | 0",
             "type": "vless",
             "server": "104.18.12.149",
             "server_port": 8880,
