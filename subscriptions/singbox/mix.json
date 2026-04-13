@@ -139,11 +139,11 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
-                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
+                "❔XX | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 12",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 13",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 15",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
                 "❔XX | 🔴 | vless | @rxv2ray | 0",
                 "❔XX | 🔴 | vless | @rxv2ray | 1",
@@ -164,6 +164,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "❔XX | 🔴 | vless | @DigiV2ray | 0",
                 "🚩CF | 🔴 | vless | @DigiV2ray | 1",
+                "❔XX | 🔴 | vless | @DarkTeam_VPN | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @proxy_kafee | 2",
@@ -517,11 +518,11 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 7",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
-                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
+                "❔XX | 🔴 | vless | @Lockey_vpn | 11",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 12",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 13",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 14",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 15",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
                 "❔XX | 🔴 | vless | @rxv2ray | 0",
                 "❔XX | 🔴 | vless | @rxv2ray | 1",
@@ -542,6 +543,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "❔XX | 🔴 | vless | @DigiV2ray | 0",
                 "🚩CF | 🔴 | vless | @DigiV2ray | 1",
+                "❔XX | 🔴 | vless | @DarkTeam_VPN | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @proxy_kafee | 2",
@@ -1770,7 +1772,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 11",
+            "tag": "❔XX | 🔴 | vless | @Lockey_vpn | 11",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1798,7 +1800,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Lockey_vpn | 13",
+            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1826,7 +1828,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Lockey_vpn | 15",
+            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -2331,6 +2333,27 @@
                 "path": "\/api?ed=2560",
                 "headers": {
                     "Host": "streamchat.ikoochi.ir."
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @DarkTeam_VPN | 0",
+            "type": "vless",
+            "server": "grdtgrreser.norozhost.com",
+            "server_port": 443,
+            "uuid": "2a6db688-8d52-4505-8478-ee4a2f67b3e0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ksushs",
+                "headers": {
+                    "Host": "grdtgrreser.norozhost.com"
                 }
             }
         },
