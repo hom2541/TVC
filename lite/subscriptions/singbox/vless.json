@@ -135,14 +135,14 @@
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
-                "🇺🇸US | 🟢 | vless | @v2rayngvpn | 10",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 10",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 4",
-                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 3",
-                "❔XX | 🔴 | vless | @ShadowProxy66 | 4",
+                "❔XX | 🟢 | vless | @ShadowProxy66 | 3",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @VmessProtocol | 0",
@@ -150,6 +150,7 @@
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
                 "❔XX | 🟢 | vless | @lrnbymaa | 4",
+                "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 0",
@@ -202,14 +203,14 @@
                 "🇺🇸US | 🔴 | vless | @UnlimitedDev | 1",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 2",
                 "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
-                "🇺🇸US | 🟢 | vless | @v2rayngvpn | 10",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 10",
                 "❔XX | 🔴 | vless | @FalconPolV2rayNG | 3",
                 "🇺🇸US | 🔴 | vless | @FalconPolV2rayNG | 4",
-                "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 3",
-                "❔XX | 🔴 | vless | @ShadowProxy66 | 4",
+                "❔XX | 🟢 | vless | @ShadowProxy66 | 3",
+                "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @VmessProtocol | 0",
@@ -217,6 +218,7 @@
                 "❔XX | 🔴 | vless | @MehradLearn | 1",
                 "❔XX | 🔴 | vless | @lrnbymaa | 3",
                 "❔XX | 🟢 | vless | @lrnbymaa | 4",
+                "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 0",
@@ -991,6 +993,27 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 9",
             "type": "vless",
+            "server": "104.18.16.56",
+            "server_port": 80,
+            "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ @ProxyVPN11",
+                "headers": {
+                    "Host": "104.18.16.56"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 10",
+            "type": "vless",
             "server": "172.64.152.23",
             "server_port": 8443,
             "uuid": "b179aef9-46a6-4e21-9a15-d21139c705b9",
@@ -1016,37 +1039,6 @@
                 "path": "\/shop",
                 "headers": {
                     "Host": "line.smartphone1.top"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @v2rayngvpn | 10",
-            "type": "vless",
-            "server": "172.64.149.54",
-            "server_port": 2053,
-            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni.111000.indevs.in",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "sni.111000.indevs.in"
                 }
             }
         },
@@ -1079,7 +1071,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @ShadowProxy66 | 3",
+            "tag": "❔XX | 🟢 | vless | @ShadowProxy66 | 3",
             "type": "vless",
             "server": "104.18.13.149",
             "server_port": 443,
@@ -1110,7 +1102,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ShadowProxy66 | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @ShadowProxy66 | 4",
             "type": "vless",
             "server": "104.18.13.149",
             "server_port": 8443,
@@ -1203,7 +1195,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+            "tag": "❔XX | 🔴 | vless | @vless_vmess | 18",
             "type": "vless",
             "server": "172.67.141.140",
             "server_port": 8880,
@@ -1393,6 +1385,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "sni.111000.indevs.in"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @fnet00 | 0",
+            "type": "vless",
+            "server": "45.85.118.209",
+            "server_port": 443,
+            "uuid": "573c787d-d549-4171-b05f-29984bc0266c",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ipv4.farazteams.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@AmirGeekTech-@FNET00",
+                "headers": {
+                    "Host": "ipv4.farazteams.ir"
                 }
             }
         },
