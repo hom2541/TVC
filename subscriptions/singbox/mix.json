@@ -143,8 +143,8 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 11",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 12",
-                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 12",
+                "❔XX | 🔴 | vless | @Lockey_vpn | 13",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 14",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 15",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
@@ -167,6 +167,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "❔XX | 🔴 | vless | @DigiV2ray | 0",
                 "🚩CF | 🔴 | vless | @DigiV2ray | 1",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @v2logy | 0",
                 "❔XX | 🔴 | vless | @v2logy | 1",
                 "❔XX | 🔴 | vless | @v2logy | 2",
@@ -450,7 +451,6 @@
                 "❔XX | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 7",
                 "❔XX | 🔴 | vless | @nofiltering2 | 9",
-                "❔XX | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -516,8 +516,8 @@
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 8",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 10",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 11",
-                "❔XX | 🔴 | vless | @Lockey_vpn | 12",
-                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
+                "🇺🇸US | 🔴 | vless | @Lockey_vpn | 12",
+                "❔XX | 🔴 | vless | @Lockey_vpn | 13",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 14",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 15",
                 "❔XX | 🔴 | vless | @Lockey_vpn | 17",
@@ -540,6 +540,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "❔XX | 🔴 | vless | @DigiV2ray | 0",
                 "🚩CF | 🔴 | vless | @DigiV2ray | 1",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @v2logy | 0",
                 "❔XX | 🔴 | vless | @v2logy | 1",
                 "❔XX | 🔴 | vless | @v2logy | 2",
@@ -823,7 +824,6 @@
                 "❔XX | 🔴 | vless | @nofiltering2 | 5",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 7",
                 "❔XX | 🔴 | vless | @nofiltering2 | 9",
-                "❔XX | 🔴 | vless | @proxy_mtm | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 0",
                 "❔XX | 🔴 | vless | @vpn_go67 | 1",
                 "❔XX | 🔴 | vless | @vpn_go67 | 3",
@@ -1853,7 +1853,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Lockey_vpn | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 12",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -1867,7 +1867,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Lockey_vpn | 13",
+            "tag": "❔XX | 🔴 | vless | @Lockey_vpn | 13",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -2400,6 +2400,27 @@
                 "path": "\/api?ed=2560",
                 "headers": {
                     "Host": "streamchat.ikoochi.ir."
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "ww.iwantmoney.ir",
+            "server_port": 8880,
+            "uuid": "1601306d-484c-4b92-bb46-459d3abd938f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ww.iwantmoney.ir"
                 }
             }
         },
@@ -9426,37 +9447,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 0",
-            "type": "vless",
-            "server": "8.6.112.0",
-            "server_port": 2096,
-            "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni.jpmj.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "sni.jpmj.dev"
-                }
             }
         },
         {
