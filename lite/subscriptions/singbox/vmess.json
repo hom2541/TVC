@@ -108,11 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇮🇷IR | 🟢 | vmess | @v2ray_vpn_ir | 6",
-                "🇮🇷IR | 🟢 | vmess | @proxystore11 | 0",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 5",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 6",
+                "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇷IR | 🟢 | vmess | @OpenSSTPVpn | 0"
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 0"
             ]
         },
         {
@@ -121,11 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇮🇷IR | 🟢 | vmess | @v2ray_vpn_ir | 6",
-                "🇮🇷IR | 🟢 | vmess | @proxystore11 | 0",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 5",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 6",
+                "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇷IR | 🟢 | vmess | @OpenSSTPVpn | 0"
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -182,11 +184,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @v2ray_vpn_ir | 6",
+            "tag": "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 5",
             "type": "vmess",
-            "server": "v11.mailiran.net",
-            "server_port": 11999,
-            "uuid": "8257b31e-0805-4f28-9209-251b72b9a593",
+            "server": "185.11.89.38",
+            "server_port": 12809,
+            "uuid": "aeddbbbd-ad95-49e8-ee31-7cacc7ede117",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -196,17 +198,27 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @proxystore11 | 0",
+            "tag": "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 6",
+            "type": "vmess",
+            "server": "185.11.89.38",
+            "server_port": 12809,
+            "uuid": "aeddbbbd-ad95-49e8-ee31-7cacc7ede117",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 0",
             "type": "vmess",
             "server": "217.218.52.1",
             "server_port": 10410,
@@ -247,7 +259,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -281,7 +293,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @OpenSSTPVpn | 0",
+            "tag": "❔XX | 🟢 | vmess | @OpenSSTPVpn | 0",
             "type": "vmess",
             "server": "185.11.89.38",
             "server_port": 12809,
