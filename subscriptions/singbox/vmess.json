@@ -119,7 +119,8 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 1",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 0",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 2",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -147,7 +148,8 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 1",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 0",
+                "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 2",
                 "❔XX | 🟢 | vmess | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -399,7 +401,31 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 1",
+            "tag": "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 0",
+            "type": "vmess",
+            "server": "v11.mailiran.net",
+            "server_port": 11999,
+            "uuid": "8257b31e-0805-4f28-9209-251b72b9a593",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 2",
             "type": "vmess",
             "server": "185.11.89.38",
             "server_port": 12809,
