@@ -119,16 +119,17 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
+                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 0",
                 "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 1",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
-                "❔XX | 🟢 | vmess | @proxystore11 | 2",
+                "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
-                "❔XX | 🟢 | vmess | @yaney_01 | 2",
+                "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 7",
-                "❔XX | 🟢 | vmess | @ISVvpn | 0"
+                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7",
+                "🇮🇷IR | 🟢 | vmess | @ISVvpn | 0"
             ]
         },
         {
@@ -148,16 +149,17 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
+                "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 0",
                 "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 1",
                 "❔XX | 🟢 | vmess | @proxystore11 | 1",
-                "❔XX | 🟢 | vmess | @proxystore11 | 2",
+                "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
-                "❔XX | 🟢 | vmess | @yaney_01 | 2",
+                "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 7",
-                "❔XX | 🟢 | vmess | @ISVvpn | 0"
+                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7",
+                "🇮🇷IR | 🟢 | vmess | @ISVvpn | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -401,6 +403,30 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🟢 | vmess | @prrofile_purple | 0",
+            "type": "vmess",
+            "server": "cdn.ip-static.com",
+            "server_port": 80,
+            "uuid": "a9311ff2-14bf-4ba6-8601-42028a7e3a84",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @v2ray_vpn_ir | 1",
             "type": "vmess",
             "server": "185.11.89.38",
@@ -435,7 +461,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 2",
+            "tag": "🇮🇷IR | 🟢 | vmess | @proxystore11 | 2",
             "type": "vmess",
             "server": "217.218.52.1",
             "server_port": 10410,
@@ -486,7 +512,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 2",
+            "tag": "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "107.149.119.43",
             "server_port": 37000,
@@ -602,7 +628,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @nofiltering2 | 7",
+            "tag": "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7",
             "type": "vmess",
             "server": "193.151.128.37",
             "server_port": 3131,
@@ -619,7 +645,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ISVvpn | 0",
+            "tag": "🇮🇷IR | 🟢 | vmess | @ISVvpn | 0",
             "type": "vmess",
             "server": "185.11.89.38",
             "server_port": 12809,
