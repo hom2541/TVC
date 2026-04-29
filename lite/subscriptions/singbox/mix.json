@@ -118,7 +118,6 @@
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
@@ -130,8 +129,8 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 1",
-                "🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
@@ -145,7 +144,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @VmessProtocol | 0",
                 "8ZQi@8.6.112.0:2096?type=ws&security=tls&path=\/tr&host=Koma-YT.PAGeS.Dev&sni=Koma-YT.PAGeS.Dev#❔XX | 🔴 | trojan | @VmessProtocol | 1",
@@ -189,7 +188,6 @@
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
-                "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
                 "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
@@ -201,8 +199,8 @@
                 "🇫🇷FR | 🟢 | trojan | @DirectVPN | 19",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 1",
-                "🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 2",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
@@ -216,7 +214,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @vmess_vless_v2rayng | 19",
                 "❔XX | 🔴 | vless | @VmessProtocol | 0",
                 "8ZQi@8.6.112.0:2096?type=ws&security=tls&path=\/tr&host=Koma-YT.PAGeS.Dev&sni=Koma-YT.PAGeS.Dev#❔XX | 🔴 | trojan | @VmessProtocol | 1",
@@ -557,37 +555,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @DigiV2ray | 1",
-            "type": "vless",
-            "server": "162.159.152.4",
-            "server_port": 8443,
-            "uuid": "725495fc-61fc-4c68-bf27-54bb4459d37d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "streamchat.ikoochi.ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api?ed=2560",
-                "headers": {
-                    "Host": "streamchat.ikoochi.ir."
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 1",
             "type": "vless",
             "server": "cd2.phoneshop98.ir",
@@ -855,6 +822,23 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 1",
             "type": "trojan",
             "server": "104.17.101.139",
@@ -870,25 +854,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "sni.111000.dynv6.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 2",
-            "type": "trojan",
-            "server": "134.122.84.25",
-            "server_port": 2083,
-            "password": "1234567890",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "kfm-bn0.pages.dev"
                 }
             }
         },
@@ -1276,7 +1241,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
