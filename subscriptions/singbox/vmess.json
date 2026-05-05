@@ -122,13 +122,12 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 17",
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @proxystore11 | 5",
-                "❔XX | 🟢 | vmess | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7"
+                "❔XX | 🟢 | vmess | @nofiltering2 | 7"
             ]
         },
         {
@@ -151,13 +150,12 @@
                 "❔XX | 🟢 | vmess | @prrofile_purple | 17",
                 "❔XX | 🟢 | vmess | @proxystore11 | 3",
                 "❔XX | 🟢 | vmess | @proxystore11 | 5",
-                "❔XX | 🟢 | vmess | @proxystore11 | 7",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7"
+                "❔XX | 🟢 | vmess | @nofiltering2 | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -459,40 +457,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @proxystore11 | 7",
-            "type": "vmess",
-            "server": "mig-sin.darkube.ir",
-            "server_port": 443,
-            "uuid": "254721a9-5739-4baf-b35d-9bc950e346db",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/direct",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -643,7 +607,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | @nofiltering2 | 7",
+            "tag": "❔XX | 🟢 | vmess | @nofiltering2 | 7",
             "type": "vmess",
             "server": "193.151.128.37",
             "server_port": 3131,
