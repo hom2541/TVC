@@ -126,19 +126,19 @@
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
+                "🇺🇸US | 🟢 | vless | @prrofile_purple | 17",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 18",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 0",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 1",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 6",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 7",
+                "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
+                "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 0",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
+                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 8",
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
@@ -181,19 +181,19 @@
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 12",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
+                "🇺🇸US | 🟢 | vless | @prrofile_purple | 17",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 18",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 0",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 1",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 6",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 7",
+                "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
+                "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 0",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
+                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 8",
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
@@ -711,7 +711,31 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
+            "tag": "🇺🇸US | 🟢 | vless | @prrofile_purple | 17",
+            "type": "vless",
+            "server": "react.dev",
+            "server_port": 443,
+            "uuid": "c0899a53-cc3b-4066-a3b4-d6d07b4853ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "react.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 18",
             "type": "vless",
             "server": "rfiksma.top",
             "server_port": 52978,
@@ -722,27 +746,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 18",
-            "type": "vless",
-            "server": "185.143.233.233",
-            "server_port": 2082,
-            "uuid": "621c3631-ed9b-453a-b486-4068212bf483",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.143.233.233"
-                }
             }
         },
         {
@@ -808,7 +811,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 6",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
             "type": "vless",
             "server": "185.8.172.182",
             "server_port": 20249,
@@ -822,7 +825,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 7",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
             "server": "s3.vahshat.xyz",
             "server_port": 80,
@@ -957,7 +960,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+            "tag": "❔XX | 🔴 | vless | @vless_vmess | 18",
             "type": "vless",
             "server": "172.67.141.140",
             "server_port": 8880,
@@ -978,7 +981,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -999,7 +1002,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
+            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 7",
             "type": "vless",
             "server": "varzesh3.com",
             "server_port": 2082,
