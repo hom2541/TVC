@@ -142,16 +142,17 @@
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 2",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+                "❔XX | 🔴 | vless | @v2ray_swhil | 43",
+                "❔XX | 🔴 | vless | @v2ray_swhil | 44",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 0",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 7",
-                "❔XX | 🔴 | vless | @proxystore11 | 7",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🔴 | vless | @free1_vpn | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -207,16 +208,17 @@
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 2",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
-                "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+                "❔XX | 🔴 | vless | @v2ray_swhil | 43",
+                "❔XX | 🔴 | vless | @v2ray_swhil | 44",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 0",
+                "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 7",
-                "❔XX | 🔴 | vless | @proxystore11 | 7",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🔴 | vless | @free1_vpn | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -1000,9 +1002,9 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
             "type": "vless",
-            "server": "185.8.172.182",
-            "server_port": 20249,
-            "uuid": "41c9e6be-cd11-4511-996c-7db798d38540",
+            "server": "v4.amindark.sbs",
+            "server_port": 31304,
+            "uuid": "39104c83-ec7d-42bf-9810-3f8d15a0d710",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1014,22 +1016,15 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
             "type": "vless",
-            "server": "s3.vahshat.xyz",
-            "server_port": 80,
-            "uuid": "94bab524-9d01-458d-b666-f5c3e20213b8",
+            "server": "185.8.172.182",
+            "server_port": 20249,
+            "uuid": "41c9e6be-cd11-4511-996c-7db798d38540",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "s3.vahshat.xyz"
-                }
             }
         },
         {
@@ -1075,7 +1070,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
+            "tag": "❔XX | 🔴 | vless | @v2ray_swhil | 43",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
@@ -1106,7 +1101,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
+            "tag": "❔XX | 🔴 | vless | @v2ray_swhil | 44",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -1137,7 +1132,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
+            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 0",
             "type": "vless",
             "server": "namstar.hi-phonee.ir",
             "server_port": 54065,
@@ -1158,7 +1153,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
+            "tag": "❔XX | 🔴 | vless | @vless_vmess | 18",
             "type": "vless",
             "server": "172.67.141.140",
             "server_port": 8880,
@@ -1200,7 +1195,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 7",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
             "type": "vless",
             "server": "varzesh3.com",
             "server_port": 2082,
@@ -1221,7 +1216,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 7",
+            "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 7",
             "type": "vless",
             "server": "royalping.laser-rami.ir",
             "server_port": 80,
@@ -1317,6 +1312,37 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @free1_vpn | 1",
+            "type": "vless",
+            "server": "8.6.112.6",
+            "server_port": 443,
+            "uuid": "Telegram-Parsashonam",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test.atlasw.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test.atlasw.ir"
                 }
             }
         },
