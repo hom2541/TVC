@@ -119,8 +119,8 @@
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
                 "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -132,12 +132,12 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 1",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
-                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 3",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
+                "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 8",
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
@@ -174,8 +174,8 @@
                 "🇮🇷IR | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
                 "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -187,12 +187,12 @@
                 "🇺🇸US | 🟢 | vless | @vmessorg | 1",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 6",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 7",
-                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 3",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
-                "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
+                "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 7",
                 "❔XX | 🔴 | vless | @proxystore11 | 8",
                 "❔XX | 🔴 | vless | @proxystore11 | 9",
@@ -531,11 +531,32 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
+            "type": "vless",
+            "server": "SNApp.ir",
+            "server_port": 80,
+            "uuid": "054be705-6bbf-42cd-9970-acfc325a34ca",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Hoseisecu",
+                "headers": {
+                    "Host": "SNApp.ir"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
-            "server": "94.182.157.70",
-            "server_port": 8080,
-            "uuid": "7ef9fbc7-0fd8-475b-8a84-1c87e7d37dd1",
+            "server": "snapp.ir",
+            "server_port": 2052,
+            "uuid": "dae2ddc6-a892-495f-a001-181cec56ad12",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -547,22 +568,8 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "94.182.157.70"
+                    "Host": "snapp.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "2.144.4.245",
-            "server_port": 23176,
-            "uuid": "9d0b7f4e-b0fe-42bf-a550-31b7ecb0e053",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -846,7 +853,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 3",
+            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 3",
             "type": "vless",
             "server": "camp.nahidapp.com",
             "server_port": 443,
@@ -908,7 +915,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
+            "tag": "❔XX | 🔴 | vless | @v2ray_swhil | 44",
             "type": "vless",
             "server": "speedtest.net",
             "server_port": 443,
@@ -981,7 +988,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
