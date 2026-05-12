@@ -120,8 +120,8 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 1",
                 "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -145,10 +145,10 @@
                 "🇮🇪IE | 🔴 | vless | @v2rayngvpn | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "❔XX | 🔴 | vless | @v2ray1_ng | 0",
+                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 5",
+                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 5",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 7",
@@ -191,8 +191,8 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 1",
                 "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -216,10 +216,10 @@
                 "🇮🇪IE | 🔴 | vless | @v2rayngvpn | 3",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "❔XX | 🔴 | vless | @v2ray1_ng | 0",
+                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 5",
+                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 5",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 7",
@@ -594,6 +594,27 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 1",
+            "type": "vless",
+            "server": "digipay.ir",
+            "server_port": 80,
+            "uuid": "09ba8308-c50b-4fdc-adf7-cfe0d7ed00f3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "digipay.ir"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "hi.nahidapp.com",
@@ -622,20 +643,6 @@
                 "headers": {
                     "Host": "red.nahidapp.com"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
-            "type": "vless",
-            "server": "5.56.132.22",
-            "server_port": 8086,
-            "uuid": "afa40aec-0c64-43be-9dfb-05efad107874",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1181,7 +1188,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 0",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
             "type": "vless",
             "server": "namstar.hi-phonee.ir",
             "server_port": 54065,
@@ -1244,7 +1251,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 5",
+            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 5",
             "type": "vless",
             "server": "185.143.233.5",
             "server_port": 80,
