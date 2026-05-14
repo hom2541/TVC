@@ -107,9 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
-                "🇮🇷IR | 🔴 | vless | @V2pedia | 0",
-                "🇮🇷IR | 🔴 | vless | @V2pedia | 1",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
@@ -139,9 +137,9 @@
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 3",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 4",
-                "❔XX | 🔴 | vless | @proxystore11 | 6",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 2",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 3",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -166,9 +164,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
-                "🇮🇷IR | 🔴 | vless | @V2pedia | 0",
-                "🇮🇷IR | 🔴 | vless | @V2pedia | 1",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
@@ -198,9 +194,9 @@
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 3",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 4",
-                "❔XX | 🔴 | vless | @proxystore11 | 6",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 2",
+                "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 3",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @proxystore11 | 7",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -242,6 +238,37 @@
         {
             "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
+            "server": "15.224.80.211",
+            "server_port": 22224,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig",
+                "headers": {
+                    "Host": "trojan.burgerip.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
+            "type": "vless",
             "server": "51.44.92.102",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
@@ -267,79 +294,6 @@
                 "path": "\/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
-            "type": "vless",
-            "server": "63.180.116.50",
-            "server_port": 22224,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-channel-vlessconfig",
-                "headers": {
-                    "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @V2pedia | 0",
-            "type": "vless",
-            "server": "hmt.masterdadeh.ir",
-            "server_port": 80,
-            "uuid": "a3d096e0-1ed1-318c-16d2-0667e91ce11f",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.226.94.242"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @V2pedia | 1",
-            "type": "vless",
-            "server": "hmt.masterdadeh.ir",
-            "server_port": 80,
-            "uuid": "65b5d3f8-d239-5b29-e242-ab84f63ea3a2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "185.226.94.242"
                 }
             }
         },
@@ -865,6 +819,20 @@
         {
             "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 0",
             "type": "vless",
+            "server": "185.221.239.67",
+            "server_port": 2222,
+            "uuid": "04738fc0-2279-4e80-a641-5e99485a1367",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 1",
+            "type": "vless",
             "server": "185.143.234.235",
             "server_port": 80,
             "uuid": "006e4730-9370-48fa-a7be-98e49833ca6e",
@@ -880,27 +848,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.143.234.235"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 1",
-            "type": "vless",
-            "server": "ou4.virgooli.com",
-            "server_port": 80,
-            "uuid": "2d152382-487c-4c00-af8d-cad0e1968584",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "ou4.virgooli.com"
                 }
             }
         },
@@ -1030,7 +977,28 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 3",
+            "tag": "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 2",
+            "type": "vless",
+            "server": "snapp.ir",
+            "server_port": 80,
+            "uuid": "d9ae4879-27cf-4fed-90aa-3a606eaab4bc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "snapp.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2ray_vpn_ir | 3",
             "type": "vless",
             "server": "185.143.235.21",
             "server_port": 8080,
@@ -1051,28 +1019,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 4",
-            "type": "vless",
-            "server": "185.143.233.5",
-            "server_port": 80,
-            "uuid": "0d84cdbd-c0fb-47c6-ab5d-a25587df2a4a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/xray",
-                "headers": {
-                    "Host": "185.143.233.5"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 6",
+            "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
             "type": "vless",
             "server": "snapp.ir",
             "server_port": 80,
