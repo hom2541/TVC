@@ -139,7 +139,6 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🟢 | vless | @FreakConfig | 2",
-                "❔XX | 🟢 | vless | @FreakConfig | 4",
                 "❔XX | 🟢 | vless | @kiava | 48",
                 "❔XX | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
@@ -202,7 +201,6 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🟢 | vless | @FreakConfig | 2",
-                "❔XX | 🟢 | vless | @FreakConfig | 4",
                 "❔XX | 🟢 | vless | @kiava | 48",
                 "❔XX | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
@@ -1243,35 +1241,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 4",
-            "type": "vless",
-            "server": "45.136.126.16",
-            "server_port": 443,
-            "uuid": "203b0744-f943-4bba-a8d2-cab635467c46",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_L_eqCCzVbP0fzWTA_AqtmlyZVscCzrJ5b2nXFnq3U0",
-                    "short_id": "d020b2"
                 }
             }
         },
