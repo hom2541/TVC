@@ -142,20 +142,18 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 2",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 3",
-                "❔XX | 🔴 | vless | @proxystore11 | 5",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 5",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 0",
-                "❔XX | 🔴 | vless | @FreakConfig | 3",
-                "❔XX | 🟢 | vless | @FreakConfig | 4",
-                "❔XX | 🔴 | vless | @flyv2ray | 0",
+                "❔XX | 🔴 | vless | @FreakConfig | 1",
+                "🇨🇭CH | 🟢 | vless | @FreakConfig | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -207,20 +205,18 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 2",
-                "❔XX | 🔴 | vless | @v2ray_vpn_ir | 3",
-                "❔XX | 🔴 | vless | @proxystore11 | 5",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 5",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 0",
-                "❔XX | 🔴 | vless | @FreakConfig | 3",
-                "❔XX | 🟢 | vless | @FreakConfig | 4",
-                "❔XX | 🔴 | vless | @flyv2ray | 0",
+                "❔XX | 🔴 | vless | @FreakConfig | 1",
+                "🇨🇭CH | 🟢 | vless | @FreakConfig | 2",
+                "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -1083,7 +1079,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -1104,49 +1100,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 2",
-            "type": "vless",
-            "server": "snapp.ir",
-            "server_port": 80,
-            "uuid": "d9ae4879-27cf-4fed-90aa-3a606eaab4bc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "snapp.ir"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @v2ray_vpn_ir | 3",
-            "type": "vless",
-            "server": "185.143.235.21",
-            "server_port": 8080,
-            "uuid": "2ed014f5-dfaa-472c-9e64-91cc915b7ac8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/path",
-                "headers": {
-                    "Host": "185.143.235.21"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 5",
+            "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 5",
             "type": "vless",
             "server": "snapp.ir",
             "server_port": 8880,
@@ -1212,7 +1166,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -1356,11 +1310,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 3",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 1",
             "type": "vless",
-            "server": "dd.openaccessnode.com",
-            "server_port": 50,
-            "uuid": "75193bef-8d8f-e823-41e0-2dd083dc1399",
+            "server": "simurgh.adslimit.info",
+            "server_port": 2345,
+            "uuid": "20adc847-4159-4f39-b79f-d563b660945f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1370,11 +1324,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 4",
+            "tag": "🇨🇭CH | 🟢 | vless | @FreakConfig | 2",
             "type": "vless",
-            "server": "45.136.126.16",
+            "server": "185.227.149.123",
             "server_port": 443,
-            "uuid": "203b0744-f943-4bba-a8d2-cab635467c46",
+            "uuid": "7c3f08c8-7b3b-4028-91d8-378a18c2b62a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1384,22 +1338,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "mycatcollection.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "_L_eqCCzVbP0fzWTA_AqtmlyZVscCzrJ5b2nXFnq3U0",
-                    "short_id": "d020b2"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 0",
+            "tag": "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "v4.mesterking8786.cfd",
             "server_port": 55948,
