@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
@@ -117,7 +117,6 @@
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -134,7 +133,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 5",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
@@ -159,8 +158,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
-                "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
+                "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
+                "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 6",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 16",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 17",
@@ -170,7 +169,6 @@
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
                 "🇮🇷IR | 🔴 | vless | @DarkTeam_VPN | 0",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -187,7 +185,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @proxystore11 | 5",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
@@ -228,9 +226,9 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 18",
+            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 18",
             "type": "vless",
-            "server": "13.37.161.114",
+            "server": "3.126.44.218",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -259,9 +257,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @VlessConfig | 19",
+            "tag": "🇫🇷FR | 🔴 | vless | @VlessConfig | 19",
             "type": "vless",
-            "server": "63.178.170.208",
+            "server": "13.37.161.114",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -486,27 +484,6 @@
                     "enabled": true,
                     "public_key": "0DKjdlADOX3-J6ZYv6RjlDP5n3kOahNBn3vUNnHO0l0",
                     "short_id": "d1"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
-            "type": "vless",
-            "server": "dl4.paycollection.lol",
-            "server_port": 80,
-            "uuid": "dc7b8019-893f-4583-b95c-044b1f9696f4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/flutter",
-                "headers": {
-                    "Host": "dl4.paycollection.lol"
                 }
             }
         },
@@ -913,7 +890,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
