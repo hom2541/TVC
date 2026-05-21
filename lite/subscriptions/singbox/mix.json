@@ -133,20 +133,21 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 28",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 29",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 30",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🔴 | vless | @fnet00 | 0",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
+                "❔XX | 🔴 | vless | @free1_vpn | 0",
+                "🆥🆥 | 🔴 | vless | @fnet00 | 0",
+                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
@@ -192,20 +193,21 @@
                 "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 28",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 29",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 30",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 9",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 0",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
-                "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🔴 | vless | @fnet00 | 0",
-                "❔XX | 🔴 | vless | @fnet00 | 1",
+                "❔XX | 🔴 | vless | @free1_vpn | 0",
+                "🆥🆥 | 🔴 | vless | @fnet00 | 0",
+                "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
@@ -785,6 +787,25 @@
         {
             "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8",
             "type": "trojan",
+            "server": "172.64.152.23",
+            "server_port": 443,
+            "password": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "sni.111000.dynv6.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9",
+            "type": "trojan",
             "server": "172.64.146.129",
             "server_port": 443,
             "password": "6202b230-417c-4d8e-b624-0f71afa9c75d",
@@ -799,18 +820,6 @@
                 "headers": {
                     "Host": "sni.111000.dynv6.net"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9",
-            "type": "trojan",
-            "server": "link.honghongai.top",
-            "server_port": 8443,
-            "password": "8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -876,6 +885,27 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 28",
+            "type": "vless",
+            "server": "snapp.ir",
+            "server_port": 8080,
+            "uuid": "62f1c795-e8a1-4cd9-9997-f17985ae7bec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "snapp.ir"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 29",
             "type": "vless",
             "server": "zlinka.satarv.ir",
@@ -894,20 +924,6 @@
                 "headers": {
                     "Host": "zlinka.satarv.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 30",
-            "type": "vless",
-            "server": "out.pixserver.ir",
-            "server_port": 19271,
-            "uuid": "5141a90a-26ac-4c04-9ca6-2105f5208001",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -949,6 +965,27 @@
                 "path": "\/",
                 "headers": {
                     "Host": "185.143.233.5"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 0",
+            "type": "vless",
+            "server": "fl1bot-ws.headerip.com",
+            "server_port": 80,
+            "uuid": "9ad406c3-3a40-44f8-b985-92b7e554b150",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "fl1bot-ws.headerip.com"
                 }
             }
         },
@@ -1011,27 +1048,6 @@
                 "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
                 "headers": {
                     "Host": "speedtest.net"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @v2ray1_ng | 0",
-            "type": "vless",
-            "server": "namstar.hi-phonee.ir",
-            "server_port": 54065,
-            "uuid": "f4f7ff82-b369-424f-bfbc-730c39f4549a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "namstar.hi-phonee.ir"
                 }
             }
         },
@@ -1157,7 +1173,28 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @fnet00 | 0",
+            "tag": "❔XX | 🔴 | vless | @free1_vpn | 0",
+            "type": "vless",
+            "server": "namstar.hi-phonee.ir",
+            "server_port": 54065,
+            "uuid": "f4f7ff82-b369-424f-bfbc-730c39f4549a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "namstar.hi-phonee.ir"
+                }
+            }
+        },
+        {
+            "tag": "🆥🆥 | 🔴 | vless | @fnet00 | 0",
             "type": "vless",
             "server": "127.0.0.1",
             "server_port": 40443,
@@ -1181,7 +1218,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @fnet00 | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | @fnet00 | 1",
             "type": "vless",
             "server": "91.107.188.182",
             "server_port": 443,
