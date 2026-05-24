@@ -125,8 +125,8 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 1",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 14",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 14",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 15",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 2",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 1",
@@ -134,14 +134,14 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 0",
+                "❔XX | 🔴 | vless | @Capoit | 0",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -176,8 +176,8 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 1",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 14",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 14",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 15",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 2",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 1",
@@ -185,14 +185,14 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇮🇷IR | 🔴 | vless | @Capoit | 0",
+                "❔XX | 🔴 | vless | @Capoit | 0",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -706,11 +706,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 14",
             "type": "vless",
-            "server": "nexus.itsazan.info",
-            "server_port": 2083,
-            "uuid": "67001098-9d9f-4ab5-995a-6c297be549c3",
+            "server": "sublink.darkping.ir",
+            "server_port": 443,
+            "uuid": "f00b9830-14ee-4a66-9dc9-1682811a3073",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -720,7 +720,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nexus.itsazan.info",
+                "server_name": "dll1.darkping.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -730,18 +730,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/api\/v1\/users",
+                "path": "\/",
                 "headers": {
-                    "Host": "nexus.itsazan.info"
+                    "Host": "dll1.darkping.ir"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 15",
             "type": "vless",
             "server": "snapp.ir",
             "server_port": 2082,
-            "uuid": "81afcf8f-b7dd-43b2-b734-c983bf3cb930",
+            "uuid": "9793e3e3-bda0-46f0-a089-1b7d4e48e896",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -945,7 +945,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -966,7 +966,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 0",
+            "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "cdn3.whitepol4.ir",
             "server_port": 2052,
@@ -1104,7 +1104,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @Capoit | 0",
+            "tag": "❔XX | 🔴 | vless | @Capoit | 0",
             "type": "vless",
             "server": "snappfood.ir",
             "server_port": 2052,
