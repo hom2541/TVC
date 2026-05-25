@@ -118,7 +118,6 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -126,8 +125,8 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 1",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 18",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 2",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 1",
@@ -135,7 +134,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -169,7 +168,6 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -177,8 +175,8 @@
                 "🇮🇷IR | 🔴 | vless | @V2rayNGn | 1",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 13",
                 "🇺🇸US | 🔴 | vless | @Outline_Vpn | 14",
+                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
                 "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
-                "🇮🇷IR | 🔴 | vless | @prrofile_purple | 18",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 2",
                 "🇮🇷IR | 🔴 | vless | @v2rayNG_Matsuri | 3",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 1",
@@ -186,7 +184,7 @@
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "❔XX | 🔴 | vless | @proxystore11 | 0",
+                "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -505,27 +503,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 0",
-            "type": "vless",
-            "server": "snapp.ir",
-            "server_port": 2095,
-            "uuid": "5bc4971a-e0b6-4723-985c-801b1c80f23a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/wskhan",
-                "headers": {
-                    "Host": "snapp.ir"
-                }
-            }
-        },
-        {
             "tag": "🇸🇪SE | 🔴 | vless | @v2logy | 9",
             "type": "vless",
             "server": "185.146.173.237",
@@ -713,6 +690,37 @@
             }
         },
         {
+            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 16",
+            "type": "vless",
+            "server": "sublink.darkping.ir",
+            "server_port": 443,
+            "uuid": "f00b9830-14ee-4a66-9dc9-1682811a3073",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dll1.darkping.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dll1.darkping.ir"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 17",
             "type": "vless",
             "server": "snapp.ir",
@@ -730,37 +738,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "snapp.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | @prrofile_purple | 18",
-            "type": "vless",
-            "server": "nexus.itsazan.info",
-            "server_port": 2083,
-            "uuid": "67001098-9d9f-4ab5-995a-6c297be549c3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nexus.itsazan.info",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/v1\/users",
-                "headers": {
-                    "Host": "nexus.itsazan.info"
                 }
             }
         },
@@ -942,7 +919,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 0",
+            "tag": "🇮🇷IR | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "cdn3.whitepol4.ir",
             "server_port": 2052,
