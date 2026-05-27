@@ -107,11 +107,10 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
-                "🇬🇪GE | 🟢 | vless | @shh_proxy | 0",
+                "🇬🇪GE | 🟢 | vless | @shh_proxy | 2",
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @ServerNett | 1",
                 "❔XX | 🟢 | vless | @ServerNett | 2",
@@ -172,11 +171,10 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
-                "🇬🇪GE | 🟢 | vless | @shh_proxy | 0",
+                "🇬🇪GE | 🟢 | vless | @shh_proxy | 2",
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @ServerNett | 1",
                 "❔XX | 🟢 | vless | @ServerNett | 2",
@@ -288,7 +286,7 @@
             }
         },
         {
-            "tag": "🇬🇪GE | 🟢 | vless | @shh_proxy | 0",
+            "tag": "🇬🇪GE | 🟢 | vless | @shh_proxy | 2",
             "type": "vless",
             "server": "scan.capitaledge.blog",
             "server_port": 8443,
@@ -400,35 +398,6 @@
                     "enabled": true,
                     "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 1",
-            "type": "vless",
-            "server": "138.124.115.134",
-            "server_port": 8443,
-            "uuid": "4cc55b53-c144-4890-ba79-68a89e883843",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "G4Bc0Q8ynWYT-5fGxuCw7qUYp6ayRuQGtSaynzt85FQ",
-                    "short_id": "1fb0b1a7"
                 }
             }
         },
