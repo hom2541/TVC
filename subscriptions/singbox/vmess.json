@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 0",
-                "🇯🇵JP | 🟢 | vmess | @mftizi | 1",
+                "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
                 "❔XX | 🟢 | vmess | @mftizi | 4",
@@ -116,11 +116,12 @@
                 "❔XX | 🟢 | vmess | @mftizi | 6",
                 "❔XX | 🟢 | vmess | @mftizi | 10",
                 "❔XX | 🟢 | vmess | @mftizi | 11",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
+                "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
-                "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
+                "❔XX | 🟢 | vmess | @SafeNet_Server | 0",
+                "❔XX | 🟢 | vmess | @yaney_01 | 1",
+                "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
@@ -134,7 +135,7 @@
             "outbounds": [
                 "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 0",
-                "🇯🇵JP | 🟢 | vmess | @mftizi | 1",
+                "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
                 "❔XX | 🟢 | vmess | @mftizi | 4",
@@ -142,11 +143,12 @@
                 "❔XX | 🟢 | vmess | @mftizi | 6",
                 "❔XX | 🟢 | vmess | @mftizi | 10",
                 "❔XX | 🟢 | vmess | @mftizi | 11",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
+                "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
-                "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
+                "❔XX | 🟢 | vmess | @SafeNet_Server | 0",
+                "❔XX | 🟢 | vmess | @yaney_01 | 1",
+                "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
@@ -208,7 +210,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @mftizi | 1",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 1",
             "type": "vmess",
             "server": "45.159.51.116",
             "server_port": 48019,
@@ -344,7 +346,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 14",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 14",
             "type": "vmess",
             "server": "120.232.153.63",
             "server_port": 40972,
@@ -395,7 +397,31 @@
             }
         },
         {
-            "tag": "🇹🇼TW | 🟢 | vmess | @yaney_01 | 1",
+            "tag": "❔XX | 🟢 | vmess | @SafeNet_Server | 0",
+            "type": "vmess",
+            "server": "158.69.208.120",
+            "server_port": 80,
+            "uuid": "bed62ee5-2b42-41b0-aeae-e95d043da869",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/api\/v1",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
             "server_port": 41000,
@@ -429,7 +455,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | @yaney_01 | 2",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "107.149.119.43",
             "server_port": 37000,
