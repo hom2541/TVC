@@ -111,6 +111,7 @@
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @v2logy | 6",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 0",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
@@ -138,14 +139,15 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 0",
-                "❔XX | 🟢 | vless | @kiava | 48",
-                "❔XX | 🔴 | vless | @kiava | 52",
-                "❔XX | 🟢 | vless | @kiava | 53",
+                "🇩🇪DE | 🟢 | vless | @mehrosaboran | 0",
+                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇮🇷IR | 🔴 | vless | @kiava | 52",
+                "🇫🇮FI | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🟢 | vless | @kiava | 61",
-                "❔XX | 🟢 | vless | @kiava | 63",
-                "❔XX | 🔴 | vless | @kiava | 64",
-                "❔XX | 🟢 | vless | @kiava | 67",
+                "🇷🇺RU | 🟢 | vless | @kiava | 63",
+                "🇷🇺RU | 🔴 | vless | @kiava | 64",
+                "🇮🇷IR | 🟢 | vless | @kiava | 67",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -172,6 +174,7 @@
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @v2logy | 6",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 0",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
@@ -199,14 +202,15 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 0",
-                "❔XX | 🟢 | vless | @kiava | 48",
-                "❔XX | 🔴 | vless | @kiava | 52",
-                "❔XX | 🟢 | vless | @kiava | 53",
+                "🇩🇪DE | 🟢 | vless | @mehrosaboran | 0",
+                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇮🇷IR | 🔴 | vless | @kiava | 52",
+                "🇫🇮FI | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🟢 | vless | @kiava | 61",
-                "❔XX | 🟢 | vless | @kiava | 63",
-                "❔XX | 🔴 | vless | @kiava | 64",
-                "❔XX | 🟢 | vless | @kiava | 67",
+                "🇷🇺RU | 🟢 | vless | @kiava | 63",
+                "🇷🇺RU | 🔴 | vless | @kiava | 64",
+                "🇮🇷IR | 🟢 | vless | @kiava | 67",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 7",
@@ -400,6 +404,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 0",
+            "type": "vless",
+            "server": "51.255.71.16",
+            "server_port": 443,
+            "uuid": "43488128-319e-f480-64ea-0acdc712e2a8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.booking.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZnlCl_Jc2dV5-KK_ymmMcEDoe5lPyZ-5z_LGMRoiNTU",
+                    "short_id": "b87063a35aaa942e"
+                }
             }
         },
         {
@@ -1214,7 +1247,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 48",
+            "tag": "🇩🇪DE | 🟢 | vless | @mehrosaboran | 0",
+            "type": "vless",
+            "server": "169.40.32.5",
+            "server_port": 80,
+            "uuid": "26b10d68-fbd3-4320-9ac5-91c7a8be204d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UmcGXETXGRBPOjchm2HKHHdvhXpn57G-Fd8Skr_0gVs",
+                    "short_id": "52fd6449"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @kiava | 48",
             "type": "vless",
             "server": "57.129.53.181",
             "server_port": 23576,
@@ -1243,7 +1305,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 52",
+            "tag": "🇮🇷IR | 🔴 | vless | @kiava | 52",
             "type": "vless",
             "server": "185.218.139.138",
             "server_port": 443,
@@ -1279,7 +1341,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 53",
+            "tag": "🇫🇮FI | 🟢 | vless | @kiava | 53",
             "type": "vless",
             "server": "92.60.78.221",
             "server_port": 443,
@@ -1366,7 +1428,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 63",
+            "tag": "🇷🇺RU | 🟢 | vless | @kiava | 63",
             "type": "vless",
             "server": "176.124.214.188",
             "server_port": 443,
@@ -1395,7 +1457,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 64",
+            "tag": "🇷🇺RU | 🔴 | vless | @kiava | 64",
             "type": "vless",
             "server": "82.202.159.119",
             "server_port": 443,
@@ -1424,7 +1486,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 67",
+            "tag": "🇮🇷IR | 🟢 | vless | @kiava | 67",
             "type": "vless",
             "server": "mail.tomandjery.eu",
             "server_port": 1001,
