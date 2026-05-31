@@ -107,7 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇮🇷IR | 🟢 | vless | @proxy_kafee | 2",
+                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 2",
+                "🇮🇷IR | 🟢 | vless | @proxy_kafee | 3",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
                 "❔XX | 🟢 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -125,7 +126,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇮🇷IR | 🟢 | vless | @proxy_kafee | 2",
+                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 2",
+                "🇮🇷IR | 🟢 | vless | @proxy_kafee | 3",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
                 "❔XX | 🟢 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -187,7 +189,36 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vless | @proxy_kafee | 2",
+            "tag": "🇹🇷TR | 🔴 | vless | @proxy_kafee | 2",
+            "type": "vless",
+            "server": "37.221.79.69",
+            "server_port": 8443,
+            "uuid": "15115772-74b5-4c9b-9049-d7237a9c68f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kSqgT4C5AcpCMLdW1VCvFSiv5UX6UDLaF33ECFpzUgQ",
+                    "short_id": "41"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🟢 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "87.107.175.18",
             "server_port": 8086,
