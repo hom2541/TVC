@@ -108,6 +108,7 @@
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
+                "❔XX | 🟢 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @mehrosaboran | 2",
@@ -123,6 +124,7 @@
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
+                "❔XX | 🟢 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @mehrosaboran | 2",
@@ -206,6 +208,35 @@
                     "enabled": true,
                     "public_key": "MbVEbNu2iMIDhD5ziJFLKVfV0lBY7tGGpklBrwqVCyg",
                     "short_id": "61ad"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 0",
+            "type": "vless",
+            "server": "193.163.203.76",
+            "server_port": 50592,
+            "uuid": "439f353b-b52f-4355-93d8-26e0567d5308",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ",
+                    "short_id": "b7ca855a4763a7ac"
                 }
             }
         },
