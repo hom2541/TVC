@@ -107,13 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 4",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 4",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 4",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
                 "❔XX | 🟢 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @mehrosaboran | 3",
+                "❔XX | 🟢 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -125,13 +124,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 4",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 4",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 4",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 0",
                 "❔XX | 🟢 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @mehrosaboran | 3",
+                "❔XX | 🟢 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -187,36 +185,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "37.221.79.69",
-            "server_port": 8443,
-            "uuid": "15115772-74b5-4c9b-9049-d7237a9c68f9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "kSqgT4C5AcpCMLdW1VCvFSiv5UX6UDLaF33ECFpzUgQ",
-                    "short_id": "41"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 4",
             "type": "vless",
             "server": "84.75.220.223",
             "server_port": 33434,
@@ -361,7 +330,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 3",
+            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "169.40.32.5",
             "server_port": 80,
