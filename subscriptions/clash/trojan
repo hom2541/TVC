@@ -150,7 +150,7 @@ proxies:
   - {"name":"❔XX | 🟢 | trojan | @DirectVPN | 15","type":"trojan","server":"3.75.20.183","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"185.126.236.44","port":443,"udp":false,"password":"BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.mesaly.click"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"216.24.57.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"149.104.104.101","port":443,"udp":false,"password":"BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.registry-monitor.click"}
+  - {"name":"❔XX | 🔴 | trojan | @v2ray1_ng | 4","type":"trojan","server":"45.130.125.76","port":443,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -189,7 +189,7 @@ proxy-groups:
       - '❔XX | 🟢 | trojan | @DirectVPN | 15'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
+      - '❔XX | 🔴 | trojan | @v2ray1_ng | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -228,7 +228,7 @@ proxy-groups:
       - '❔XX | 🟢 | trojan | @DirectVPN | 15'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
+      - '❔XX | 🔴 | trojan | @v2ray1_ng | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -266,7 +266,7 @@ proxy-groups:
       - '❔XX | 🟢 | trojan | @DirectVPN | 15'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
+      - '❔XX | 🔴 | trojan | @v2ray1_ng | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
