@@ -107,17 +107,14 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 4",
-                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 10",
-                "❔XX | 🟢 | vless | @v2rayngvpn | 11",
                 "🇹🇷TR | 🟢 | vless | @SafeNet_Server | 1",
-                "❔XX | 🟢 | vless | @free1_vpn | 3",
+                "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @mehrosaboran | 4",
-                "❔XX | 🟢 | vless | @mehrosaboran | 5",
-                "❔XX | 🔴 | vless | @kiava | 83",
-                "❔XX | 🔴 | vless | @kiava | 84",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "🇺🇸US | 🟢 | vless | @mehrosaboran | 4",
+                "🇵🇱PL | 🟢 | vless | @mehrosaboran | 5",
+                "🇩🇪DE | 🔴 | vless | @kiava | 83",
+                "🇩🇪DE | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ]
@@ -127,17 +124,14 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇹🇷TR | 🔴 | vless | @proxy_kafee | 4",
-                "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 10",
-                "❔XX | 🟢 | vless | @v2rayngvpn | 11",
                 "🇹🇷TR | 🟢 | vless | @SafeNet_Server | 1",
-                "❔XX | 🟢 | vless | @free1_vpn | 3",
+                "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @mehrosaboran | 4",
-                "❔XX | 🟢 | vless | @mehrosaboran | 5",
-                "❔XX | 🔴 | vless | @kiava | 83",
-                "❔XX | 🔴 | vless | @kiava | 84",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "🇺🇸US | 🟢 | vless | @mehrosaboran | 4",
+                "🇵🇱PL | 🟢 | vless | @mehrosaboran | 5",
+                "🇩🇪DE | 🔴 | vless | @kiava | 83",
+                "🇩🇪DE | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ],
@@ -191,93 +185,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "62.3.12.171",
-            "server_port": 8443,
-            "uuid": "ea665460-221d-4d9d-b672-8b6dae6ef400",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "travel.yandex.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l1wifJhEAz5W5969rpYY9c3tV4gZ6BjGSm2DbUXG920",
-                    "short_id": "fb711576"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 10",
-            "type": "vless",
-            "server": "88.218.120.60",
-            "server_port": 4443,
-            "uuid": "41b903e0-7d0a-45d0-9b29-83086024a88b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni4.streisand.lt",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-psPIZaOXQOuX1O1BpZ0_zyXEvx1YwW6ouBIkYGb2Dg",
-                    "short_id": "612d8fa72c"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @v2rayngvpn | 11",
-            "type": "vless",
-            "server": "88.218.120.60",
-            "server_port": 4443,
-            "uuid": "41b903e0-7d0a-45d0-9b29-83086024a88b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni4.streisand.lt",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-psPIZaOXQOuX1O1BpZ0_zyXEvx1YwW6ouBIkYGb2Dg",
-                    "short_id": "612d8fa72c"
-                }
-            }
-        },
-        {
             "tag": "🇹🇷TR | 🟢 | vless | @SafeNet_Server | 1",
             "type": "vless",
             "server": "panel.panel.pythash.tr",
@@ -307,7 +214,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @free1_vpn | 3",
+            "tag": "🇷🇺RU | 🟢 | vless | @free1_vpn | 3",
             "type": "vless",
             "server": "193.163.203.76",
             "server_port": 50592,
@@ -365,7 +272,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -394,7 +301,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 4",
+            "tag": "🇺🇸US | 🟢 | vless | @mehrosaboran | 4",
             "type": "vless",
             "server": "137.184.218.169",
             "server_port": 36925,
@@ -423,7 +330,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 5",
+            "tag": "🇵🇱PL | 🟢 | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "77.239.114.176",
             "server_port": 19105,
@@ -452,7 +359,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 83",
+            "tag": "🇩🇪DE | 🔴 | vless | @kiava | 83",
             "type": "vless",
             "server": "partners.dissertationhelpspecialist.com",
             "server_port": 8443,
@@ -488,7 +395,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 84",
+            "tag": "🇩🇪DE | 🔴 | vless | @kiava | 84",
             "type": "vless",
             "server": "partners.dissertationhelpspecialist.com",
             "server_port": 8443,
