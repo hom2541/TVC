@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🇫🇷FR | 🟢 | vmess | @vmessorg | 3",
                 "🇳🇱NL | 🟢 | vmess | @vmessorg | 4",
-                "🇳🇱NL | 🟢 | vmess | @vmessorg | 5",
-                "🇨🇦CA | 🟢 | vmess | @SafeNet_Server | 2",
+                "❔XX | 🟢 | vmess | @SafeNet_Server | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5"
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 1"
             ]
         },
         {
@@ -122,12 +122,12 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
+                "🇫🇷FR | 🟢 | vmess | @vmessorg | 3",
                 "🇳🇱NL | 🟢 | vmess | @vmessorg | 4",
-                "🇳🇱NL | 🟢 | vmess | @vmessorg | 5",
-                "🇨🇦CA | 🟢 | vmess | @SafeNet_Server | 2",
+                "❔XX | 🟢 | vmess | @SafeNet_Server | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5"
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -184,11 +184,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇫🇷FR | 🟢 | vmess | @vmessorg | 3",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "95.179.208.194",
+            "server_port": 38422,
+            "uuid": "e3ac9d1b-4311-4f6c-8642-035acd3507a8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -218,24 +218,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vmess | @vmessorg | 5",
-            "type": "vmess",
-            "server": "95.179.159.222",
-            "server_port": 26966,
-            "uuid": "ac112108-b9a1-410e-ae45-3f4b1409376e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | @SafeNet_Server | 2",
+            "tag": "❔XX | 🟢 | vmess | @SafeNet_Server | 2",
             "type": "vmess",
             "server": "158.69.208.120",
             "server_port": 80,
@@ -283,7 +266,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -314,6 +297,23 @@
                 "headers": {
                     "Host": "104.26.8.210"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @OpenSSTPVpn | 1",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         }
     ],
