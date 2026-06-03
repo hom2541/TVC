@@ -108,7 +108,6 @@
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 1",
-                "🇳🇱NL | 🟢 | vless | @proxy_kafee | 2",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -128,7 +127,6 @@
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 1",
-                "🇳🇱NL | 🟢 | vless | @proxy_kafee | 2",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
                 "❔XX | 🟢 | vless | @free1_vpn | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -216,35 +214,6 @@
                     "enabled": true,
                     "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
                     "short_id": "53197c66aef53c44"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @proxy_kafee | 2",
-            "type": "vless",
-            "server": "88.218.120.60",
-            "server_port": 4443,
-            "uuid": "41b903e0-7d0a-45d0-9b29-83086024a88b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sni4.streisand.lt",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-psPIZaOXQOuX1O1BpZ0_zyXEvx1YwW6ouBIkYGb2Dg",
-                    "short_id": "612d8fa72c"
                 }
             }
         },
