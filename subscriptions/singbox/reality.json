@@ -110,13 +110,14 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🟢 | vless | @proxy_kafee | 0",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
+                "❔XX | 🟢 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 5",
                 "❔XX | 🟢 | vless | @vmessorg | 0",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 5",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 1",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
@@ -178,13 +179,14 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🟢 | vless | @proxy_kafee | 0",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
+                "❔XX | 🟢 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 5",
                 "❔XX | 🟢 | vless | @vmessorg | 0",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 5",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 1",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
@@ -381,7 +383,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 0",
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "91.107.162.63",
+            "server_port": 8443,
+            "uuid": "73cfa726-772b-4e91-9401-918598d29e50",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rKXg6--NSVISGCnP980Hu7Cs9Gb0phAgQkdw87ko9hI",
+                    "short_id": "1e7f0263824cca"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 1",
             "type": "vless",
             "server": "213.156.152.186",
             "server_port": 443,
@@ -562,7 +593,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 1",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 2",
             "type": "vless",
             "server": "79.141.171.133",
             "server_port": 443,
