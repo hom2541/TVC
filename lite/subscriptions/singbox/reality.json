@@ -107,11 +107,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 4",
-                "🇺🇸US | 🟢 | vless | @vmessorg | 8",
+                "❔XX | 🟢 | vless | @prrofile_purple | 4",
+                "❔XX | 🟢 | vless | @vmessorg | 8",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @Capoit | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -123,11 +124,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 4",
-                "🇺🇸US | 🟢 | vless | @vmessorg | 8",
+                "❔XX | 🟢 | vless | @prrofile_purple | 4",
+                "❔XX | 🟢 | vless | @vmessorg | 8",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @Capoit | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -183,7 +185,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 4",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 4",
             "type": "vless",
             "server": "213.156.152.186",
             "server_port": 443,
@@ -212,7 +214,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @vmessorg | 8",
+            "tag": "❔XX | 🟢 | vless | @vmessorg | 8",
             "type": "vless",
             "server": "15.204.97.216",
             "server_port": 23576,
@@ -324,6 +326,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @Capoit | 1",
+            "type": "vless",
+            "server": "iranfuture.xyz",
+            "server_port": 80,
+            "uuid": "ada2c821-5c83-4dba-96ec-a5174e54ae4d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FMlzIKco2rBLro2OaFKjaKSC1PQnlvFRJBsiVJ_bB0s",
+                    "short_id": "82d7"
                 }
             }
         },
