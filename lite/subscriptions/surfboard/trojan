@@ -11,16 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13 = trojan, 63.185.188.232, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14 = trojan, 3.126.110.8, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇩🇪DE | 🟢 | trojan | @DirectVPN | 13 = trojan, 63.185.188.232, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇩🇪DE | 🟢 | trojan | @DirectVPN | 14 = trojan, 3.126.110.8, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, www.multiplydose.com, 443, password = humanity, udp-delay = true, skip-cert-verify = false, ws = false
-🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 104.19.229.21, 443, password = bb45f73f-795b-4a05-a8e0-ba717bce87e3, udp-delay = true, skip-cert-verify = false, sni = api24-normal.tiktokv.com.cyylr.eu.cc, ws = false
+🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11 = trojan, 52.29.147.115, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12 = trojan, 52.57.204.185, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | 🟢 | trojan | @DirectVPN | 11 = trojan, 52.29.147.115, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇩🇪DE | 🟢 | trojan | @DirectVPN | 12 = trojan, 52.57.204.185, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, 45.130.125.160, 443, password = Config0plus, udp-delay = true, skip-cert-verify = false, sni = api24-normal.tiktokv.com.cyylr.eu.cc, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4
-URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4
-FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 13,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 14,🇩🇪DE | 🟢 | trojan | @DirectVPN | 13,🇩🇪DE | 🟢 | trojan | @DirectVPN | 14,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 3,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12,🇩🇪DE | 🟢 | trojan | @DirectVPN | 11,🇩🇪DE | 🟢 | trojan | @DirectVPN | 12,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 3
+URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12,🇩🇪DE | 🟢 | trojan | @DirectVPN | 11,🇩🇪DE | 🟢 | trojan | @DirectVPN | 12,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 3
+FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 11,🇩🇪DE | 🟢 | trojan | @PrivateVPNs | 12,🇩🇪DE | 🟢 | trojan | @DirectVPN | 11,🇩🇪DE | 🟢 | trojan | @DirectVPN | 12,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
