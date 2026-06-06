@@ -136,10 +136,10 @@
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 7",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 7",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 2",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 7",
-                "🇸🇨SC | 🔴 | vless | @v2rayngvpn | 8",
+                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 1",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 2",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 7",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 8",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
@@ -147,7 +147,8 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 2",
                 "❔XX | 🔴 | vless | @VmessProtocol | 3",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
-                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 9",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 6",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 7",
                 "❔XX | 🔴 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -205,10 +206,10 @@
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 7",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 7",
                 "🇺🇸US | 🟢 | vless | @vmessorg | 8",
-                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 2",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 7",
-                "🇸🇨SC | 🔴 | vless | @v2rayngvpn | 8",
+                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 1",
+                "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 2",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 7",
+                "❔XX | 🔴 | vless | @v2rayngvpn | 8",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @vless_vmess | 18",
@@ -216,7 +217,8 @@
                 "❔XX | 🔴 | vless | @VmessProtocol | 2",
                 "❔XX | 🔴 | vless | @VmessProtocol | 3",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 1",
-                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 9",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 6",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 7",
                 "❔XX | 🔴 | vless | @free1_vpn | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -983,7 +985,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 1",
+            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 1",
             "type": "vless",
             "server": "ipw.ygdfw.com",
             "server_port": 443,
@@ -1007,7 +1009,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 2",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayNG_Matsuri | 2",
             "type": "vless",
             "server": "ipw.ygdfw.com",
             "server_port": 443,
@@ -1031,40 +1033,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 7",
+            "tag": "❔XX | 🟢 | vless | @v2rayngvpn | 7",
             "type": "vless",
-            "server": "nl01.goodmaximum.com",
-            "server_port": 443,
-            "uuid": "7d1591c2-c313-000a-a56a-cfff98808bdc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nimhogoa.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-                    "short_id": "31181028b56c8704"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇨SC | 🔴 | vless | @v2rayngvpn | 8",
-            "type": "vless",
-            "server": "45.130.125.194",
+            "server": "77.74.123.169",
             "server_port": 8443,
-            "uuid": "358ca5cf-5406-493d-b872-a344988b2e11",
+            "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1074,12 +1047,33 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ssd.new-persian-song.ir",
+                "server_name": "cdn3-87.vk-cdnvideo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 8",
+            "type": "vless",
+            "server": "bhz.gmakoran.live",
+            "server_port": 8443,
+            "uuid": "c8bdd677-fc5d-43e2-ab08-e7d57fa14c96",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "bhz.gmakoran.live"
                 }
             }
         },
@@ -1262,11 +1256,40 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray_vpn_ir | 9",
+            "tag": "❔XX | 🟢 | vless | @v2ray_vpn_ir | 6",
             "type": "vless",
-            "server": "188.114.97.6",
-            "server_port": 2087,
-            "uuid": "8386179d-9343-46d9-87db-3d22fa51f1b4",
+            "server": "159.89.87.21",
+            "server_port": 28190,
+            "uuid": "14c80e0e-f7ce-4991-94fc-99a1db4a9b1e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "aws.amazon.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @v2ray_vpn_ir | 7",
+            "type": "vless",
+            "server": "104.18.152.233",
+            "server_port": 443,
+            "uuid": "9f135709-60a1-4a9b-b31c-78d326d8752a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1276,7 +1299,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "torostamtahamtani.mgwarrior.ir",
+                "server_name": "www.middle.cc.cd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
