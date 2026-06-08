@@ -109,12 +109,11 @@
                 "🇳🇱NL | 🟢 | vless | @shh_proxy | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 0",
-                "🇸🇪SE | 🔴 | vless | @proxy_kafee | 1",
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 16",
-                "🇸🇪SE | 🟢 | vless | @v2rayngvpn | 6",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 6",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 1",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 4",
-                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 1",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -130,12 +129,11 @@
                 "🇳🇱NL | 🟢 | vless | @shh_proxy | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @DarkTeam_VPN | 0",
-                "🇸🇪SE | 🔴 | vless | @proxy_kafee | 1",
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 16",
-                "🇸🇪SE | 🟢 | vless | @v2rayngvpn | 6",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 6",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 1",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 4",
-                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 1",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -258,35 +256,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | @proxy_kafee | 1",
-            "type": "vless",
-            "server": "143.14.50.249",
-            "server_port": 443,
-            "uuid": "bae2fd3a-55fb-4094-99f6-c94e25d7d15d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amd.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 16",
             "type": "vless",
             "server": "213.156.152.186",
@@ -316,7 +285,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @v2rayngvpn | 6",
+            "tag": "❔XX | 🟢 | vless | @v2rayngvpn | 6",
             "type": "vless",
             "server": "se.riotvpn.eu",
             "server_port": 443,
@@ -403,7 +372,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray_vpn_ir | 1",
+            "tag": "❔XX | 🟢 | vless | @v2ray_vpn_ir | 2",
             "type": "vless",
             "server": "141.98.118.70",
             "server_port": 443,

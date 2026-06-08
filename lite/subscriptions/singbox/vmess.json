@@ -268,9 +268,9 @@
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "www.darkroom.lol",
-            "server_port": 8080,
-            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+            "server": "time.ir",
+            "server_port": 443,
+            "uuid": "last-update-time",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -281,20 +281,30 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "time.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "time.ir"
                 }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "icook.hk",
-            "server_port": 80,
-            "uuid": "3eb05cb6-d2e1-4a31-9f82-514cfa98fe15",
+            "server": "47.253.84.189",
+            "server_port": 443,
+            "uuid": "cacc6b45-94c5-4d9e-a839-5d69cdd346eb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -305,9 +315,19 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/ray",
+                "path": "\/swoole",
                 "headers": {
                     "Host": ""
                 }
