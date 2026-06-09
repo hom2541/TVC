@@ -119,7 +119,6 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 13",
                 "❔XX | 🟢 | vless | @prrofile_purple | 15",
                 "❔XX | 🟢 | vless | @prrofile_purple | 16",
-                "❔XX | 🟢 | vless | @prrofile_purple | 23",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 3",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 7",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
@@ -149,10 +148,9 @@
                 "🇳🇱NL | 🔴 | vless | @Capital_NET | 41",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 4",
-                "🇨🇭CH | 🟢 | vless | @mehrosaboran | 7",
-                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @mehrosaboran | 5",
+                "❔XX | 🟢 | vless | @kiava | 48",
                 "❔XX | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
@@ -198,7 +196,6 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 13",
                 "❔XX | 🟢 | vless | @prrofile_purple | 15",
                 "❔XX | 🟢 | vless | @prrofile_purple | 16",
-                "❔XX | 🟢 | vless | @prrofile_purple | 23",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 3",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 7",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
@@ -228,10 +225,9 @@
                 "🇳🇱NL | 🔴 | vless | @Capital_NET | 41",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇮🇷IR | 🔴 | vless | @mehrosaboran | 4",
-                "🇨🇭CH | 🟢 | vless | @mehrosaboran | 7",
-                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @mehrosaboran | 5",
+                "❔XX | 🟢 | vless | @kiava | 48",
                 "❔XX | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
@@ -667,35 +663,6 @@
                     "enabled": true,
                     "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
                     "short_id": "d82fb387"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 23",
-            "type": "vless",
-            "server": "france.aliriw.com",
-            "server_port": 443,
-            "uuid": "37c64d37-824c-4688-8747-4815c4343689",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "icloud.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "V1wO60MfptJ9jzeo94f1RKIcUPq6frrKoFWPp2Jutlo",
-                    "short_id": "3bbaf2c984e16a31"
                 }
             }
         },
@@ -1569,7 +1536,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -1598,7 +1565,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @mehrosaboran | 4",
+            "tag": "❔XX | 🔴 | vless | @mehrosaboran | 5",
             "type": "vless",
             "server": "87.107.193.3",
             "server_port": 8443,
@@ -1634,36 +1601,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vless | @mehrosaboran | 7",
-            "type": "vless",
-            "server": "195.15.253.247",
-            "server_port": 2083,
-            "uuid": "2231ffa1-3d98-4849-998a-0aed095f6718",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "store.steampowered.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xGtE0lNJhquu9-SbAz0ONZrbKXp7jztZUn6lyz9iUW4",
-                    "short_id": "635e294ebe95"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @kiava | 48",
+            "tag": "❔XX | 🟢 | vless | @kiava | 48",
             "type": "vless",
             "server": "57.129.53.181",
             "server_port": 23576,
