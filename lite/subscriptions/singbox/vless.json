@@ -106,8 +106,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 4",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
+                "🇮🇷IR | 🔴 | vless | @Parsashonam | 6",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 12",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 5",
@@ -120,6 +120,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
+                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -130,7 +131,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 31",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 0",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 11",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 1",
@@ -139,7 +140,7 @@
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @VmessProtocol | 5",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 10",
-                "🇺🇸US | 🟢 | vless | @v2ray_vpn_ir | 0",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 0",
                 "❔XX | 🟢 | vless | @v2ray_vpn_ir | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 2",
@@ -171,8 +172,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | @Parsashonam | 4",
                 "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
+                "🇮🇷IR | 🔴 | vless | @Parsashonam | 6",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 12",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 5",
@@ -185,6 +186,7 @@
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
                 "🇮🇷IR | 🔴 | vless | @DigiV2ray | 0",
+                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -195,7 +197,7 @@
                 "🇺🇸US | 🔴 | vless | @prrofile_purple | 31",
                 "🇺🇸US | 🔴 | vless | @vmessorg | 0",
                 "🇮🇷IR | 🔴 | vless | @v2rayngvpn | 11",
-                "❔XX | 🔴 | vless | @v2rayngvpn | 12",
+                "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 43",
                 "🇺🇸US | 🔴 | vless | @v2ray_swhil | 44",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 1",
@@ -204,7 +206,7 @@
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @VmessProtocol | 5",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 10",
-                "🇺🇸US | 🟢 | vless | @v2ray_vpn_ir | 0",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 0",
                 "❔XX | 🟢 | vless | @v2ray_vpn_ir | 1",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🔴 | vless | @free1_vpn | 2",
@@ -252,7 +254,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 4",
+            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
             "type": "vless",
             "server": "188.114.97.6",
             "server_port": 443,
@@ -266,28 +268,21 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "cdn.limoo.blog",
+                "server_name": "p4r34m.hendevaneh.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "cdn.limoo.blog"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @Parsashonam | 5",
+            "tag": "🇮🇷IR | 🔴 | vless | @Parsashonam | 6",
             "type": "vless",
-            "server": "188.114.97.6",
+            "server": "185.116.162.12",
             "server_port": 443,
-            "uuid": "Telegram-Parsashonam-12",
+            "uuid": "Telegram-Parsashonam-11",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -593,6 +588,20 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "138.201.173.163",
+            "server_port": 20352,
+            "uuid": "fe571bf6-1933-474f-baee-80722c08a4b4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇸🇪SE | 🔴 | vless | @v2logy | 9",
             "type": "vless",
             "server": "185.146.173.237",
@@ -854,7 +863,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayngvpn | 12",
+            "tag": "🇺🇸US | 🔴 | vless | @v2rayngvpn | 12",
             "type": "vless",
             "server": "vxc.galardoxtn.ir",
             "server_port": 443,
@@ -1060,7 +1069,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @v2ray_vpn_ir | 0",
+            "tag": "❔XX | 🟢 | vless | @v2ray_vpn_ir | 0",
             "type": "vless",
             "server": "188.114.97.6",
             "server_port": 443,
