@@ -108,8 +108,9 @@
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @prrofile_purple | 50",
-                "❔XX | 🔴 | vless | @v2ray1_ng | 3",
-                "❔XX | 🟢 | vless | @SafeNet_Server | 10",
+                "🇨🇭CH | 🔴 | vless | @v2ray1_ng | 3",
+                "❔XX | 🟢 | vless | @VmessProtocol | 7",
+                "❔XX | 🟢 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 5",
@@ -125,8 +126,9 @@
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @prrofile_purple | 50",
-                "❔XX | 🔴 | vless | @v2ray1_ng | 3",
-                "❔XX | 🟢 | vless | @SafeNet_Server | 10",
+                "🇨🇭CH | 🔴 | vless | @v2ray1_ng | 3",
+                "❔XX | 🟢 | vless | @VmessProtocol | 7",
+                "❔XX | 🟢 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 5",
@@ -214,7 +216,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 3",
+            "tag": "🇨🇭CH | 🔴 | vless | @v2ray1_ng | 3",
             "type": "vless",
             "server": "germany-vip.soft26.ir",
             "server_port": 8443,
@@ -243,7 +245,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @SafeNet_Server | 10",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 7",
+            "type": "vless",
+            "server": "85.208.139.98",
+            "server_port": 8444,
+            "uuid": "c931f737-cafe-4e4f-998a-a65517941256",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdnjs.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Hp6K5hsiPY4_zATgAtef9YTxNGpSkhAHTTo9MUO7fik",
+                    "short_id": "77e934f68f02ab4c"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @SafeNet_Server | 11",
             "type": "vless",
             "server": "panel.panel.pythash.tr",
             "server_port": 443,
