@@ -106,17 +106,19 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
-                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🔴 | vless | @v2logy | 6",
+                "🇺🇸US | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+                "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
-                "❔XX | 🟢 | vless | @prrofile_purple | 14",
-                "❔XX | 🟢 | vless | @prrofile_purple | 23",
-                "❔XX | 🟢 | vless | @prrofile_purple | 29",
-                "❔XX | 🟢 | vless | @prrofile_purple | 50",
+                "❔XX | 🟢 | vless | @prrofile_purple | 19",
+                "❔XX | 🟢 | vless | @prrofile_purple | 28",
+                "❔XX | 🟢 | vless | @prrofile_purple | 34",
+                "❔XX | 🟢 | vless | @prrofile_purple | 55",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 0",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 6",
                 "❔XX | 🟢 | vless | @VmessProtocol | 7",
@@ -179,17 +181,19 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
-                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🔴 | vless | @v2logy | 6",
+                "🇺🇸US | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+                "🇩🇪DE | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
-                "❔XX | 🟢 | vless | @prrofile_purple | 14",
-                "❔XX | 🟢 | vless | @prrofile_purple | 23",
-                "❔XX | 🟢 | vless | @prrofile_purple | 29",
-                "❔XX | 🟢 | vless | @prrofile_purple | 50",
+                "❔XX | 🟢 | vless | @prrofile_purple | 19",
+                "❔XX | 🟢 | vless | @prrofile_purple | 28",
+                "❔XX | 🟢 | vless | @prrofile_purple | 34",
+                "❔XX | 🟢 | vless | @prrofile_purple | 55",
+                "❔XX | 🟢 | vless | @v2rayngvpn | 0",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vless | @VmessProtocol | 6",
                 "❔XX | 🟢 | vless | @VmessProtocol | 7",
@@ -266,6 +270,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @Parsashonam | 1",
+            "type": "vless",
+            "server": "de.atlasr.ir",
+            "server_port": 443,
+            "uuid": "Telegram-Parsashonam",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rd71EGp4BCn3x_hIoaYi5R6GaqF9TIA4F6t5WyOPaXc",
+                    "short_id": "83dc602558"
+                }
+            }
         },
         {
             "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
@@ -362,7 +395,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+            "tag": "🇺🇸US | 🟢 | vless | @CUSTOMVPNSERVER | 4",
             "type": "vless",
             "server": "137.184.218.169",
             "server_port": 36925,
@@ -391,7 +424,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2logy | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2logy | 6",
             "type": "vless",
             "server": "188.245.65.59",
             "server_port": 443,
@@ -485,7 +518,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 14",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 19",
             "type": "vless",
             "server": "144.31.4.220",
             "server_port": 443,
@@ -514,7 +547,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 23",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 28",
             "type": "vless",
             "server": "89.169.39.55",
             "server_port": 443,
@@ -543,7 +576,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 29",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 34",
             "type": "vless",
             "server": "enns1.vertatech.ir",
             "server_port": 7005,
@@ -572,7 +605,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 50",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 55",
             "type": "vless",
             "server": "b3aa11az-k15gg1.ru.y-tun.com",
             "server_port": 8443,
@@ -597,6 +630,35 @@
                     "enabled": true,
                     "public_key": "ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM",
                     "short_id": "a1b2c3d4e5f6789a"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @v2rayngvpn | 0",
+            "type": "vless",
+            "server": "tr.go-vpn.club",
+            "server_port": 443,
+            "uuid": "870d3183-17a1-4a87-9021-e12e3ac2939f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gateway.icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L0acYoTxKR5ix7LXAmP10cy06n2JjgkXTojGjtWAqww",
+                    "short_id": "ed7b9bdfedb9b8e5"
                 }
             }
         },
