@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 12",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
                 "❔XX | 🟢 | vmess | @Hope_Net | 13"
             ]
         },
@@ -123,8 +123,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
-                "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
-                "🇭🇰HK | 🟢 | vmess | @Hope_Net | 12",
+                "❔XX | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
                 "❔XX | 🟢 | vmess | @Hope_Net | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -223,7 +223,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -257,11 +257,45 @@
             }
         },
         {
-            "tag": "🇭🇰HK | 🟢 | vmess | @Hope_Net | 12",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
-            "server": "47.86.42.197",
-            "server_port": 20521,
-            "uuid": "fe0861ca-1e49-44dd-ad74-51406cb77165",
+            "server": "104.21.83.115",
+            "server_port": 443,
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms02.fxiaomi.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/link",
+                "headers": {
+                    "Host": "hms02.fxiaomi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
+            "type": "vmess",
+            "server": "singapore.com",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -274,43 +308,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/github.com\/Alvin9999",
                 "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
-            "type": "vmess",
-            "server": "38.11.216.165",
-            "server_port": 37004,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+                    "Host": "singapore.com"
                 }
             }
         }
