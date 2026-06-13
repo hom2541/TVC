@@ -120,15 +120,14 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 62",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 3",
                 "❔XX | 🔴 | vless | @v2rayngvpn | 7",
-                "❔XX | 🟢 | vless | @v2rayngvpn | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 6",
                 "❔XX | 🟢 | vless | @VmessProtocol | 7",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 12",
-                "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
-                "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 10",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 11",
+                "❔XX | 🔴 | vless | @Capital_NET | 6",
+                "❔XX | 🟢 | vless | @Capital_NET | 8",
+                "❔XX | 🔴 | vless | @Capital_NET | 9",
+                "❔XX | 🔴 | vless | @Capital_NET | 10",
+                "❔XX | 🔴 | vless | @Capital_NET | 11",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 18",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 20",
                 "🇳🇱NL | 🔴 | vless | @Capital_NET | 21",
@@ -150,6 +149,7 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 4",
+                "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @kiava | 48",
                 "❔XX | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
@@ -195,15 +195,14 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 62",
                 "❔XX | 🟢 | vless | @v2rayngvpn | 3",
                 "❔XX | 🔴 | vless | @v2rayngvpn | 7",
-                "❔XX | 🟢 | vless | @v2rayngvpn | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 6",
                 "❔XX | 🟢 | vless | @VmessProtocol | 7",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 12",
-                "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
-                "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 10",
-                "🇩🇪DE | 🔴 | vless | @Capital_NET | 11",
+                "❔XX | 🔴 | vless | @Capital_NET | 6",
+                "❔XX | 🟢 | vless | @Capital_NET | 8",
+                "❔XX | 🔴 | vless | @Capital_NET | 9",
+                "❔XX | 🔴 | vless | @Capital_NET | 10",
+                "❔XX | 🔴 | vless | @Capital_NET | 11",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 18",
                 "🇳🇱NL | 🟢 | vless | @Capital_NET | 20",
                 "🇳🇱NL | 🔴 | vless | @Capital_NET | 21",
@@ -225,6 +224,7 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 4",
+                "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @kiava | 48",
                 "❔XX | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
@@ -692,35 +692,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2rayngvpn | 8",
-            "type": "vless",
-            "server": "it-8.flowersred.ru",
-            "server_port": 443,
-            "uuid": "82a7f52c-f047-4f8c-b913-3ea1f29bdb38",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.samsung.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5pj_m0SB8p5ah-Jc7QZrF5iEVeeLyZY8fWM6OZWj5FM",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vless | @VmessProtocol | 6",
             "type": "vless",
             "server": "64.188.71.108",
@@ -808,7 +779,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @Capital_NET | 6",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 6",
             "type": "vless",
             "server": "143.110.169.55",
             "server_port": 40987,
@@ -837,7 +808,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Capital_NET | 8",
+            "tag": "❔XX | 🟢 | vless | @Capital_NET | 8",
             "type": "vless",
             "server": "159.223.4.137",
             "server_port": 38915,
@@ -866,7 +837,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capital_NET | 9",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 9",
             "type": "vless",
             "server": "168.119.110.229",
             "server_port": 56372,
@@ -895,7 +866,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capital_NET | 10",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 10",
             "type": "vless",
             "server": "116.202.99.47",
             "server_port": 56372,
@@ -924,7 +895,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @Capital_NET | 11",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 11",
             "type": "vless",
             "server": "116.202.99.47",
             "server_port": 49124,
@@ -1586,6 +1557,35 @@
                     "enabled": true,
                     "public_key": "6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 0",
+            "type": "vless",
+            "server": "de.srv.anti-zapret.com",
+            "server_port": 443,
+            "uuid": "8d1803b9-f9ff-4c09-a6d0-aceb98c4a019",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de.srv.anti-zapret.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY",
+                    "short_id": "58fbcddfaae3ade9"
                 }
             }
         },
