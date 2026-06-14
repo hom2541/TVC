@@ -122,8 +122,8 @@ proxies:
   - {"name":"🇨🇳CN | 🟢 | vmess | @mftizi | 17","type":"vmess","server":"183.236.51.23","port":"53002","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | 🟢 | vmess | @proxystore11 | 0","type":"vmess","server":"digi21.ez0535.com","port":"443","cipher":"auto","uuid":"b5406cd3-1a11-4c78-b346-7763fcc9e476","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"198.244.232.39","port":2096,"cipher":"auto","uuid":"df46384b-1ad5-40a6-812e-48d60fb80283","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 11","type":"vmess","server":"104.31.16.26","port":80,"cipher":"auto","uuid":"8abe9496-5e24-4e49-b566-dcf86116017d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/i99LgvSaslbsPLLQQ7j6Z","headers":{"host":""}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 13","type":"vmess","server":"news.microsoft.com","port":443,"cipher":"auto","uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | @Hope_Net | 14","type":"vmess","server":"172.67.64.120","port":"80","cipher":"auto","uuid":"d646fd8c-3405-40c4-8df8-fb85d6bf8b24","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/V2LINE-TELEGRAM-CHANNEL-VMESS-WS","headers":{"host":"58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -134,8 +134,8 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 13'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,8 +146,8 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 13'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -157,8 +157,8 @@ proxy-groups:
       - '🇨🇳CN | 🟢 | vmess | @mftizi | 17'
       - '🇮🇷IR | 🟢 | vmess | @proxystore11 | 0'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
-      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 11'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 13'
+      - '🇺🇸US | 🟢 | vmess | @Hope_Net | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
