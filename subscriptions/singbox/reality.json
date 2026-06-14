@@ -111,15 +111,15 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🟢 | vless | @proxy_kafee | 1",
+                "❔XX | 🟢 | vless | @proxy_kafee | 0",
                 "❔XX | 🟢 | vless | @proxy_kafee | 2",
+                "❔XX | 🟢 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🟢 | vless | @prrofile_purple | 31",
                 "❔XX | 🟢 | vless | @prrofile_purple | 40",
                 "❔XX | 🟢 | vless | @prrofile_purple | 46",
-                "❔XX | 🟢 | vless | @v2rayngvpn | 11",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 12",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
@@ -145,7 +145,7 @@
                 "🇳🇱NL | 🔴 | vless | @Capital_NET | 41",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🟢 | vless | @FreakConfig | 1",
                 "❔XX | 🟢 | vless | @FreakConfig | 6",
@@ -186,15 +186,15 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🟢 | vless | @proxy_kafee | 1",
+                "❔XX | 🟢 | vless | @proxy_kafee | 0",
                 "❔XX | 🟢 | vless | @proxy_kafee | 2",
+                "❔XX | 🟢 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🟢 | vless | @prrofile_purple | 31",
                 "❔XX | 🟢 | vless | @prrofile_purple | 40",
                 "❔XX | 🟢 | vless | @prrofile_purple | 46",
-                "❔XX | 🟢 | vless | @v2rayngvpn | 11",
                 "❔XX | 🟢 | vless | @SafeNet_Server | 12",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
@@ -220,7 +220,7 @@
                 "🇳🇱NL | 🔴 | vless | @Capital_NET | 41",
                 "🇩🇪DE | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 5",
                 "❔XX | 🟢 | vless | @FreakConfig | 1",
                 "❔XX | 🟢 | vless | @FreakConfig | 6",
@@ -424,7 +424,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 1",
+            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "150.241.101.222",
+            "server_port": 443,
+            "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "23.26.37.119",
             "server_port": 8443,
@@ -453,7 +482,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 2",
+            "tag": "❔XX | 🟢 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "45.195.110.137",
             "server_port": 8443,
@@ -659,35 +688,6 @@
                     "enabled": true,
                     "public_key": "yuhrNGOXd061lVl8AfE9wc7ctTApk-K6XAVnArJpWF8",
                     "short_id": "dd9da58e3c5c641c"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @v2rayngvpn | 11",
-            "type": "vless",
-            "server": "bel1.pandaonline.org",
-            "server_port": 443,
-            "uuid": "84539eef-b551-4d41-b85f-4b07c83db922",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bel1.pandaonline.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8zwu_JeBAKXJUGgMPKECkOl8IRSRlTKUO5Mnc0fOLkM",
-                    "short_id": ""
                 }
             }
         },
@@ -1445,7 +1445,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
