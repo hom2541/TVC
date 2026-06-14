@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
-                "❔XX | 🟢 | vless | @rxv2ray | 7",
+                "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @v2logy | 6",
@@ -149,10 +149,11 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 4",
+                "❔XX | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
-                "❔XX | 🟢 | vless | @kiava | 48",
-                "❔XX | 🔴 | vless | @kiava | 52",
-                "❔XX | 🟢 | vless | @kiava | 53",
+                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇮🇷IR | 🔴 | vless | @kiava | 52",
+                "🇫🇮FI | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🟢 | vless | @kiava | 61",
                 "❔XX | 🟢 | vless | @kiava | 63",
@@ -183,7 +184,7 @@
             "outbounds": [
                 "❔XX | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
-                "❔XX | 🟢 | vless | @rxv2ray | 7",
+                "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @v2logy | 6",
@@ -224,10 +225,11 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 4",
+                "❔XX | 🟢 | vless | @FreakConfig | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
-                "❔XX | 🟢 | vless | @kiava | 48",
-                "❔XX | 🔴 | vless | @kiava | 52",
-                "❔XX | 🟢 | vless | @kiava | 53",
+                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇮🇷IR | 🔴 | vless | @kiava | 52",
+                "🇫🇮FI | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🟢 | vless | @kiava | 61",
                 "❔XX | 🟢 | vless | @kiava | 63",
@@ -337,7 +339,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @rxv2ray | 7",
+            "tag": "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
             "type": "vless",
             "server": "89.208.86.65",
             "server_port": 443,
@@ -1561,6 +1563,35 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 0",
+            "type": "vless",
+            "server": "45.195.137.72",
+            "server_port": 8443,
+            "uuid": "97bf06ad-c9a8-4ea4-afb5-9092cc092214",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "storage.yandex.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY",
+                    "short_id": "40ce08cf20c67003"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "de.srv.anti-zapret.com",
@@ -1590,7 +1621,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 48",
+            "tag": "🇩🇪DE | 🟢 | vless | @kiava | 48",
             "type": "vless",
             "server": "57.129.53.181",
             "server_port": 23576,
@@ -1619,7 +1650,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 52",
+            "tag": "🇮🇷IR | 🔴 | vless | @kiava | 52",
             "type": "vless",
             "server": "185.218.139.138",
             "server_port": 443,
@@ -1655,7 +1686,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 53",
+            "tag": "🇫🇮FI | 🟢 | vless | @kiava | 53",
             "type": "vless",
             "server": "92.60.78.221",
             "server_port": 443,
