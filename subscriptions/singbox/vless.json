@@ -369,11 +369,11 @@
                 "❔XX | 🔴 | vless | @Capoit | 10",
                 "❔XX | 🔴 | vless | @Capoit | 11",
                 "❔XX | 🟢 | vless | @FreakConfig | 0",
-                "❔XX | 🔴 | vless | @FreakConfig | 1",
-                "❔XX | 🟢 | vless | @FreakConfig | 3",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
-                "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 10",
+                "❔XX | 🟢 | vless | @FreakConfig | 1",
+                "❔XX | 🔴 | vless | @FreakConfig | 2",
+                "❔XX | 🟢 | vless | @FreakConfig | 4",
+                "❔XX | 🔴 | vless | @FreakConfig | 6",
+                "🇬🇧GB | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🚩CF | 🔴 | vless | @flyv2ray | 2",
@@ -390,7 +390,7 @@
                 "🇮🇷IR | 🔴 | vless | @kiava | 50",
                 "🇫🇷FR | 🔴 | vless | @kiava | 51",
                 "🇮🇷IR | 🔴 | vless | @kiava | 52",
-                "❔XX | 🟢 | vless | @kiava | 53",
+                "🇫🇮FI | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🔴 | vless | @kiava | 55",
                 "❔XX | 🔴 | vless | @kiava | 56",
@@ -724,11 +724,11 @@
                 "❔XX | 🔴 | vless | @Capoit | 10",
                 "❔XX | 🔴 | vless | @Capoit | 11",
                 "❔XX | 🟢 | vless | @FreakConfig | 0",
-                "❔XX | 🔴 | vless | @FreakConfig | 1",
-                "❔XX | 🟢 | vless | @FreakConfig | 3",
-                "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
-                "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
-                "🇩🇪DE | 🔴 | vless | @FreakConfig | 10",
+                "❔XX | 🟢 | vless | @FreakConfig | 1",
+                "❔XX | 🔴 | vless | @FreakConfig | 2",
+                "❔XX | 🟢 | vless | @FreakConfig | 4",
+                "❔XX | 🔴 | vless | @FreakConfig | 6",
+                "🇬🇧GB | 🔴 | vless | @FreakConfig | 7",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 0",
                 "🇺🇸US | 🔴 | vless | @flyv2ray | 1",
                 "🚩CF | 🔴 | vless | @flyv2ray | 2",
@@ -745,7 +745,7 @@
                 "🇮🇷IR | 🔴 | vless | @kiava | 50",
                 "🇫🇷FR | 🔴 | vless | @kiava | 51",
                 "🇮🇷IR | 🔴 | vless | @kiava | 52",
-                "❔XX | 🟢 | vless | @kiava | 53",
+                "🇫🇮FI | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🔴 | vless | @kiava | 55",
                 "❔XX | 🔴 | vless | @kiava | 56",
@@ -7653,6 +7653,35 @@
         {
             "tag": "❔XX | 🟢 | vless | @FreakConfig | 0",
             "type": "vless",
+            "server": "mypanel.parsclad.ir",
+            "server_port": 8443,
+            "uuid": "b5e5ebc9-e9b3-4f90-8dd2-01ac0682c1ae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LBOpFs81voXlQgcVGpPtnqhTNB0nnCgS2_OSTqqE9z0",
+                    "short_id": "561d4c2e"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 1",
+            "type": "vless",
             "server": "45.196.224.110",
             "server_port": 8443,
             "uuid": "ad7b2fde-d820-4dfe-be66-09fde32ddf61",
@@ -7680,7 +7709,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 1",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 2",
             "type": "vless",
             "server": "45.130.125.194",
             "server_port": 8443,
@@ -7704,7 +7733,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 3",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 4",
             "type": "vless",
             "server": "185.130.114.253",
             "server_port": 443,
@@ -7733,7 +7762,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @FreakConfig | 5",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 6",
             "type": "vless",
             "server": "forallpanel.srtongston.ir",
             "server_port": 8880,
@@ -7747,7 +7776,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @FreakConfig | 6",
+            "tag": "🇬🇧GB | 🔴 | vless | @FreakConfig | 7",
             "type": "vless",
             "server": "25.26.27.158",
             "server_port": 2096,
@@ -7774,37 +7803,6 @@
                 "path": "\/?ed=2560",
                 "headers": {
                     "Host": "sni.111000.de5.net"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @FreakConfig | 10",
-            "type": "vless",
-            "server": "g-de2-x9cr8bwsquaj.radshim.com",
-            "server_port": 443,
-            "uuid": "dc109a0f-04e7-4e27-8df0-4decdc4fc90c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "g-de2-x9cr8bwsquaj.radshim.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "g-de2-x9cr8bwsquaj.radshim.com"
                 }
             }
         },
@@ -8183,7 +8181,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 53",
+            "tag": "🇫🇮FI | 🟢 | vless | @kiava | 53",
             "type": "vless",
             "server": "92.60.78.221",
             "server_port": 443,
