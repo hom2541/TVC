@@ -108,12 +108,11 @@
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 5",
+                "🇸🇪SE | 🟢 | vless | @proxy_kafee | 4",
                 "🇳🇱NL | 🟢 | vless | @vmessorg | 0",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 5",
+                "❔XX | 🟢 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "❔XX | 🟢 | vless | @mehrosaboran | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -130,12 +129,11 @@
             "outbounds": [
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 5",
+                "🇸🇪SE | 🟢 | vless | @proxy_kafee | 4",
                 "🇳🇱NL | 🟢 | vless | @vmessorg | 0",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 5",
+                "❔XX | 🟢 | vless | @free1_vpn | 5",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 16",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
                 "❔XX | 🟢 | vless | @mehrosaboran | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -224,11 +222,11 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🔴 | vless | @proxy_kafee | 5",
+            "tag": "🇸🇪SE | 🟢 | vless | @proxy_kafee | 4",
             "type": "vless",
-            "server": "37.156.44.50",
-            "server_port": 2083,
-            "uuid": "89049f79-320b-48a0-b1cf-110165cae30c",
+            "server": "blog.matcloud.ir",
+            "server_port": 22186,
+            "uuid": "f7a656e5-e37d-442b-9693-29d293dba6bb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -247,8 +245,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY",
-                    "short_id": "4e590fdc"
+                    "public_key": "a9j2B879xBNVXjzvGqsPb_aikYqo5VbTtsIJ8jss5Ug",
+                    "short_id": "39aa597373aa1e5a"
                 }
             }
         },
@@ -282,7 +280,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 5",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 5",
             "type": "vless",
             "server": "94.242.55.42",
             "server_port": 443,
@@ -365,35 +363,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 16",
-            "type": "vless",
-            "server": "mypanel.parsclad.ir",
-            "server_port": 8443,
-            "uuid": "b5e5ebc9-e9b3-4f90-8dd2-01ac0682c1ae",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LBOpFs81voXlQgcVGpPtnqhTNB0nnCgS2_OSTqqE9z0",
-                    "short_id": "561d4c2e"
                 }
             }
         },
