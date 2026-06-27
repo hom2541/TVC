@@ -107,10 +107,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 4",
-                "🇳🇱NL | 🟢 | vless | @vmessorg | 0",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 3",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 4",
+                "🇱🇹LT | 🟢 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
@@ -118,7 +116,7 @@
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 9",
-                "❔XX | 🟢 | vless | @proxy_mtm | 8",
+                "❔XX | 🟢 | vless | @proxy_mtm | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ]
@@ -128,10 +126,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇨🇭CH | 🔴 | vless | @proxy_kafee | 4",
-                "🇳🇱NL | 🟢 | vless | @vmessorg | 0",
                 "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 3",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 4",
+                "🇱🇹LT | 🟢 | vless | @v2ray1_ng | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @iP_CF | 0",
@@ -139,7 +135,7 @@
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 9",
-                "❔XX | 🟢 | vless | @proxy_mtm | 8",
+                "❔XX | 🟢 | vless | @proxy_mtm | 9",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
                 "❔XX | 🔴 | vless | @vpn_go67 | 19"
             ],
@@ -193,64 +189,6 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🔴 | vless | @proxy_kafee | 4",
-            "type": "vless",
-            "server": "83.228.226.164",
-            "server_port": 2083,
-            "uuid": "89049f79-320b-48a0-b1cf-110165cae30c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY",
-                    "short_id": "4e590fdc"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @vmessorg | 0",
-            "type": "vless",
-            "server": "cdn.netraidly.ru",
-            "server_port": 40443,
-            "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "deepl.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
-                    "short_id": "c84f"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺RU | 🟢 | vless | @ShadowProxy66 | 3",
             "type": "vless",
             "server": "94.242.55.42",
@@ -280,7 +218,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 4",
+            "tag": "🇱🇹LT | 🟢 | vless | @v2ray1_ng | 4",
             "type": "vless",
             "server": "5.199.170.105",
             "server_port": 443,
@@ -526,7 +464,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 8",
+            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 9",
             "type": "vless",
             "server": "109.202.246.144",
             "server_port": 443,
