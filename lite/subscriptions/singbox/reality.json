@@ -110,8 +110,9 @@
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "❔XX | 🟢 | vless | @VmessProtocol | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
@@ -131,8 +132,9 @@
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🟢 | vless | @ShadowProxy66 | 0",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+                "❔XX | 🟢 | vless | @VmessProtocol | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
@@ -280,6 +282,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 5",
+            "type": "vless",
+            "server": "de.ko.prod.n7.homes",
+            "server_port": 8443,
+            "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo",
+                    "short_id": "3ca620a7ed5f3196"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 6",
             "type": "vless",
             "server": "5.75.207.247",
@@ -309,7 +340,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 10",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 10",
             "type": "vless",
             "server": "159.195.60.65",
             "server_port": 443,
