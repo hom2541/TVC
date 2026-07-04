@@ -110,9 +110,7 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇮FI | 🔴 | vless | @DarkTeam_VPN | 0",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 3",
-                "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 6",
-                "❔XX | 🟢 | vless | @VmessProtocol | 11",
+                "🇯🇵JP | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🟢 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -134,9 +132,7 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇮FI | 🔴 | vless | @DarkTeam_VPN | 0",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 3",
-                "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 6",
-                "❔XX | 🟢 | vless | @VmessProtocol | 11",
+                "🇯🇵JP | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🟢 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -286,65 +282,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 10",
-            "type": "vless",
-            "server": "check04.allenshop66244.ir",
-            "server_port": 8443,
-            "uuid": "70f3da4d-6984-4c61-a37a-51a4c026c933",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D8uvi--0Aq7Hjc7cYnfcJGY0h4SSBCrPh7wEp1mvFlw",
-                    "short_id": "b7b70c104ad267b8"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 6",
-            "type": "vless",
-            "server": "md.arghavanrezaii.co.uk",
-            "server_port": 2082,
-            "uuid": "c5ee3bba-f737-42d5-b0bc-cccec1ffe7e2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "VxW_T8XUwWi2ELxLK4g9LWVNBLRjMLDBKQcJNoIFwi8",
-                    "short_id": "72d1809de52ebf95"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 11",
+            "tag": "🇯🇵JP | 🟢 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "89.125.20.104",
             "server_port": 443,
