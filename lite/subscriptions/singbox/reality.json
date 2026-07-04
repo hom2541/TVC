@@ -108,12 +108,11 @@
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇰DK | 🟢 | vless | @proxy_kafee | 3",
+                "🇩🇰DK | 🟢 | vless | @proxy_kafee | 4",
                 "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 9",
-                "🇯🇵JP | 🟢 | vless | @VmessProtocol | 11",
-                "🇦🇪AE | 🟢 | vless | @proxystore11 | 6",
-                "❔XX | 🟢 | vless | @free1_vpn | 7",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vless | @VmessProtocol | 11",
+                "❔XX | 🟢 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @iP_CF | 0",
@@ -132,12 +131,11 @@
             "outbounds": [
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇰DK | 🟢 | vless | @proxy_kafee | 3",
+                "🇩🇰DK | 🟢 | vless | @proxy_kafee | 4",
                 "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 9",
-                "🇯🇵JP | 🟢 | vless | @VmessProtocol | 11",
-                "🇦🇪AE | 🟢 | vless | @proxystore11 | 6",
-                "❔XX | 🟢 | vless | @free1_vpn | 7",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vless | @VmessProtocol | 11",
+                "❔XX | 🟢 | vless | @proxystore11 | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @iP_CF | 0",
@@ -228,7 +226,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | 🟢 | vless | @proxy_kafee | 3",
+            "tag": "🇩🇰DK | 🟢 | vless | @proxy_kafee | 4",
             "type": "vless",
             "server": "178.83.45.135",
             "server_port": 80,
@@ -286,11 +284,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @v2ray1_ng | 9",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 7",
             "type": "vless",
-            "server": "speedtest-chekhost-fastly.amuseftdomainroyal.com",
-            "server_port": 42841,
-            "uuid": "EarnMoneyarz-ZoRo",
+            "server": "scj.foot8all.ir",
+            "server_port": 11332,
+            "uuid": "681314c5-b3ee-41f1-a959-fa42841f5383",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -300,22 +298,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.yahoo.com",
+                "server_name": "play.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "dzQmB-5PshfbZ228GO154TnSIcKV1HvG8sAhzlLn_zo",
-                    "short_id": "20ba44b6e3"
+                    "public_key": "Yozi8V5IYT7TzszTYwxnxMO-RZ93qCRFpgzZYehbqiM",
+                    "short_id": "7252845aadae02bb"
                 }
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vless | @VmessProtocol | 11",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "89.125.20.104",
             "server_port": 443,
@@ -344,7 +342,7 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🟢 | vless | @proxystore11 | 6",
+            "tag": "❔XX | 🟢 | vless | @proxystore11 | 6",
             "type": "vless",
             "server": "109.61.18.135",
             "server_port": 40732,
@@ -369,35 +367,6 @@
                     "enabled": true,
                     "public_key": "V-fTxzejwmP5x9rjQR5i1IE7WrSn-syZq9Qp41jukFE",
                     "short_id": "a7"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @free1_vpn | 7",
-            "type": "vless",
-            "server": "scj.foot8all.ir",
-            "server_port": 11332,
-            "uuid": "681314c5-b3ee-41f1-a959-fa42841f5383",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Yozi8V5IYT7TzszTYwxnxMO-RZ93qCRFpgzZYehbqiM",
-                    "short_id": "7252845aadae02bb"
                 }
             }
         },
