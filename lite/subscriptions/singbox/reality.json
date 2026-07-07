@@ -109,13 +109,14 @@
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 14",
-                "🇬🇧GB | 🟢 | vless | @lrnbymaa | 0",
+                "❔XX | 🟢 | vless | @lrnbymaa | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🟢 | vless | @iP_CF | 0",
-                "🇱🇻LV | 🟢 | vless | @mehrosaboran | 7",
-                "🇺🇸US | 🔴 | vless | @kiava | 83",
-                "🇺🇸US | 🔴 | vless | @kiava | 84",
+                "❔XX | 🟢 | vless | @mehrosaboran | 7",
+                "❔XX | 🔴 | vless | @kiava | 83",
+                "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🟢 | vless | @proxy_mtm | 29",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -129,13 +130,14 @@
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 14",
-                "🇬🇧GB | 🟢 | vless | @lrnbymaa | 0",
+                "❔XX | 🟢 | vless | @lrnbymaa | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🟢 | vless | @iP_CF | 0",
-                "🇱🇻LV | 🟢 | vless | @mehrosaboran | 7",
-                "🇺🇸US | 🔴 | vless | @kiava | 83",
-                "🇺🇸US | 🔴 | vless | @kiava | 84",
+                "❔XX | 🟢 | vless | @mehrosaboran | 7",
+                "❔XX | 🔴 | vless | @kiava | 83",
+                "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 14",
                 "❔XX | 🟢 | vless | @proxy_mtm | 29",
                 "❔XX | 🔴 | vless | @vpn_go67 | 18",
@@ -249,7 +251,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @lrnbymaa | 0",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 1",
             "type": "vless",
             "server": "45.206.0.36",
             "server_port": 8443,
@@ -307,7 +309,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -332,6 +334,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @Capoit | 8",
+            "type": "vless",
+            "server": "168.222.43.61",
+            "server_port": 443,
+            "uuid": "94ef5f6f-ac63-4cde-b479-abe32b2f5bf8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Xa_iieA3fzOIdVTtBTpTtthiyqVIOvkA1-nvZ0JkFRk",
+                    "short_id": "ffdd0ca907"
                 }
             }
         },
@@ -365,7 +396,7 @@
             }
         },
         {
-            "tag": "🇱🇻LV | 🟢 | vless | @mehrosaboran | 7",
+            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 7",
             "type": "vless",
             "server": "31.57.28.197",
             "server_port": 443,
@@ -394,7 +425,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kiava | 83",
+            "tag": "❔XX | 🔴 | vless | @kiava | 83",
             "type": "vless",
             "server": "partners.dissertationhelpspecialist.com",
             "server_port": 8443,
@@ -430,7 +461,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @kiava | 84",
+            "tag": "❔XX | 🔴 | vless | @kiava | 84",
             "type": "vless",
             "server": "partners.dissertationhelpspecialist.com",
             "server_port": 8443,
