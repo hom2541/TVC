@@ -110,12 +110,12 @@
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 15",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 68",
                 "🇷🇺RU | 🟢 | vless | @prrofile_purple | 69",
-                "❔XX | 🟢 | vless | @lrnbymaa | 1",
+                "🇵🇱PL | 🟢 | vless | @v2ray1_ng | 4",
+                "🇬🇧GB | 🟢 | vless | @lrnbymaa | 1",
                 "❔XX | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🔴 | vless | @Capoit | 7",
-                "❔XX | 🟢 | vless | @FreakConfig | 14",
+                "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @mehrosaboran | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -133,12 +133,12 @@
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 15",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 68",
                 "🇷🇺RU | 🟢 | vless | @prrofile_purple | 69",
-                "❔XX | 🟢 | vless | @lrnbymaa | 1",
+                "🇵🇱PL | 🟢 | vless | @v2ray1_ng | 4",
+                "🇬🇧GB | 🟢 | vless | @lrnbymaa | 1",
                 "❔XX | 🟢 | vless | @proxystore11 | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🔴 | vless | @Capoit | 7",
-                "❔XX | 🟢 | vless | @FreakConfig | 14",
+                "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @mehrosaboran | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -284,7 +284,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 1",
+            "tag": "🇵🇱PL | 🟢 | vless | @v2ray1_ng | 4",
+            "type": "vless",
+            "server": "83.168.71.216",
+            "server_port": 443,
+            "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ads.x5.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
+                    "short_id": "2f49bccf11150ef2"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vless | @lrnbymaa | 1",
             "type": "vless",
             "server": "45.206.0.36",
             "server_port": 8443,
@@ -400,36 +429,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capoit | 7",
-            "type": "vless",
-            "server": "51.178.135.38",
-            "server_port": 443,
-            "uuid": "a0fe6694-919a-4346-9260-da24a197ee0b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ato7XtTu3WFMLSmhffM_uO2ziYxJ63veJKKRQ28zQ0I",
-                    "short_id": "89"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 14",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 15",
             "type": "vless",
             "server": "45.196.182.66",
             "server_port": 443,
