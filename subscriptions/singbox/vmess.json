@@ -107,7 +107,7 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 0",
+                "❔XX | 🟢 | vmess | @mftizi | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
@@ -135,8 +135,7 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 0",
-                "❔XX | 🟢 | vmess | @ISVvpn | 1"
+                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 0"
             ]
         },
         {
@@ -144,7 +143,7 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 0",
+                "❔XX | 🟢 | vmess | @mftizi | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
@@ -172,8 +171,7 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 0",
-                "❔XX | 🟢 | vmess | @ISVvpn | 1"
+                "❔XX | 🟢 | vmess | @OpenSSTPVpn | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -213,7 +211,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 0",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 0",
             "type": "vmess",
             "server": "183.236.51.38",
             "server_port": 49302,
@@ -886,23 +884,6 @@
             "server": null,
             "server_port": 0,
             "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ISVvpn | 1",
-            "type": "vmess",
-            "server": "nlt.reata.ir",
-            "server_port": 1020,
-            "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
