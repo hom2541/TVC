@@ -107,16 +107,17 @@
             "outbounds": [
                 "URL-TEST",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 0",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇵🇱PL | 🟢 | vless | @prrofile_purple | 70",
                 "🇫🇷FR | 🟢 | vless | @prrofile_purple | 71",
                 "🇭🇰HK | 🟢 | vless | @v2rayNG_Matsuri | 4",
-                "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 6",
-                "🇬🇧GB | 🟢 | vless | @lrnbymaa | 2",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vless | @lrnbymaa | 2",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
-                "🇨🇭CH | 🟢 | vless | @proxystore11 | 2",
+                "❔XX | 🟢 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @mehrosaboran | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 5",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -132,16 +133,17 @@
             "type": "urltest",
             "outbounds": [
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 0",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
                 "🇵🇱PL | 🟢 | vless | @prrofile_purple | 70",
                 "🇫🇷FR | 🟢 | vless | @prrofile_purple | 71",
                 "🇭🇰HK | 🟢 | vless | @v2rayNG_Matsuri | 4",
-                "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 6",
-                "🇬🇧GB | 🟢 | vless | @lrnbymaa | 2",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vless | @lrnbymaa | 2",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
-                "🇨🇭CH | 🟢 | vless | @proxystore11 | 2",
+                "❔XX | 🟢 | vless | @proxystore11 | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @mehrosaboran | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 5",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -201,7 +203,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 0",
+            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 1",
             "type": "vless",
             "server": "de2.sharkphotos.de",
             "server_port": 10443,
@@ -317,7 +319,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 6",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 6",
             "type": "vless",
             "server": "54.37.2.131",
             "server_port": 443,
@@ -346,7 +348,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @lrnbymaa | 2",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "45.206.0.36",
             "server_port": 8443,
@@ -404,7 +406,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vless | @proxystore11 | 2",
+            "tag": "❔XX | 🟢 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "83.228.200.66",
             "server_port": 8443,
@@ -487,6 +489,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 13",
+            "type": "vless",
+            "server": "45.196.182.66",
+            "server_port": 443,
+            "uuid": "701ea834-7c31-4544-95d6-f0a4dfe40b36",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "storage.yandex.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg",
+                    "short_id": "d020b987f84eb78a"
                 }
             }
         },
