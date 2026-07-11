@@ -167,14 +167,14 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 4",
-                "🇷🇺RU | 🔴 | vless | @FreakConfig | 5",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
+                "❔XX | 🟢 | vless | @FreakConfig | 1",
+                "❔XX | 🟢 | vless | @FreakConfig | 6",
+                "❔XX | 🔴 | vless | @FreakConfig | 7",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 0",
                 "🇹🇷TR | 🔴 | vless | @mehrosaboran | 5",
-                "❔XX | 🟢 | vless | @kiava | 48",
-                "❔XX | 🔴 | vless | @kiava | 52",
+                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇮🇷IR | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🟢 | vless | @kiava | 61",
@@ -266,14 +266,14 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 42",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 4",
-                "🇷🇺RU | 🔴 | vless | @FreakConfig | 5",
-                "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
+                "❔XX | 🟢 | vless | @FreakConfig | 1",
+                "❔XX | 🟢 | vless | @FreakConfig | 6",
+                "❔XX | 🔴 | vless | @FreakConfig | 7",
                 "🇩🇪DE | 🔴 | vless | @flyv2ray | 2",
                 "🇩🇪DE | 🟢 | vless | @mehrosaboran | 0",
                 "🇹🇷TR | 🔴 | vless | @mehrosaboran | 5",
-                "❔XX | 🟢 | vless | @kiava | 48",
-                "❔XX | 🔴 | vless | @kiava | 52",
+                "🇩🇪DE | 🟢 | vless | @kiava | 48",
+                "🇮🇷IR | 🔴 | vless | @kiava | 52",
                 "❔XX | 🟢 | vless | @kiava | 53",
                 "❔XX | 🟢 | vless | @kiava | 54",
                 "❔XX | 🟢 | vless | @kiava | 61",
@@ -2145,7 +2145,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 4",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 1",
+            "type": "vless",
+            "server": "46.8.229.199",
+            "server_port": 443,
+            "uuid": "59d08a71-f206-4ca3-9a42-8c56d3bfdc3c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "intel.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4o2G9iT8IN7YWwiDLgjMrpPmvwU5IQT6C6nE5Rh-wSQ",
+                    "short_id": "da"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 6",
             "type": "vless",
             "server": "telegram.private-networks-zk.com",
             "server_port": 443,
@@ -2174,7 +2203,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @FreakConfig | 5",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 7",
             "type": "vless",
             "server": "185.185.142.98",
             "server_port": 8443,
@@ -2199,35 +2228,6 @@
                     "enabled": true,
                     "public_key": "NozDA4apA_XQ_wzcJCZx7VXAD285J_HSs4w_GvBfJHA",
                     "short_id": "63903c2e"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @FreakConfig | 13",
-            "type": "vless",
-            "server": "46.8.229.199",
-            "server_port": 443,
-            "uuid": "59d08a71-f206-4ca3-9a42-8c56d3bfdc3c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "intel.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4o2G9iT8IN7YWwiDLgjMrpPmvwU5IQT6C6nE5Rh-wSQ",
-                    "short_id": "da"
                 }
             }
         },
@@ -2326,7 +2326,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kiava | 48",
+            "tag": "🇩🇪DE | 🟢 | vless | @kiava | 48",
             "type": "vless",
             "server": "57.129.53.181",
             "server_port": 23576,
@@ -2355,7 +2355,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @kiava | 52",
+            "tag": "🇮🇷IR | 🔴 | vless | @kiava | 52",
             "type": "vless",
             "server": "185.218.139.138",
             "server_port": 443,
