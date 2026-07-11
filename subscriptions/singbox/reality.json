@@ -112,9 +112,7 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🔴 | vless | @DarkTeam_VPN | 4",
                 "❔XX | 🟢 | vless | @proxy_kafee | 0",
-                "❔XX | 🔴 | vless | @proxy_kafee | 2",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 4",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 8",
@@ -151,7 +149,7 @@
                 "❔XX | 🟢 | vless | @Capital_NET | 24",
                 "❔XX | 🔴 | vless | @Capital_NET | 25",
                 "❔XX | 🔴 | vless | @Capital_NET | 30",
-                "❔XX | 🔴 | vless | @Capital_NET | 31",
+                "🇩🇪DE | 🔴 | vless | @Capital_NET | 31",
                 "❔XX | 🔴 | vless | @Capital_NET | 32",
                 "❔XX | 🔴 | vless | @Capital_NET | 33",
                 "❔XX | 🔴 | vless | @Capital_NET | 34",
@@ -205,9 +203,7 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
-                "❔XX | 🔴 | vless | @DarkTeam_VPN | 4",
                 "❔XX | 🟢 | vless | @proxy_kafee | 0",
-                "❔XX | 🔴 | vless | @proxy_kafee | 2",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 4",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 8",
@@ -244,7 +240,7 @@
                 "❔XX | 🟢 | vless | @Capital_NET | 24",
                 "❔XX | 🔴 | vless | @Capital_NET | 25",
                 "❔XX | 🔴 | vless | @Capital_NET | 30",
-                "❔XX | 🔴 | vless | @Capital_NET | 31",
+                "🇩🇪DE | 🔴 | vless | @Capital_NET | 31",
                 "❔XX | 🔴 | vless | @Capital_NET | 32",
                 "❔XX | 🔴 | vless | @Capital_NET | 33",
                 "❔XX | 🔴 | vless | @Capital_NET | 34",
@@ -489,35 +485,6 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @DarkTeam_VPN | 4",
-            "type": "vless",
-            "server": "debuz.linuxbase.ir",
-            "server_port": 1152,
-            "uuid": "0ad65088-3cd9-43f1-b07a-c37304a4d296",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YzQz4D9KFIpJ5YB4W5UqPs8wgowbeujf9KEOyuATSE4",
-                    "short_id": "e5115b6a2127146d"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vless | @proxy_kafee | 0",
             "type": "vless",
             "server": "83.168.71.216",
@@ -543,35 +510,6 @@
                     "enabled": true,
                     "public_key": "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho",
                     "short_id": "2f49bccf11150ef2"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 2",
-            "type": "vless",
-            "server": "185.137.157.72",
-            "server_port": 443,
-            "uuid": "55a5044d-5b35-405f-971c-ea7aacaafcb4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.nvidia.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "z6_OFl0jskilOOxkQcUcdQOCS4-LVndwFF9i7kIOPzg",
-                    "short_id": "d23753491eefde7e"
                 }
             }
         },
@@ -1648,7 +1586,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 31",
+            "tag": "🇩🇪DE | 🔴 | vless | @Capital_NET | 31",
             "type": "vless",
             "server": "142.132.183.55",
             "server_port": 2096,
