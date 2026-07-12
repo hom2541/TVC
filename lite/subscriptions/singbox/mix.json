@@ -145,9 +145,9 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
-                "🇮🇹IT | 🟢 | vless | @VmessProtocol | 11",
+                "❔XX | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
@@ -165,10 +165,11 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @Capoit | 9",
-                "❔XX | 🔴 | vless | @flyv2ray | 4",
+                "❔XX | 🔴 | vless | @FreakConfig | 16",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
+                "❔XX | 🔴 | vless | @flyv2ray | 6",
+                "❔XX | 🔴 | vless | @mehrosaboran | 2",
                 "❔XX | 🔴 | vless | @mehrosaboran | 3",
-                "❔XX | 🔴 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @nofiltering2 | 15",
@@ -223,9 +224,9 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
-                "❔XX | 🔴 | vless | @vless_vmess | 19",
+                "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
-                "🇮🇹IT | 🟢 | vless | @VmessProtocol | 11",
+                "❔XX | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
@@ -243,10 +244,11 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 8",
                 "❔XX | 🔴 | vless | @Capoit | 9",
-                "❔XX | 🔴 | vless | @flyv2ray | 4",
+                "❔XX | 🔴 | vless | @FreakConfig | 16",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
+                "❔XX | 🔴 | vless | @flyv2ray | 6",
+                "❔XX | 🔴 | vless | @mehrosaboran | 2",
                 "❔XX | 🔴 | vless | @mehrosaboran | 3",
-                "❔XX | 🔴 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @nofiltering2 | 15",
@@ -1194,7 +1196,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @vless_vmess | 19",
+            "tag": "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
             "type": "vless",
             "server": "104.16.85.3",
             "server_port": 8880,
@@ -1246,7 +1248,7 @@
             }
         },
         {
-            "tag": "🇮🇹IT | 🟢 | vless | @VmessProtocol | 11",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 11",
             "type": "vless",
             "server": "195.231.60.106",
             "server_port": 443,
@@ -1745,11 +1747,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 4",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 16",
             "type": "vless",
-            "server": "104.17.32.173",
-            "server_port": 8443,
-            "uuid": "8ee19304-fdf4-43dd-ab77-133a77d349ed",
+            "server": "104.31.16.65",
+            "server_port": 2083,
+            "uuid": "b2974faf-4dc2-4a6d-9359-7fa657015bee",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1759,21 +1761,64 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sa.sorixset.ir",
+                "server_name": "zeus-panel-55srwb.arynzlfkhany.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/In_Panel_Rayeghan_Ast_Va_Gheyre_Ghabele_Foroosh",
+                "headers": {
+                    "Host": "zeus-panel-55srwb.arynzlfkhany.workers.dev"
+                }
             }
         },
         {
             "tag": "❔XX | 🔴 | vless | @flyv2ray | 5",
             "type": "vless",
-            "server": "104.19.114.52",
-            "server_port": 8443,
-            "uuid": "8ee19304-fdf4-43dd-ab77-133a77d349ed",
+            "server": "hub.oneoknews.com",
+            "server_port": 443,
+            "uuid": "729a43e6-6926-4c27-92f6-b70a67471afc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hub.oneoknews.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "KJoHsAShwQt-FYE2OGEekwDbeeYe-S1A0YBU8W5uYGc",
+                    "short_id": "064c2d37308aeeb6"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "api.v1.StreamService",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @flyv2ray | 6",
+            "type": "vless",
+            "server": "151.101.56.7",
+            "server_port": 443,
+            "uuid": "22567788-f6c9-8a1a-237f-9af0cbf7c5af",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1783,12 +1828,50 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sa.sorixset.ir",
+                "server_name": "ssl.fastly.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "ssl.fastly.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @mehrosaboran | 2",
+            "type": "vless",
+            "server": "199.232.22.39",
+            "server_port": 443,
+            "uuid": "0ae9e91e-bf8c-44e4-b9c2-a7e3a6c3a335",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ssl.fastly.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed",
+                "headers": {
+                    "Host": "ssl.fastly.com"
                 }
             }
         },
@@ -1820,37 +1903,6 @@
                 "path": "\/ws\/5aa54d70-0714-5d00-2007-c80cc10f7cae",
                 "headers": {
                     "Host": "x4g-production-42ec.up.railway.app"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @mehrosaboran | 4",
-            "type": "vless",
-            "server": "x4g-production-c55e.up.railway.app",
-            "server_port": 443,
-            "uuid": "e9afe2e2-ff58-6389-127d-6ee24ff200ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "x4g-production-c55e.up.railway.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws\/e9afe2e2-ff58-6389-127d-6ee24ff200ce",
-                "headers": {
-                    "Host": "x4g-production-c55e.up.railway.app"
                 }
             }
         },
