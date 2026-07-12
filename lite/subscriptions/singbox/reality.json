@@ -106,12 +106,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 0",
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 77",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 3",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -127,12 +128,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @proxy_kafee | 0",
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 77",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 3",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -162,6 +164,35 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @Parsashonam | 1",
+            "type": "vless",
+            "server": "ip",
+            "server_port": 443,
+            "uuid": "Telegram-Parsashonam",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "domian",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "rd71EGp4BCn3x_hIoaYi5R6GaqF9TIA4F6t5WyOPaXc",
+                    "short_id": "83dc602558"
+                }
+            }
         },
         {
             "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
@@ -316,7 +347,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "87.120.219.225",
             "server_port": 443,
