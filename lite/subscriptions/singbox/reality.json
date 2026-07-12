@@ -108,12 +108,12 @@
                 "URL-TEST",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
+                "🇷🇺RU | 🟢 | vless | @proxy_kafee | 0",
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 70",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 5",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
-                "🇵🇱PL | 🟢 | vless | @free1_vpn | 6",
+                "❔XX | 🟢 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @FreakConfig | 14",
@@ -130,12 +130,12 @@
             "outbounds": [
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
+                "🇷🇺RU | 🟢 | vless | @proxy_kafee | 0",
                 "🇹🇷TR | 🟢 | vless | @prrofile_purple | 70",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 5",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
-                "🇵🇱PL | 🟢 | vless | @free1_vpn | 6",
+                "❔XX | 🟢 | vless | @free1_vpn | 6",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @FreakConfig | 14",
@@ -231,6 +231,35 @@
             }
         },
         {
+            "tag": "🇷🇺RU | 🟢 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "158.160.198.58",
+            "server_port": 443,
+            "uuid": "596b215c-3743-4893-b24a-4e396c4ab80f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "DQW3GuEvmRgUQnnKdHjSZhgaEDcu_07Ijuqibd72-0I",
+                    "short_id": "ca7dd27a72c7c203"
+                }
+            }
+        },
+        {
             "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 70",
             "type": "vless",
             "server": "45.74.158.246",
@@ -256,35 +285,6 @@
                     "enabled": true,
                     "public_key": "oitYj2sYOanSBldmUzl3gRw4dfWPVmwO74eTjFWgWRI",
                     "short_id": "2125d7ff"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 5",
-            "type": "vless",
-            "server": "mizbansr.consolgame.ir",
-            "server_port": 2425,
-            "uuid": "7691d590-be40-411f-ab11-1e1ab4b03570",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-                    "short_id": "9b60d3"
                 }
             }
         },
@@ -383,7 +383,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @free1_vpn | 6",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 6",
             "type": "vless",
             "server": "83.168.71.216",
             "server_port": 443,
