@@ -113,8 +113,8 @@
                 "❔XX | 🔴 | vless | @v2_team | 1",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 12",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 4",
-                "🇵🇹PT | 🔴 | vless | @ARv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 0",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
@@ -123,6 +123,7 @@
                 "❔XX | 🔴 | vless | @FOX_VPN66 | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
+                "🇵🇱PL | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -139,11 +140,11 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
+                "❔XX | 🔴 | vless | @VmessProtocol | 10",
                 "🇮🇹IT | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
@@ -182,8 +183,8 @@
                 "❔XX | 🔴 | vless | @v2_team | 1",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 12",
                 "🇫🇷FR | 🔴 | vless | @VlessConfig | 13",
+                "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇵🇹PT | 🔴 | vless | @ARv2ray | 4",
-                "🇵🇹PT | 🔴 | vless | @ARv2ray | 5",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 0",
                 "🇺🇸US | 🔴 | vless | @shh_proxy | 1",
                 "🇺🇸US | 🔴 | vless | @Lockey_vpn | 15",
@@ -192,6 +193,7 @@
                 "❔XX | 🔴 | vless | @FOX_VPN66 | 0",
                 "❔XX | 🔴 | vless | @CUSTOMVPNSERVER | 8",
                 "🇺🇸US | 🔴 | vless | @CUSTOMVPNSERVER | 9",
+                "🇵🇱PL | 🔴 | vless | @proxy_kafee | 0",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
@@ -208,11 +210,11 @@
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
-                "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
+                "❔XX | 🔴 | vless | @VmessProtocol | 10",
                 "🇮🇹IT | 🟢 | vless | @VmessProtocol | 11",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
@@ -402,6 +404,42 @@
             }
         },
         {
+            "tag": "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
+            "type": "vless",
+            "server": "185.234.65.232",
+            "server_port": 4423,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "animejs.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "D4fo-UBIrSlLx3R8qu3iWSoynAvArdXpn5uZoDEt3Uc",
+                    "short_id": "b740"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2rayy",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇵🇹PT | 🔴 | vless | @ARv2ray | 4",
             "type": "vless",
             "server": "156.243.83.167",
@@ -429,37 +467,6 @@
                 "path": "\/-Arfilter-TEL--@Arfilter-TEL--@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEl--@Arfilter",
                 "headers": {
                     "Host": "cdn-alman1.arfilter2.blog"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇹PT | 🔴 | vless | @ARv2ray | 5",
-            "type": "vless",
-            "server": "156.243.83.167",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn-alman2.arfilter2.blog",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/-Arfilter-TEL--@Arfilter-TEL--@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEl--@Arfilter",
-                "headers": {
-                    "Host": "cdn-alman2.arfilter2.blog"
                 }
             }
         },
@@ -628,6 +635,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "ca.adobe-connect.top"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "82.40.62.136",
+            "server_port": 443,
+            "uuid": "693a9953-8b79-4cc4-9374-58aa0fc48906",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "video-api.sapi.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "H5hgQcSKg6K_1yVLs_2zL3kGwYK805hvnlAtSr0QpEI",
+                    "short_id": "9b0cf2"
                 }
             }
         },
@@ -1045,7 +1081,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @VmessProtocol | 10",
+            "tag": "❔XX | 🔴 | vless | @VmessProtocol | 10",
             "type": "vless",
             "server": "t-panel.wasmer.app",
             "server_port": 443,
@@ -1162,7 +1198,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "87.120.219.225",
             "server_port": 443,
