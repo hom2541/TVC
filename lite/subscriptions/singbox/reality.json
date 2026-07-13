@@ -113,9 +113,10 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 68",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 69",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 4",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
+                "❔XX | 🟢 | vless | @free1_vpn | 7",
                 "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -138,9 +139,10 @@
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 68",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 69",
                 "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 4",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
+                "❔XX | 🟢 | vless | @free1_vpn | 7",
                 "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -382,7 +384,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 0",
+            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "87.120.219.225",
             "server_port": 443,
@@ -411,7 +413,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxystore11 | 0",
+            "tag": "❔XX | 🔴 | vless | @proxystore11 | 0",
             "type": "vless",
             "server": "142.93.174.176",
             "server_port": 443,
@@ -472,6 +474,35 @@
                     "enabled": true,
                     "public_key": "CmOo6N7jVYHj9MhRHT3BpxIU8ZgWLPDR3ops_Vqj_l4",
                     "short_id": "756f51fbb0c3f9"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 7",
+            "type": "vless",
+            "server": "mizbansr.consolgame.ir",
+            "server_port": 2425,
+            "uuid": "7691d590-be40-411f-ab11-1e1ab4b03570",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+                    "short_id": "9b60d3"
                 }
             }
         },
