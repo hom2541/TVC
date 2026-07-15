@@ -128,8 +128,8 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 9","type":"trojan","server":"167.68.4.199","port":2053,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"epge.muarua.filegear-sg.me"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 5","type":"trojan","server":"104.18.152.246","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
   - {"name":"❔XX | 🔴 | trojan | @VmessProtocol | 12","type":"trojan","server":"141.193.213.21","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 0","type":"trojan","server":"89.116.250.135","port":443,"udp":false,"password":"MiTiVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"Win-Nll--l.App-Cloud.Ir"}
-  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 15","type":"trojan","server":"198.41.220.4","port":443,"udp":false,"password":"71409d3e488548e8bb076d229778f008","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareerforlawyers.com"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"162.159.152.209","port":443,"udp":false,"password":"tg-dns68","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"vip.putata.eu.org"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 4","type":"trojan","server":"54.247.110.127","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -146,8 +146,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 9'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
       - '❔XX | 🔴 | trojan | @VmessProtocol | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 0'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -164,8 +164,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 9'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
       - '❔XX | 🔴 | trojan | @VmessProtocol | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 0'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -181,8 +181,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 9'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
       - '❔XX | 🔴 | trojan | @VmessProtocol | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 0'
-      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 15'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 1'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 4'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
