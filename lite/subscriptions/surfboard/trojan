@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇱🇹LT | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, 89.116.250.135, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = Win-Nll--l.App-Cloud.Ir, ws = false
-🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 9 = trojan, 185.137.157.142, 443, password = dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q, udp-delay = true, skip-cert-verify = false, ws = false
+🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, 146.70.90.198, 57452, password = t1k169n5zmvvwn96r9ft, udp-delay = true, skip-cert-verify = true, sni = www.vk.com, ws = false
+🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
 ❔XX | 🔴 | trojan | @VmessProtocol | 12 = trojan, 141.193.213.21, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmloud.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇱🇹LT | 🔴 | trojan | @oneclickvpnkeys | 8,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @VmessProtocol | 12
-URL-TEST = url-test,🇱🇹LT | 🔴 | trojan | @oneclickvpnkeys | 8,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @VmessProtocol | 12
-FALLBACK = fallback,🇱🇹LT | 🔴 | trojan | @oneclickvpnkeys | 8,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @VmessProtocol | 12
+MANUAL = select,URL-TEST,FALLBACK,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @VmessProtocol | 12
+URL-TEST = url-test,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @VmessProtocol | 12
+FALLBACK = fallback,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @VmessProtocol | 12
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
