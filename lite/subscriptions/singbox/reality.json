@@ -110,8 +110,6 @@
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @proxy_kafee | 0",
-                "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 3",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
@@ -134,8 +132,6 @@
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @proxy_kafee | 0",
-                "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 3",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
@@ -289,64 +285,6 @@
                     "enabled": true,
                     "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
                     "short_id": "f32140952ba18e18"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @proxy_kafee | 0",
-            "type": "vless",
-            "server": "45.154.96.46",
-            "server_port": 8080,
-            "uuid": "c0897097-4f59-439c-aab1-ae39004375b2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wzwMT116o9V0x4QCcZFFBVGi1S722f1nRKs4FCvPPH8",
-                    "short_id": "96960563e710ad7c"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 3",
-            "type": "vless",
-            "server": "khc.dearhossein-taktaz.ir",
-            "server_port": 443,
-            "uuid": "37847c7e-ef5e-49cc-b6ac-0b3b5a7863f2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "A_i3XS8URva3ya7OkH05o4DRNin77O3kiJ98Ge_Qh2k",
-                    "short_id": "a46330177b55b1"
                 }
             }
         },
