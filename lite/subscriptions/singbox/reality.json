@@ -112,8 +112,7 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @proxy_kafee | 0",
                 "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 3",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
-                "🇴🇲OM | 🟢 | vless | @ConfigsHUB | 0",
+                "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -137,8 +136,7 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @proxy_kafee | 0",
                 "🇫🇮FI | 🟢 | vless | @v2rayNG_Matsuri | 3",
-                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
-                "🇴🇲OM | 🟢 | vless | @ConfigsHUB | 0",
+                "❔XX | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -353,7 +351,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
+            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "87.120.219.225",
             "server_port": 443,
@@ -378,35 +376,6 @@
                     "enabled": true,
                     "public_key": "hjdnuzysFQh3YtJ2yWjh-gduVE3A2yHWqJ1QXvrZyHM",
                     "short_id": "81b5b012"
-                }
-            }
-        },
-        {
-            "tag": "🇴🇲OM | 🟢 | vless | @ConfigsHUB | 0",
-            "type": "vless",
-            "server": "38.54.116.187",
-            "server_port": 444,
-            "uuid": "d823a737-3780-4943-8598-b7581cdf74bd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "wNwTLARVhaEjKeUSGEFaHQFdACTDJ6J5XArHV9dkQ2A",
-                    "short_id": "9454f7f4d418a339"
                 }
             }
         },
