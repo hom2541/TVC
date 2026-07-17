@@ -109,12 +109,10 @@
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @V2rayCollector | 31",
+                "🇫🇮FI | 🟢 | vless | @V2rayCollector | 51",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 13",
-                "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 3",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 4",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -134,12 +132,10 @@
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @V2rayCollector | 31",
+                "🇫🇮FI | 🟢 | vless | @V2rayCollector | 51",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 13",
-                "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 3",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 4",
+                "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @proxystore11 | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -266,7 +262,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @V2rayCollector | 31",
+            "tag": "🇫🇮FI | 🟢 | vless | @V2rayCollector | 51",
             "type": "vless",
             "server": "fi5.liveflow.space",
             "server_port": 443,
@@ -324,7 +320,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 3",
+            "tag": "🇫🇷FR | 🟢 | vless | @v2rayNG_Matsuri | 4",
             "type": "vless",
             "server": "76.164.202.210",
             "server_port": 448,
@@ -353,7 +349,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 0",
+            "tag": "🇬🇧GB | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "87.120.219.225",
             "server_port": 443,
@@ -378,64 +374,6 @@
                     "enabled": true,
                     "public_key": "hjdnuzysFQh3YtJ2yWjh-gduVE3A2yHWqJ1QXvrZyHM",
                     "short_id": "81b5b012"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "193.124.112.67",
-            "server_port": 520,
-            "uuid": "5c4a1e4c-c679-4030-8b5d-9704e4891223",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amazon.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA",
-                    "short_id": "fb0a6872"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "193.124.112.67",
-            "server_port": 520,
-            "uuid": "cd88d727-ae21-45e4-8c99-53afeb95d4d7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amazon.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA",
-                    "short_id": "fb0a6872"
                 }
             }
         },
