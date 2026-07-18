@@ -131,6 +131,9 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @v2ray1_ng | 8","type":"trojan","server":"151.101.34.144","port":443,"udp":false,"password":"4aFbwy5BHa","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"global.fastly.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 6","type":"trojan","server":"104.18.152.246","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
   - {"name":"❔XX | 🔴 | trojan | @VmessProtocol | 13","type":"trojan","server":"141.193.213.21","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
+  - {"name":"🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 0","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"VPNCUSTOMIZE","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ww.offers.de5.net"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 3","type":"trojan","server":"104.16.72.101","port":443,"udp":false,"password":"6c862415-30d2-4813-8e49-42e99a0bd415","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"space.byu.id.yxls.eu.cc"}
+  - {"name":"🚩CF | 🟢 | trojan | @ConfigsHUB | 10","type":"trojan","server":"104.17.148.22","port":443,"udp":false,"password":"cassiusvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"telegram----cassiusvpn----2215456487655561231564648465465223132.singerc31.workers.dev"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -150,6 +153,9 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 8'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 6'
       - '❔XX | 🔴 | trojan | @VmessProtocol | 13'
+      - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 0'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -169,6 +175,9 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 8'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 6'
       - '❔XX | 🔴 | trojan | @VmessProtocol | 13'
+      - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 0'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -187,6 +196,9 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 8'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 6'
       - '❔XX | 🔴 | trojan | @VmessProtocol | 13'
+      - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 0'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 3'
+      - '🚩CF | 🟢 | trojan | @ConfigsHUB | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
