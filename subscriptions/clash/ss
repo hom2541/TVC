@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"❔XX | 🟢 | ss | @proxy_mtm | 20","type":"ss","server":"82.38.31.39","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @proxy_mtm | 20","type":"ss","server":"82.38.31.39","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | ss | @proxy_mtm | 22","type":"ss","server":"213.109.147.242","port":62685,"password":"VpKABcOpNNA0l5G2AVOmw8","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -126,7 +126,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🟢 | ss | @proxy_mtm | 20'
+      - '🇳🇱NL | 🟢 | ss | @proxy_mtm | 20'
       - '❔XX | 🟢 | ss | @proxy_mtm | 22'
   - name: URL-TEST
     type: url-test
@@ -134,14 +134,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🟢 | ss | @proxy_mtm | 20'
+      - '🇳🇱NL | 🟢 | ss | @proxy_mtm | 20'
       - '❔XX | 🟢 | ss | @proxy_mtm | 22'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '❔XX | 🟢 | ss | @proxy_mtm | 20'
+      - '🇳🇱NL | 🟢 | ss | @proxy_mtm | 20'
       - '❔XX | 🟢 | ss | @proxy_mtm | 22'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
