@@ -110,23 +110,20 @@
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇷🇴RO | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 5",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇸🇪SE | 🟢 | vless | @v2ray1_ng | 7",
+                "🇸🇪SE | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @free1_vpn | 8",
+                "❔XX | 🔴 | vless | @free1_vpn | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 13",
-                "❔XX | 🔴 | vless | @FreakConfig | 15",
-                "❔XX | 🔴 | vless | @FreakConfig | 16",
+                "❔XX | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @mehrosaboran | 5",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "❔XX | 🔴 | vless | @proxy_mtm | 33",
-                "❔XX | 🔴 | vless | @proxy_mtm | 34"
+                "❔XX | 🟢 | vless | @kingofilter | 1"
             ]
         },
         {
@@ -137,23 +134,20 @@
                 "❔XX | 🟢 | vless | @Parsashonam | 1",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
                 "🇷🇴RO | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 5",
                 "🇳🇱NL | 🟢 | vless | @ShadowProxy66 | 0",
-                "🇸🇪SE | 🟢 | vless | @v2ray1_ng | 7",
+                "🇸🇪SE | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @free1_vpn | 8",
+                "❔XX | 🔴 | vless | @free1_vpn | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 13",
-                "❔XX | 🔴 | vless | @FreakConfig | 15",
-                "❔XX | 🔴 | vless | @FreakConfig | 16",
+                "❔XX | 🔴 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @mehrosaboran | 5",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "❔XX | 🔴 | vless | @proxy_mtm | 33",
-                "❔XX | 🔴 | vless | @proxy_mtm | 34"
+                "❔XX | 🟢 | vless | @kingofilter | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -299,35 +293,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @proxy_kafee | 2",
-            "type": "vless",
-            "server": "45.192.2.115",
-            "server_port": 443,
-            "uuid": "0b8dfc50-9e2d-4b3c-85cd-870b478312a0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yandex.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
-                    "short_id": "f34818a561dfd1fe"
-                }
-            }
-        },
-        {
             "tag": "🇷🇴RO | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "77.81.98.70",
@@ -415,7 +380,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @v2ray1_ng | 7",
+            "tag": "🇸🇪SE | 🟢 | vless | @v2ray1_ng | 8",
             "type": "vless",
             "server": "141.227.160.73",
             "server_port": 6300,
@@ -473,7 +438,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @free1_vpn | 8",
+            "tag": "❔XX | 🔴 | vless | @free1_vpn | 9",
             "type": "vless",
             "server": "feed.onetimeok.com",
             "server_port": 443,
@@ -596,7 +561,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 15",
+            "tag": "❔XX | 🔴 | vless | @flyv2ray | 1",
             "type": "vless",
             "server": "main.oneoker.com",
             "server_port": 443,
@@ -629,35 +594,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 16",
-            "type": "vless",
-            "server": "185.185.142.98",
-            "server_port": 8443,
-            "uuid": "578c8541-16a0-40b7-bf72-9508d547f856",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.jsdelivr.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NozDA4apA_XQ_wzcJCZx7VXAD285J_HSs4w_GvBfJHA",
-                    "short_id": "63903c2e"
-                }
             }
         },
         {
@@ -769,11 +705,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 33",
+            "tag": "❔XX | 🟢 | vless | @kingofilter | 1",
             "type": "vless",
-            "server": "dl.onetimeok.com",
+            "server": "sa-play.montago-shop.ir",
             "server_port": 443,
-            "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+            "uuid": "2be0d70d-68a8-48b8-b6ca-614f32e98236",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -783,61 +719,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dl.onetimeok.com",
+                "server_name": "play.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4o20JlNKKsAzSGEvEMw6g1A8Ij37tiSU1CFwTZI4b3o",
-                    "short_id": "8ba32e7cefbf524a"
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "377d"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "api.v2.PushService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 34",
-            "type": "vless",
-            "server": "media.oneokgames.com",
-            "server_port": 443,
-            "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "media.oneokgames.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "aDNsk312UNfOEh0RiyGZdK6opt__mMyKBSglqFKFP38",
-                    "short_id": "dbdbeaf4aa6e1a5c"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "api.v2.ObjectService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         }
     ],
