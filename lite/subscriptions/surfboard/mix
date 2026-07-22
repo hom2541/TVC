@@ -12,15 +12,15 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇭CH | 🟢 | trojan | @EliV2ray | 1 = trojan, 8y7r-2-4-3-1-4-5-2-2-3.poki-pakipon.ir, 30000, password = -----------BanV2ray------------, udp-delay = true, skip-cert-verify = false, sni = chi.yahoo.com, ws = false
-🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7 = trojan, www.calmlunch.com, 443, password = humanity, udp-delay = true, skip-cert-verify = false, ws = false
-🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, 34.242.69.173, 443, password = NQ26071394, udp-delay = true, skip-cert-verify = false, sni = fun-labrador.rooster465.autos, ws = false
+🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, 185.247.117.209, 56431, password = 8240cd21ddf3112d50c4b6e52a70f0ce, udp-delay = true, skip-cert-verify = false, sni = 185.247.117.209.sslip.io, ws = false
+🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 6 = trojan, moving-wren.rooster465.autos, 443, password = IQ68037294, udp-delay = true, skip-cert-verify = false, ws = false
 ❔XX | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-❔XX | 🟢 | vmess | @Hope_Net | 11 = vmess, 104.26.15.148, 80, username = 2f188c61-6622-4056-810e-a1a5f1c9b023, ws = true, tls = , vmess-aead = true, ws-path = /V2LINE-TELEGRAM-CHANNEL-VMESS-WS, ws-headers = Host:"58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou", skip-cert-verify = true, tfo = false
-❔XX | 🟢 | vmess | @Hope_Net | 12 = vmess, 104.19.51.232, 2086, username = 29eebb60-b27b-4a9d-bba5-947763d9205e, ws = true, tls = , vmess-aead = true, ws-path = github.com/Alvin9999, ws-headers = Host:"ip005.dtku47.xyz", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 13 = vmess, 104.18.14.19, 2086, username = e9e3cc13-db48-4cc1-8c24-7626439a5339, ws = true, tls = , vmess-aead = false, ws-path = github.com/Alvin9999, ws-headers = Host:"ip1.1789034.xyz", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 14 = vmess, beyonddsz.cfd, 443, username = 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, ws = true, tls = 1, vmess-aead = false, ws-path = /linkws, ws-headers = Host:"beyonddsz.cfd", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 11,❔XX | 🟢 | vmess | @Hope_Net | 12
-URL-TEST = url-test,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 11,❔XX | 🟢 | vmess | @Hope_Net | 12
-FALLBACK = fallback,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 7,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 8,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 11,❔XX | 🟢 | vmess | @Hope_Net | 12
+MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 5,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 13,❔XX | 🟢 | vmess | @Hope_Net | 14
+URL-TEST = url-test,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 5,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 13,❔XX | 🟢 | vmess | @Hope_Net | 14
+FALLBACK = fallback,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 5,🇮🇪IE | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 13,❔XX | 🟢 | vmess | @Hope_Net | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
