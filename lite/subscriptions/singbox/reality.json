@@ -115,11 +115,11 @@
                 "🇷🇴RO | 🟢 | vless | @prrofile_purple | 108",
                 "🇵🇱PL | 🟢 | vless | @prrofile_purple | 109",
                 "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
-                "❔XX | 🔴 | vless | @flyv2ray | 0",
-                "❔XX | 🔴 | vless | @flyv2ray | 1",
+                "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🟢 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84"
@@ -138,11 +138,11 @@
                 "🇷🇴RO | 🟢 | vless | @prrofile_purple | 108",
                 "🇵🇱PL | 🟢 | vless | @prrofile_purple | 109",
                 "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
+                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
-                "❔XX | 🔴 | vless | @flyv2ray | 0",
-                "❔XX | 🔴 | vless | @flyv2ray | 1",
+                "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🟢 | vless | @mehrosaboran | 4",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84"
@@ -436,6 +436,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "89.222.123.211",
+            "server_port": 16923,
+            "uuid": "c065e1bb-cb56-41e5-b043-9dfd15b67565",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api-maps.yandex.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA",
+                    "short_id": "10ffb85da1c2d986"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "neurex",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -523,7 +559,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 0",
+            "tag": "❔XX | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "static.oneoneok.com",
             "server_port": 443,
@@ -548,42 +584,6 @@
                     "enabled": true,
                     "public_key": "oVbonPGBPZ_qGyhHPe-LwsyPc0oobby2YknsPE90iRo",
                     "short_id": "0b46e0908285b078"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "api.v1.StreamService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @flyv2ray | 1",
-            "type": "vless",
-            "server": "main.oneoker.com",
-            "server_port": 443,
-            "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "main.oneoker.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yiX2T6z3GavNIgnnxsoU57vgq2pdfngXAU83vhBDQlA",
-                    "short_id": "a9b0c08836bad3c5"
                 }
             },
             "transport": {

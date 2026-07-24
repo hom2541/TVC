@@ -12,12 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-🇺🇸US | 🟢 | vmess | @Hope_Net | 12 = vmess, 104.16.61.8, 80, username = 6c168fcc-2231-4f3b-8c1e-f6391692df4a, ws = true, tls = , vmess-aead = false, ws-path = /hms02.fxiaomi.sbs/link, ws-headers = Host:"erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev", skip-cert-verify = true, tfo = false
-❔XX | 🟢 | vmess | @Hope_Net | 13 = vmess, 104.21.8.4, 2083, username = ac679897-af78-4197-9bf3-a2afe972a383, ws = true, tls = 1, vmess-aead = false, ws-path = /, ws-headers = Host:"rbv2.frtm99d.cyou", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 13 = vmess, 104.19.45.17, 2086, username = e9e3cc13-db48-4cc1-8c24-7626439a5339, ws = true, tls = , vmess-aead = false, ws-path = github.com/Alvin9999, ws-headers = Host:"ip13.freegradely.xyz", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 14 = vmess, 172.64.166.9, 2086, username = e9e3cc13-db48-4cc1-8c24-7626439a5339, ws = true, tls = , vmess-aead = false, ws-path = github.com/Alvin9999, ws-headers = Host:"ip2.1457230.xyz", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 12,❔XX | 🟢 | vmess | @Hope_Net | 13
-URL-TEST = url-test,❔XX | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 12,❔XX | 🟢 | vmess | @Hope_Net | 13
-FALLBACK = fallback,❔XX | 🟢 | vmess | @yaney_01 | 4,🇺🇸US | 🟢 | vmess | @Hope_Net | 12,❔XX | 🟢 | vmess | @Hope_Net | 13
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 13,❔XX | 🟢 | vmess | @Hope_Net | 14
+URL-TEST = url-test,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 13,❔XX | 🟢 | vmess | @Hope_Net | 14
+FALLBACK = fallback,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 13,❔XX | 🟢 | vmess | @Hope_Net | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
