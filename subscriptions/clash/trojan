@@ -128,8 +128,10 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"141.193.213.21","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 9","type":"trojan","server":"104.18.152.246","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
   - {"name":"🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 1","type":"trojan","server":"162.159.38.119","port":443,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.creationlong.org"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 5","type":"trojan","server":"167.68.4.199","port":2053,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"epge.muarua.filegear-sg.me"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 13","type":"trojan","server":"179.237.74.104","port":2518,"udp":false,"password":"1-----------------BanV2ray-----------------1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"world.yahoo.com:443"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"37.156.45.60","port":2387,"udp":false,"password":"1------------------BanV2ray------------------1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"world.yahoo.com:443"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"104.21.40.34","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.multiplydose.com"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"37.156.45.60","port":3716,"udp":false,"password":"1------------------BanV2ray------------------1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"world.yahoo.com:443"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 11","type":"trojan","server":"37.156.45.60","port":3716,"udp":false,"password":"1------------------BanV2ray------------------1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"world.yahoo.com:443"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -146,8 +148,10 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 9'
       - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 1'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 13'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 11'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -164,8 +168,10 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 9'
       - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 1'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 13'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -181,8 +187,10 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 9'
       - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 1'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 13'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 2'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
