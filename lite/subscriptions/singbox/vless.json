@@ -142,9 +142,10 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🟢 | vless | @VmessProtocol | 13",
                 "🇳🇱NL | 🔴 | vless | @SafeNet_Server | 10",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "🇱🇹LT | 🟢 | vless | @v2ray_vpn_ir | 3",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -163,7 +164,8 @@
                 "❔XX | 🔴 | vless | @nofiltering2 | 18",
                 "❔XX | 🟢 | vless | @proxy_mtm | 22",
                 "❔XX | 🔴 | vless | @proxy_mtm | 23",
-                "❔XX | 🟢 | vless | @kingofilter | 0",
+                "❔XX | 🔴 | vless | @kingofilter | 0",
+                "❔XX | 🟢 | vless | @kingofilter | 1",
                 "❔XX | 🔴 | vless | @GozargahVPN | 0",
                 "❔XX | 🔴 | vless | @V2FETCH | 0"
             ]
@@ -208,9 +210,10 @@
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🟢 | vless | @VmessProtocol | 13",
                 "🇳🇱NL | 🔴 | vless | @SafeNet_Server | 10",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "🇱🇹LT | 🟢 | vless | @v2ray_vpn_ir | 3",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+                "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🟢 | vless | @v2ray_vpn_ir | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -229,7 +232,8 @@
                 "❔XX | 🔴 | vless | @nofiltering2 | 18",
                 "❔XX | 🟢 | vless | @proxy_mtm | 22",
                 "❔XX | 🔴 | vless | @proxy_mtm | 23",
-                "❔XX | 🟢 | vless | @kingofilter | 0",
+                "❔XX | 🔴 | vless | @kingofilter | 0",
+                "❔XX | 🟢 | vless | @kingofilter | 1",
                 "❔XX | 🔴 | vless | @GozargahVPN | 0",
                 "❔XX | 🔴 | vless | @V2FETCH | 0"
             ],
@@ -1124,7 +1128,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 0",
+            "tag": "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "qq.utiltools.ru",
             "server_port": 443,
@@ -1153,7 +1157,7 @@
             }
         },
         {
-            "tag": "🇱🇹LT | 🟢 | vless | @v2ray_vpn_ir | 3",
+            "tag": "❔XX | 🟢 | vless | @v2ray_vpn_ir | 3",
             "type": "vless",
             "server": "89.116.250.135",
             "server_port": 443,
@@ -1184,17 +1188,63 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 14",
             "type": "vless",
-            "server": "62.60.177.136",
-            "server_port": 2053,
-            "uuid": "787c61f3-6208-48a8-cbb5-05901eefd88d",
+            "server": "91panel-axiora-vpn.korvexe.ir",
+            "server_port": 14368,
+            "uuid": "28926c34-865c-447e-8d42-a17240af743b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "91panel-axiora-vpn.korvexe.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "91panel-axiora-vpn.korvexe.ir"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "47.89.186.170",
+            "server_port": 55861,
+            "uuid": "d51ed55c-d6dd-400b-aaf6-017c33969bfe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.intel.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "t2ndf6SeVxinFCo5bcemnW_ZZhAtmHWiAkllks5qPWs",
+                    "short_id": "7551ed1b"
+                }
             }
         },
         {
@@ -1667,7 +1717,38 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @kingofilter | 0",
+            "tag": "❔XX | 🔴 | vless | @kingofilter | 0",
+            "type": "vless",
+            "server": "cf.levikogjgfdd.ir",
+            "server_port": 443,
+            "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hhvl.hhapp.kdns.fr",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/cbasur",
+                "headers": {
+                    "Host": "hhvl.hhapp.kdns.fr"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @kingofilter | 1",
             "type": "vless",
             "server": "qq.utiltools.ru",
             "server_port": 443,
