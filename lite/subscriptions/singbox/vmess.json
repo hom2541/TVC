@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @OpenSSTPVpn | 2"
             ]
         },
@@ -123,8 +123,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 6",
+                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @OpenSSTPVpn | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -240,11 +240,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 5",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 2053,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "151.101.194.219",
+            "server_port": 443,
+            "uuid": "2052dca2-008b-4f54-9bbb-dbac90dd54a5",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -257,7 +257,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram----cassiusvpn----8756465132132484615456487564654874545.jxvsuhbddynqghl.workers.dev",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -267,20 +267,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/aveiror.com\/linkvws",
+                "path": "\/ws\/",
                 "headers": {
-                    "Host": "telegram----cassiusvpn----8756465132132484615456487564654874545.jxvsuhbddynqghl.workers.dev"
+                    "Host": "speedtest.net"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 8880,
-            "uuid": "4b5e4565-322f-4223-a891-78a84f189726",
+            "server": "107.148.192.157",
+            "server_port": 41911,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -288,13 +288,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/XSjeg73o6ZdsheahCb5JG",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
