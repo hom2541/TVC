@@ -122,7 +122,6 @@ proxies:
   - {"name":"🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"more-trout.rooster465.autos","port":443,"udp":false,"password":"KV63147582","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇸🇬SG | 🔴 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"casual-stallion.rooster465.autos","port":443,"udp":false,"password":"IQ68037294","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🟢 | trojan | @v2ray_vpn_ir | 2","type":"trojan","server":"162.159.38.119","port":443,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.creationlong.org"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 19","type":"trojan","server":"162.159.38.119","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.creationlong.org"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -133,7 +132,6 @@ proxy-groups:
       - '🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇸🇬SG | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🟢 | trojan | @v2ray_vpn_ir | 2'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 19'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -144,7 +142,6 @@ proxy-groups:
       - '🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇸🇬SG | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🟢 | trojan | @v2ray_vpn_ir | 2'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 19'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -154,7 +151,6 @@ proxy-groups:
       - '🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '🇸🇬SG | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🟢 | trojan | @v2ray_vpn_ir | 2'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 19'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
