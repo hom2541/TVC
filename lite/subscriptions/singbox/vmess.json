@@ -110,8 +110,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 16",
-                "❔XX | 🟢 | vmess | @Hope_Net | 17"
+                "❔XX | 🟢 | vmess | @Hope_Net | 13",
+                "❔XX | 🟢 | vmess | @Hope_Net | 14"
             ]
         },
         {
@@ -122,8 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 16",
-                "❔XX | 🟢 | vmess | @Hope_Net | 17"
+                "❔XX | 🟢 | vmess | @Hope_Net | 13",
+                "❔XX | 🟢 | vmess | @Hope_Net | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -238,11 +238,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 16",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "172.64.167.25",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
+            "server": "107.173.250.94",
+            "server_port": 46547,
+            "uuid": "03d88809-cedd-41ce-e107-7b1c0bf36420",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,21 +252,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "172.64.167.25"
-                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 17",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "23.227.38.5",
-            "server_port": 2086,
-            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
+            "server": "kvgwv-1037-v2-1.hkg-d-cmi.jd.cjhh.lol",
+            "server_port": 888,
+            "uuid": "fbc2efb0-786a-4074-81ea-8ab12ca5422c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -277,11 +270,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kvgwv-1037-v2-1.hkg-d-cmi.jd.cjhh.lol",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/je5x3pBN1vez3NQudNkB",
                 "headers": {
-                    "Host": "23.227.38.5"
+                    "Host": "kvgwv-1037-v2-1.hkg-d-cmi.jd.cjhh.lol"
                 }
             }
         }
