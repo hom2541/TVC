@@ -112,11 +112,10 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 0",
-                "🇭🇺HU | 🟢 | vless | @prrofile_purple | 122",
                 "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 12",
+                "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "❔XX | 🟢 | vless | @flyv2ray | 2",
                 "❔XX | 🟢 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -133,11 +132,10 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 0",
-                "🇭🇺HU | 🟢 | vless | @prrofile_purple | 122",
                 "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 12",
+                "❔XX | 🔴 | vless | @FreakConfig | 12",
                 "❔XX | 🟢 | vless | @flyv2ray | 2",
                 "❔XX | 🟢 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -345,35 +343,6 @@
             }
         },
         {
-            "tag": "🇭🇺HU | 🟢 | vless | @prrofile_purple | 122",
-            "type": "vless",
-            "server": "45.198.87.99",
-            "server_port": 8443,
-            "uuid": "360c46b7-afe1-4e86-bfe1-ba09b5fcd8a6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "storage.yandex.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-                    "short_id": "2715592069f36fe7"
-                }
-            }
-        },
-        {
             "tag": "🇷🇺RU | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "qq.utiltools.ru",
@@ -461,11 +430,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 12",
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 12",
             "type": "vless",
-            "server": "46.8.229.199",
-            "server_port": 443,
-            "uuid": "59d08a71-f206-4ca3-9a42-8c56d3bfdc3c",
+            "server": "185.185.142.98",
+            "server_port": 8443,
+            "uuid": "578c8541-16a0-40b7-bf72-9508d547f856",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -475,7 +444,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "intel.com",
+                "server_name": "cdn.jsdelivr.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -484,15 +453,15 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4o2G9iT8IN7YWwiDLgjMrpPmvwU5IQT6C6nE5Rh-wSQ",
-                    "short_id": "da"
+                    "public_key": "NozDA4apA_XQ_wzcJCZx7VXAD285J_HSs4w_GvBfJHA",
+                    "short_id": "63903c2e"
                 }
             }
         },
         {
             "tag": "❔XX | 🟢 | vless | @flyv2ray | 2",
             "type": "vless",
-            "server": "qq.utiltools.ru",
+            "server": "78.159.250.214",
             "server_port": 443,
             "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
             "flow": "xtls-rprx-vision",
@@ -509,7 +478,7 @@
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "qq"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
