@@ -124,8 +124,8 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"153.75.250.171","port":49271,"udp":false,"password":"9ad83f65a560960e6509b677eb6162c1","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"153.75.250.171.sslip.io"}
   - {"name":"🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"13.39.89.72","port":443,"udp":false,"password":"IQ68037294","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"definite-giraffe.rooster465.autos"}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"172.67.156.22","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws/afrhms16v.bestxray.buzz","headers":{"host":"nezuko.raidenshogun.cloudns.org"}}}
-  - {"name":"❔XX | 🟢 | ss | @kingofilter | 12","type":"ss","server":"82.38.31.180","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 4","type":"vmess","server":"183.238.202.173","port":"51193","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 5","type":"vmess","server":"120.232.153.71","port":"45972","cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -138,8 +138,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
-      - '❔XX | 🟢 | ss | @kingofilter | 12'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -152,8 +152,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
-      - '❔XX | 🟢 | ss | @kingofilter | 12'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -165,8 +165,8 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
-      - '❔XX | 🟢 | ss | @kingofilter | 12'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
