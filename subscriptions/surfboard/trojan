@@ -16,10 +16,12 @@ DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, 153.75.250.171, 49271, password = 9ad83f65a560960e6509b677eb6162c1, udp-delay = true, skip-cert-verify = false, sni = 153.75.250.171.sslip.io, ws = false
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 6 = trojan, 13.39.89.72, 443, password = IQ68037294, udp-delay = true, skip-cert-verify = false, sni = definite-giraffe.rooster465.autos, ws = false
 🚩CF | 🔴 | trojan | @VmessProtocol | 9 = trojan, 104.18.152.246, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmloud.com, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 3 = trojan, millionaire.levikogjgfdd.ir, 443, password = 521314, udp-delay = true, skip-cert-verify = false, sni = tjplay.lxdxo.kdns.fr, ws = false
+🚩CF | 🔴 | trojan | @ConfigsHUB | 7 = trojan, 104.21.17.125, 443, password = Telegram_healer_config, udp-delay = true, skip-cert-verify = false, sni = 30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,🚩CF | 🔴 | trojan | @VmessProtocol | 9
-URL-TEST = url-test,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,🚩CF | 🔴 | trojan | @VmessProtocol | 9
-FALLBACK = fallback,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,🚩CF | 🔴 | trojan | @VmessProtocol | 9
+MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,🚩CF | 🔴 | trojan | @VmessProtocol | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @ConfigsHUB | 7
+URL-TEST = url-test,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,🚩CF | 🔴 | trojan | @VmessProtocol | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @ConfigsHUB | 7
+FALLBACK = fallback,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,🚩CF | 🔴 | trojan | @VmessProtocol | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @ConfigsHUB | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
