@@ -120,6 +120,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -129,10 +130,12 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9"
             ]
         },
         {
@@ -153,6 +156,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -162,10 +166,12 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
                 "❔XX | 🟢 | vmess | @Hope_Net | 3",
-                "❔XX | 🟢 | vmess | @Hope_Net | 4",
+                "🚩CF | 🟢 | vmess | @Hope_Net | 4",
                 "❔XX | 🟢 | vmess | @Hope_Net | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 6",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7"
+                "❔XX | 🟢 | vmess | @Hope_Net | 7",
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -426,6 +432,23 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
+            "type": "vmess",
+            "server": "185.206.171.78",
+            "server_port": 8081,
+            "uuid": "450037e8-e9fb-4296-bdf7-213f40b753c1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -578,11 +601,11 @@
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 0",
             "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "6647660f-9cfb-4ba3-8ca3-6214cfcdb8f0",
+            "server": "120.232.153.71",
+            "server_port": 45972,
+            "uuid": "770ee730-2450-4e3c-a6c6-3932bd32afbd",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -590,31 +613,14 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kingo.hightechservice.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "kingo.hightechservice.ir"
-                }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "33ae86a0-473d-11ef-a6cd-1239d0255272",
+            "server": "138.201.186.253",
+            "server_port": 2086,
+            "uuid": "FILTERSHCAN",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -624,21 +630,48 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmws",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "gt021.bestforxray.buzz",
+            "server": "38.147.188.239",
+            "server_port": 14979,
+            "uuid": "2919ef6f-b8d3-49ea-a32d-2f95d346e4cb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
+            "type": "vmess",
+            "server": "45.147.77.110",
+            "server_port": 13736,
+            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "172.67.156.22",
             "server_port": 443,
-            "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -651,7 +684,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ausgt02.bestforxray.buzz",
+                "server_name": "nezuko.raidenshogun.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -661,57 +694,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/linkws\/afrhms16v.bestxray.buzz",
                 "headers": {
-                    "Host": "ausgt02.bestforxray.buzz"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "83361983-a49b-490b-9910-e0de7e8d3a07",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
+                    "Host": "nezuko.raidenshogun.cloudns.org"
                 }
             }
         },
@@ -720,7 +705,7 @@
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
-            "uuid": "a8205f07-37bf-4882-acff-88c83c5695fa",
+            "uuid": "6647660f-9cfb-4ba3-8ca3-6214cfcdb8f0",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -754,7 +739,65 @@
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "uuid": "33ae86a0-473d-11ef-a6cd-1239d0255272",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmws",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "type": "vmess",
+            "server": "gt021.bestforxray.buzz",
+            "server_port": 443,
+            "uuid": "c1fd780a-3408-4f48-a932-5832a28ce9f6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ausgt02.bestforxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "ausgt02.bestforxray.buzz"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "83361983-a49b-490b-9910-e0de7e8d3a07",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -774,11 +817,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "83361983-a49b-490b-9910-e0de7e8d3a07",
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
