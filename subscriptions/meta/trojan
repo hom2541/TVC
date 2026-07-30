@@ -127,10 +127,8 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"163.245.196.68","port":49361,"udp":false,"password":"0ebb269c9f2d4e8e46b0cd4105a55134","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"163.245.196.68.sslip.io"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 0","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 10","type":"trojan","server":"104.18.152.246","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 4","type":"trojan","server":"104.19.230.21","port":443,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.multiplydose.com"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 6","type":"trojan","server":"5.239.245.250","port":443,"udp":false,"password":"ecd5e68e-92a5-4f85-afe1-1775ec84bf54","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"empty.node"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"104.18.152.208","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 10","type":"trojan","server":"masir_sefid","port":443,"udp":false,"password":"Masir_Sefid","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"store.steampowered.com"}
+  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 0","type":"trojan","server":"141.101.90.101","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 4","type":"trojan","server":"198.62.62.23","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -144,10 +142,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 10'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 0'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -161,10 +157,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 10'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 0'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -177,10 +171,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 10'
+      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 0'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
