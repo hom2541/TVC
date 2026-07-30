@@ -111,8 +111,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8"
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9"
             ]
         },
         {
@@ -124,8 +124,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8"
+                "❔XX | 🟢 | vmess | @Hope_Net | 8",
+                "❔XX | 🟢 | vmess | @Hope_Net | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -257,45 +257,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "youtube.bai-piao-wang-zhe.567568.ml",
-            "server_port": 443,
-            "uuid": "e88cb308-73f7-4302-89bf-b65c7386b117",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "youtube.bai-piao-wang-zhe.567568.ml",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/youtbue@bai-piao-wang-zhe_vws",
-                "headers": {
-                    "Host": "youtube.bai-piao-wang-zhe.567568.ml"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "129.159.33.199",
-            "server_port": 45328,
-            "uuid": "842c33ff-31b5-410c-a96e-0cb52a99a6da",
+            "server": "in06.dns2024.org",
+            "server_port": 63001,
+            "uuid": "e8e6f618-842c-33d4-9a9f-7827614a6bf9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,7 +276,31 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "129.159.33.199"
+                    "Host": "in06.dns2024.org"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "type": "vmess",
+            "server": "54.153.2.182",
+            "server_port": 11280,
+            "uuid": "6fc24a77-b832-4067-92b7-c2df867b798b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ray",
+                "headers": {
+                    "Host": "54.153.2.182"
                 }
             }
         }
