@@ -15,10 +15,11 @@ DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 163.245.196.68, 49361, password = 0ebb269c9f2d4e8e46b0cd4105a55134, udp-delay = true, skip-cert-verify = false, sni = 163.245.196.68.sslip.io, ws = false
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, 153.75.250.171, 49271, password = 9ad83f65a560960e6509b677eb6162c1, udp-delay = true, skip-cert-verify = false, sni = 153.75.250.171.sslip.io, ws = false
 🚩CF | 🔴 | trojan | @VmessProtocol | 9 = trojan, 104.18.152.246, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmloud.com, ws = false
+🚩CF | 🔴 | trojan | @ConfigsHUB | 17 = trojan, 172.64.152.23, 443, password = 2238e2f3-1a01-485e-8c22-24b65764c68b, udp-delay = true, skip-cert-verify = false, sni = gzjx.dpdns.org, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,🚩CF | 🔴 | trojan | @VmessProtocol | 9
-URL-TEST = url-test,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,🚩CF | 🔴 | trojan | @VmessProtocol | 9
-FALLBACK = fallback,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,🚩CF | 🔴 | trojan | @VmessProtocol | 9
+MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,🚩CF | 🔴 | trojan | @VmessProtocol | 9,🚩CF | 🔴 | trojan | @ConfigsHUB | 17
+URL-TEST = url-test,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,🚩CF | 🔴 | trojan | @VmessProtocol | 9,🚩CF | 🔴 | trojan | @ConfigsHUB | 17
+FALLBACK = fallback,🇨🇭CH | 🟢 | trojan | @EliV2ray | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,🚩CF | 🔴 | trojan | @VmessProtocol | 9,🚩CF | 🔴 | trojan | @ConfigsHUB | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
