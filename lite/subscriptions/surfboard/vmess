@@ -12,11 +12,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-❔XX | 🟢 | vmess | @Hope_Net | 10 = vmess, 85.9.120.10, 2087, username = 77210602-0a3e-4010-8142-d14f9c27f905, ws = true, tls = , vmess-aead = false, ws-path = /77210602-0a3e-4010-8142-d14f9c27f905, ws-headers = Host:"time.ir", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 7 = vmess, youtube.bai-piao-wang-zhe.567568.ml, 443, username = e88cb308-73f7-4302-89bf-b65c7386b117, ws = true, tls = 1, vmess-aead = true, ws-path = /youtbue@bai-piao-wang-zhe_vws, ws-headers = Host:"youtube.bai-piao-wang-zhe.567568.ml", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 8 = vmess, 129.159.33.199, 45328, username = 842c33ff-31b5-410c-a96e-0cb52a99a6da, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"129.159.33.199", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 10
-URL-TEST = url-test,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 10
-FALLBACK = fallback,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 10
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 7,❔XX | 🟢 | vmess | @Hope_Net | 8
+URL-TEST = url-test,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 7,❔XX | 🟢 | vmess | @Hope_Net | 8
+FALLBACK = fallback,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 7,❔XX | 🟢 | vmess | @Hope_Net | 8
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
