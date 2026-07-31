@@ -106,26 +106,26 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
-                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8"
+                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
-                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 7",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8"
+                "❔XX | 🟢 | vmess | @Hope_Net | 3",
+                "❔XX | 🟢 | vmess | @Hope_Net | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -148,7 +148,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
+            "tag": "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
             "server_port": 29776,
@@ -165,7 +165,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @mftizi | 17",
+            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "183.236.51.23",
             "server_port": 53002,
@@ -257,11 +257,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "pandor.boats",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "5456662d-9d1c-429b-9d3c-e47f2e89f013",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -272,30 +272,20 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "aveiror.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "aveiror.com"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "172.67.219.194",
-            "server_port": 443,
-            "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+            "server": "172.67.204.84",
+            "server_port": 8080,
+            "uuid": "511840c3-558a-4c14-8e61-43de4715fd9b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -306,21 +296,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "adenc36v.xtooltech.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder,Thunder",
                 "headers": {
-                    "Host": "adenc36v.xtooltech.cfd"
+                    "Host": ""
                 }
             }
         }
