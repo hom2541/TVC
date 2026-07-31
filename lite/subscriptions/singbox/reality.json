@@ -113,18 +113,16 @@
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🔴 | vless | @proxy_kafee | 3",
-                "🇩🇪DE | 🟢 | vless | @V2rayCollector | 32",
-                "🇪🇪EE | 🔴 | vless | @V2rayCollector | 33",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @free1_vpn | 13",
-                "❔XX | 🔴 | vless | @free1_vpn | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 15",
+                "❔XX | 🟢 | vless | @FreakConfig | 17",
                 "❔XX | 🟢 | vless | @flyv2ray | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -143,18 +141,16 @@
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 0",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🔴 | vless | @proxy_kafee | 3",
-                "🇩🇪DE | 🟢 | vless | @V2rayCollector | 32",
-                "🇪🇪EE | 🔴 | vless | @V2rayCollector | 33",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @free1_vpn | 13",
-                "❔XX | 🔴 | vless | @free1_vpn | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 15",
+                "❔XX | 🟢 | vless | @FreakConfig | 17",
                 "❔XX | 🟢 | vless | @flyv2ray | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -392,11 +388,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @V2rayCollector | 32",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 16",
             "type": "vless",
-            "server": "82.39.171.131",
+            "server": "130.49.185.196",
             "server_port": 443,
-            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+            "uuid": "e3c56988-5261-400f-b21b-6af5fa6efae1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -406,46 +402,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "site.rumedia-cdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-                    "short_id": "c39cc7310a"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇪EE | 🔴 | vless | @V2rayCollector | 33",
-            "type": "vless",
-            "server": "185.155.97.58",
-            "server_port": 45176,
-            "uuid": "dc7940e0-6bff-45e3-853d-4007561803c3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.googletagmanager.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M",
-                    "short_id": "8433cb66b6c3ab6d"
+                    "public_key": "4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM",
+                    "short_id": "808a7e8a2e32c697"
                 }
             }
         },
@@ -595,71 +562,6 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @free1_vpn | 13",
-            "type": "vless",
-            "server": "170.168.97.3",
-            "server_port": 8443,
-            "uuid": "5e243126-4a2a-84b6-782a-73b14797fb5f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "download.nvidia.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "TunService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @free1_vpn | 14",
-            "type": "vless",
-            "server": "170.168.97.3",
-            "server_port": 443,
-            "uuid": "5e243126-4a2a-84b6-782a-73b14797fb5f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "download.nvidia.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -743,6 +645,35 @@
                     "enabled": true,
                     "public_key": "R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 17",
+            "type": "vless",
+            "server": "46.8.229.199",
+            "server_port": 443,
+            "uuid": "59d08a71-f206-4ca3-9a42-8c56d3bfdc3c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "intel.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4o2G9iT8IN7YWwiDLgjMrpPmvwU5IQT6C6nE5Rh-wSQ",
+                    "short_id": "da"
                 }
             }
         },

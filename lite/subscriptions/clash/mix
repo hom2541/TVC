@@ -124,9 +124,10 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"202.37.33.80","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.creationlong.org"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"hkdcrtc-e.catcat321.com","port":20041,"udp":false,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"de.catxstar.com"}
   - {"name":"❔XX | 🟢 | trojan | @v2ray_vpn_ir | 3","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"kami","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ww.gameserver.de5.net"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 17","type":"trojan","server":"188.114.98.0","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.creationlong.org"}
   - {"name":"❔XX | 🟢 | vmess | @yaney_01 | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"38.38.148.233","port":"37001","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1719749022163","headers":{"host":"www.17354742.xyz"}}}
-  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 10","type":"vmess","server":"198.41.192.162","port":"80","cipher":"auto","uuid":"7496e6b1-7eee-49c5-9f74-56428d3b44d4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"dl3.守望者.hаблюдатели.watchers.aгентразведки.偵察探員.wonkacapitano.buzz."}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 8","type":"vmess","server":"94.140.0.110","port":8880,"cipher":"auto","uuid":"0d1bf26a-ce97-4707-a270-7f4d2ae37334","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"food.zhaal.ir"}}}
+  - {"name":"❔XX | 🟢 | vmess | @Hope_Net | 9","type":"vmess","server":"172.67.172.120","port":"8080","cipher":"auto","uuid":"b551aa22-22af-11ee-b8d8-f23c932eb68d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"oiictw.yydsii.com"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -139,9 +140,10 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '❔XX | 🟢 | trojan | @v2ray_vpn_ir | 3'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
       - '❔XX | 🟢 | vmess | @Hope_Net | 9'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -154,9 +156,10 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '❔XX | 🟢 | trojan | @v2ray_vpn_ir | 3'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
       - '❔XX | 🟢 | vmess | @Hope_Net | 9'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -168,9 +171,10 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '❔XX | 🟢 | trojan | @v2ray_vpn_ir | 3'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 17'
       - '❔XX | 🟢 | vmess | @yaney_01 | 4'
+      - '❔XX | 🟢 | vmess | @Hope_Net | 8'
       - '❔XX | 🟢 | vmess | @Hope_Net | 9'
-      - '❔XX | 🟢 | vmess | @Hope_Net | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
