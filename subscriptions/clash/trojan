@@ -124,7 +124,7 @@ proxies:
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 0","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 10","type":"trojan","server":"104.18.152.246","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
   - {"name":"🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 2","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"kami","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ww.gameserver.de5.net"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"2----------------------------------------------------3.poki-pakipon.ir","port":21122,"udp":false,"password":"oeaQHjIg021hag3UB1gHR60iA1iaNSs2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.icloud.com"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 6","type":"trojan","server":"3.133.66.102","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"❔XX | 🔴 | trojan | @kingofilter | 3","type":"trojan","server":"1------------------------------------------------2.poki-pakipon.ir","port":27142,"udp":false,"password":"oeaQHjIg021hag3UB1gHR60iA1iaNSs2","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.icloud.com"}
 proxy-groups:
   - name: MANUAL
@@ -138,7 +138,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
       - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 2'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
       - '❔XX | 🔴 | trojan | @kingofilter | 3'
   - name: URL-TEST
     type: url-test
@@ -152,7 +152,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
       - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 2'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
       - '❔XX | 🔴 | trojan | @kingofilter | 3'
   - name: FALLBACK
     type: fallback
@@ -165,7 +165,7 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
       - '🚩CF | 🟢 | trojan | @v2ray_vpn_ir | 2'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 6'
       - '❔XX | 🔴 | trojan | @kingofilter | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
