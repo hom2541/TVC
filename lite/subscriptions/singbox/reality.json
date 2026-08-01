@@ -119,7 +119,9 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 116",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
@@ -148,7 +150,9 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 116",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
@@ -564,11 +568,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "94.126.206.29",
-            "server_port": 443,
-            "uuid": "d6dc1358-1bb5-4a9d-92fd-3e255567e3fc",
+            "server": "89.222.123.211",
+            "server_port": 16923,
+            "uuid": "c065e1bb-cb56-41e5-b043-9dfd15b67565",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -578,17 +582,82 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "apple.com",
+                "server_name": "api-maps.yandex.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY",
-                    "short_id": ""
+                    "public_key": "_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA",
+                    "short_id": "10ffb85da1c2d986"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "neurex",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "www.parvian.ir",
+            "server_port": 443,
+            "uuid": "17e321f6-b2c6-4e1d-88f4-a25abfbf60cb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn-apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8iZthEek8HsCb3m2YY1jPGOS-WlCC_6VeROra4WuCw0",
+                    "short_id": "74d37a95022cc957"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 10",
+            "type": "vless",
+            "server": "us2.levikogjgfdd.ir",
+            "server_port": 40443,
+            "uuid": "5e3f974b-06fc-4555-907a-6681391b7c17",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE",
+                    "short_id": "2bc0"
                 }
             }
         },
