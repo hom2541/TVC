@@ -240,9 +240,9 @@
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "edge.get.media.laserbylily.ca",
-            "server_port": 80,
-            "uuid": "bd831106-94e1-4ef3-b473-c1a8418ca107",
+            "server": "104.16.4.103",
+            "server_port": 8080,
+            "uuid": "d2c6ddc0-891a-4435-ac0a-4a5cdb78cb7d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,18 +255,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/2jLawPUqb4le83LAqUg",
+                "path": "\/RqOHFT06qnkXOdFN4WJ",
                 "headers": {
-                    "Host": "edge.get.media.laserbylily.ca"
+                    "Host": "fl1.tradex2080.com"
                 }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "188.114.99.205",
+            "server": "172.67.1.143",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -279,7 +279,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "hdfy5autoip.foriran.trade",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -288,11 +288,11 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
+                "type": "grpc",
+                "service_name": "Nbs2DSTSkFWe4KVnk9AHQv",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],
