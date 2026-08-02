@@ -116,11 +116,11 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 11",
                 "❔XX | 🔴 | vless | @Capoit | 12",
+                "❔XX | 🟢 | vless | @FreakConfig | 10",
                 "❔XX | 🟢 | vless | @mehrosaboran | 6",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -142,11 +142,11 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @VmessProtocol | 12",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @Capoit | 11",
                 "❔XX | 🔴 | vless | @Capoit | 12",
+                "❔XX | 🟢 | vless | @FreakConfig | 10",
                 "❔XX | 🟢 | vless | @mehrosaboran | 6",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -471,35 +471,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "mop2.gorqino.ir",
-            "server_port": 7190,
-            "uuid": "7edf7146-915e-412c-8df7-61abbd0a8e8d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8",
-                    "short_id": "7398e0c72f7d5c0e"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -627,6 +598,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 10",
+            "type": "vless",
+            "server": "91.98.113.22",
+            "server_port": 443,
+            "uuid": "b9767b88-01ca-4775-ad0d-b1e90f880f3e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ZbLRIfp7JIWgMCIAzn8OYLpTLODdU9kclqDXzQE2c3U",
+                    "short_id": "837366093533865c"
+                }
             }
         },
         {
