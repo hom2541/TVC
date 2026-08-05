@@ -111,17 +111,19 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 1",
-                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
+                "❔XX | 🟢 | vless | @prrofile_purple | 116",
+                "❔XX | 🔴 | vless | @prrofile_purple | 117",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
+                "❔XX | 🟢 | vless | @FreakConfig | 12",
                 "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🟢 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "❔XX | 🟢 | vless | @proxy_mtm | 14",
+                "❔XX | 🟢 | vless | @proxy_mtm | 15",
                 "❔XX | 🟢 | vless | @kingofilter | 0"
             ]
         },
@@ -134,17 +136,19 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 1",
-                "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
+                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
+                "❔XX | 🟢 | vless | @prrofile_purple | 116",
+                "❔XX | 🔴 | vless | @prrofile_purple | 117",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
+                "❔XX | 🟢 | vless | @FreakConfig | 12",
                 "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🟢 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "❔XX | 🟢 | vless | @proxy_mtm | 14",
+                "❔XX | 🟢 | vless | @proxy_mtm | 15",
                 "❔XX | 🟢 | vless | @kingofilter | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -320,7 +324,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "vip.cdkshop.ir",
             "server_port": 443,
@@ -349,11 +353,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 116",
             "type": "vless",
-            "server": "84.32.209.7",
-            "server_port": 443,
-            "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+            "server": "135.125.168.129",
+            "server_port": 18169,
+            "uuid": "c1709670-114d-4c1a-84c6-452db9981c08",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -363,7 +367,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dartsearch-cn.net",
+                "server_name": "www.icloud.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -372,8 +376,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM",
-                    "short_id": ""
+                    "public_key": "Bn5ziIYYKffPJjUd3diIvdmfLJgbo76mVSEcrgY0k08",
+                    "short_id": "339e6fe3f9"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 117",
+            "type": "vless",
+            "server": "tu1-azad.petshopcloud.ir",
+            "server_port": 5676,
+            "uuid": "b6a37943-95a9-47da-9310-8263fe1f9ec5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ca.my.yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oyQ3qwkwg06ZCZhI4Gzi4CIHFR2CfXuTysnV25GcPzY",
+                    "short_id": "9a1bdcac8565f898"
                 }
             }
         },
@@ -490,6 +523,35 @@
                     "enabled": true,
                     "public_key": "ye0UyX7fJU0dLkDdXR1V2yHbMU4nTywIqWnADA7PWGQ",
                     "short_id": "5cb14c83aab91d29"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 12",
+            "type": "vless",
+            "server": "EN1.ZAG-FA.SOLVETA.IR",
+            "server_port": 9982,
+            "uuid": "b2a21714-fd64-461f-9364-49ea2ddc8b59",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mPYP_E1bJqvNXD-uKRU4QFyXk6B9lweXX5cqgbq3l3M",
+                    "short_id": "16b3713dce93ee0c"
                 }
             }
         },
@@ -624,7 +686,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 14",
+            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 15",
             "type": "vless",
             "server": "165.245.255.43",
             "server_port": 43376,
