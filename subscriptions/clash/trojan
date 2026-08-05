@@ -126,7 +126,6 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @v2ray1_ng | 11","type":"trojan","server":"millionaire.levikogjgfdd.ir","port":443,"udp":false,"password":"521314","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tjplay.lxdxo.kdns.fr"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 0","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 10","type":"trojan","server":"104.18.152.246","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 5","type":"trojan","server":"sg02.135235.xyz","port":443,"udp":false,"password":"59d2d083-2b47-4758-8d40-f05c4af165e8","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"sg02.135235.xyz"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -141,7 +140,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 11'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -156,7 +154,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 11'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -170,7 +167,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 11'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 0'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 10'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
