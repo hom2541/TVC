@@ -130,6 +130,7 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"13.36.175.151","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"classic-gator.rooster465.autos"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 2","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 12","type":"trojan","server":"104.18.152.246","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmloud.com"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 3","type":"trojan","server":"join-telegram-channel.tirexnet.kdns.fr","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -148,6 +149,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 2'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -166,6 +168,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 2'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -183,6 +186,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 2'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 3'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
