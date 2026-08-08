@@ -116,7 +116,8 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 123",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 9",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
@@ -143,7 +144,8 @@
                 "❔XX | 🔴 | vless | @prrofile_purple | 123",
                 "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 9",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
@@ -494,11 +496,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 13",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "5.75.207.247",
-            "server_port": 4227,
-            "uuid": "a1d262a9-6d57-4ff0-99e4-594782c2ca7c",
+            "server": "144.31.224.192",
+            "server_port": 37531,
+            "uuid": "e29ab6ad-527a-4c64-8126-6c70876a3c17",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -508,7 +510,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "aws.amazon.com",
+                "server_name": "status.play.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -517,8 +519,37 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "L5dWvFThmaEvNqnz8xbBkyT10TWINOZbn-BAdKtXNzk",
-                    "short_id": "0c26b2e657586df6"
+                    "public_key": "eZsg9UfT7GhM0XdGs5IxmuUcFqw0hU-k6VfArb7riXE",
+                    "short_id": "2d4267c8"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "free.soundfiy.ir",
+            "server_port": 4554,
+            "uuid": "7f3c3105-bc39-47fa-812d-1833b3709a9f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "v-ydSy2Eb-YyiWYd3WyFoJc4Bjs9QPGRTsVac6SyO14",
+                    "short_id": "e3"
                 }
             }
         },
