@@ -111,11 +111,12 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇪🇸ES | 🔴 | vless | @proxy_kafee | 2",
+                "🇪🇸ES | 🔴 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 17",
-                "❔XX | 🔴 | vless | @prrofile_purple | 117",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+                "🇭🇺HU | 🔴 | vless | @prrofile_purple | 117",
+                "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
@@ -137,11 +138,12 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇪🇸ES | 🔴 | vless | @proxy_kafee | 2",
+                "🇪🇸ES | 🔴 | vless | @proxy_kafee | 3",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 17",
-                "❔XX | 🔴 | vless | @prrofile_purple | 117",
-                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+                "🇭🇺HU | 🔴 | vless | @prrofile_purple | 117",
+                "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
@@ -326,7 +328,7 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @proxy_kafee | 2",
+            "tag": "🇪🇸ES | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "170.168.97.5",
             "server_port": 8443,
@@ -398,7 +400,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 117",
+            "tag": "🇭🇺HU | 🔴 | vless | @prrofile_purple | 117",
             "type": "vless",
             "server": "152.233.41.30",
             "server_port": 16923,
@@ -434,7 +436,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
+            "tag": "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "files.noneok.com",
             "server_port": 443,
@@ -470,11 +472,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "94.242.55.42",
+            "server": "45.143.201.8",
             "server_port": 443,
-            "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+            "uuid": "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -484,7 +486,36 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "enterprisekitten.com",
+                "server_name": "hasty-dolphin.cdn.cachefleet.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "77.233.214.116",
+            "server_port": 40443,
+            "uuid": "69a74770-7152-4a27-bef0-2615ca16e1b1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -493,8 +524,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "6ba85179e30d4fc2"
+                    "public_key": "D0AQp0cWaQR55Q-zPwp6__AxN9CoT9neZj0UzlNcLCk",
+                    "short_id": "bd72"
                 }
             }
         },
