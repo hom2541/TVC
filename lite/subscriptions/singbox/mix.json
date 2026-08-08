@@ -133,9 +133,9 @@
                 "🇸🇬SG | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 4",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
-                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🔴 | trojan | @oneclickvpnkeys | 8",
                 "❔XX | 🔴 | trojan | @oneclickvpnkeys | 9",
-                "❔XX | 🔴 | trojan | @oneclickvpnkeys | 10",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 122",
@@ -154,8 +154,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | trojan | @ConfigsHUB | 16",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -165,8 +165,8 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 9",
-                "❔XX | 🔴 | vless | @FreakConfig | 14",
-                "❔XX | 🟢 | vmess | @FreakConfig | 15",
+                "❔XX | 🟢 | vmess | @FreakConfig | 14",
+                "❔XX | 🔴 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @flyv2ray | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 10",
@@ -211,9 +211,9 @@
                 "🇸🇬SG | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 4",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
-                "❔XX | 🟢 | vmess | @mftizi | 17",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
+                "❔XX | 🔴 | trojan | @oneclickvpnkeys | 8",
                 "❔XX | 🔴 | trojan | @oneclickvpnkeys | 9",
-                "❔XX | 🔴 | trojan | @oneclickvpnkeys | 10",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 122",
@@ -232,8 +232,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | trojan | @ConfigsHUB | 16",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -243,8 +243,8 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 9",
-                "❔XX | 🔴 | vless | @FreakConfig | 14",
-                "❔XX | 🟢 | vmess | @FreakConfig | 15",
+                "❔XX | 🟢 | vmess | @FreakConfig | 14",
+                "❔XX | 🔴 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🔴 | vless | @flyv2ray | 4",
                 "❔XX | 🟢 | vless | @mehrosaboran | 10",
@@ -877,7 +877,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @mftizi | 17",
+            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
             "type": "vmess",
             "server": "183.236.51.23",
             "server_port": 53002,
@@ -887,6 +887,18 @@
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | trojan | @oneclickvpnkeys | 8",
+            "type": "trojan",
+            "server": "202.78.163.148",
+            "server_port": 443,
+            "password": "ND91608427",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -909,25 +921,6 @@
                 "path": "\/assignment",
                 "headers": {
                     "Host": "www.calmlunch.com"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | trojan | @oneclickvpnkeys | 10",
-            "type": "trojan",
-            "server": "167.68.4.199",
-            "server_port": 2053,
-            "password": "Aimer",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "epge.muarua.filegear-sg.me"
                 }
             }
         },
@@ -1444,13 +1437,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "104.21.47.176",
+            "tag": "❔XX | 🔴 | trojan | @ConfigsHUB | 16",
+            "type": "trojan",
+            "server": "join-telegram-channel.tirexnet.kdns.fr",
             "server_port": 443,
-            "uuid": "52701795-3c3b-46b4-b7cf-c5978b3a4cf2",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "password": "humanity",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -1458,7 +1449,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hdfy7c3.freeairlaines.com",
+                "server_name": "www.ignitelimit.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1468,19 +1459,19 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/IfCDH2usa5hne1e",
+                "path": "\/assignment",
                 "headers": {
-                    "Host": "hdfy7c3.freeairlaines.com"
+                    "Host": "www.ignitelimit.com"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
             "type": "vless",
-            "server": "172.67.155.140",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
+            "server": "vip-de2-unlimited.relqino.ir",
+            "server_port": 1020,
+            "uuid": "52988652-6e1d-4276-964a-10f167579f32",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1489,19 +1480,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "www.samsung.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU",
+                    "short_id": "3fa2fdb7dce16b8b"
                 }
             }
         },
@@ -1754,7 +1743,24 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 14",
+            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 14",
+            "type": "vmess",
+            "server": "185.173.104.79",
+            "server_port": 2030,
+            "uuid": "e4b36391-014f-4462-809c-8e64aa84359e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 15",
             "type": "vless",
             "server": "45.89.223.251",
             "server_port": 8282,
@@ -1781,30 +1787,6 @@
                 "path": "\/live",
                 "headers": {
                     "Host": "vip.dokhtaroune.ir"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 15",
-            "type": "vmess",
-            "server": "pro.mzwebm.ir",
-            "server_port": 80,
-            "uuid": "f21d27ae-6412-4d4a-878d-a5edc51cf043",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vipmax",
-                "headers": {
-                    "Host": ""
                 }
             }
         },

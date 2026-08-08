@@ -116,6 +116,7 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 10",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 9",
@@ -139,6 +140,7 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 10",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 9",
@@ -468,6 +470,35 @@
                     "enabled": true,
                     "public_key": "6m_clJWpXHndi176bB428JqroczCuJVMyhfMGuI9wRI",
                     "short_id": "11e9"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "vip-de2-unlimited.relqino.ir",
+            "server_port": 1020,
+            "uuid": "52988652-6e1d-4276-964a-10f167579f32",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.samsung.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU",
+                    "short_id": "3fa2fdb7dce16b8b"
                 }
             }
         },
