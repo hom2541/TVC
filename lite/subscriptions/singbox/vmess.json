@@ -106,14 +106,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
+                "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @V2rayng_Fast | 1",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 14",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
+                "❔XX | 🟢 | vmess | @Hope_Net | 13",
                 "❔XX | 🟢 | vmess | @FreakConfig | 14"
             ]
         },
@@ -121,14 +122,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
+                "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @V2rayng_Fast | 0",
                 "❔XX | 🟢 | vmess | @V2rayng_Fast | 1",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 14",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "❔XX | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @Hope_Net | 12",
+                "❔XX | 🟢 | vmess | @Hope_Net | 13",
                 "❔XX | 🟢 | vmess | @FreakConfig | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -152,7 +154,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
+            "tag": "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
             "server_port": 29776,
@@ -237,6 +239,23 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 14",
+            "type": "vmess",
+            "server": "172.66.44.97",
+            "server_port": 8080,
+            "uuid": "4a867abd-f3da-4f28-8f40-3e429f055d65",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -295,7 +314,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 8",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 12",
             "type": "vmess",
             "server": "23.227.38.6",
             "server_port": 2086,
@@ -319,7 +338,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 9",
+            "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 2082,
