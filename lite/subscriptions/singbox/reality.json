@@ -115,13 +115,13 @@
                 "🇳🇱NL | 🔴 | vless | @V2rayCollector | 29",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 117",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 11",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 7",
+                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @Capoit | 9",
                 "❔XX | 🟢 | vless | @Capoit | 10",
+                "❔XX | 🟢 | vless | @Capoit | 11",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 11",
@@ -143,13 +143,13 @@
                 "🇳🇱NL | 🔴 | vless | @V2rayCollector | 29",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 117",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 10",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 11",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 7",
+                "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @Capoit | 9",
                 "❔XX | 🟢 | vless | @Capoit | 10",
+                "❔XX | 🟢 | vless | @Capoit | 11",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @flyv2ray | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 11",
@@ -467,11 +467,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 10",
+            "tag": "❔XX | 🔴 | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
-            "server": "185.204.171.107",
+            "server": "files.noneok.com",
             "server_port": 443,
-            "uuid": "eda6b321-aa59-4b1e-b823-3616af020b4a",
+            "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -481,65 +481,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8Cho6K3KB6Aoty9x_TCAbY3yv7m-ToCHqaKkZTxR3jM",
-                    "short_id": "d6c3c9"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 11",
-            "type": "vless",
-            "server": "45.92.219.204",
-            "server_port": 8088,
-            "uuid": "06f86f1b-1fa0-437e-9e5d-8f8cf27bdf96",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6m_clJWpXHndi176bB428JqroczCuJVMyhfMGuI9wRI",
-                    "short_id": "11e9"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 7",
-            "type": "vless",
-            "server": "150.241.72.37",
-            "server_port": 443,
-            "uuid": "f692629b-3557-488a-9c9b-60775331e423",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fi1-cosmostechnology.ru",
+                "server_name": "files.noneok.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -548,16 +490,74 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA",
-                    "short_id": ""
+                    "public_key": "q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g",
+                    "short_id": "d3b394558cfe0266"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "fi1cosmos",
+                "service_name": "api.v1.StreamService",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "64.188.62.138",
+            "server_port": 40443,
+            "uuid": "9150748b-fa2b-4ef1-a7f1-7c4a76e2dc0b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "U1ABwLTij71fW63nwMukZBezSQKADiBRuKCATiNUxUw",
+                    "short_id": "27bb"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "iran.varnaroleplay.ir",
+            "server_port": 3939,
+            "uuid": "fd7234b9-803a-42ca-ab05-f2d547bb130a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.varzesh3.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7Udu8M44zSpjPJ-t0Fan1kAaykeB3PkKBCCoJCoxOjk",
+                    "short_id": "f9fe9522b62bac68"
+                }
             }
         },
         {
@@ -619,7 +619,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Capoit | 9",
+            "tag": "❔XX | 🟢 | vless | @Capoit | 10",
             "type": "vless",
             "server": "45.196.201.61",
             "server_port": 443,
@@ -648,7 +648,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Capoit | 10",
+            "tag": "❔XX | 🟢 | vless | @Capoit | 11",
             "type": "vless",
             "server": "45.196.201.129",
             "server_port": 443,
