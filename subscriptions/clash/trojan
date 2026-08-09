@@ -125,10 +125,8 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"15.237.219.234","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"careful-tadpole.rooster465.autos"}
   - {"name":"🚩CF | 🔴 | trojan | @v2ray1_ng | 6","type":"trojan","server":"172.67.149.60","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 3","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 2","type":"trojan","server":"18.224.186.175","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 3","type":"trojan","server":"13.60.165.212","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"35.176.142.159","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 5","type":"trojan","server":"54.155.44.231","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"151.115.83.239","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"egajz.phooeyunfold.com"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 16","type":"trojan","server":"3.137.1.198","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -142,10 +140,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 6'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 3'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 2'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 3'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 5'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -159,10 +155,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 6'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 3'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 2'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 3'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 5'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -175,10 +169,8 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 6'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 3'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 2'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 3'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 5'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
