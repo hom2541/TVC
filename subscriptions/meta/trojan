@@ -123,7 +123,7 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"51.44.160.58","port":443,"udp":false,"password":"QV31589740","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"great-krill.rooster465.autos"}
   - {"name":"🚩CF | 🔴 | trojan | @v2ray1_ng | 7","type":"trojan","server":"172.67.149.60","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 4","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"188.114.97.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 8","type":"trojan","server":"Hkdcrtc-e.catcat321.com","port":20041,"udp":false,"password":"ba07a8af-5544-48ac-ab62-3b6c00a44fa6","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"de.catxstar.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -133,7 +133,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 7'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 4'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -143,7 +143,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 7'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 4'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -152,7 +152,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 7'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 4'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 8'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
