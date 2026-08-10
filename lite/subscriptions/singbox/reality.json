@@ -112,10 +112,9 @@
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 4",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 41",
+                "🇷🇺RU | 🟢 | vless | @V2rayCollector | 41",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 124",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
@@ -140,10 +139,9 @@
                 "🇷🇺RU | 🟢 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🟢 | vless | @proxy_kafee | 4",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 41",
+                "🇷🇺RU | 🟢 | vless | @V2rayCollector | 41",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 17",
                 "❔XX | 🔴 | vless | @prrofile_purple | 124",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 10",
@@ -359,11 +357,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 41",
+            "tag": "🇷🇺RU | 🟢 | vless | @V2rayCollector | 41",
             "type": "vless",
-            "server": "130.49.185.196",
-            "server_port": 443,
-            "uuid": "e3c56988-5261-400f-b21b-6af5fa6efae1",
+            "server": "176.109.85.140",
+            "server_port": 9444,
+            "uuid": "b251ec8f-47ec-4ab4-8bd2-13ac333a4100",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -373,17 +371,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "site.rumedia-cdn.com",
+                "server_name": "max.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM",
-                    "short_id": "808a7e8a2e32c697"
+                    "public_key": "bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w",
+                    "short_id": "12b9ecabbf3a3b88"
                 }
             }
         },
@@ -442,35 +440,6 @@
                     "enabled": true,
                     "public_key": "6GfyVeO2GgIndTfBl4mFIgJi6eVSpQv7PDeV5F5RLyo",
                     "short_id": "408aded4"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "77.110.110.146",
-            "server_port": 26499,
-            "uuid": "8ba62cb0-d3ed-4328-a62c-fdfd20b586fd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EmxH6vjWIq5fE7m7lugU0wlMQDscbYUaUaAFF_-9LQI",
-                    "short_id": "e2121a7f52a3"
                 }
             }
         },
