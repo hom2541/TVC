@@ -131,8 +131,8 @@
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 5",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
@@ -149,8 +149,7 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -205,8 +204,8 @@
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 5",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
@@ -223,8 +222,7 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
@@ -812,7 +810,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 6",
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -829,7 +827,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "ru.rush-server.com",
             "server_port": 443,
@@ -1273,46 +1271,17 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "ip6-free.shakhle.ir",
-            "server_port": 52525,
-            "uuid": "daa63137-0b76-4752-8041-0ba177eea1bb",
+            "server": "82.40.62.209",
+            "server_port": 1234,
+            "uuid": "96955608-9bb7-4f1a-8500-a5d0ee4925a2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "vajm5bz324c3.vtret.com",
-            "server_port": 8379,
-            "uuid": "a2292e36-fafb-6634-051d-1d99f45503c7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "qIRHacDVKAuyQJrOJMSpwYyKhw-5KwvOX0W3d-TiB3w",
-                    "short_id": "07529200e1fe"
-                }
             }
         },
         {
