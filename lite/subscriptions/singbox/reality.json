@@ -111,6 +111,8 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
+                "❔XX | 🟢 | vless | @prrofile_purple | 124",
+                "❔XX | 🟢 | vless | @prrofile_purple | 125",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 12",
                 "❔XX | 🟢 | vless | @ShadowProxy66 | 0",
                 "❔XX | 🟢 | vless | @ShadowProxy66 | 1",
@@ -135,6 +137,8 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
+                "❔XX | 🟢 | vless | @prrofile_purple | 124",
+                "❔XX | 🟢 | vless | @prrofile_purple | 125",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 12",
                 "❔XX | 🟢 | vless | @ShadowProxy66 | 0",
                 "❔XX | 🟢 | vless | @ShadowProxy66 | 1",
@@ -318,6 +322,64 @@
                     "enabled": true,
                     "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
                     "short_id": "93ae75024604f796"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 124",
+            "type": "vless",
+            "server": "secget.ru",
+            "server_port": 8443,
+            "uuid": "68d3fcbe-f025-2710-82d6-9455c5e5f6b5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "secget.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vV3mxSgZ-8x3Gp373AXdMDM3FAdmLP0v5zIfI486SDI",
+                    "short_id": "f8a8ee8381529673"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 125",
+            "type": "vless",
+            "server": "secget.ru",
+            "server_port": 8443,
+            "uuid": "68d3fcbe-f025-2710-82d6-9455c5e5f6b5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "secget.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "vV3mxSgZ-8x3Gp373AXdMDM3FAdmLP0v5zIfI486SDI",
+                    "short_id": "f8a8ee8381529673"
                 }
             }
         },
