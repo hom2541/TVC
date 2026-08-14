@@ -110,14 +110,14 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @ShadowProxy66 | 0",
-                "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 11",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -133,14 +133,14 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @ShadowProxy66 | 0",
-                "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 11",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -291,35 +291,6 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 16",
-            "type": "vless",
-            "server": "ru.rush-server.com",
-            "server_port": 443,
-            "uuid": "aa91b870-8658-4dcb-a53a-423df017e35b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "findmypackets.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-                    "short_id": "93ae75024604f796"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vless | @ShadowProxy66 | 0",
             "type": "vless",
             "server": "216.106.183.132",
@@ -349,7 +320,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 8",
+            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
             "type": "vless",
             "server": "159.195.46.178",
             "server_port": 443,
@@ -519,6 +490,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 11",
+            "type": "vless",
+            "server": "EN1.ZAG-FA.SOLVETA.IR",
+            "server_port": 9982,
+            "uuid": "b2a21714-fd64-461f-9364-49ea2ddc8b59",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mPYP_E1bJqvNXD-uKRU4QFyXk6B9lweXX5cqgbq3l3M",
+                    "short_id": "16b3713dce93ee0c"
                 }
             }
         },
