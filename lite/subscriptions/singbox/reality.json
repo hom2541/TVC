@@ -110,11 +110,12 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 8",
-                "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 4",
+                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 8",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -130,11 +131,12 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 8",
-                "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 4",
+                "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 8",
+                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -285,7 +287,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 4",
+            "type": "vless",
+            "server": "de-d-178105.homelanderwins.com",
+            "server_port": 40840,
+            "uuid": "ff45e582-ade8-4656-a291-74df0fdceb2d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.neshan.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RPJb-M8Bj08XgL-ou8yr5eBNPlG-GT6iG5rxTBxX9iw",
+                    "short_id": "899530"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @v2ray1_ng | 8",
             "type": "vless",
             "server": "188.225.83.179",
             "server_port": 443,
@@ -314,7 +345,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 8",
+            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
             "type": "vless",
             "server": "159.195.46.178",
             "server_port": 443,
@@ -401,7 +432,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
