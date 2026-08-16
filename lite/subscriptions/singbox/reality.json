@@ -110,12 +110,12 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇳🇱NL | 🔴 | vless | @V2rayCollector | 24",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 11",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 11",
@@ -132,12 +132,12 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇳🇱NL | 🔴 | vless | @V2rayCollector | 24",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 11",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 11",
@@ -289,35 +289,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @V2rayCollector | 24",
-            "type": "vless",
-            "server": "144.31.65.59",
-            "server_port": 443,
-            "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "node17.mxvpn.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw",
-                    "short_id": "bbc68cec8bb8d2e3"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
             "type": "vless",
             "server": "de-d-178105.homelanderwins.com",
@@ -347,7 +318,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "213.176.67.31",
             "server_port": 443,
@@ -434,7 +405,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 8",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 8",
             "type": "vless",
             "server": "159.195.46.178",
             "server_port": 443,
@@ -459,6 +430,35 @@
                     "enabled": true,
                     "public_key": "P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ",
                     "short_id": "04bc695105689674"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "5.255.112.81",
+            "server_port": 443,
+            "uuid": "f7c25743-140c-4d32-a296-a53bc49682d8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "direct-nl.bachidze.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw",
+                    "short_id": ""
                 }
             }
         },
