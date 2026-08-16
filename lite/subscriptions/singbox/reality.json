@@ -110,17 +110,17 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 32",
+                "🇳🇱NL | 🔴 | vless | @V2rayCollector | 24",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
-                "❔XX | 🔴 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84"
@@ -134,17 +134,17 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 32",
+                "🇳🇱NL | 🔴 | vless | @V2rayCollector | 24",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
-                "❔XX | 🔴 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84"
@@ -293,9 +293,9 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
+            "tag": "🇳🇱NL | 🔴 | vless | @V2rayCollector | 24",
             "type": "vless",
-            "server": "81.19.137.181",
+            "server": "144.31.65.59",
             "server_port": 443,
             "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
             "flow": "xtls-rprx-vision",
@@ -307,7 +307,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "node21.mxvpn.dev",
+                "server_name": "node17.mxvpn.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -318,35 +318,6 @@
                     "enabled": true,
                     "public_key": "TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw",
                     "short_id": "bbc68cec8bb8d2e3"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 32",
-            "type": "vless",
-            "server": "51.158.206.26",
-            "server_port": 23576,
-            "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "fuck.rkn",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-                    "short_id": "01"
                 }
             }
         },
@@ -380,7 +351,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "213.176.67.31",
             "server_port": 443,
@@ -496,6 +467,64 @@
             }
         },
         {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "sakura.proxy.rlwy.net",
+            "server_port": 44917,
+            "uuid": "0a036b1d-b915-439f-b4b3-caa637c61e3a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.samsung.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lnW0ggGLrSk5E4Iabw30DGHretuTV2KQcWlqDCcVKmc",
+                    "short_id": "526a2c8a4326dad0"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "179.198.50.131",
+            "server_port": 8443,
+            "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wikihow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -555,35 +584,6 @@
         },
         {
             "tag": "❔XX | 🔴 | vless | @FreakConfig | 12",
-            "type": "vless",
-            "server": "57.131.42.58",
-            "server_port": 8008,
-            "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yGB6HD9OYiD77YWTH1YxcG9yIYkyeEYOEcHL-WnwQn8",
-                    "short_id": "5f9a"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 13",
             "type": "vless",
             "server": "88.218.44.5",
             "server_port": 8443,
