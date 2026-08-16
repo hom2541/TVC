@@ -129,8 +129,6 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"pro-crane.rooster465.autos","port":443,"udp":false,"password":"FH72359861","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 11","type":"trojan","server":"18.198.1.232","port":443,"udp":false,"password":"AE62539071","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"teaching-gnu.rooster465.autos"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 5","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"tough-hermit.rooster465.autos","port":443,"udp":false,"password":"FH72359861","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"45.80.111.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -146,8 +144,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 11'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -163,8 +159,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 11'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -179,8 +173,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 11'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 16'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
