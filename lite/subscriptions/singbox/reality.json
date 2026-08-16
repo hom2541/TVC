@@ -111,17 +111,16 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
-                "❔XX | 🟢 | vless | @V2rayCollector | 32",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 32",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
+                "❔XX | 🔴 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84"
@@ -136,17 +135,16 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
-                "❔XX | 🟢 | vless | @V2rayCollector | 32",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 32",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 11",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @FreakConfig | 12",
+                "❔XX | 🔴 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84"
@@ -324,7 +322,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @V2rayCollector | 32",
+            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 32",
             "type": "vless",
             "server": "51.158.206.26",
             "server_port": 23576,
@@ -382,7 +380,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "213.176.67.31",
             "server_port": 443,
@@ -498,64 +496,6 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 15",
-            "type": "vless",
-            "server": "195.63.138.112",
-            "server_port": 443,
-            "uuid": "9aff0732-7ce4-4b34-ba20-e67c6df64fdd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v938014.hosted-by-vdsina.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2guR3_fpRkIfDzdWBWDibb0H2Ypn06vq2vqMF4WfNUk",
-                    "short_id": "1899e4d82e80cbcf"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
-            "type": "vless",
-            "server": "germany.panelbaz.com",
-            "server_port": 5000,
-            "uuid": "4907461d-bd34-418a-b4b9-6106f979c686",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -615,6 +555,35 @@
         },
         {
             "tag": "❔XX | 🔴 | vless | @FreakConfig | 12",
+            "type": "vless",
+            "server": "57.131.42.58",
+            "server_port": 8008,
+            "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yGB6HD9OYiD77YWTH1YxcG9yIYkyeEYOEcHL-WnwQn8",
+                    "short_id": "5f9a"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 13",
             "type": "vless",
             "server": "88.218.44.5",
             "server_port": 8443,
