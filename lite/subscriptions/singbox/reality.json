@@ -112,7 +112,6 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -132,7 +131,6 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -339,35 +337,6 @@
                     "enabled": true,
                     "public_key": "TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw",
                     "short_id": "bbc68cec8bb8d2e3"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
-            "type": "vless",
-            "server": "93.152.223.98",
-            "server_port": 443,
-            "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "web.max.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE",
-                    "short_id": "45ba18f429ad1f28"
                 }
             }
         },
