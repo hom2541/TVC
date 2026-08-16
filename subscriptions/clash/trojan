@@ -123,7 +123,13 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 3","type":"trojan","server":"54.216.139.140","port":443,"udp":false,"password":"FH72359861","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"cunning-grub.rooster465.autos"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"63.176.171.181","port":443,"udp":false,"password":"FH72359861","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"engaging-toucan.rooster465.autos"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 5","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"130.250.137.171","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 8","type":"trojan","server":"chief-bluegill.rooster465.autos","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"chief-bluegill.rooster465.autos"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 9","type":"trojan","server":"unbiased-garfish.rooster465.autos","port":443,"udp":false,"password":"AE62539071","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"intimate-moray.rooster465.autos","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"intimate-moray.rooster465.autos"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 13","type":"trojan","server":"devoted-heron.rooster465.autos","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"devoted-heron.rooster465.autos"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 14","type":"trojan","server":"discrete-basilisk.rooster465.autos","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"discrete-basilisk.rooster465.autos"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 15","type":"trojan","server":"healthy-louse.rooster465.autos","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"healthy-louse.rooster465.autos"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 17","type":"trojan","server":"moral-buzzard.rooster465.autos","port":443,"udp":false,"password":"ND91608427","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"moral-buzzard.rooster465.autos"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,7 +141,13 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 3'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 13'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 14'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 15'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 17'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -147,7 +159,13 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 3'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 13'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 14'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 15'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 17'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -158,7 +176,13 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 3'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 5'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 3'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 13'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 14'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 15'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 17'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
