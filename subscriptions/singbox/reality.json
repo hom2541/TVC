@@ -166,7 +166,12 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -281,7 +286,12 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 11",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -2190,11 +2200,156 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 16",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "162.19.156.14",
-            "server_port": 6800,
-            "uuid": "7595cd50-9326-48e4-a7bc-802e85e643ec",
+            "server": "153.75.89.149",
+            "server_port": 443,
+            "uuid": "45c595fa-988f-11f1-8024-54db13ea7d40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tradingview.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "T6zoUTIKw5BMEvb5-GPicYK0a1nuXnbOEdKytLblizY",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "31.76.119.198",
+            "server_port": 443,
+            "uuid": "45c595fa-988f-11f1-8024-54db13ea7d40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.akamai.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "143.246.196.157",
+            "server_port": 443,
+            "uuid": "45c595fa-988f-11f1-8024-54db13ea7d40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.blocket.se",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+            "type": "vless",
+            "server": "144.172.91.227",
+            "server_port": 443,
+            "uuid": "45c595fa-988f-11f1-8024-54db13ea7d40",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.nvidia.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "n25FmewpAEsvLl9Vr0bRFcz044f4IE7orWeWOzu8rwk",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "212.118.40.187",
+            "server_port": 443,
+            "uuid": "ee71862e-816b-4d26-97d2-f200898e385d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cisco.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MfOXevYFoqnwIn6dUiPZvWYRfYHyb5lzBy3R1OSsrWg",
+                    "short_id": "f3e8b2b1"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "germany.panelbaz.com",
+            "server_port": 5000,
+            "uuid": "4907461d-bd34-418a-b4b9-6106f979c686",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
