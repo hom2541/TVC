@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 6 = trojan, 18.198.1.232, 443, password = AE62539071, udp-delay = true, skip-cert-verify = false, sni = teaching-gnu.rooster465.autos, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 14 = trojan, fr2.levikogjgfdd.ir, 2053, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 15 = trojan, needed-gelding.rooster465.autos, 443, password = FH72359861, udp-delay = true, skip-cert-verify = false, sni = needed-gelding.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 14 = trojan, 188.114.97.6, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = true, sni = Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 14,❔XX | 🔴 | trojan | @ConfigsHUB | 15
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 14,❔XX | 🔴 | trojan | @ConfigsHUB | 15
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 14,❔XX | 🔴 | trojan | @ConfigsHUB | 15
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 14
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 14
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
