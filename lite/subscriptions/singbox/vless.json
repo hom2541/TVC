@@ -127,15 +127,15 @@
                 "🇨🇦CA | 🟢 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 37",
-                "🇰🇿KZ | 🟢 | vless | @V2rayCollector | 38",
-                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
+                "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
+                "❔XX | 🟢 | vless | @V2rayCollector | 32",
+                "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🔴 | vless | @Outline_Vpn | 16",
+                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🔴 | vless | @prrofile_purple | 122",
                 "❔XX | 🔴 | vless | @prrofile_purple | 123",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 14",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 10",
@@ -146,7 +146,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -195,15 +196,15 @@
                 "🇨🇦CA | 🟢 | vless | @proxy_kafee | 1",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 37",
-                "🇰🇿KZ | 🟢 | vless | @V2rayCollector | 38",
-                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
+                "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
+                "❔XX | 🟢 | vless | @V2rayCollector | 32",
+                "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🔴 | vless | @Outline_Vpn | 16",
+                "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
                 "❔XX | 🔴 | vless | @prrofile_purple | 122",
                 "❔XX | 🔴 | vless | @prrofile_purple | 123",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 14",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 43",
                 "❔XX | 🔴 | vless | @v2ray_swhil | 44",
                 "❔XX | 🔴 | vless | @v2ray1_ng | 10",
@@ -214,7 +215,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🔴 | vless | @fnet00 | 0",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -731,9 +733,38 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 37",
+            "tag": "🇫🇷FR | 🔴 | vless | @V2rayCollector | 31",
             "type": "vless",
-            "server": "51.158.206.96",
+            "server": "81.19.137.181",
+            "server_port": 443,
+            "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "node21.mxvpn.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw",
+                    "short_id": "bbc68cec8bb8d2e3"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @V2rayCollector | 32",
+            "type": "vless",
+            "server": "51.158.206.26",
             "server_port": 23576,
             "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
             "flow": "xtls-rprx-vision",
@@ -760,36 +791,7 @@
             }
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | vless | @V2rayCollector | 38",
-            "type": "vless",
-            "server": "178.236.16.98",
-            "server_port": 35728,
-            "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng",
-                    "short_id": "69a2"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
+            "tag": "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
             "type": "vless",
             "server": "de-d-178105.homelanderwins.com",
             "server_port": 40840,
@@ -871,7 +873,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Outline_Vpn | 16",
+            "tag": "🇺🇸US | 🔴 | vless | @Outline_Vpn | 16",
             "type": "vless",
             "server": "108.162.195.58",
             "server_port": 443,
@@ -957,7 +959,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 14",
+            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 15",
             "type": "vless",
             "server": "93.152.223.98",
             "server_port": 443,
@@ -1262,11 +1264,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "143.246.182.7",
+            "server": "fsxhh11.uarlixo.ir",
             "server_port": 443,
-            "uuid": "60ba3369-9a78-40fe-98c3-233a6f107043",
+            "uuid": "ceb72168-9622-42f5-9c4d-0b83a06d4fd6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1276,12 +1278,43 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "uk7.jailever.org",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "202.37.33.80",
+            "server_port": 443,
+            "uuid": "5aafc2be-9348-4dec-b896-f4a91253bbca",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "support.zoom.us.yxls.eu.cc",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/id-tksi\/?@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI",
+                "headers": {
+                    "Host": "support.zoom.us.yxls.eu.cc"
                 }
             }
         },
