@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🟢 | trojan | @ConfigsHUB | 16 = trojan, sacred-shepherd.rooster465.autos, 443, password = FH72359861, udp-delay = true, skip-cert-verify = false, sni = sacred-shepherd.rooster465.autos, ws = false
+❔XX | 🟢 | trojan | @ConfigsHUB | 18 = trojan, skilled-monster.rooster465.autos, 443, password = AE62539071, udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | trojan | @ConfigsHUB | 16
-URL-TEST = url-test,❔XX | 🟢 | trojan | @ConfigsHUB | 16
-FALLBACK = fallback,❔XX | 🟢 | trojan | @ConfigsHUB | 16
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | trojan | @ConfigsHUB | 18
+URL-TEST = url-test,❔XX | 🟢 | trojan | @ConfigsHUB | 18
+FALLBACK = fallback,❔XX | 🟢 | trojan | @ConfigsHUB | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
