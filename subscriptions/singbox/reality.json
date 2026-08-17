@@ -112,6 +112,7 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
                 "❔XX | 🔴 | vless | @V2rayCollector | 1",
@@ -161,9 +162,15 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 11",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 1",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 7",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -227,6 +234,7 @@
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+                "❔XX | 🔴 | vless | @proxy_kafee | 0",
                 "❔XX | 🔴 | vless | @v2logy | 6",
                 "❔XX | 🔴 | vless | @V2rayCollector | 0",
                 "❔XX | 🔴 | vless | @V2rayCollector | 1",
@@ -276,9 +284,15 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 11",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 1",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 7",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -529,6 +543,35 @@
                     "enabled": true,
                     "public_key": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @proxy_kafee | 0",
+            "type": "vless",
+            "server": "66.33.22.231",
+            "server_port": 55089,
+            "uuid": "183ee94c-771c-4960-8e8c-66ecc92e8537",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "is1-ssl.mzstatic.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PCHmeeMMm3NuigTrIFwOrir7K3nHd1hV28currvUvx0",
+                    "short_id": "5a3ff5a13d"
                 }
             }
         },
@@ -2003,7 +2046,123 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "ita.montago-shop.ir",
+            "server_port": 443,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amp-api-edge.apps.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "377d"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 1",
+            "type": "vless",
+            "server": "nle.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amp-api-edge.apps.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "377d"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "ae-google.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "delivery.mp.microsoft.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "08"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 7",
+            "type": "vless",
+            "server": "uk-google.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amp-api-edge.apps.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "cbe2503ffd040d"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 8",
             "type": "vless",
             "server": "195.184.247.240",
             "server_port": 443,
@@ -2032,11 +2191,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 13",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "95.169.201.169",
-            "server_port": 13868,
-            "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+            "server": "usi.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2046,26 +2205,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "amd.com",
+                "server_name": "amp-api-edge.apps.apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "XxzDVidmyjuPnBKrFDwCpowaIdLth4-kJsqrDvdPPx8",
-                    "short_id": "e852dc"
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "9ed2fa"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 12",
             "type": "vless",
-            "server": "45.121.50.241",
-            "server_port": 50159,
-            "uuid": "47a97b7f-044d-43d6-86b0-8b256873d1b5",
+            "server": "usq.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2075,17 +2234,75 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "amp-api-edge.apps.apple.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE",
-                    "short_id": "4c3f80051030ba1b"
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "9ed2fa"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "ugb.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amp-api-edge.apps.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "377d"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
+            "type": "vless",
+            "server": "crm.mobileemdad.top",
+            "server_port": 3131,
+            "uuid": "2b44a7c2-82da-4ef1-a275-319f7956f4fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amp-api-edge.apps.apple.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_TLSfMNLBxrgGXOP5fiTcnSxPtjIUTrDwq4VgWTlZDM",
+                    "short_id": "16256ff0b20007"
                 }
             }
         },
