@@ -111,10 +111,11 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @V2rayCollector | 61",
-                "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
+                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 13",
@@ -134,10 +135,11 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇷🇺RU | 🟢 | vless | @V2rayCollector | 61",
-                "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
+                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 13",
@@ -320,7 +322,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
             "type": "vless",
             "server": "de-d-178105.homelanderwins.com",
             "server_port": 40840,
@@ -409,9 +411,9 @@
         {
             "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "148.113.5.44",
+            "server": "sw1-chr.astralweb.tech",
             "server_port": 443,
-            "uuid": "72ea5a91-ffcc-43d2-9297-5993c3abf186",
+            "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -421,17 +423,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI",
-                    "short_id": "221873918e0bb74d"
+                    "public_key": "Z2c9dK70_0OWBEZGgeaXJyt9dup9h2-hZlCCvIGLg1Q",
+                    "short_id": "496ee75c2f91f51d"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "169.40.42.231",
+            "server_port": 443,
+            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+                    "short_id": "c39cc7310a"
                 }
             }
         },
