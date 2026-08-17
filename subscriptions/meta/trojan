@@ -127,12 +127,6 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 6","type":"trojan","server":"54.216.139.140","port":443,"udp":false,"password":"FH72359861","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"cunning-grub.rooster465.autos"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 8","type":"trojan","server":"63.176.171.181","port":443,"udp":false,"password":"FH72359861","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"engaging-toucan.rooster465.autos"}
   - {"name":"🚩CF | 🔴 | trojan | @VmessProtocol | 5","type":"trojan","server":"104.16.174.121","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 5","type":"trojan","server":"45.85.118.0","port":2053,"udp":false,"password":"ZJU29smXwp","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"web2.teama.tk"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 6","type":"trojan","server":"172.67.68.87","port":2053,"udp":false,"password":"ZJU29smXwp","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"Web2.teama.tk"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"172.67.191.189","port":2053,"udp":false,"password":"ZJU29smXwp","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"web2.teama.tk"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"stable-python.rooster465.autos","port":443,"udp":false,"password":"PQ05174892","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 13","type":"trojan","server":"concise-guinea.rooster465.autos","port":443,"udp":false,"password":"PQ05174892","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"welcome-monitor.rooster465.autos","port":443,"udp":false,"password":"PQ05174892","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":""}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -146,12 +140,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 13'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -165,12 +153,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 13'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -183,12 +165,6 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 6'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🚩CF | 🔴 | trojan | @VmessProtocol | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 13'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 18'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
