@@ -110,9 +110,10 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇬🇧GB | 🟢 | vless | @V2rayCollector | 46",
-                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 16",
+                "🇫🇮FI | 🔴 | vless | @DarkTeam_VPN | 0",
+                "🇬🇧GB | 🟢 | vless | @V2rayCollector | 57",
+                "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @prrofile_purple | 114",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 18",
@@ -133,9 +134,10 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇬🇧GB | 🟢 | vless | @V2rayCollector | 46",
-                "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 16",
+                "🇫🇮FI | 🔴 | vless | @DarkTeam_VPN | 0",
+                "🇬🇧GB | 🟢 | vless | @V2rayCollector | 57",
+                "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
                 "❔XX | 🟢 | vless | @prrofile_purple | 114",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 18",
@@ -291,7 +293,36 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @V2rayCollector | 46",
+            "tag": "🇫🇮FI | 🔴 | vless | @DarkTeam_VPN | 0",
+            "type": "vless",
+            "server": "fi3-fast.iramgnewr231.ir",
+            "server_port": 443,
+            "uuid": "5e08f902-7867-410b-9b04-92165226ca20",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "us.demonware.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LARRTFqleriEB57nlffwtRvqs4RKYlGO8YkxPDAabHE",
+                    "short_id": "52e4902285927e24"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | vless | @V2rayCollector | 57",
             "type": "vless",
             "server": "uk2.levikogjgfdd.ir",
             "server_port": 443,
@@ -320,7 +351,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
+            "tag": "❔XX | 🔴 | vless | @azadi_az_inja_migzare | 2",
             "type": "vless",
             "server": "de-d-178105.homelanderwins.com",
             "server_port": 40840,
@@ -349,7 +380,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 16",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 16",
             "type": "vless",
             "server": "213.176.67.31",
             "server_port": 443,
@@ -438,9 +469,9 @@
         {
             "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "pl154.slovovpn.com",
-            "server_port": 26417,
-            "uuid": "187b1ee2-9b91-4dae-a59a-7af87621167f",
+            "server": "pk-play.mobileemdad.top",
+            "server_port": 443,
+            "uuid": "6f719ff5-cb04-4e94-b982-0bd94ba49d94",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -450,17 +481,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "github.com",
+                "server_name": "delivery.mp.microsoft.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "edge"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "UIW5K60pwiph20ht5dLF22CmD68KphGRiYTBK0wBXXw",
-                    "short_id": "73b1"
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "cbe2503ffd040d"
                 }
             }
         },
