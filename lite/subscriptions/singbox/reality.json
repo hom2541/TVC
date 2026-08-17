@@ -114,6 +114,8 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 114",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
@@ -136,6 +138,8 @@
                 "❔XX | 🟢 | vless | @prrofile_purple | 114",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vless | @VmessProtocol | 8",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
@@ -401,6 +405,64 @@
                     "enabled": true,
                     "public_key": "P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ",
                     "short_id": "04bc695105689674"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "85.155.226.87",
+            "server_port": 443,
+            "uuid": "39c42b0a-b823-4c93-bb99-74b4183e518d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "getsavesafe.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs",
+                    "short_id": "82f5d3a1e9c0b661"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "eeqw.slovovpn.com",
+            "server_port": 7463,
+            "uuid": "7455819d-c9d2-4422-89da-905aec0c862d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "github.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cu1owhInwMiRhM8g6aztvQ7HPG82dpkdn7TYbIjfmz0",
+                    "short_id": "2437cadc1043a0"
                 }
             }
         },
