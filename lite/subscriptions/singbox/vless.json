@@ -126,8 +126,8 @@
                 "🇷🇺RU | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @V2rayCollector | 29",
-                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 30",
+                "🇺🇸US | 🔴 | vless | @V2rayCollector | 35",
+                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 36",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 15",
@@ -146,8 +146,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
+                "=2048#❔XX | 🔴 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🟢 | vless | @free1_vpn | 9",
@@ -196,8 +196,8 @@
                 "🇷🇺RU | 🔴 | vless | @proxy_kafee | 3",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @V2rayCollector | 29",
-                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 30",
+                "🇺🇸US | 🔴 | vless | @V2rayCollector | 35",
+                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 36",
                 "🇩🇪DE | 🔴 | vless | @azadi_az_inja_migzare | 2",
                 "🇺🇸US | 🔴 | vless | @azadi_az_inja_migzare | 3",
                 "❔XX | 🔴 | vless | @Outline_Vpn | 15",
@@ -216,8 +216,8 @@
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 11",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 18",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
+                "=2048#❔XX | 🔴 | vless | @ConfigsHUB | 15",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 16",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🟢 | vless | @free1_vpn | 9",
@@ -713,7 +713,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2rayCollector | 29",
+            "tag": "🇺🇸US | 🔴 | vless | @V2rayCollector | 35",
             "type": "vless",
             "server": "104.18.42.54",
             "server_port": 443,
@@ -744,7 +744,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @V2rayCollector | 30",
+            "tag": "🇩🇪DE | 🔴 | vless | @V2rayCollector | 36",
             "type": "vless",
             "server": "144.31.219.161",
             "server_port": 443,
@@ -1251,9 +1251,9 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 18",
+            "tag": "=2048#❔XX | 🔴 | vless | @ConfigsHUB | 15",
             "type": "vless",
-            "server": "104.26.14.85",
+            "server": "173.245.49.157",
             "server_port": 443,
             "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
             "flow": "",
@@ -1282,11 +1282,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 19",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 16",
             "type": "vless",
-            "server": "167.233.213.147",
+            "server": "83.143.112.146",
             "server_port": 443,
-            "uuid": "a0877467-57ba-4599-ae90-369e831afb50",
+            "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1296,17 +1296,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "amzn.com",
+                "server_name": "nordic.cendora.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "ABmmHpVLtwIQBjZ52gvyrJfeHlN1YxmUvVnfEh61ZXI",
-                    "short_id": "8bd01daff9c4"
+                    "public_key": "YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU",
+                    "short_id": "2186a755ed67b034"
                 }
             }
         },
