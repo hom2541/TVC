@@ -113,9 +113,10 @@
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇬SG | 🔴 | vless | @V2rayCollector | 51",
                 "🇳🇱NL | 🟢 | vless | @V2rayCollector | 52",
-                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 14",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🔴 | vless | @prrofile_purple | 112",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 14",
@@ -138,9 +139,10 @@
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 1",
                 "🇸🇬SG | 🔴 | vless | @V2rayCollector | 51",
                 "🇳🇱NL | 🟢 | vless | @V2rayCollector | 52",
-                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 14",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🔴 | vless | @prrofile_purple | 112",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 14",
@@ -382,7 +384,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outline_Vpn | 14",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 14",
             "type": "vless",
             "server": "205.237.109.215",
             "server_port": 448,
@@ -447,11 +449,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 14",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 18",
             "type": "vless",
-            "server": "sto.edgeptr.org",
+            "server": "185.147.26.175",
             "server_port": 443,
-            "uuid": "7c860a30-fc08-48cf-94c8-bca5963b7ab0",
+            "uuid": "7d2bac5e-6ff9-45c9-844e-6bfc5a384a42",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -461,7 +463,36 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.lovelive-anime.jp",
+                "server_name": "yt.orpheous.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q",
+                    "short_id": "9e4eced6e98ed4d4"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "66.78.40.202",
+            "server_port": 443,
+            "uuid": "302c2e89-6f2d-4500-90ce-26d075c7e84f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.samsung.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -470,8 +501,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0",
-                    "short_id": "f0eb800bd980b00b"
+                    "public_key": "8zJkTehTmhmgKWUIj-CyJP4gtMjNxLgBxPjHC1wwW3A",
+                    "short_id": "61"
                 }
             }
         },
