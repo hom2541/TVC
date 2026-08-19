@@ -163,6 +163,12 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 2",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 6",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 12",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -274,6 +280,12 @@
                 "❔XX | 🟢 | vless | @VmessProtocol | 0",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 2",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 6",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 12",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -2012,9 +2024,9 @@
         {
             "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 0",
             "type": "vless",
-            "server": "sto.edgeptr.org",
+            "server": "45.141.148.11",
             "server_port": 443,
-            "uuid": "7c860a30-fc08-48cf-94c8-bca5963b7ab0",
+            "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2024,17 +2036,191 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.lovelive-anime.jp",
+                "server_name": "tr.savesafe.cc",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0",
-                    "short_id": "f0eb800bd980b00b"
+                    "public_key": "fyOnHd_PZ6UjxCLPDFfxrT3XIJnjTpHXyluFakC3v14",
+                    "short_id": "95d36da964f4e951"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "31.76.119.117",
+            "server_port": 443,
+            "uuid": "7d2bac5e-6ff9-45c9-844e-6bfc5a384a42",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de.orpheous.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q",
+                    "short_id": "9e4eced6e98ed4d4"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 5",
+            "type": "vless",
+            "server": "85.155.226.140",
+            "server_port": 443,
+            "uuid": "39c42b0a-b823-4c93-bb99-74b4183e518d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "getsavesafe.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs",
+                    "short_id": "82f5d3a1e9c0b661"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 6",
+            "type": "vless",
+            "server": "45.141.148.10",
+            "server_port": 443,
+            "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tr.savesafe.cc",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "fyOnHd_PZ6UjxCLPDFfxrT3XIJnjTpHXyluFakC3v14",
+                    "short_id": "95d36da964f4e951"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 12",
+            "type": "vless",
+            "server": "46.29.235.9",
+            "server_port": 443,
+            "uuid": "d67af820-f54c-48ab-862c-19086357f276",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegraf.lv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI",
+                    "short_id": "a1b2c3d4"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "188.212.124.148",
+            "server_port": 8443,
+            "uuid": "0f85a64b-55f4-4166-b217-7563d221cd4a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "omvpn.info",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cD8mVX41lqyVGCuPz0-tQWcNqkMxiPZxU7JJsyyNAEI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "185.147.26.175",
+            "server_port": 443,
+            "uuid": "7d2bac5e-6ff9-45c9-844e-6bfc5a384a42",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yt.orpheous.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q",
+                    "short_id": "9e4eced6e98ed4d4"
                 }
             }
         },
