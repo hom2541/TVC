@@ -111,8 +111,9 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
-                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
@@ -132,8 +133,9 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
-                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
@@ -316,7 +318,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "205.237.109.215",
             "server_port": 448,
@@ -378,6 +380,35 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "54.37.136.194",
+            "server_port": 2053,
+            "uuid": "a60bc8c8-1447-4f2c-a09c-c4293b257fd8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": ""
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JldKt40jK4uwPfwxy5RNZSvMf11bHIEphKmPNEmlRmg",
+                    "short_id": "6c3d30b55a969136"
+                }
             }
         },
         {
