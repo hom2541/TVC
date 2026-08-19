@@ -111,10 +111,8 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 3",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 13",
@@ -134,10 +132,8 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 3",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 13",
@@ -320,7 +316,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "205.237.109.215",
             "server_port": 448,
@@ -374,64 +370,6 @@
                     "enabled": true,
                     "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 3",
-            "type": "vless",
-            "server": "hokm-a6.igatel.com",
-            "server_port": 8526,
-            "uuid": "b85a89bb-ca90-454b-9f64-d7d6e996b28b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "amp-api-edge.apps.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM",
-                    "short_id": "62ad184af31fc8cf"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 4",
-            "type": "vless",
-            "server": "hokm-a4.igatel.com",
-            "server_port": 8526,
-            "uuid": "b85a89bb-ca90-454b-9f64-d7d6e996b28b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "amp-api-edge.apps.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM",
-                    "short_id": "62ad184af31fc8cf"
                 }
             }
         },
