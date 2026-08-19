@@ -112,12 +112,14 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 120",
+                "❔XX | 🟢 | vless | @prrofile_purple | 121",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 12",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
-                "❔XX | 🟢 | vless | @mehrosaboran | 14",
+                "❔XX | 🟢 | vless | @mehrosaboran | 15",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 18",
@@ -134,12 +136,14 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 120",
+                "❔XX | 🟢 | vless | @prrofile_purple | 121",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 12",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
-                "❔XX | 🟢 | vless | @mehrosaboran | 14",
+                "❔XX | 🟢 | vless | @mehrosaboran | 15",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 18",
@@ -347,11 +351,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
+            "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 120",
             "type": "vless",
-            "server": "core.noneok.com",
+            "server": "45.196.201.48",
             "server_port": 443,
-            "uuid": "340e4de3-144b-49c4-ad72-b49b35713728",
+            "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -361,33 +365,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "core.noneok.com",
+                "server_name": "storage.yandex.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "HAqqALwpxu_tx-IFcYaZWVshVKyKttGGrxoEfuP_Lgs",
-                    "short_id": "fde63d9c58210bf9"
+                    "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+                    "short_id": "c6ef72e4635d15a5"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "api.v1.StreamService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 121",
             "type": "vless",
-            "server": "54.37.136.194",
-            "server_port": 2053,
-            "uuid": "a60bc8c8-1447-4f2c-a09c-c4293b257fd8",
+            "server": "45.196.201.46",
+            "server_port": 443,
+            "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -397,17 +394,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "storage.yandex.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": ""
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JldKt40jK4uwPfwxy5RNZSvMf11bHIEphKmPNEmlRmg",
-                    "short_id": "6c3d30b55a969136"
+                    "public_key": "zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04",
+                    "short_id": "c6ef72e4635d15a5"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "169.40.42.95",
+            "server_port": 443,
+            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "ios"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+                    "short_id": "c39cc7310a"
                 }
             }
         },
@@ -470,6 +496,35 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 12",
+            "type": "vless",
+            "server": "shop.jarorobo.ir",
+            "server_port": 443,
+            "uuid": "70d0af29-a027-4d45-ad8d-e0ee1b4232b8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "adn-stg.yourservice.samsung.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uSoNVrVIdQ5Y0YOpDCRkaYK5VAzYG6tCPtTc4cim7Tw",
+                    "short_id": "22024c"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @flyv2ray | 2",
             "type": "vless",
             "server": "31.220.86.213",
@@ -499,7 +554,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 14",
+            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 15",
             "type": "vless",
             "server": "5.8.35.72",
             "server_port": 443,
