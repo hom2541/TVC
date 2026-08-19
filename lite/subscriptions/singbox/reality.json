@@ -112,8 +112,7 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🔴 | vless | @prrofile_purple | 112",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
@@ -134,8 +133,7 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇩🇪DE | 🔴 | vless | @proxy_kafee | 2",
                 "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🔴 | vless | @prrofile_purple | 112",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 12",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
@@ -347,7 +345,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 112",
+            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 112",
             "type": "vless",
             "server": "core.noneok.com",
             "server_port": 443,
@@ -380,35 +378,6 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "45.195.228.198",
-            "server_port": 443,
-            "uuid": "d5b44b89-ca73-4b82-a494-a72054c31df3",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "storage.yandex.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc",
-                    "short_id": "de8d3223e7d85761"
-                }
             }
         },
         {
