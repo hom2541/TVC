@@ -348,7 +348,7 @@
                 "❔XX | 🟢 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
-                "TVCzgbkvbgwvy",
+                "TVCqrywyjsadl",
                 "❔XX | 🔴 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @vless_vmess | 5",
                 "🚩CF | 🔴 | vless | @vless_vmess | 6",
@@ -380,9 +380,11 @@
                 "🚩CF | 🔴 | vless | @SafeNet_Server | 9",
                 "🚩CF | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 1",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 2",
-                "❔XX | 🔴 | trojan | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 4",
+                "❔XX | 🔴 | trojan | @ConfigsHUB | 5",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -780,7 +782,7 @@
                 "❔XX | 🟢 | vless | @v2ray1_ng | 5",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 7",
                 "🚩CF | 🔴 | vless | @v2ray1_ng | 8",
-                "TVCzgbkvbgwvy",
+                "TVCqrywyjsadl",
                 "❔XX | 🔴 | vless | @vless_vmess | 3",
                 "❔XX | 🔴 | vless | @vless_vmess | 5",
                 "🚩CF | 🔴 | vless | @vless_vmess | 6",
@@ -812,9 +814,11 @@
                 "🚩CF | 🔴 | vless | @SafeNet_Server | 9",
                 "🚩CF | 🔴 | vless | @SafeNet_Server | 10",
                 "❔XX | 🔴 | vless | @v2ray_vpn_ir | 0",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 1",
                 "❔XX | 🔴 | vless | @ConfigsHUB | 2",
-                "❔XX | 🔴 | trojan | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 4",
+                "❔XX | 🔴 | trojan | @ConfigsHUB | 5",
                 "❔XX | 🔴 | vless | @proxystore11 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
@@ -6876,7 +6880,7 @@
             }
         },
         {
-            "tag": "TVCzgbkvbgwvy",
+            "tag": "TVCqrywyjsadl",
             "type": "vless",
             "server": "dey.lnmarketplace.net",
             "server_port": 443,
@@ -7716,11 +7720,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 1",
             "type": "vless",
-            "server": "192.220.15.222",
-            "server_port": 8443,
-            "uuid": "ad192c6d-c5ee-4a21-a6bf-85218caa4ef9",
+            "server": "record.sinafc.ir",
+            "server_port": 2095,
+            "uuid": "d3af1d8f-9008-462d-b7b9-93292979e851",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -7730,7 +7734,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.amd.com",
+                "server_name": "amazon.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -7739,18 +7743,18 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "lfOSEE80tv3mvi9fSBcj-oLKDJm2lmdj1PIMLvKwxRc",
-                    "short_id": "69"
+                    "public_key": "ODHRr6cqYEtv3OMvjokQe-8EMd5sIQG8Ymx-FZLjWmM",
+                    "short_id": "a9a2c279f10f"
                 }
             }
         },
         {
             "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 2",
             "type": "vless",
-            "server": "193.39.168.84",
+            "server": "dash.sinafc.ir",
             "server_port": 443,
-            "uuid": "ff16e22b-5530-4c42-8ece-838f27c3263e",
-            "flow": "",
+            "uuid": "d3af1d8f-9008-462d-b7b9-93292979e851",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -7759,21 +7763,42 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ru2.oaklandjoseph.top",
+                "server_name": "led.samsung.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uSoNVrVIdQ5Y0YOpDCRkaYK5VAzYG6tCPtTc4cim7Tw",
+                    "short_id": "82"
                 }
             }
         },
         {
-            "tag": "❔XX | 🔴 | trojan | @ConfigsHUB | 3",
-            "type": "trojan",
-            "server": "normal-cow.rooster465.autos",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 3",
+            "type": "vless",
+            "server": "Nlhoskee.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "6f4c2632-f5c5-4d3a-ad44-fd11d1d612c9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 4",
+            "type": "vless",
+            "server": "assets.sinafc.ir",
             "server_port": 443,
-            "password": "EQ30679154",
+            "uuid": "d3af1d8f-9008-462d-b7b9-93292979e851",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -7781,12 +7806,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "normal-cow.rooster465.autos",
+                "server_name": "led.samsung.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uSoNVrVIdQ5Y0YOpDCRkaYK5VAzYG6tCPtTc4cim7Tw",
+                    "short_id": "82"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | trojan | @ConfigsHUB | 5",
+            "type": "trojan",
+            "server": "185.18.250.252",
+            "server_port": 443,
+            "password": "humanity",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.calmlunch.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/assignment",
+                "headers": {
+                    "Host": "www.calmlunch.com"
                 }
             }
         },
