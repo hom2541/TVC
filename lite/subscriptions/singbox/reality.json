@@ -113,8 +113,9 @@
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
                 "🇨🇿CZ | 🔴 | vless | @V2rayCollector | 26",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🟢 | vless | @prrofile_purple | 123",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 123",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
@@ -135,8 +136,9 @@
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
                 "🇨🇿CZ | 🔴 | vless | @V2rayCollector | 26",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🟢 | vless | @prrofile_purple | 123",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 123",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
@@ -376,7 +378,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 123",
+            "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 123",
             "type": "vless",
             "server": "istanbul.pelzimo.ir",
             "server_port": 6300,
@@ -405,11 +407,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "185.21.15.245",
+            "server": "it.getsavesafe.com",
             "server_port": 443,
-            "uuid": "fe0138b5-ca60-4a67-91aa-b5a49266eeb5",
+            "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -419,7 +421,36 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nl.chick-team.ru",
+                "server_name": "it.savesafe.cc",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UknJiwNyRmwBTaQCyY3mpq9blOPEgBFPV_NYJIgBKCs",
+                    "short_id": "62b6d6e51d461d78"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "savesafe.co",
+            "server_port": 443,
+            "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "savesafe.co",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -428,8 +459,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "aLdyGbloIzzeClW7_SPWL0IZpcaUWsA7rlmbNieggWk",
-                    "short_id": "0894e51863b5c395"
+                    "public_key": "6z3YcVP0f2pK3iANKIkBUZOgNeErDjxY83mHZG5jrnI",
+                    "short_id": "f63805c3ecc7a483"
                 }
             }
         },
