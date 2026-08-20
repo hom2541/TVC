@@ -111,12 +111,12 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
-                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
+                "🇨🇿CZ | 🔴 | vless | @V2rayCollector | 26",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🟢 | vless | @mehrosaboran | 15",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -133,12 +133,12 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "🇫🇮FI | 🟢 | vless | @proxy_kafee | 0",
-                "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
+                "🇨🇿CZ | 🔴 | vless | @V2rayCollector | 26",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
                 "❔XX | 🟢 | vless | @prrofile_purple | 123",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🔴 | vless | @flyv2ray | 2",
                 "❔XX | 🟢 | vless | @mehrosaboran | 15",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -318,7 +318,36 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "🇨🇿CZ | 🔴 | vless | @V2rayCollector | 26",
+            "type": "vless",
+            "server": "78.159.247.253",
+            "server_port": 2027,
+            "uuid": "851ed0d8-a37b-452d-8ef2-5b6c2d28a060",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "storage.yandex.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
+                    "short_id": "dc8109baf0f607ea"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "205.237.109.215",
             "server_port": 448,
@@ -376,11 +405,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "usejh2.neobo-tooth.ru",
-            "server_port": 2053,
-            "uuid": "b6c29ae7-4748-4049-b642-b695c0d2c776",
+            "server": "185.21.15.245",
+            "server_port": 443,
+            "uuid": "fe0138b5-ca60-4a67-91aa-b5a49266eeb5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -390,17 +419,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vk.ru",
+                "server_name": "nl.chick-team.ru",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": ""
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "dRLd_E_GYCkCcwxLN5EcRQYsREKqisb26_ZSehxUpWY",
-                    "short_id": "1eb8ea8dae937ae0"
+                    "public_key": "aLdyGbloIzzeClW7_SPWL0IZpcaUWsA7rlmbNieggWk",
+                    "short_id": "0894e51863b5c395"
                 }
             }
         },
@@ -459,35 +488,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 13",
-            "type": "vless",
-            "server": "shop.jarorobo.ir",
-            "server_port": 443,
-            "uuid": "70d0af29-a027-4d45-ad8d-e0ee1b4232b8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "adn-stg.yourservice.samsung.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "uSoNVrVIdQ5Y0YOpDCRkaYK5VAzYG6tCPtTc4cim7Tw",
-                    "short_id": "22024c"
                 }
             }
         },
