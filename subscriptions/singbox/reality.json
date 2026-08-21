@@ -126,7 +126,7 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 3",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 4",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 6",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 7",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 7",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 8",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 10",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 12",
@@ -160,8 +160,7 @@
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 4",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -189,7 +188,7 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 1",
                 "❔XX | 🟢 | vless | @Capoit | 5",
-                "❔XX | 🟢 | vless | @FreakConfig | 2",
+                "❔XX | 🟢 | vless | @FreakConfig | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 0",
                 "❔XX | 🟢 | vless | @mehrosaboran | 1",
                 "❔XX | 🟢 | vless | @kiava | 48",
@@ -244,7 +243,7 @@
                 "❔XX | 🟢 | vless | @Outline_Vpn | 3",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 4",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 6",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 7",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 7",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 8",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 10",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 12",
@@ -278,8 +277,7 @@
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 4",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 7",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
                 "❔XX | 🟢 | vless | @Capital_NET | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 9",
@@ -307,7 +305,7 @@
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 1",
                 "❔XX | 🟢 | vless | @Capoit | 5",
-                "❔XX | 🟢 | vless | @FreakConfig | 2",
+                "❔XX | 🟢 | vless | @FreakConfig | 3",
                 "❔XX | 🟢 | vless | @mehrosaboran | 0",
                 "❔XX | 🟢 | vless | @mehrosaboran | 1",
                 "❔XX | 🟢 | vless | @kiava | 48",
@@ -959,7 +957,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 7",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 7",
             "type": "vless",
             "server": "144.31.237.206",
             "server_port": 443,
@@ -1966,40 +1964,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 7",
             "type": "vless",
-            "server": "66.33.22.224",
-            "server_port": 57573,
-            "uuid": "d029c820-5db5-49fb-801a-8a75679e5bc7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "is1-ssl.mzstatic.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AYngv-8Leu8hVhpbj06s-OkrTdPNFNrcQwmEAtB0akY",
-                    "short_id": "ef032b"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 10",
-            "type": "vless",
-            "server": "207.56.137.51",
+            "server": "5.152.223.97",
             "server_port": 443,
-            "uuid": "01ada9fb-fa2f-45da-a0d0-bce80cdf433b",
+            "uuid": "be5b6ad6-8184-4b63-82ac-3bc00c09c98c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2009,17 +1978,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "strapi.io",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "ios"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0",
-                    "short_id": "f713561d"
+                    "public_key": "IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs",
+                    "short_id": "1aa9f3c9021280c0"
                 }
             }
         },
@@ -2835,7 +2804,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 2",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 3",
             "type": "vless",
             "server": "shop.jarorobo.ir",
             "server_port": 443,
