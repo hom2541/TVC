@@ -127,7 +127,6 @@ proxies:
   - {"name":"🚩CF | 🔴 | trojan | @oneclickvpnkeys | 8","type":"trojan","server":"188.114.96.3","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
   - {"name":"🚩CF | 🔴 | trojan | @oneclickvpnkeys | 9","type":"trojan","server":"188.114.98.0","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 10","type":"trojan","server":"140.248.185.253","port":443,"udp":false,"password":"MiTiVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssl.fastly.com"}
-  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 12","type":"trojan","server":"89.39.70.238","port":443,"udp":false,"password":"AE62539071","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"present-warthog.rooster465.autos"}
   - {"name":"❔XX | 🟢 | trojan | @VmessProtocol | 0","type":"trojan","server":"moral-dolphin.rooster465.autos","port":443,"udp":false,"password":"PQ05174892","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -144,7 +143,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 9'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 12'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 0'
   - name: URL-TEST
     type: url-test
@@ -161,7 +159,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 9'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 12'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 0'
   - name: FALLBACK
     type: fallback
@@ -177,7 +174,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 8'
       - '🚩CF | 🔴 | trojan | @oneclickvpnkeys | 9'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 10'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 12'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
