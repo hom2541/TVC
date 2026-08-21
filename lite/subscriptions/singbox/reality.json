@@ -112,11 +112,10 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🔴 | vless | @V2rayCollector | 57",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 14",
-                "🇵🇱PL | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🟢 | vless | @prrofile_purple | 123",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
@@ -135,11 +134,10 @@
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🔴 | vless | @V2rayCollector | 57",
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 14",
-                "🇵🇱PL | 🟢 | vless | @Outline_Vpn | 15",
-                "❔XX | 🟢 | vless | @prrofile_purple | 123",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 15",
+                "🇹🇷TR | 🟢 | vless | @prrofile_purple | 123",
                 "❔XX | 🟢 | vless | @prrofile_purple | 124",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 14",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 15",
@@ -356,7 +354,7 @@
             }
         },
         {
-            "tag": "🇵🇱PL | 🟢 | vless | @Outline_Vpn | 15",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 15",
             "type": "vless",
             "server": "144.31.0.34",
             "server_port": 7443,
@@ -385,7 +383,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @prrofile_purple | 123",
+            "tag": "🇹🇷TR | 🟢 | vless | @prrofile_purple | 123",
             "type": "vless",
             "server": "45.196.201.48",
             "server_port": 443,
@@ -469,42 +467,6 @@
                     "public_key": "kRwY2AAdT6SH4FKFQb-UhnJbyddqbdluKy1xaYPatD8",
                     "short_id": "b9f8f9772217538f"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 14",
-            "type": "vless",
-            "server": "185.135.47.150",
-            "server_port": 2053,
-            "uuid": "dbaea6f8-e79b-44cc-85b8-7855581947b1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
