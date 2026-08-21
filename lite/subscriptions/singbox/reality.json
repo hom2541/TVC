@@ -116,7 +116,6 @@
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 15",
                 "❔XX | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -139,7 +138,6 @@
                 "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 15",
                 "❔XX | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -475,35 +473,6 @@
                     "enabled": true,
                     "public_key": "66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc",
                     "short_id": "de8d3223e7d85761"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 18",
-            "type": "vless",
-            "server": "v942892.hosted-by-vdsina.com",
-            "server_port": 443,
-            "uuid": "9aff0732-7ce4-4b34-ba20-e67c6df64fdd",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v942892.hosted-by-vdsina.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "TzOfUDe1Pf7GnxEJuK1I6XD8nNe4ZsmRPCxL8aFwCXs",
-                    "short_id": "1e623c6d7f4d01eb"
                 }
             }
         },
