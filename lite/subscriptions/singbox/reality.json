@@ -110,10 +110,11 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🔴 | vless | @Outline_Vpn | 14",
+                "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 14",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 116",
+                "❔XX | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -129,10 +130,11 @@
                 "🇩🇪DE | 🟢 | vless | @Parsashonam | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🔴 | vless | @Outline_Vpn | 14",
+                "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 14",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 15",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 116",
+                "❔XX | 🔴 | vless | @prrofile_purple | 116",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 17",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -283,7 +285,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Outline_Vpn | 14",
+            "tag": "🇩🇪DE | 🔴 | vless | @Outline_Vpn | 14",
             "type": "vless",
             "server": "api.noneok.com",
             "server_port": 443,
@@ -348,7 +350,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 116",
+            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 116",
             "type": "vless",
             "server": "core.noneok.com",
             "server_port": 443,
@@ -409,6 +411,35 @@
                     "enabled": true,
                     "public_key": "kRwY2AAdT6SH4FKFQb-UhnJbyddqbdluKy1xaYPatD8",
                     "short_id": "b9f8f9772217538f"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 17",
+            "type": "vless",
+            "server": "31.76.80.69",
+            "server_port": 2083,
+            "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.amd.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
+                    "short_id": "29b21343ab4d"
                 }
             }
         },
