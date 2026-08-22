@@ -11,8 +11,8 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, xth1trWxty3u5JGt1spEVVJ0M1, , password = , udp-delay = true, skip-cert-verify = true, ws = false
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 9 = trojan, pretty-mollusk.rooster465.autos, 443, password = EQ30679154, udp-delay = true, skip-cert-verify = false, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, rub01-ipv6.nwncd.com, 489, password = 654df5c6-73ac-3b11-8269-6b21fb8d9dad, udp-delay = true, skip-cert-verify = false, sni = rub01.nwncd.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 9 = trojan, xth1trWxty3u5JGt1spEVVJ0M1, , password = , udp-delay = true, skip-cert-verify = true, ws = false
 [Proxy Group]
 MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 8,❔XX | 🔴 | trojan | @oneclickvpnkeys | 9
 URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 8,❔XX | 🔴 | trojan | @oneclickvpnkeys | 9
