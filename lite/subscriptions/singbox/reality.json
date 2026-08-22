@@ -113,9 +113,10 @@
                 "🇵🇱PL | 🟢 | vless | @proxy_kafee | 3",
                 "🇷🇺RU | 🟢 | vless | @V2rayCollector | 47",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 10",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 11",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 5",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 11",
+                "🇸🇬SG | 🟢 | vless | @v2rayNG_Matsuri | 5",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -136,9 +137,10 @@
                 "🇵🇱PL | 🟢 | vless | @proxy_kafee | 3",
                 "🇷🇺RU | 🟢 | vless | @V2rayCollector | 47",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 10",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 11",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 5",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 11",
+                "🇸🇬SG | 🟢 | vless | @v2rayNG_Matsuri | 5",
                 "❔XX | 🟢 | vless | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -378,7 +380,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 11",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 11",
             "type": "vless",
             "server": "144.31.237.206",
             "server_port": 443,
@@ -407,7 +409,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 5",
+            "tag": "🇸🇬SG | 🟢 | vless | @v2rayNG_Matsuri | 5",
             "type": "vless",
             "server": "sg10.levikogjgfdd.ir",
             "server_port": 443,
@@ -437,6 +439,35 @@
         },
         {
             "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 7",
+            "type": "vless",
+            "server": "162.128.181.182",
+            "server_port": 443,
+            "uuid": "048a61f8-b236-4082-b1c3-c22a85693c12",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gcqSfWJ1yR5Aa2fsBYZ3vyaC0yQnil4qqNMZN4weZlE",
+                    "short_id": "674a07ea4d1c4255"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 8",
             "type": "vless",
             "server": "213.193.255.206",
             "server_port": 443,
