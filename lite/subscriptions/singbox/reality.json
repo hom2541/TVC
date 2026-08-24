@@ -109,18 +109,17 @@
                 "🇷🇺RU | 🟢 | vless | @EliV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 10",
-                "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 11",
-                "❔XX | 🔴 | vless | @prrofile_purple | 124",
-                "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 9",
+                "🇬🇧GB | 🟢 | vless | @Outline_Vpn | 10",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 11",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 18",
-                "❔XX | 🟢 | vless | @proxy_mtm | 28",
-                "❔XX | 🟢 | vless | @proxy_mtm | 29"
+                "❔XX | 🟢 | vless | @proxy_mtm | 28"
             ]
         },
         {
@@ -130,18 +129,17 @@
                 "🇷🇺RU | 🟢 | vless | @EliV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "❔XX | 🟢 | vless | @Outline_Vpn | 10",
-                "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 11",
-                "❔XX | 🔴 | vless | @prrofile_purple | 124",
-                "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 9",
+                "🇬🇧GB | 🟢 | vless | @Outline_Vpn | 10",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 11",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 9",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 18",
-                "❔XX | 🟢 | vless | @proxy_mtm | 28",
-                "❔XX | 🟢 | vless | @proxy_mtm | 29"
+                "❔XX | 🟢 | vless | @proxy_mtm | 28"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -258,7 +256,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 10",
+            "tag": "🇬🇧GB | 🟢 | vless | @Outline_Vpn | 10",
             "type": "vless",
             "server": "gb1.murhost.network",
             "server_port": 443,
@@ -287,7 +285,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 11",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 11",
             "type": "vless",
             "server": "xfr.saturn-cloud.net",
             "server_port": 443,
@@ -316,7 +314,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @prrofile_purple | 124",
+            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
             "type": "vless",
             "server": "core.noneok.com",
             "server_port": 443,
@@ -352,7 +350,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🔴 | vless | @v2ray1_ng | 9",
+            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 9",
             "type": "vless",
             "server": "31.76.91.138",
             "server_port": 2087,
@@ -601,35 +599,6 @@
                     "enabled": true,
                     "public_key": "lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q",
                     "short_id": "9e4eced6e98ed4d4"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 29",
-            "type": "vless",
-            "server": "150.40.117.221",
-            "server_port": 8443,
-            "uuid": "47388561-cf0c-4cfc-91f8-fdfd9fa3d756",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.amazon.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw",
-                    "short_id": "7b"
                 }
             }
         }
