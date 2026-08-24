@@ -113,16 +113,16 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollector | 37",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 13",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 8",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "🇵🇱PL | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 18",
-                "❔XX | 🟢 | vless | @proxy_mtm | 28"
+                "❔XX | 🟢 | vless | @proxy_mtm | 29"
             ]
         },
         {
@@ -136,16 +136,16 @@
                 "🇺🇸US | 🔴 | vless | @V2rayCollector | 37",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 13",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 8",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "🇵🇱PL | 🟢 | vless | @v2ray1_ng | 8",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 13",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 18",
-                "❔XX | 🟢 | vless | @proxy_mtm | 28"
+                "❔XX | 🟢 | vless | @proxy_mtm | 29"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -378,7 +378,36 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 8",
+            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
+            "type": "vless",
+            "server": "13.143.129.2",
+            "server_port": 443,
+            "uuid": "f463819c-5e64-458a-808b-6693afb47aa4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "temp.adleger.ru",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IUPInbc2kxIIetMTiQ7i-SdGU0hMthEq2NFRdUVhWxQ",
+                    "short_id": "a3f8c2d1"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🟢 | vless | @v2ray1_ng | 8",
             "type": "vless",
             "server": "83.168.71.216",
             "server_port": 443,
@@ -497,35 +526,6 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 13",
-            "type": "vless",
-            "server": "peo.awexaio.shop",
-            "server_port": 2086,
-            "uuid": "34c09c60-3fed-4ed6-9dbc-a9f0e488aaa2",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "support-shield.nvidia.nl",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "FdedLVqgh4rCCzYydDap0cmzOuhnw2hdwpj0C4G1sjU",
-                    "short_id": "b91fc778714c36a6"
                 }
             }
         },
@@ -660,7 +660,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 28",
+            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 29",
             "type": "vless",
             "server": "yt.orpheous.ru",
             "server_port": 443,
