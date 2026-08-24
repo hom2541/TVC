@@ -113,9 +113,10 @@
                 "🇸🇬SG | 🟢 | vless | @V2rayCollector | 29",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇦🇪AE | 🔴 | vless | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vless | @free1_vpn | 9",
+                "🇦🇪AE | 🔴 | vless | @v2ray1_ng | 8",
+                "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
@@ -136,9 +137,10 @@
                 "🇸🇬SG | 🟢 | vless | @V2rayCollector | 29",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
+                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇦🇪AE | 🔴 | vless | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vless | @free1_vpn | 9",
+                "🇦🇪AE | 🔴 | vless | @v2ray1_ng | 8",
+                "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @mehrosaboran | 7",
@@ -378,6 +380,42 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 124",
+            "type": "vless",
+            "server": "core.noneok.com",
+            "server_port": 443,
+            "uuid": "340e4de3-144b-49c4-ad72-b49b35713728",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "core.noneok.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HAqqALwpxu_tx-IFcYaZWVshVKyKttGGrxoEfuP_Lgs",
+                    "short_id": "fde63d9c58210bf9"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "api.v1.StreamService",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 9",
             "type": "vless",
             "server": "13.143.129.2",
@@ -407,7 +445,7 @@
             }
         },
         {
-            "tag": "🇦🇪AE | 🔴 | vless | @v2ray1_ng | 7",
+            "tag": "🇦🇪AE | 🔴 | vless | @v2ray1_ng | 8",
             "type": "vless",
             "server": "89.47.55.7",
             "server_port": 8443,
@@ -443,7 +481,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @free1_vpn | 9",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 10",
             "type": "vless",
             "server": "83.168.71.216",
             "server_port": 443,
