@@ -110,7 +110,7 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
-                "🇺🇸US | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 6",
@@ -154,8 +154,9 @@
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 5",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 7",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "❔XX | 🔴 | vless | @v2ray1_ng | 4",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 0",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 5",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 7",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
@@ -226,7 +227,7 @@
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "❔XX | 🟢 | vless | @rxv2ray | 7",
                 "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 3",
-                "🇺🇸US | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+                "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
                 "❔XX | 🔴 | vless | @proxy_kafee | 1",
                 "❔XX | 🔴 | vless | @proxy_kafee | 5",
                 "❔XX | 🔴 | vless | @v2logy | 6",
@@ -270,8 +271,9 @@
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 5",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 7",
                 "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "❔XX | 🔴 | vless | @v2ray1_ng | 4",
-                "❔XX | 🟢 | vless | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 0",
+                "❔XX | 🔴 | vless | @v2ray1_ng | 5",
+                "❔XX | 🟢 | vless | @v2ray1_ng | 7",
                 "❔XX | 🟢 | vless | @VmessProtocol | 2",
                 "❔XX | 🟢 | vless | @VmessProtocol | 4",
                 "❔XX | 🔴 | vless | @Capital_NET | 6",
@@ -477,7 +479,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @CUSTOMVPNSERVER | 4",
+            "tag": "❔XX | 🟢 | vless | @CUSTOMVPNSERVER | 4",
             "type": "vless",
             "server": "137.184.218.169",
             "server_port": 36925,
@@ -1788,7 +1790,36 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 4",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 0",
+            "type": "vless",
+            "server": "167.104.223.29",
+            "server_port": 443,
+            "uuid": "419f25c1-bc35-412e-93fb-258efee859b5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "167.104.223.29.sslip.io",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qOraT1A2tq0v0HIZlcplEnqXx4Sn-99z_EKNqTEZv1M",
+                    "short_id": "6ecabc17bcfb4291"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @v2ray1_ng | 5",
             "type": "vless",
             "server": "universe.whit3.net",
             "server_port": 4443,
@@ -1817,7 +1848,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 6",
+            "tag": "❔XX | 🟢 | vless | @v2ray1_ng | 7",
             "type": "vless",
             "server": "128.1.12.164",
             "server_port": 443,
