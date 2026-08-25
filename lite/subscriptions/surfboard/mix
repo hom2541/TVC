@@ -12,12 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, tr-switzerlandgopota.unlimited-access.ru, 443, password = kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi, udp-delay = true, skip-cert-verify = false, ws = false
-🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 16 = trojan, 188.114.97.7, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
 ❔XX | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 5,🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 16,❔XX | 🟢 | vmess | @yaney_01 | 4
-URL-TEST = url-test,🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 5,🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 16,❔XX | 🟢 | vmess | @yaney_01 | 4
-FALLBACK = fallback,🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 5,🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 16,❔XX | 🟢 | vmess | @yaney_01 | 4
+MANUAL = select,URL-TEST,FALLBACK,🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🟢 | vmess | @yaney_01 | 4
+URL-TEST = url-test,🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🟢 | vmess | @yaney_01 | 4
+FALLBACK = fallback,🇨🇭CH | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🟢 | vmess | @yaney_01 | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
