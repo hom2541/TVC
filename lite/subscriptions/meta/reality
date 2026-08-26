@@ -122,6 +122,7 @@ dns:
 proxies:
   - {"name":"🇬🇧GB | 🟢 | vless | @EliV2ray | 0","type":"vless","server":"bridge.sfproxy.fuck-rkn.dev","port":443,"udp":true,"uuid":"8ff82100-8aad-4281-bf41-f318519d7182","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"ca.jobinvest.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇷🇺RU | 🟢 | vless | @rxv2ray | 7","type":"vless","server":"89.208.86.65","port":443,"udp":true,"uuid":"3a83ab7a-9b6f-460c-a128-1799f63695e3","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"tradingview.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM","short-id":"f32140952ba18e18"}}
+  - {"name":"🇫🇮FI | 🔴 | vless | @V2rayCollector | 31","type":"vless","server":"83.219.97.128","port":13443,"udp":true,"uuid":"423b1d79-08c4-403f-9d5e-c541f791b55f","tls":true,"network":"tcp","client-fingerprint":"qq","servername":"auto.cendora.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM","short-id":"a7f3c91b2e6d84c0"}}
   - {"name":"🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12","type":"vless","server":"xfr.saturn-cloud.net","port":443,"udp":true,"uuid":"95ae0de8-d944-4b1e-b450-d34d80f9a528","tls":true,"network":"tcp","client-fingerprint":null,"servername":"xfr.saturn-cloud.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UjwVdSvY-6dV5UKCNO7ROokiSF_aLaXYyUaG6RybOmI","short-id":"2762604ed2e0fa2f"}}
   - {"name":"🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13","type":"vless","server":"144.31.237.206","port":443,"udp":true,"uuid":"9500cf8b-020a-4a70-906c-e14bb5375875","tls":true,"network":"tcp","client-fingerprint":null,"servername":"www.sciencedirect.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0","short-id":"a1b2c4d4a1b2c5d5"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @prrofile_purple | 122","type":"vless","server":"core.noneok.com","port":443,"udp":true,"uuid":"340e4de3-144b-49c4-ad72-b49b35713728","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"core.noneok.com","grpc-opts":{"grpc-service-name":"api.v1.StreamService"},"reality-opts":{"public-key":"HAqqALwpxu_tx-IFcYaZWVshVKyKttGGrxoEfuP_Lgs","short-id":"fde63d9c58210bf9"}}
@@ -144,6 +145,7 @@ proxy-groups:
       - FALLBACK
       - '🇬🇧GB | 🟢 | vless | @EliV2ray | 0'
       - '🇷🇺RU | 🟢 | vless | @rxv2ray | 7'
+      - '🇫🇮FI | 🔴 | vless | @V2rayCollector | 31'
       - '🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12'
       - '🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13'
       - '🇩🇪DE | 🔴 | vless | @prrofile_purple | 122'
@@ -166,6 +168,7 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | 🟢 | vless | @EliV2ray | 0'
       - '🇷🇺RU | 🟢 | vless | @rxv2ray | 7'
+      - '🇫🇮FI | 🔴 | vless | @V2rayCollector | 31'
       - '🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12'
       - '🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13'
       - '🇩🇪DE | 🔴 | vless | @prrofile_purple | 122'
@@ -187,6 +190,7 @@ proxy-groups:
     proxies:
       - '🇬🇧GB | 🟢 | vless | @EliV2ray | 0'
       - '🇷🇺RU | 🟢 | vless | @rxv2ray | 7'
+      - '🇫🇮FI | 🔴 | vless | @V2rayCollector | 31'
       - '🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12'
       - '🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13'
       - '🇩🇪DE | 🔴 | vless | @prrofile_purple | 122'
