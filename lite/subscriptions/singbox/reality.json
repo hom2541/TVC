@@ -109,17 +109,18 @@
                 "🇬🇧GB | 🟢 | vless | @EliV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 5",
                 "🇫🇮FI | 🔴 | vless | @V2rayCollector | 41",
-                "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
+                "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 13",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 5",
                 "🇭🇰HK | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇸🇬SG | 🟢 | vless | @mehrosaboran | 8",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @kingofilter | 0",
@@ -133,17 +134,18 @@
                 "🇬🇧GB | 🟢 | vless | @EliV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 5",
                 "🇫🇮FI | 🔴 | vless | @V2rayCollector | 41",
-                "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
+                "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 13",
+                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 122",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🔴 | vless | @v2ray1_ng | 9",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 5",
                 "🇭🇰HK | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇸🇬SG | 🟢 | vless | @mehrosaboran | 8",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @mehrosaboran | 8",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @kingofilter | 0",
@@ -264,6 +266,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 5",
+            "type": "vless",
+            "server": "45.155.70.123",
+            "server_port": 8443,
+            "uuid": "f82332b2-dc8c-eac4-ac12-f276e37e278a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "s1.test.anti-zapret.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY",
+                    "short_id": "58fbcddfaae3ade9"
+                }
+            }
+        },
+        {
             "tag": "🇫🇮FI | 🔴 | vless | @V2rayCollector | 41",
             "type": "vless",
             "server": "83.219.97.128",
@@ -293,7 +324,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 12",
+            "tag": "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 13",
             "type": "vless",
             "server": "xfr.saturn-cloud.net",
             "server_port": 443,
@@ -322,7 +353,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 13",
+            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
             "type": "vless",
             "server": "144.31.237.206",
             "server_port": 443,
@@ -532,7 +563,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -561,7 +592,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vless | @mehrosaboran | 8",
+            "tag": "❔XX | 🟢 | vless | @mehrosaboran | 8",
             "type": "vless",
             "server": "162.128.87.50",
             "server_port": 443,
