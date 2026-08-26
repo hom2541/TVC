@@ -106,20 +106,19 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | 🟢 | vless | @EliV2ray | 0",
+                "🇹🇭TH | 🟢 | vless | @EliV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 5",
-                "🇬🇧GB | 🔴 | vless | @V2rayCollector | 33",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 6",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 13",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
-                "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 5",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 11",
-                "🇩🇪DE | 🔴 | vless | @free1_vpn | 10",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 14",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "❔XX | 🟢 | vless | @VmessProtocol | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
+                "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 13",
+                "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -131,20 +130,19 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | 🟢 | vless | @EliV2ray | 0",
+                "🇹🇭TH | 🟢 | vless | @EliV2ray | 0",
                 "🇳🇱NL | 🔴 | vless | @ARv2ray | 3",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 5",
-                "🇬🇧GB | 🔴 | vless | @V2rayCollector | 33",
+                "🇩🇪DE | 🟢 | vless | @proxy_kafee | 6",
                 "🇫🇷FR | 🟢 | vless | @Outline_Vpn | 13",
-                "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
-                "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 5",
-                "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 11",
-                "🇩🇪DE | 🔴 | vless | @free1_vpn | 10",
+                "❔XX | 🟢 | vless | @Outline_Vpn | 14",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "❔XX | 🟢 | vless | @VmessProtocol | 5",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 19",
+                "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @FreakConfig | 13",
+                "❔XX | 🟢 | vless | @FreakConfig | 15",
                 "❔XX | 🟢 | vless | @mehrosaboran | 9",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -172,7 +170,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @EliV2ray | 0",
+            "tag": "🇹🇭TH | 🟢 | vless | @EliV2ray | 0",
             "type": "vless",
             "server": "bridge.sfproxy.fuck-rkn.dev",
             "server_port": 443,
@@ -266,7 +264,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 5",
+            "tag": "🇩🇪DE | 🟢 | vless | @proxy_kafee | 6",
             "type": "vless",
             "server": "45.155.70.123",
             "server_port": 8443,
@@ -291,35 +289,6 @@
                     "enabled": true,
                     "public_key": "0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY",
                     "short_id": "58fbcddfaae3ade9"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | 🔴 | vless | @V2rayCollector | 33",
-            "type": "vless",
-            "server": "138.124.125.211",
-            "server_port": 443,
-            "uuid": "1996007c-e7bc-464b-999b-cac28cec6c3e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo",
-                    "short_id": "72cceb78"
                 }
             }
         },
@@ -353,7 +322,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
+            "tag": "❔XX | 🟢 | vless | @Outline_Vpn | 14",
             "type": "vless",
             "server": "144.31.237.206",
             "server_port": 443,
@@ -382,7 +351,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 9",
+            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
             "type": "vless",
             "server": "universe.whit3.net",
             "server_port": 443,
@@ -411,11 +380,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 5",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 5",
             "type": "vless",
-            "server": "5.83.129.253",
+            "server": "164.37.105.2",
             "server_port": 443,
-            "uuid": "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03",
+            "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -425,7 +394,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "flash.try-me.store",
+                "server_name": "pnnsh.falsemirrov.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -434,17 +403,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "dJDkS3qV0P2GnLUkGBpmeWhu5brRDMVUeBE4ng1WcnQ",
-                    "short_id": ""
+                    "public_key": "lE6w45X8Bwb0HscO6Wa5wnN0qlw7wUuaCW8-iYL5HAQ",
+                    "short_id": "bc609efa3b2d052f"
                 }
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @ConfigsHUB | 11",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "65.109.181.160",
-            "server_port": 32855,
-            "uuid": "c8ad63c2-ad18-4655-a8e7-f67dd3a41c2a",
+            "server": "162.35.231.31",
+            "server_port": 443,
+            "uuid": "419f25c1-bc35-412e-93fb-258efee859b5",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -454,22 +423,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "amp-api-edge.apps.apple.com",
+                "server_name": "162.35.231.31.sslip.io",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "edge"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10",
-                    "short_id": "deb7a9e5a6e1d41a"
+                    "public_key": "XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI",
+                    "short_id": "f41bc0b00ca1a978"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @free1_vpn | 10",
+            "tag": "❔XX | 🔴 | vless | @free1_vpn | 10",
             "type": "vless",
             "server": "universe.whit3.net",
             "server_port": 4443,
@@ -556,7 +525,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @FreakConfig | 13",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 15",
             "type": "vless",
             "server": "185.147.26.175",
             "server_port": 443,
