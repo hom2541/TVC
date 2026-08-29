@@ -13,12 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, [2606:4700:3036::6815:2a81], 8080, password = eabf1999fefbb7d2, udp-delay = true, skip-cert-verify = false, ws = false
 ❔XX | 🟢 | trojan | @VmessProtocol | 4 = trojan, moral-dolphin.rooster465.autos, 443, password = PQ05174892, udp-delay = true, skip-cert-verify = false, ws = false
-🚩CF | 🔴 | trojan | @ConfigsHUB | 7 = trojan, 188.114.97.7, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 10 = trojan, 140.248.185.253, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🟢 | trojan | @VmessProtocol | 4,🚩CF | 🔴 | trojan | @ConfigsHUB | 7,❔XX | 🔴 | trojan | @ConfigsHUB | 10
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🟢 | trojan | @VmessProtocol | 4,🚩CF | 🔴 | trojan | @ConfigsHUB | 7,❔XX | 🔴 | trojan | @ConfigsHUB | 10
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🟢 | trojan | @VmessProtocol | 4,🚩CF | 🔴 | trojan | @ConfigsHUB | 7,❔XX | 🔴 | trojan | @ConfigsHUB | 10
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🟢 | trojan | @VmessProtocol | 4
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🟢 | trojan | @VmessProtocol | 4
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🟢 | trojan | @VmessProtocol | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
