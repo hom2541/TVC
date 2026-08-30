@@ -123,13 +123,12 @@
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @FreakConfig | 1",
+                "❔XX | 🟢 | vmess | @FreakConfig | 2",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 5"
             ]
         },
@@ -154,13 +153,12 @@
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 11",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 13",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 15",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @FreakConfig | 1",
+                "❔XX | 🟢 | vmess | @FreakConfig | 2",
                 "❔XX | 🟢 | vmess | @nofiltering2 | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -483,30 +481,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "156.245.232.239",
-            "server_port": 35043,
-            "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -657,7 +631,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 1",
+            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 2",
             "type": "vmess",
             "server": "guanwang.awsno.com",
             "server_port": 443,
