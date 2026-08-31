@@ -106,16 +106,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇺🇸US | 🟢 | ss | @VmessProtocol | 5"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 17",
+                "❔XX | 🟢 | ss | @VmessProtocol | 5"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | 🟢 | ss | @DeamNet_Proxy | 17",
-                "🇺🇸US | 🟢 | ss | @VmessProtocol | 5"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 17",
+                "❔XX | 🟢 | ss | @VmessProtocol | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +138,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | 🟢 | ss | @DeamNet_Proxy | 17",
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 17",
             "type": "shadowsocks",
             "server": "51.77.225.200",
             "server_port": 8388,
@@ -148,7 +148,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | @VmessProtocol | 5",
+            "tag": "❔XX | 🟢 | ss | @VmessProtocol | 5",
             "type": "shadowsocks",
             "server": "193.29.139.230",
             "server_port": 443,
