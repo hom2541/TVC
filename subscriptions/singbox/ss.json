@@ -106,8 +106,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 0",
+                "🇰🇷KR | 🟢 | ss | @DeamNet_Proxy | 1",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 5",
                 "❔XX | 🟢 | ss | @DeamNet_Proxy | 8",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | ss | @VmessProtocol | 5",
                 "❔XX | 🟢 | ss | @proxy_mtm | 59"
             ]
@@ -116,8 +118,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 0",
+                "🇰🇷KR | 🟢 | ss | @DeamNet_Proxy | 1",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 5",
                 "❔XX | 🟢 | ss | @DeamNet_Proxy | 8",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | ss | @VmessProtocol | 5",
                 "❔XX | 🟢 | ss | @proxy_mtm | 59"
             ],
@@ -142,7 +146,27 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 0",
+            "tag": "🇰🇷KR | 🟢 | ss | @DeamNet_Proxy | 1",
+            "type": "shadowsocks",
+            "server": "141.164.45.187",
+            "server_port": 8000,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 5",
+            "type": "shadowsocks",
+            "server": "51.79.49.116",
+            "server_port": 8882,
+            "method": "aes-256-gcm",
+            "password": "kDWvXYZoTBcGkC4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 8",
             "type": "shadowsocks",
             "server": "194.61.121.93",
             "server_port": 7538,
@@ -152,7 +176,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 8",
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 16",
             "type": "shadowsocks",
             "server": "51.222.155.113",
             "server_port": 5601,
