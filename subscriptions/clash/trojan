@@ -119,7 +119,6 @@ dns:
 
 proxies:
   - {"name":"❔XX | 🟢 | trojan | @VmessProtocol | 4","type":"trojan","server":"moral-dolphin.rooster465.autos","port":443,"udp":false,"password":"PQ05174892","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 14","type":"trojan","server":"104.21.67.113","port":443,"udp":false,"password":"Telegram_healer_config","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"x0C3lq1A15ip-65Kc4-l1A1tx.cv4CGvqS05m-F4Hg5xU07wIAlm0.wOrkerS.DeV"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -127,7 +126,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '❔XX | 🟢 | trojan | @VmessProtocol | 4'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -135,14 +133,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '❔XX | 🟢 | trojan | @VmessProtocol | 4'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '❔XX | 🟢 | trojan | @VmessProtocol | 4'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 14'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
