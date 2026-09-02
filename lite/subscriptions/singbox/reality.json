@@ -108,13 +108,12 @@
                 "URL-TEST",
                 "🇬🇧GB | 🔴 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇪🇸ES | 🟢 | vless | @V2rayCollector | 53",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🟢 | vless | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 12",
                 "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 6",
-                "❔XX | 🟢 | vless | @VmessProtocol | 6",
-                "🇺🇸US | 🟢 | vless | @free1_vpn | 8",
+                "🇬🇧GB | 🟢 | vless | @VmessProtocol | 6",
+                "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 14",
@@ -133,13 +132,12 @@
             "outbounds": [
                 "🇬🇧GB | 🔴 | vless | @shh_proxy | 2",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇪🇸ES | 🟢 | vless | @V2rayCollector | 53",
                 "❔XX | 🟢 | vless | @Outline_Vpn | 14",
                 "❔XX | 🟢 | vless | @prrofile_purple | 131",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 12",
                 "🇬🇧GB | 🟢 | vless | @v2ray1_ng | 6",
-                "❔XX | 🟢 | vless | @VmessProtocol | 6",
-                "🇺🇸US | 🟢 | vless | @free1_vpn | 8",
+                "🇬🇧GB | 🟢 | vless | @VmessProtocol | 6",
+                "❔XX | 🟢 | vless | @free1_vpn | 8",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 14",
@@ -226,35 +224,6 @@
                     "enabled": true,
                     "public_key": "_CjW0Khlrr5z5oc9Oy6-w2ZEanz-zMBktVn5EOX9oTM",
                     "short_id": "f32140952ba18e18"
-                }
-            }
-        },
-        {
-            "tag": "🇪🇸ES | 🟢 | vless | @V2rayCollector | 53",
-            "type": "vless",
-            "server": "185.254.205.79",
-            "server_port": 19842,
-            "uuid": "43c23116-1115-4af4-a0f0-56f02841a605",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.tesla.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "sfOfuQeJBlKfDnPL_EMWUxMIiFAN8BNKjtWDUvlsjzM",
-                    "short_id": "25ebc9e0a912"
                 }
             }
         },
@@ -375,7 +344,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 6",
+            "tag": "🇬🇧GB | 🟢 | vless | @VmessProtocol | 6",
             "type": "vless",
             "server": "164.37.105.2",
             "server_port": 443,
@@ -404,7 +373,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | @free1_vpn | 8",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 8",
             "type": "vless",
             "server": "193.160.32.36",
             "server_port": 2053,
