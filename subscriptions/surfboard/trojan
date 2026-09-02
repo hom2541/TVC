@@ -12,15 +12,14 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 199.232.78.160, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
-🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 2 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
-🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
 ❔XX | 🟢 | trojan | @VmessProtocol | 5 = trojan, moral-dolphin.rooster465.autos, 443, password = PQ05174892, udp-delay = true, skip-cert-verify = false, ws = false
-🚩CF | 🔴 | trojan | @ConfigsHUB | 5 = trojan, 104.19.229.21, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🟢 | trojan | @VmessProtocol | 5,🚩CF | 🔴 | trojan | @ConfigsHUB | 5
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🟢 | trojan | @VmessProtocol | 5,🚩CF | 🔴 | trojan | @ConfigsHUB | 5
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🟢 | trojan | @VmessProtocol | 5,🚩CF | 🔴 | trojan | @ConfigsHUB | 5
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🟢 | trojan | @VmessProtocol | 5
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🟢 | trojan | @VmessProtocol | 5
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🟢 | trojan | @VmessProtocol | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
