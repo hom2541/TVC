@@ -11,12 +11,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, 167.68.4.199, 2053, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epge.muarua.filegear-sg.me, ws = false
 ❔XX | 🟢 | trojan | @VmessProtocol | 4 = trojan, moral-dolphin.rooster465.autos, 443, password = PQ05174892, udp-delay = true, skip-cert-verify = false, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 7 = trojan, openai.com, 443, password = MITIVPN, udp-delay = true, skip-cert-verify = false, sni = UsAba-bUbks.App-CloUd.IR, ws = false
+🚩CF | 🔴 | trojan | @ConfigsHUB | 0 = trojan, 104.21.24.95, 443, password = Telegram_healer_config, udp-delay = true, skip-cert-verify = false, sni = 1V95V6TjywCyTbAHl7f7Lx8b27G.L4495eYcqmsE9he0yVoEMJFc4IBYf-4.wORkERS.DeV, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | trojan | @VmessProtocol | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 7
-URL-TEST = url-test,❔XX | 🟢 | trojan | @VmessProtocol | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 7
-FALLBACK = fallback,❔XX | 🟢 | trojan | @VmessProtocol | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 7
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🟢 | trojan | @VmessProtocol | 4,🚩CF | 🔴 | trojan | @ConfigsHUB | 0
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🟢 | trojan | @VmessProtocol | 4,🚩CF | 🔴 | trojan | @ConfigsHUB | 0
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🟢 | trojan | @VmessProtocol | 4,🚩CF | 🔴 | trojan | @ConfigsHUB | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
