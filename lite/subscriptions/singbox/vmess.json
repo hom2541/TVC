@@ -109,7 +109,7 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 13",
@@ -123,7 +123,7 @@
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 13",
@@ -201,7 +201,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -278,9 +278,9 @@
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 13",
             "type": "vmess",
-            "server": "104.19.47.168",
-            "server_port": 8443,
-            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "258847cf-7268-40ca-b9aa-932c4bef5b27",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -293,7 +293,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "kingo.hightechservice.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -305,16 +305,16 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "kingo.hightechservice.ir"
                 }
             }
         },
         {
             "tag": "❔XX | 🟢 | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "relay1.wl-node1.com",
-            "server_port": 39021,
-            "uuid": "9327f23a-5129-4740-9c0b-3b1c2b1aa7a3",
+            "server": "104.19.47.122",
+            "server_port": 2086,
+            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -324,6 +324,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.19.47.122"
+                }
             }
         }
     ],
