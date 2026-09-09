@@ -122,8 +122,8 @@
                 "🇵🇱PL | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @V2rayCollector | 37",
-                "🇺🇸US | 🔴 | vless | @V2rayCollector | 38",
+                "🇺🇸US | 🔴 | vless | @V2rayCollector | 47",
+                "🇺🇸US | 🔴 | vless | @V2rayCollector | 48",
                 "🇵🇱PL | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 16",
@@ -141,7 +141,8 @@
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | 🔴 | vless | @SafeNet_Server | 11",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 9",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @free1_vpn | 9",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -183,8 +184,8 @@
                 "🇵🇱PL | 🔴 | vless | @proxy_kafee | 4",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇺🇸US | 🔴 | vless | @V2rayCollector | 37",
-                "🇺🇸US | 🔴 | vless | @V2rayCollector | 38",
+                "🇺🇸US | 🔴 | vless | @V2rayCollector | 47",
+                "🇺🇸US | 🔴 | vless | @V2rayCollector | 48",
                 "🇵🇱PL | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 15",
                 "🇨🇦CA | 🔴 | vless | @Outline_Vpn | 16",
@@ -202,7 +203,8 @@
                 "❔XX | 🔴 | vless | @vless_vmess | 19",
                 "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | 🔴 | vless | @SafeNet_Server | 11",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 9",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 10",
                 "❔XX | 🔴 | vless | @free1_vpn | 9",
                 "❔XX | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -586,7 +588,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2rayCollector | 37",
+            "tag": "🇺🇸US | 🔴 | vless | @V2rayCollector | 47",
             "type": "vless",
             "server": "50.62.198.50",
             "server_port": 8880,
@@ -607,7 +609,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | @V2rayCollector | 38",
+            "tag": "🇺🇸US | 🔴 | vless | @V2rayCollector | 48",
             "type": "vless",
             "server": "104.21.96.56",
             "server_port": 80,
@@ -1064,17 +1066,60 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 12",
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 9",
             "type": "vless",
-            "server": "185.71.219.188",
-            "server_port": 443,
-            "uuid": "2107ea1e-26fb-4831-8c3f-fb190bea79f7",
+            "server": "104.20.18.168",
+            "server_port": 80,
+            "uuid": "c7bc8d93-5ab1-4964-8298-863f73c25032",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless-ws\/?ed",
+                "headers": {
+                    "Host": "104.20.18.168"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 10",
+            "type": "vless",
+            "server": "45.9.156.24",
+            "server_port": 443,
+            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bg2.univesalsrv.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4",
+                    "short_id": "501ab3325b77e1ca"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "api.v2.PushService",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
