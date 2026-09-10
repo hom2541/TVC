@@ -106,46 +106,40 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | 🔴 | vless | @shh_proxy | 6",
+                "🇬🇧GB | 🔴 | vless | @shh_proxy | 6",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @V2rayCollector | 21",
-                "🇫🇷FR | 🔴 | vless | @V2rayCollector | 22",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 133",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇲🇩MD | 🔴 | vless | @v2rayNG_Matsuri | 9",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "🇲🇩MD | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇧🇬BG | 🟢 | vless | @v2ray1_ng | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vless | @free1_vpn | 9",
-                "❔XX | 🔴 | vless | @free1_vpn | 10",
+                "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
+                "🇷🇸RS | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "❔XX | 🟢 | vless | @nofiltering2 | 15",
-                "❔XX | 🔴 | vless | @proxy_mtm | 26"
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 26"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | 🔴 | vless | @shh_proxy | 6",
+                "🇬🇧GB | 🔴 | vless | @shh_proxy | 6",
                 "🇷🇺RU | 🟢 | vless | @rxv2ray | 7",
-                "🇫🇮FI | 🟢 | vless | @V2rayCollector | 21",
-                "🇫🇷FR | 🔴 | vless | @V2rayCollector | 22",
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 133",
-                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇲🇩MD | 🔴 | vless | @v2rayNG_Matsuri | 9",
+                "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "🇲🇩MD | 🔴 | vless | @v2rayNG_Matsuri | 10",
                 "🇧🇬BG | 🟢 | vless | @v2ray1_ng | 6",
                 "🇺🇸US | 🔴 | vless | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vless | @free1_vpn | 9",
-                "❔XX | 🔴 | vless | @free1_vpn | 10",
+                "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
+                "🇷🇸RS | 🔴 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "❔XX | 🟢 | vless | @nofiltering2 | 15",
-                "❔XX | 🔴 | vless | @proxy_mtm | 26"
+                "🇩🇪DE | 🔴 | vless | @proxy_mtm | 26"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -168,7 +162,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | 🔴 | vless | @shh_proxy | 6",
+            "tag": "🇬🇧GB | 🔴 | vless | @shh_proxy | 6",
             "type": "vless",
             "server": "213.130.137.40",
             "server_port": 443,
@@ -226,64 +220,6 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | @V2rayCollector | 21",
-            "type": "vless",
-            "server": "185.79.138.71",
-            "server_port": 448,
-            "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.samsung.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-                    "short_id": "cd21e552537c7c0b"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🔴 | vless | @V2rayCollector | 22",
-            "type": "vless",
-            "server": "194.55.189.249",
-            "server_port": 40443,
-            "uuid": "8212a50b-25bf-4739-bba1-aaffb5ffc84c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "deepl.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo",
-                    "short_id": "aae8"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 133",
             "type": "vless",
             "server": "176.96.138.122",
@@ -313,7 +249,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 8",
+            "tag": "❔XX | 🟢 | vless | @v2rayNG_Matsuri | 9",
             "type": "vless",
             "server": "brgnzxax.rfnq.ir",
             "server_port": 443,
@@ -342,7 +278,7 @@
             }
         },
         {
-            "tag": "🇲🇩MD | 🔴 | vless | @v2rayNG_Matsuri | 9",
+            "tag": "🇲🇩MD | 🔴 | vless | @v2rayNG_Matsuri | 10",
             "type": "vless",
             "server": "md1.univesalsrv.com",
             "server_port": 443,
@@ -443,7 +379,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @free1_vpn | 9",
+            "tag": "🇩🇪DE | 🟢 | vless | @free1_vpn | 9",
             "type": "vless",
             "server": "ovk6lv4rlvi.vpvr4ib84nuv6hdkt.ru",
             "server_port": 3077,
@@ -472,7 +408,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @free1_vpn | 10",
+            "tag": "🇷🇸RS | 🔴 | vless | @free1_vpn | 10",
             "type": "vless",
             "server": "150.40.126.21",
             "server_port": 443,
@@ -537,7 +473,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -638,36 +574,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @nofiltering2 | 15",
-            "type": "vless",
-            "server": "vip.sinavm.ir",
-            "server_port": 443,
-            "uuid": "07730597-ba4f-4ca8-abe5-a53b28ad318c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "android.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7JDEwF5DtVN9ym8x_tHcdA5-L5hH_JlYNf-ZXUYqu18",
-                    "short_id": "3f958af268"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 26",
+            "tag": "🇩🇪DE | 🔴 | vless | @proxy_mtm | 26",
             "type": "vless",
             "server": "80.76.43.245",
             "server_port": 443,
