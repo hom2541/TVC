@@ -122,8 +122,8 @@
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇸🇬SG | 🔴 | vless | @V2rayCollector | 25",
-                "🇹🇭TH | 🔴 | vless | @V2rayCollector | 26",
+                "🇸🇬SG | 🔴 | vless | @V2rayCollector | 33",
+                "🇹🇭TH | 🔴 | vless | @V2rayCollector | 34",
                 "🇵🇱PL | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇮🇹IT | 🟢 | vless | @Outline_Vpn | 13",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
@@ -139,9 +139,10 @@
                 "🇨🇦CA | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 9",
-                "🇨🇦CA | 🔴 | vless | @SafeNet_Server | 10",
+                "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | 🔴 | vless | @SafeNet_Server | 11",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 9",
                 "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -184,8 +185,8 @@
                 "🇺🇸US | 🔴 | vless | @proxy_kafee | 6",
                 "🇸🇪SE | 🔴 | vless | @v2logy | 9",
                 "❔XX | 🔴 | vless | @v2logy | 10",
-                "🇸🇬SG | 🔴 | vless | @V2rayCollector | 25",
-                "🇹🇭TH | 🔴 | vless | @V2rayCollector | 26",
+                "🇸🇬SG | 🔴 | vless | @V2rayCollector | 33",
+                "🇹🇭TH | 🔴 | vless | @V2rayCollector | 34",
                 "🇵🇱PL | 🔴 | vless | @azadi_az_inja_migzare | 0",
                 "🇮🇹IT | 🟢 | vless | @Outline_Vpn | 13",
                 "🇳🇱NL | 🟢 | vless | @Outline_Vpn | 14",
@@ -201,9 +202,10 @@
                 "🇨🇦CA | 🔴 | vless | @vless_vmess | 18",
                 "🇺🇸US | 🔴 | vless | @vless_vmess | 19",
                 "🇩🇪DE | 🔴 | vless | @VmessProtocol | 9",
-                "🇨🇦CA | 🔴 | vless | @SafeNet_Server | 10",
+                "❔XX | 🔴 | vless | @SafeNet_Server | 10",
                 "🇨🇦CA | 🔴 | vless | @SafeNet_Server | 11",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 10",
+                "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 11",
                 "❔XX | 🔴 | vless | @free1_vpn | 9",
                 "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @fnet00 | 1",
@@ -607,7 +609,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🔴 | vless | @V2rayCollector | 25",
+            "tag": "🇸🇬SG | 🔴 | vless | @V2rayCollector | 33",
             "type": "vless",
             "server": "91.192.81.214",
             "server_port": 443,
@@ -636,7 +638,7 @@
             }
         },
         {
-            "tag": "🇹🇭TH | 🔴 | vless | @V2rayCollector | 26",
+            "tag": "🇹🇭TH | 🔴 | vless | @V2rayCollector | 34",
             "type": "vless",
             "server": "43.133.110.81",
             "server_port": 443,
@@ -1024,7 +1026,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @SafeNet_Server | 10",
+            "tag": "❔XX | 🔴 | vless | @SafeNet_Server | 10",
             "type": "vless",
             "server": "172.67.71.247",
             "server_port": 443,
@@ -1086,12 +1088,12 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 0",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 10",
             "type": "vless",
-            "server": "31.77.129.207",
+            "server": "20.206.176.5",
             "server_port": 443,
-            "uuid": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
-            "flow": "xtls-rprx-vision",
+            "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1100,18 +1102,34 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de.pinkmoon.pro",
+                "server_name": "dhfthyt6.azurewebsites.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "DS9mX6cMb5wvwFzga8yN2NLbs7soXM7038_P23yPKwk",
-                    "short_id": "8ffa160e608bf539"
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dhfthyt6.azurewebsites.net"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🔴 | vless | @ConfigsHUB | 11",
+            "type": "vless",
+            "server": "15.236.252.3",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
