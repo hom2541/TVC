@@ -126,14 +126,6 @@ proxies:
   - {"name":"🚩CF | 🔴 | trojan | @v2ray1_ng | 2","type":"trojan","server":"188.114.97.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
   - {"name":"❔XX | 🟢 | trojan | @v2ray1_ng | 8","type":"trojan","server":"5.75.171.12","port":1080,"udp":false,"password":"BbNnpOgc1j9WOaWoslbSyeob1r47IRHV","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"maps.google.com"}
   - {"name":"❔XX | 🟢 | trojan | @VmessProtocol | 10","type":"trojan","server":"moral-dolphin.rooster465.autos","port":443,"udp":false,"password":"PQ05174892","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"188.114.97.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 5","type":"trojan","server":"188.114.97.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 7","type":"trojan","server":"199.232.78.160","port":443,"udp":false,"password":"MITIVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssl.fastly.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 8","type":"trojan","server":"151.101.56.7","port":443,"udp":false,"password":"MITIVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssl.fastly.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"167.82.76.7","port":443,"udp":false,"password":"MITIVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssl.fastly.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 14","type":"trojan","server":"167.82.76.7","port":443,"udp":false,"password":"MITIVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssl.fastly.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 15","type":"trojan","server":"151.101.56.7","port":443,"udp":false,"password":"MITIVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ssl.fastly.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 18","type":"trojan","server":"188.114.97.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -148,14 +140,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 2'
       - '❔XX | 🟢 | trojan | @v2ray1_ng | 8'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 14'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 18'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -170,14 +154,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 2'
       - '❔XX | 🟢 | trojan | @v2ray1_ng | 8'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 14'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 18'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -191,14 +167,6 @@ proxy-groups:
       - '🚩CF | 🔴 | trojan | @v2ray1_ng | 2'
       - '❔XX | 🟢 | trojan | @v2ray1_ng | 8'
       - '❔XX | 🟢 | trojan | @VmessProtocol | 10'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 7'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 14'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 15'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 18'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
