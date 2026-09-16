@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🟢 | trojan | @VmessProtocol | 10 = trojan, moral-dolphin.rooster465.autos, 443, password = PQ05174892, udp-delay = true, skip-cert-verify = false, ws = false
+🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18 = trojan, 104.21.76.194, 443, password = Telegram_healer_config, udp-delay = true, skip-cert-verify = false, sni = X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | trojan | @VmessProtocol | 10
-URL-TEST = url-test,❔XX | 🟢 | trojan | @VmessProtocol | 10
-FALLBACK = fallback,❔XX | 🟢 | trojan | @VmessProtocol | 10
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18
+URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18
+FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
