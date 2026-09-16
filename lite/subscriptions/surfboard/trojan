@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18 = trojan, 104.21.76.194, 443, password = Telegram_healer_config, udp-delay = true, skip-cert-verify = false, sni = X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV, ws = false
+🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 10 = trojan, 151.101.56.7, 443, password = MITIVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18
-URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18
-FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 18
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 10
+URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 10
+FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
