@@ -13,10 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, 167.82.76.7, 443, password = MITIVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
 🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9 = trojan, 8.47.69.0, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.pleadcourt.org, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 1 = trojan, 167.82.76.7, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9
-URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9
-FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 1
+URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 1
+FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
