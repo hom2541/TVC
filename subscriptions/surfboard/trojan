@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🚩CF | 🔴 | trojan | @v2ray1_ng | 6 = trojan, 188.114.97.7, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-🚩CF | 🟢 | trojan | @ConfigsHUB | 4 = trojan, 104.16.72.101, 443, password = 6c862415-30d2-4813-8e49-42e99a0bd415, udp-delay = true, skip-cert-verify = false, sni = space.byu.id.yxls.eu.cc, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 7 = trojan, chelyabinsk.gosgenarchive.com, 448, password = r7sfH0LhLtubR_bdakGtDmAAqRKTQcV2, udp-delay = true, skip-cert-verify = false, sni = chelyabinsk.gosgenarchive.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 4
-URL-TEST = url-test,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 4
-FALLBACK = fallback,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 4
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @ConfigsHUB | 7
+URL-TEST = url-test,❔XX | 🔴 | trojan | @ConfigsHUB | 7
+FALLBACK = fallback,❔XX | 🔴 | trojan | @ConfigsHUB | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
