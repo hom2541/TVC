@@ -13,11 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 15 = vmess, 47.244.120.197, 44867, username = 845e6b08-2919-4290-ade0-5dc7dcea59ca, ws = true, tls = , vmess-aead = true, ws-path = /arki?ed=2048, ws-headers = Host:"google.com", skip-cert-verify = true, tfo = false
 ❔XX | 🟢 | vmess | @yaney_01 | 4 = vmess, ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub, 80, username = 46cfcfe1-e450-459d-a3ab-9406011ab3eb, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"tms.dingtalk.com", skip-cert-verify = true, tfo = false
-❔XX | 🟢 | vmess | @Hope_Net | 7 = vmess, 172.67.130.140, 2082, username = 112ac36f-3f53-4e26-8371-d25c028e1b9a, ws = true, tls = , vmess-aead = true, ws-path = /, ws-headers = Host:"s1c.v2.v001sss.xyz", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 5 = vmess, cfcdn1.sanfencdn9.com, 2052, username = ab1ee1ac-884c-44dc-ab65-d533d32e2b1a, ws = true, tls = , vmess-aead = true, ws-path = /video/GQ2qE5Us9g, ws-headers = Host:"tw1bQiWSE4x.fzbqfrse.xyz", skip-cert-verify = true, tfo = false
+❔XX | 🟢 | vmess | @Hope_Net | 6 = vmess, 104.16.219.108, 80, username = 950db6aa-4926-4616-816e-ec0312dcb87b, ws = true, tls = , vmess-aead = true, ws-path = /Telegram/XV2ray, ws-headers = Host:"rubika.ir.google.com.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.aparat.com.V2ray.com.shw2.ir.xn--cr8haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.xn--g28h.dns-dynamic.net.", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 15,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 7
-URL-TEST = url-test,🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 15,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 7
-FALLBACK = fallback,🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 15,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 7
+MANUAL = select,URL-TEST,FALLBACK,🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 15,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 5,❔XX | 🟢 | vmess | @Hope_Net | 6
+URL-TEST = url-test,🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 15,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 5,❔XX | 🟢 | vmess | @Hope_Net | 6
+FALLBACK = fallback,🇭🇰HK | 🟢 | vmess | @DeamNet_Proxy | 15,❔XX | 🟢 | vmess | @yaney_01 | 4,❔XX | 🟢 | vmess | @Hope_Net | 5,❔XX | 🟢 | vmess | @Hope_Net | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

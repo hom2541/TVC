@@ -108,15 +108,18 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vless | @shh_proxy | 8",
                 "❔XX | 🟢 | vless | @shh_proxy | 9",
-                "🇫🇷FR | 🟢 | vless | @V2rayCollector | 7",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 133",
+                "🇫🇷FR | 🟢 | vless | @V2rayCollector | 12",
+                "🇫🇷FR | 🔴 | vless | @prrofile_purple | 128",
+                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 129",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 11",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+                "❔XX | 🟢 | vless | @VmessProtocol | 9",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
+                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 5",
-                "❔XX | 🔴 | vless | @FreakConfig | 14",
+                "❔XX | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -130,15 +133,18 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vless | @shh_proxy | 8",
                 "❔XX | 🟢 | vless | @shh_proxy | 9",
-                "🇫🇷FR | 🟢 | vless | @V2rayCollector | 7",
-                "🇩🇪DE | 🔴 | vless | @prrofile_purple | 133",
+                "🇫🇷FR | 🟢 | vless | @V2rayCollector | 12",
+                "🇫🇷FR | 🔴 | vless | @prrofile_purple | 128",
+                "🇫🇷FR | 🟢 | vless | @prrofile_purple | 129",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 11",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+                "❔XX | 🟢 | vless | @VmessProtocol | 9",
                 "❔XX | 🔴 | vless | @lrnbymaa | 0",
+                "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 14",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 5",
-                "❔XX | 🔴 | vless | @FreakConfig | 14",
+                "❔XX | 🟢 | vless | @FreakConfig | 14",
                 "❔XX | 🔴 | vless | @FreakConfig | 15",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -224,7 +230,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @V2rayCollector | 7",
+            "tag": "🇫🇷FR | 🟢 | vless | @V2rayCollector | 12",
             "type": "vless",
             "server": "194.76.154.31",
             "server_port": 40443,
@@ -253,11 +259,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @prrofile_purple | 133",
+            "tag": "🇫🇷FR | 🔴 | vless | @prrofile_purple | 128",
             "type": "vless",
-            "server": "194.5.65.36",
-            "server_port": 443,
-            "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02",
+            "server": "193.233.133.152",
+            "server_port": 41554,
+            "uuid": "2a7453a1-ed8e-4deb-b91e-ce7412ba0b1a",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -267,17 +273,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ya.ru",
+                "server_name": "www.intel.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0",
-                    "short_id": "72cd47c079c0a3df"
+                    "public_key": "4gUFzWvpcv8E8_wXIQR3GVFEfB_WAx1HH3DY78k_3EY",
+                    "short_id": "1a49ca9bcdbb"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vless | @prrofile_purple | 129",
+            "type": "vless",
+            "server": "193.233.133.152",
+            "server_port": 53587,
+            "uuid": "048c2cb6-b4be-4f2a-bc04-994624b53629",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.intel.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "5PCekntOkWAQ-IRoIZ7twOntrfim4eqqSUO_nVgTQyM",
+                    "short_id": "2b5661a042d2"
                 }
             }
         },
@@ -311,7 +346,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 9",
             "type": "vless",
             "server": "67.159.55.130",
             "server_port": 443,
@@ -365,6 +400,64 @@
                     "enabled": true,
                     "public_key": "gWADnxn4FeCUq7gG1hK-gk012Wt4c-Utyr00An2geGQ",
                     "short_id": "6d62a416f077"
+                }
+            }
+        },
+        {
+            "tag": "🇵🇱PL | 🟢 | vless | @ConfigsHUB | 14",
+            "type": "vless",
+            "server": "2.27.244.177",
+            "server_port": 443,
+            "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "polacondr.ggisopi.su",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "188.137.251.183",
+            "server_port": 51053,
+            "uuid": "25fbd2b5-3263-4bae-a7e5-a2bd4b679424",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play-apps-features.googleusercontent.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uRsgB9Pp5QwwMS7cmv6KSUVSS0Iz0QAXrI6qQaZUTAI",
+                    "short_id": "4feec2"
                 }
             }
         },
@@ -456,7 +549,36 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 14",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 14",
+            "type": "vless",
+            "server": "94.237.92.65",
+            "server_port": 443,
+            "uuid": "e4b11ac9-46f7-4cc0-92ed-bb9dfaaf3600",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lkMM9FR-o7Z6NwmmQVK8rLhCQR1mbJTgjY_0upeS2SY",
+                    "short_id": "0436301fb0178b"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 15",
             "type": "vless",
             "server": "89.35.14.31",
             "server_port": 443,
@@ -486,42 +608,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "hub.v1.SyncService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 15",
-            "type": "vless",
-            "server": "md1.univesalsrv.com",
-            "server_port": 443,
-            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "md1.univesalsrv.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY",
-                    "short_id": "221ba6174224ca5b"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "hub.v1.RelayService",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
