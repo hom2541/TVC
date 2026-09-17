@@ -11,16 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 185.114.72.31, 2053, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, 151.101.56.7, 443, password = MITIVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 6 = trojan, 199.232.78.160, 443, password = MITIVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 7 = trojan, 213.182.199.137, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.pleadcourt.org, ws = false
 🚩CF | 🔴 | trojan | @v2ray1_ng | 6 = trojan, 188.114.97.7, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-🚩CF | 🔴 | trojan | @ConfigsHUB | 3 = trojan, 172.67.156.62, 443, password = Telegram_healer_config, udp-delay = true, skip-cert-verify = false, sni = IJM8x9uGWPIQrMN-lo-S.ztl55lTKPUB38y36MCtgm.WOrKeRs.Dev, ws = false
+🚩CF | 🟢 | trojan | @ConfigsHUB | 4 = trojan, 104.16.72.101, 443, password = 6c862415-30d2-4813-8e49-42e99a0bd415, udp-delay = true, skip-cert-verify = false, sni = space.byu.id.yxls.eu.cc, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @oneclickvpnkeys | 7,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🔴 | trojan | @ConfigsHUB | 3
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @oneclickvpnkeys | 7,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🔴 | trojan | @ConfigsHUB | 3
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @oneclickvpnkeys | 7,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🔴 | trojan | @ConfigsHUB | 3
+MANUAL = select,URL-TEST,FALLBACK,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 4
+URL-TEST = url-test,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 4
+FALLBACK = fallback,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
