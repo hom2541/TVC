@@ -12,11 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇮🇷IR | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 45.131.4.118, 443, password = f18d6149-e214-8554-e737-f7523c8b2eea, udp-delay = true, skip-cert-verify = false, sni = 0403.infinityconfig4.workers.dev, ws = false
-🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7 = trojan, 199.232.78.160, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇮🇷IR | 🔴 | trojan | @oneclickvpnkeys | 4,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7
-URL-TEST = url-test,🇮🇷IR | 🔴 | trojan | @oneclickvpnkeys | 4,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7
-FALLBACK = fallback,🇮🇷IR | 🔴 | trojan | @oneclickvpnkeys | 4,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 7
+MANUAL = select,URL-TEST,FALLBACK,🇮🇷IR | 🔴 | trojan | @oneclickvpnkeys | 4
+URL-TEST = url-test,🇮🇷IR | 🔴 | trojan | @oneclickvpnkeys | 4
+FALLBACK = fallback,🇮🇷IR | 🔴 | trojan | @oneclickvpnkeys | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
