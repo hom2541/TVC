@@ -112,8 +112,9 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 132",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇲🇩MD | 🟢 | vless | @v2ray1_ng | 7",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🟢 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 6",
@@ -134,8 +135,9 @@
                 "🇩🇪DE | 🔴 | vless | @prrofile_purple | 132",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 11",
                 "🇲🇩MD | 🟢 | vless | @v2ray1_ng | 7",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
-                "❔XX | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🟢 | vless | @VmessProtocol | 9",
+                "🇩🇪DE | 🔴 | vless | @lrnbymaa | 0",
+                "❔XX | 🔴 | vless | @ConfigsHUB | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 6",
@@ -340,7 +342,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 9",
             "type": "vless",
             "server": "67.159.55.130",
             "server_port": 443,
@@ -369,7 +371,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | @lrnbymaa | 0",
             "type": "vless",
             "server": "91.107.250.76",
             "server_port": 443,
@@ -394,6 +396,35 @@
                     "enabled": true,
                     "public_key": "gWADnxn4FeCUq7gG1hK-gk012Wt4c-Utyr00An2geGQ",
                     "short_id": "6d62a416f077"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 2",
+            "type": "vless",
+            "server": "66.33.22.232",
+            "server_port": 34118,
+            "uuid": "12148993-e326-4061-809d-d2a24a42bcb8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cam.ac.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hbNyksag-i4fRqV86HG14fhASaXpl4sYv-1zgrrnUSQ",
+                    "short_id": "b5126487"
                 }
             }
         },
