@@ -107,17 +107,17 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vless | @shh_proxy | 9",
-                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 1",
-                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 38",
+                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 2",
+                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 51",
                 "🇫🇷FR | 🔴 | vless | @prrofile_purple | 128",
                 "🇫🇷FR | 🟢 | vless | @prrofile_purple | 129",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
-                "❔XX | 🟢 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @lrnbymaa | 1",
+                "❔XX | 🟢 | vless | @lrnbymaa | 1",
+                "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 7",
-                "❔XX | 🔴 | vless | @FreakConfig | 12",
+                "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🟢 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -130,17 +130,17 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | 🟢 | vless | @shh_proxy | 9",
-                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 1",
-                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 38",
+                "🇳🇱NL | 🔴 | vless | @proxy_kafee | 2",
+                "🇩🇪DE | 🔴 | vless | @V2rayCollector | 51",
                 "🇫🇷FR | 🔴 | vless | @prrofile_purple | 128",
                 "🇫🇷FR | 🟢 | vless | @prrofile_purple | 129",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 9",
-                "❔XX | 🟢 | vless | @lrnbymaa | 0",
-                "❔XX | 🔴 | vless | @lrnbymaa | 1",
+                "❔XX | 🟢 | vless | @lrnbymaa | 1",
+                "❔XX | 🔴 | vless | @lrnbymaa | 2",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 7",
-                "❔XX | 🔴 | vless | @FreakConfig | 12",
+                "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🟢 | vless | @flyv2ray | 8",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -197,7 +197,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @proxy_kafee | 1",
+            "tag": "🇳🇱NL | 🔴 | vless | @proxy_kafee | 2",
             "type": "vless",
             "server": "nl-1.bnc-gt.co.uk",
             "server_port": 443,
@@ -226,7 +226,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @V2rayCollector | 38",
+            "tag": "🇩🇪DE | 🔴 | vless | @V2rayCollector | 51",
             "type": "vless",
             "server": "ugb.mobileemdad.top",
             "server_port": 443,
@@ -342,7 +342,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 0",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 1",
             "type": "vless",
             "server": "144.31.131.38",
             "server_port": 443,
@@ -371,7 +371,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 1",
+            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 2",
             "type": "vless",
             "server": "91.107.250.76",
             "server_port": 443,
@@ -487,11 +487,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @FreakConfig | 12",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 7",
             "type": "vless",
-            "server": "150.40.126.22",
+            "server": "ai.trstcore.pro",
             "server_port": 443,
-            "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+            "uuid": "a8f5e04b-be34-4b84-9359-684ad9c417b0",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -501,7 +501,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "rs4.univesalsrv.com",
+                "server_name": "ai.trstcore.pro",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -510,16 +510,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs",
-                    "short_id": "861ac7d66953e55f"
+                    "public_key": "9WRqVZFCPMEG_BOcWGhyxAzZh7Khr32Bwk_Chn1qe00",
+                    "short_id": "68edd85a6549e28a"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "media.v1.StreamService",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
