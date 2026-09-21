@@ -121,6 +121,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 1",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 12",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -159,6 +160,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 1",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 12",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -457,6 +459,23 @@
                 "headers": {
                     "Host": "47.244.120.197"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 12",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
