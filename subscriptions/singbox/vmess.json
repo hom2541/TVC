@@ -120,8 +120,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 1",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -137,8 +136,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 15",
-                "❔XX | 🟢 | vmess | @ISVvpn | 0"
+                "❔XX | 🟢 | vmess | @nofiltering2 | 15"
             ]
         },
         {
@@ -159,8 +157,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 1",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -176,8 +173,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
-                "❔XX | 🟢 | vmess | @nofiltering2 | 15",
-                "❔XX | 🟢 | vmess | @ISVvpn | 0"
+                "❔XX | 🟢 | vmess | @nofiltering2 | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -438,31 +434,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
-            "type": "vmess",
-            "server": "47.244.120.197",
-            "server_port": 44867,
-            "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": "47.244.120.197"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -909,30 +881,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/dkfjh222",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ISVvpn | 0",
-            "type": "vmess",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess\/",
                 "headers": {
                     "Host": ""
                 }
