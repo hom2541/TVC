@@ -107,7 +107,6 @@
             "outbounds": [
                 "URL-TEST",
                 "🇱🇻LV | 🟢 | vless | @shh_proxy | 11",
-                "🇩🇪DE | 🟢 | vless | @V2rayCollector | 46",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 13",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 14",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 127",
@@ -116,8 +115,8 @@
                 "🇪🇪EE | 🟢 | vless | @v2ray1_ng | 8",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 7",
                 "🇧🇾BY | 🟢 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @lrnbymaa | 4",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @lrnbymaa | 4",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
@@ -132,7 +131,6 @@
             "type": "urltest",
             "outbounds": [
                 "🇱🇻LV | 🟢 | vless | @shh_proxy | 11",
-                "🇩🇪DE | 🟢 | vless | @V2rayCollector | 46",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 13",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 14",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 127",
@@ -141,8 +139,8 @@
                 "🇪🇪EE | 🟢 | vless | @v2ray1_ng | 8",
                 "🇳🇱NL | 🟢 | vless | @VmessProtocol | 7",
                 "🇧🇾BY | 🟢 | vless | @lrnbymaa | 3",
-                "🇩🇪DE | 🔴 | vless | @lrnbymaa | 4",
-                "❔XX | 🟢 | vless | @ConfigsHUB | 13",
+                "❔XX | 🔴 | vless | @lrnbymaa | 4",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 3",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 5",
@@ -197,35 +195,6 @@
                     "enabled": true,
                     "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @V2rayCollector | 46",
-            "type": "vless",
-            "server": "arcturus.yokkastars.com",
-            "server_port": 40443,
-            "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "deepl.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4",
-                    "short_id": "db46e2946fc466fd"
                 }
             }
         },
@@ -462,7 +431,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @lrnbymaa | 4",
+            "tag": "❔XX | 🔴 | vless | @lrnbymaa | 4",
             "type": "vless",
             "server": "91.107.250.76",
             "server_port": 443,
@@ -491,11 +460,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 13",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 3",
             "type": "vless",
-            "server": "143.246.196.122",
-            "server_port": 443,
-            "uuid": "ac0c2945-b758-11f1-8181-54db13ea7d40",
+            "server": "45.86.245.107",
+            "server_port": 5865,
+            "uuid": "ce230b9c-0531-40da-bc3f-f27a8e059db1",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -505,17 +474,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.blocket.se",
+                "server_name": "ru.vkroom-it-service.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "safari"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c",
-                    "short_id": ""
+                    "public_key": "1UlHWXQ11dMmBYHq7XYsyKnfPVGTh9UssmiJE_zRnjI",
+                    "short_id": "a4f7c2e91b6d8035"
                 }
             }
         },
