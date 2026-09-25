@@ -120,11 +120,7 @@ dns:
 proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"212.227.144.37","port":8443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"45.130.125.160","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
-  - {"name":"🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 2","type":"trojan","server":"194.93.61.120","port":443,"udp":false,"password":"pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"16.img.avito.st"}
-  - {"name":"Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6","type":"trojan","server":"render.com","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"188.114.97.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 10","type":"trojan","server":"172.67.149.60","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.ignitelimit.com"}
-  - {"name":"Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"188.114.97.7","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"❔XX | 🟢 | trojan | @v2ray1_ng | 2","type":"trojan","server":"194.93.61.120","port":443,"udp":false,"password":"pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"16.img.avito.st"}
   - {"name":"🚩CF | 🔴 | trojan | @kingofilter | 0","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
@@ -134,11 +130,7 @@ proxy-groups:
       - FALLBACK
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 2'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 9'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 10'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
+      - '❔XX | 🟢 | trojan | @v2ray1_ng | 2'
       - '🚩CF | 🔴 | trojan | @kingofilter | 0'
   - name: URL-TEST
     type: url-test
@@ -148,11 +140,7 @@ proxy-groups:
     proxies:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 2'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 9'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 10'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
+      - '❔XX | 🟢 | trojan | @v2ray1_ng | 2'
       - '🚩CF | 🔴 | trojan | @kingofilter | 0'
   - name: FALLBACK
     type: fallback
@@ -161,11 +149,7 @@ proxy-groups:
     proxies:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 2'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&host=www.ignitelimit.com&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 6'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 9'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 10'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 16'
+      - '❔XX | 🟢 | trojan | @v2ray1_ng | 2'
       - '🚩CF | 🔴 | trojan | @kingofilter | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
