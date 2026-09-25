@@ -106,7 +106,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
+                "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
@@ -118,11 +118,10 @@
                 "❔XX | 🟢 | vmess | @mftizi | 11",
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
-                "❔XX | 🟢 | vmess | @mftizi | 16",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 4",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
+                "🇹🇷TR | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -144,7 +143,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
+                "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
@@ -156,11 +155,10 @@
                 "❔XX | 🟢 | vmess | @mftizi | 11",
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
-                "❔XX | 🟢 | vmess | @mftizi | 16",
+                "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 4",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
+                "🇹🇷TR | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -198,7 +196,7 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
+            "tag": "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
             "type": "vmess",
             "server": "146.59.147.250",
             "server_port": 29776,
@@ -402,7 +400,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @mftizi | 16",
+            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 16",
             "type": "vmess",
             "server": "120.232.153.27",
             "server_port": 58831,
@@ -436,7 +434,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
             "type": "vmess",
             "server": "103.215.218.158",
             "server_port": 22324,
@@ -453,28 +451,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 4",
+            "tag": "🇹🇷TR | 🟢 | vmess | @v2ray1_ng | 5",
             "type": "vmess",
             "server": "103.215.218.158",
             "server_port": 22324,
             "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 5",
-            "type": "vmess",
-            "server": "143.14.59.109",
-            "server_port": 2100,
-            "uuid": "6b306661-93c7-4653-94d6-a8adb742b82f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
