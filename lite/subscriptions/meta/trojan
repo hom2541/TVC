@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"45.130.125.160","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
-  - {"name":"🇨🇦CA | 🔴 | trojan | @kingofilter | 0","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"❔XX | 🔴 | trojan | @kingofilter | 0","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇨🇦CA | 🔴 | trojan | @kingofilter | 0'
+      - '❔XX | 🔴 | trojan | @kingofilter | 0'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,14 +137,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇨🇦CA | 🔴 | trojan | @kingofilter | 0'
+      - '❔XX | 🔴 | trojan | @kingofilter | 0'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇨🇦CA | 🔴 | trojan | @kingofilter | 0'
+      - '❔XX | 🔴 | trojan | @kingofilter | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
