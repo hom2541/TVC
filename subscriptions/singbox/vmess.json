@@ -122,6 +122,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -159,6 +161,8 @@
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -454,6 +458,40 @@
             "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
             "type": "vmess",
             "server": "103.215.218.158",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
+            "type": "vmess",
+            "server": "89.41.172.85",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 2",
+            "type": "vmess",
+            "server": "45.80.215.8",
             "server_port": 22324,
             "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
