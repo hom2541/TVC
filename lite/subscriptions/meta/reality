@@ -121,8 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇦🇹AT | 🔴 | vless | @EliV2ray | 5","type":"vless","server":"152.53.65.60","port":8443,"udp":true,"uuid":"84a794a5-2420-4ca7-8e08-8d21571f36f3","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"avstri.plus-hit.ru","reality-opts":{"public-key":"Zvq-k6PMXjmd6YlWcu3T1J63m0IxZcOaedRwSG9O0lI","short-id":"92558baf673ab721"}}
-  - {"name":"🇩🇪DE | 🟢 | vless | @V2rayCollector | 33","type":"vless","server":"64.188.79.106","port":443,"udp":true,"uuid":"94006a20-6cd6-4751-a14d-c5a0bacb68bb","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"yandex.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg","short-id":"992e5a9a"}}
-  - {"name":"🇳🇱NL | 🟢 | vless | @V2rayCollector | 34","type":"vless","server":"104.194.134.23","port":443,"udp":true,"uuid":"dc9e93bc-b53a-11f1-91d3-52540030ba36","tls":true,"network":"tcp","client-fingerprint":"safari","servername":"tradingview.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"USxaWDRKvJlZ-aHR-OGBT2XwVas2j4_1rhZCCfVNCBY"}}
+  - {"name":"🇷🇺RU | 🔴 | vless | @proxy_kafee | 0","type":"vless","server":"129.101.120.5","port":37951,"udp":true,"uuid":"25284368-40d5-4abe-9f56-54a07e88a7af","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"nl2.dzvn.space","flow":"xtls-rprx-vision","reality-opts":{"public-key":"O6ZOpoz4sxon8iHxCd5EEvx2K9NUThd4SvOCBEvADEI","short-id":"a9e21fd097d019c6"}}
+  - {"name":"🇺🇸US | 🟢 | vless | @V2rayCollector | 27","type":"vless","server":"ww9.levikogjgfdd.ir","port":36925,"udp":true,"uuid":"c9fd0fb1-8251-4106-b09a-f4b426736f67","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.cloudflare.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0"}}
   - {"name":"🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15","type":"vless","server":"195.133.73.65","port":443,"udp":true,"uuid":"ebd1c0d6-7ff4-4b9f-8692-237517a27a64","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"anyfile2file.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0","short-id":"64c1fe36c7846400"}}
   - {"name":"🇫🇮FI | 🟢 | vless | @prrofile_purple | 121","type":"vless","server":"95.216.161.1","port":443,"udp":true,"uuid":"22199ed8-5f22-4906-9917-67e3609d8776","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.cloudflare.com","reality-opts":{"public-key":"XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg","short-id":"29fd3dc0210c"}}
   - {"name":"🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6","type":"vless","server":"files.noneok.com","port":443,"udp":true,"uuid":"a8e3155b-ceb1-4fcb-bc0c-2e77ec005401","tls":true,"network":"grpc","client-fingerprint":"firefox","servername":"files.noneok.com","grpc-opts":{"grpc-service-name":"api.v1.StreamService"},"reality-opts":{"public-key":"q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g","short-id":"d3b394558cfe0266"}}
@@ -140,8 +140,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇦🇹AT | 🔴 | vless | @EliV2ray | 5'
-      - '🇩🇪DE | 🟢 | vless | @V2rayCollector | 33'
-      - '🇳🇱NL | 🟢 | vless | @V2rayCollector | 34'
+      - '🇷🇺RU | 🔴 | vless | @proxy_kafee | 0'
+      - '🇺🇸US | 🟢 | vless | @V2rayCollector | 27'
       - '🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15'
       - '🇫🇮FI | 🟢 | vless | @prrofile_purple | 121'
       - '🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6'
@@ -159,8 +159,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇦🇹AT | 🔴 | vless | @EliV2ray | 5'
-      - '🇩🇪DE | 🟢 | vless | @V2rayCollector | 33'
-      - '🇳🇱NL | 🟢 | vless | @V2rayCollector | 34'
+      - '🇷🇺RU | 🔴 | vless | @proxy_kafee | 0'
+      - '🇺🇸US | 🟢 | vless | @V2rayCollector | 27'
       - '🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15'
       - '🇫🇮FI | 🟢 | vless | @prrofile_purple | 121'
       - '🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6'
@@ -177,8 +177,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇦🇹AT | 🔴 | vless | @EliV2ray | 5'
-      - '🇩🇪DE | 🟢 | vless | @V2rayCollector | 33'
-      - '🇳🇱NL | 🟢 | vless | @V2rayCollector | 34'
+      - '🇷🇺RU | 🔴 | vless | @proxy_kafee | 0'
+      - '🇺🇸US | 🟢 | vless | @V2rayCollector | 27'
       - '🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15'
       - '🇫🇮FI | 🟢 | vless | @prrofile_purple | 121'
       - '🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 6'

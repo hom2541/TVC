@@ -11,12 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 45.130.125.75, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, 45.130.125.75, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
 🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 6 = trojan, 194.93.61.120, 443, password = pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr, udp-delay = true, skip-cert-verify = false, sni = 16.img.avito.st, ws = false
+🇺🇸US | 🔴 | trojan | @ConfigsHUB | 11 = trojan, 188.114.98.0, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 12 = trojan, 188.114.97.7, 443, password = humanity, udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4,🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 6
-URL-TEST = url-test,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4,🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 6
-FALLBACK = fallback,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 4,🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 6
+MANUAL = select,URL-TEST,FALLBACK,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 5,🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 6,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 11,Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 12
+URL-TEST = url-test,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 5,🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 6,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 11,Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 12
+FALLBACK = fallback,🇸🇨SC | 🔴 | trojan | @oneclickvpnkeys | 5,🇳🇱NL | 🟢 | trojan | @v2ray1_ng | 6,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 11,Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&insecure=0&ech=ip.gs udp://8.8.8.8&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇺🇸US | 🔴 | trojan | @ConfigsHUB | 12
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
