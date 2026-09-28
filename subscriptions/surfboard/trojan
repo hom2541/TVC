@@ -11,17 +11,18 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @v2ray1_ng | 1 = trojan, www.speedtest.net, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-❔XX | 🔴 | trojan | @v2ray1_ng | 2 = trojan, render.com, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-🚩CF | 🔴 | trojan | @v2ray1_ng | 6 = trojan, 188.114.97.7, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-❔XX | 🔴 | trojan | @kingofilter | 0 = trojan, 151.101.56.9, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
-🚩CF | 🔴 | trojan | @kingofilter | 1 = trojan, 172.67.149.60, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-❔XX | 🟢 | trojan | @kingofilter | 2 = trojan, 151.101.56.9, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
-🚩CF | 🔴 | trojan | @kingofilter | 3 = trojan, 188.114.97.6, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 199.232.78.188, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
+❔XX | 🔴 | trojan | @v2ray1_ng | 2 = trojan, www.speedtest.net, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
+❔XX | 🔴 | trojan | @v2ray1_ng | 3 = trojan, render.com, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
+❔XX | 🟢 | trojan | @ConfigsHUB | 3 = trojan, france.poelspsgwk.ir, 44370, password = _HoxBDsA9ugdz1bacIK1OFr9YfR6B0dS, udp-delay = true, skip-cert-verify = false, sni = speedtest.net, ws = false
+❔XX | 🔴 | trojan | @kingofilter | 2 = trojan, 151.101.56.9, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
+🚩CF | 🔴 | trojan | @kingofilter | 3 = trojan, 172.67.149.60, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
+❔XX | 🟢 | trojan | @kingofilter | 4 = trojan, 151.101.56.9, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
+🚩CF | 🔴 | trojan | @kingofilter | 5 = trojan, 188.114.97.6, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @v2ray1_ng | 1,❔XX | 🔴 | trojan | @v2ray1_ng | 2,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,❔XX | 🔴 | trojan | @kingofilter | 0,🚩CF | 🔴 | trojan | @kingofilter | 1,❔XX | 🟢 | trojan | @kingofilter | 2,🚩CF | 🔴 | trojan | @kingofilter | 3
-URL-TEST = url-test,❔XX | 🔴 | trojan | @v2ray1_ng | 1,❔XX | 🔴 | trojan | @v2ray1_ng | 2,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,❔XX | 🔴 | trojan | @kingofilter | 0,🚩CF | 🔴 | trojan | @kingofilter | 1,❔XX | 🟢 | trojan | @kingofilter | 2,🚩CF | 🔴 | trojan | @kingofilter | 3
-FALLBACK = fallback,❔XX | 🔴 | trojan | @v2ray1_ng | 1,❔XX | 🔴 | trojan | @v2ray1_ng | 2,🚩CF | 🔴 | trojan | @v2ray1_ng | 6,❔XX | 🔴 | trojan | @kingofilter | 0,🚩CF | 🔴 | trojan | @kingofilter | 1,❔XX | 🟢 | trojan | @kingofilter | 2,🚩CF | 🔴 | trojan | @kingofilter | 3
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🔴 | trojan | @v2ray1_ng | 3,❔XX | 🟢 | trojan | @ConfigsHUB | 3,❔XX | 🔴 | trojan | @kingofilter | 2,🚩CF | 🔴 | trojan | @kingofilter | 3,❔XX | 🟢 | trojan | @kingofilter | 4,🚩CF | 🔴 | trojan | @kingofilter | 5
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🔴 | trojan | @v2ray1_ng | 3,❔XX | 🟢 | trojan | @ConfigsHUB | 3,❔XX | 🔴 | trojan | @kingofilter | 2,🚩CF | 🔴 | trojan | @kingofilter | 3,❔XX | 🟢 | trojan | @kingofilter | 4,🚩CF | 🔴 | trojan | @kingofilter | 5
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🔴 | trojan | @v2ray1_ng | 3,❔XX | 🟢 | trojan | @ConfigsHUB | 3,❔XX | 🔴 | trojan | @kingofilter | 2,🚩CF | 🔴 | trojan | @kingofilter | 3,❔XX | 🟢 | trojan | @kingofilter | 4,🚩CF | 🔴 | trojan | @kingofilter | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
