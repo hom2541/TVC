@@ -11,17 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @v2ray1_ng | 5 = trojan, www.speedtest.net, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-❔XX | 🔴 | trojan | @v2ray1_ng | 6 = trojan, render.com, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-🚩CF | 🟢 | trojan | @ConfigsHUB | 1 = trojan, 104.18.12.149, 443, password = humanity, udp-delay = true, skip-cert-verify = true, sni = www.multiplydose.com, ws = false
-🚩CF | 🟢 | trojan | @ConfigsHUB | 7 = trojan, 104.16.174.36, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.ignitelimit.com, ws = false
-❔XX | 🟢 | trojan | @ConfigsHUB | 15 = trojan, srv1.khatibirepair.ir, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
-🚩CF | 🟢 | trojan | @ConfigsHUB | 19 = trojan, 104.19.229.21, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.gossipglove.com, ws = false
-❔XX | 🔴 | trojan | @kingofilter | 0 = trojan, 199.232.78.101, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
+❔XX | 🔴 | trojan | @kingofilter | 1 = trojan, 199.232.78.101, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @v2ray1_ng | 5,❔XX | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 1,🚩CF | 🟢 | trojan | @ConfigsHUB | 7,❔XX | 🟢 | trojan | @ConfigsHUB | 15,🚩CF | 🟢 | trojan | @ConfigsHUB | 19,❔XX | 🔴 | trojan | @kingofilter | 0
-URL-TEST = url-test,❔XX | 🔴 | trojan | @v2ray1_ng | 5,❔XX | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 1,🚩CF | 🟢 | trojan | @ConfigsHUB | 7,❔XX | 🟢 | trojan | @ConfigsHUB | 15,🚩CF | 🟢 | trojan | @ConfigsHUB | 19,❔XX | 🔴 | trojan | @kingofilter | 0
-FALLBACK = fallback,❔XX | 🔴 | trojan | @v2ray1_ng | 5,❔XX | 🔴 | trojan | @v2ray1_ng | 6,🚩CF | 🟢 | trojan | @ConfigsHUB | 1,🚩CF | 🟢 | trojan | @ConfigsHUB | 7,❔XX | 🟢 | trojan | @ConfigsHUB | 15,🚩CF | 🟢 | trojan | @ConfigsHUB | 19,❔XX | 🔴 | trojan | @kingofilter | 0
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @kingofilter | 1
+URL-TEST = url-test,❔XX | 🔴 | trojan | @kingofilter | 1
+FALLBACK = fallback,❔XX | 🔴 | trojan | @kingofilter | 1
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
