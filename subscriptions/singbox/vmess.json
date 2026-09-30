@@ -108,7 +108,7 @@
                 "URL-TEST",
                 "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 0",
-                "🇯🇵JP | 🟢 | vmess | @mftizi | 1",
+                "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
                 "❔XX | 🟢 | vmess | @mftizi | 4",
@@ -119,11 +119,11 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 5",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 6",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 8",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -147,7 +147,7 @@
             "outbounds": [
                 "❔XX | 🟢 | vmess | @v2ray_outlineir | 0",
                 "❔XX | 🟢 | vmess | @mftizi | 0",
-                "🇯🇵JP | 🟢 | vmess | @mftizi | 1",
+                "❔XX | 🟢 | vmess | @mftizi | 1",
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
                 "❔XX | 🟢 | vmess | @mftizi | 4",
@@ -158,11 +158,11 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 5",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 6",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 8",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -234,7 +234,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | @mftizi | 1",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 1",
             "type": "vmess",
             "server": "45.159.51.116",
             "server_port": 48019,
@@ -421,28 +421,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
             "type": "vmess",
-            "server": "112.132.215.108",
-            "server_port": 50002,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 5",
-            "type": "vmess",
-            "server": "129.146.77.248",
-            "server_port": 39495,
-            "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+            "server": "cg1c02.waimaojd.com",
+            "server_port": 443,
+            "uuid": "332774e5-9371-48bb-b518-1fe56c7268da",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -453,20 +436,47 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "cg1c02.waimaojd.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/cctv13.m3u8",
+                "path": "\/api\/v1\/graphql",
                 "headers": {
-                    "Host": "129.146.77.248"
+                    "Host": "cg1c02.waimaojd.com"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 6",
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 8",
             "type": "vmess",
-            "server": "129.146.77.248",
-            "server_port": 39495,
-            "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+            "server": "67.220.95.3",
+            "server_port": 18000,
+            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
+            "type": "vmess",
+            "server": "guanwang.awsno.com",
+            "server_port": 443,
+            "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -477,11 +487,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "guanwang.awsno.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/cctv13.m3u8",
+                "path": "\/hls\/cctv5phd.m3u8",
                 "headers": {
-                    "Host": "129.146.77.248"
+                    "Host": "guanwang.awsno.com"
                 }
             }
         },
@@ -503,7 +523,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 3",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 4",
             "type": "vmess",
             "server": "89.41.172.85",
             "server_port": 22324,
