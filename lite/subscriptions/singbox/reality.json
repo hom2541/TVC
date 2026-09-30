@@ -108,17 +108,17 @@
                 "URL-TEST",
                 "🇹🇷TR | 🟢 | vless | @shh_proxy | 12",
                 "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
-                "🇷🇺RU | 🟢 | vless | @V2rayCollector | 23",
+                "🇷🇺RU | 🟢 | vless | @V2rayCollector | 32",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 126",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 127",
-                "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 7",
-                "🇬🇧GB | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇷🇺RU | 🔴 | vless | @v2ray1_ng | 4",
-                "🇧🇾BY | 🟢 | vless | @lrnbymaa | 4",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 5",
+                "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 8",
+                "🇬🇧GB | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "❔XX | 🟢 | vless | @lrnbymaa | 4",
+                "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
+                "❔XX | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "\/?Telegram--mehrosaboran&security=reality&encryption=none&pbk=MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s&fp=safari&type=xhttp&sni=www.amd.com#❔XX | 🔴 | vless | @mehrosaboran | 12",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -133,17 +133,17 @@
             "outbounds": [
                 "🇹🇷TR | 🟢 | vless | @shh_proxy | 12",
                 "🇳🇱NL | 🔴 | vless | @proxy_kafee | 0",
-                "🇷🇺RU | 🟢 | vless | @V2rayCollector | 23",
+                "🇷🇺RU | 🟢 | vless | @V2rayCollector | 32",
                 "🇫🇮FI | 🟢 | vless | @prrofile_purple | 126",
                 "🇳🇱NL | 🟢 | vless | @prrofile_purple | 127",
-                "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 7",
-                "🇬🇧GB | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇷🇺RU | 🔴 | vless | @v2ray1_ng | 4",
-                "🇧🇾BY | 🟢 | vless | @lrnbymaa | 4",
-                "❔XX | 🔴 | vless | @ConfigsHUB | 5",
+                "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 8",
+                "🇬🇧GB | 🟢 | vless | @v2rayNG_Matsuri | 9",
+                "❔XX | 🟢 | vless | @lrnbymaa | 4",
+                "❔XX | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 12",
+                "❔XX | 🔴 | vless | @FreakConfig | 9",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "\/?Telegram--mehrosaboran&security=reality&encryption=none&pbk=MrquKoaQbcdNflcdIZSLspoGTZgAfWw6uVhvSY52P1s&fp=safari&type=xhttp&sni=www.amd.com#❔XX | 🔴 | vless | @mehrosaboran | 12",
                 "❔XX | 🔴 | vless | @kiava | 83",
@@ -230,7 +230,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @V2rayCollector | 23",
+            "tag": "🇷🇺RU | 🟢 | vless | @V2rayCollector | 32",
             "type": "vless",
             "server": "62.76.142.70",
             "server_port": 443,
@@ -317,7 +317,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 7",
+            "tag": "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 8",
             "type": "vless",
             "server": "150.241.101.80",
             "server_port": 8443,
@@ -346,7 +346,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @v2rayNG_Matsuri | 8",
+            "tag": "🇬🇧GB | 🟢 | vless | @v2rayNG_Matsuri | 9",
             "type": "vless",
             "server": "finporkzov.com",
             "server_port": 443,
@@ -375,43 +375,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @v2ray1_ng | 4",
-            "type": "vless",
-            "server": "176.108.247.104",
-            "server_port": 9881,
-            "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
-                    "short_id": "aabb"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc-tunnel",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇧🇾BY | 🟢 | vless | @lrnbymaa | 4",
+            "tag": "❔XX | 🟢 | vless | @lrnbymaa | 4",
             "type": "vless",
             "server": "144.31.131.38",
             "server_port": 443,
@@ -440,11 +404,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @ConfigsHUB | 5",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 10",
             "type": "vless",
-            "server": "208.69.78.217",
-            "server_port": 2053,
-            "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+            "server": "188.137.231.200",
+            "server_port": 24562,
+            "uuid": "b706bd4d-14d5-48dd-9fe3-1d79ecfeed17",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -454,17 +418,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.apple.com",
+                "server_name": "android.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-                    "short_id": "ad86e2d52ff40ebd"
+                    "public_key": "0Ke_kOZwpSESFBQCfYWn7pDY_tJyv8gsWX6fXbO7Zyo",
+                    "short_id": "6279cd"
                 }
             }
         },
@@ -553,6 +517,42 @@
                     "public_key": "dBK1Uu9s-8Ke6NcE3vQnv_RMMczuMGbGIVFbIA_oIig",
                     "short_id": "0a809cfd4605f7b9"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | @FreakConfig | 9",
+            "type": "vless",
+            "server": "176.108.247.104",
+            "server_port": 9881,
+            "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dl.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
+                    "short_id": "aabb"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc-tunnel",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
