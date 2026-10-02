@@ -11,12 +11,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 165.215.250.14, 443, password = humanity, udp-delay = true, skip-cert-verify = true, sni = www.calmlunch.com, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 4 = trojan, 46.8.227.108, 2083, password = 49ctdxv5jip9zk2x, udp-delay = true, skip-cert-verify = false, sni = www.sony.se, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 195.15.202.111, 80, password = uCzwXi06tusoiP5kAUKrsg, udp-delay = true, skip-cert-verify = false, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 2 = trojan, 165.215.250.14, 443, password = humanity, udp-delay = true, skip-cert-verify = true, sni = www.calmlunch.com, ws = false
+Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104"]}}]}&insecure=0&host=www.volumeroot.com&type=ws&allowInsecure=0&sni=www.volumeroot.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 0 = trojan, 172.67.139.14, 443, password = humanity, udp-delay = true, skip-cert-verify = false, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 3 = trojan, 31.57.108.159, 443, password = s0hpchj6to0vsyro, udp-delay = true, skip-cert-verify = false, sni = www.sony-mea.com, ws = false
+🚩CF | 🔴 | trojan | @ConfigsHUB | 12 = trojan, 172.67.118.45, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.volumeroot.com, ws = false
+🚩CF | 🔴 | trojan | @ConfigsHUB | 14 = trojan, 104.21.37.56, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.volumeroot.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 4
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 4
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 4
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104"]}}]}&insecure=0&host=www.volumeroot.com&type=ws&allowInsecure=0&sni=www.volumeroot.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 0,❔XX | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @ConfigsHUB | 12,🚩CF | 🔴 | trojan | @ConfigsHUB | 14
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104"]}}]}&insecure=0&host=www.volumeroot.com&type=ws&allowInsecure=0&sni=www.volumeroot.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 0,❔XX | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @ConfigsHUB | 12,🚩CF | 🔴 | trojan | @ConfigsHUB | 14
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104"]}}]}&insecure=0&host=www.volumeroot.com&type=ws&allowInsecure=0&sni=www.volumeroot.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 0,❔XX | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @ConfigsHUB | 12,🚩CF | 🔴 | trojan | @ConfigsHUB | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
