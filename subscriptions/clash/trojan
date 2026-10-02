@@ -118,47 +118,35 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"195.15.202.111","port":80,"udp":false,"password":"uCzwXi06tusoiP5kAUKrsg","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"165.215.250.14","port":443,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
-  - {"name":"Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={"tcp":[{"type":"fragment","settings":{"packets":"tlshello","lengths":["0","104"]}}]}&insecure=0&host=www.volumeroot.com&type=ws&allowInsecure=0&sni=www.volumeroot.com#🚩CF | 🔴 | trojan | @ConfigsHUB | 0","type":"trojan","server":"172.67.139.14","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 3","type":"trojan","server":"31.57.108.159","port":443,"udp":false,"password":"s0hpchj6to0vsyro","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.sony-mea.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"172.67.118.45","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.volumeroot.com"}
-  - {"name":"🚩CF | 🔴 | trojan | @ConfigsHUB | 14","type":"trojan","server":"104.21.37.56","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.volumeroot.com"}
+  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"195.15.202.111","port":80,"udp":false,"password":"uCzwXi06tusoiP5kAUKrsg","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"165.215.250.14","port":443,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 8","type":"trojan","server":"ir.grilledeleaves.ir","port":2087,"udp":false,"password":"Z5poNZQCPP-eAkPP-dEHipok9pwv7tWu","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ir.grilledeleaves.ir"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 14'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 14'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
-      - 'Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=tls&alpn=http/1.1&fm={'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 3'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 12'
-      - '🚩CF | 🔴 | trojan | @ConfigsHUB | 14'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
