@@ -109,9 +109,11 @@
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 4",
-                "❔XX | 🔴 | vless | @proxystore11 | 2",
-                "❔XX | 🟢 | vless | @free1_vpn | 6",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 7",
+                "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 8",
+                "🇪🇪EE | 🟢 | vless | @ConfigsHUB | 8",
+                "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
+                "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
@@ -128,9 +130,11 @@
                 "🇩🇪DE | 🟢 | vless | @Outline_Vpn | 15",
                 "🇩🇪DE | 🔴 | vless | @v2rayNG_Matsuri | 8",
                 "🇩🇪DE | 🟢 | vless | @v2rayNG_Matsuri | 9",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 4",
-                "❔XX | 🔴 | vless | @proxystore11 | 2",
-                "❔XX | 🟢 | vless | @free1_vpn | 6",
+                "🇺🇸US | 🟢 | vless | @v2ray1_ng | 7",
+                "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 8",
+                "🇪🇪EE | 🟢 | vless | @ConfigsHUB | 8",
+                "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
+                "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
@@ -247,11 +251,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 4",
+            "tag": "🇺🇸US | 🟢 | vless | @v2ray1_ng | 7",
             "type": "vless",
-            "server": "id-nl-01.mintrocket.org",
+            "server": "169.40.42.184",
             "server_port": 443,
-            "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
+            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -261,22 +265,80 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "id-nl-01.mintrocket.org",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "ios"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "XU7da9vkBex4TUPo1d-ctFY_N6zouBiCRnbnUK82i3Q",
-                    "short_id": "fee1f986a72444db"
+                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+                    "short_id": "c39cc7310a"
                 }
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 2",
+            "tag": "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 8",
+            "type": "vless",
+            "server": "152.53.106.47",
+            "server_port": 443,
+            "uuid": "c0f08edc-395b-4163-92aa-87772605e331",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇪🇪EE | 🟢 | vless | @ConfigsHUB | 8",
+            "type": "vless",
+            "server": "89.125.13.202",
+            "server_port": 443,
+            "uuid": "87fd990d-ca93-440a-bbd4-e8281c4a0910",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "d3-ee1.cloud-cdn.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "g36Z7YIqJMJP-uv3DBr72X5jvfjyW1qIAxa8TkWmpmQ",
+                    "short_id": "ad6e08b22389abd2"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "85.9.212.25",
             "server_port": 443,
@@ -305,11 +367,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @free1_vpn | 6",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 11",
             "type": "vless",
-            "server": "169.40.42.184",
+            "server": "195.133.73.65",
             "server_port": 443,
-            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+            "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -319,17 +381,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "anyfile2file.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-                    "short_id": "c39cc7310a"
+                    "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
+                    "short_id": "64c1fe36c7846400"
                 }
             }
         },
