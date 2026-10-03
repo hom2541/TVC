@@ -11,12 +11,22 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 212.183.88.136, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 2 = trojan, 195.15.202.111, 80, password = uCzwXi06tusoiP5kAUKrsg, udp-delay = true, skip-cert-verify = false, ws = false
+🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 3.120.109.26, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = actual-squid.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 212.183.88.136, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, 195.15.202.111, 80, password = uCzwXi06tusoiP5kAUKrsg, udp-delay = true, skip-cert-verify = false, ws = false
+🚩CF | 🔴 | trojan | @v2ray1_ng | 0 = trojan, 188.114.97.6, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.pleadcourt.org, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 2 = trojan, guided-ferret.rooster465.autos, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = guided-ferret.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 4 = trojan, real-cardinal.rooster465.autos, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = real-cardinal.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 6 = trojan, desired-boxer.rooster465.autos, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = desired-boxer.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 7 = trojan, obliging-louse.rooster465.autos, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = obliging-louse.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 11 = trojan, winning-marten.rooster465.autos, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = winning-marten.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 13 = trojan, 199.232.78.160, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 14 = trojan, evolving-ewe.rooster465.autos, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = evolving-ewe.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 15 = trojan, concrete-aardvark.rooster465.autos, 443, password = UX82473651, udp-delay = true, skip-cert-verify = true, sni = concrete-aardvark.rooster465.autos, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,🚩CF | 🔴 | trojan | @v2ray1_ng | 0,❔XX | 🔴 | trojan | @ConfigsHUB | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 7,❔XX | 🔴 | trojan | @ConfigsHUB | 11,❔XX | 🔴 | trojan | @ConfigsHUB | 13,❔XX | 🔴 | trojan | @ConfigsHUB | 14,❔XX | 🔴 | trojan | @ConfigsHUB | 15
+URL-TEST = url-test,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,🚩CF | 🔴 | trojan | @v2ray1_ng | 0,❔XX | 🔴 | trojan | @ConfigsHUB | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 7,❔XX | 🔴 | trojan | @ConfigsHUB | 11,❔XX | 🔴 | trojan | @ConfigsHUB | 13,❔XX | 🔴 | trojan | @ConfigsHUB | 14,❔XX | 🔴 | trojan | @ConfigsHUB | 15
+FALLBACK = fallback,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,🚩CF | 🔴 | trojan | @v2ray1_ng | 0,❔XX | 🔴 | trojan | @ConfigsHUB | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 7,❔XX | 🔴 | trojan | @ConfigsHUB | 11,❔XX | 🔴 | trojan | @ConfigsHUB | 13,❔XX | 🔴 | trojan | @ConfigsHUB | 14,❔XX | 🔴 | trojan | @ConfigsHUB | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
