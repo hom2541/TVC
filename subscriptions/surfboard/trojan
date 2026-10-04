@@ -15,11 +15,11 @@ DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 2 = trojan, 212.183.88.136, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 195.15.202.111, 80, password = uCzwXi06tusoiP5kAUKrsg, udp-delay = true, skip-cert-verify = false, ws = false
 🚩CF | 🔴 | trojan | @v2ray1_ng | 2 = trojan, 188.114.97.6, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.pleadcourt.org, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 1 = trojan, 167.82.76.27, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
+❔XX | 🟢 | trojan | @ConfigsHUB | 7 = trojan, cz-musicc.moritech.net, 443, password = f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km, udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,🚩CF | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 1
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,🚩CF | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 1
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,🚩CF | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 1
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,🚩CF | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🟢 | trojan | @ConfigsHUB | 7
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,🚩CF | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🟢 | trojan | @ConfigsHUB | 7
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,🚩CF | 🔴 | trojan | @v2ray1_ng | 2,❔XX | 🟢 | trojan | @ConfigsHUB | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
