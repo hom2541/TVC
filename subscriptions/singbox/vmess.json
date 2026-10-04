@@ -119,10 +119,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
-                "🚩CF | 🟢 | vmess | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🚩CF | 🟢 | vmess | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -157,10 +156,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
-                "🚩CF | 🟢 | vmess | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
+                "🚩CF | 🟢 | vmess | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -419,11 +417,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 15",
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
             "type": "vmess",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+            "server": "89.41.172.85",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -433,51 +431,10 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess\/",
-                "headers": {
-                    "Host": "57.129.132.223"
-                }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "186.190.211.67",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pahobac.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "pahobac.org"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -494,7 +451,7 @@
             }
         },
         {
-            "tag": "🚩CF | 🟢 | vmess | @v2ray1_ng | 7",
+            "tag": "🚩CF | 🟢 | vmess | @v2ray1_ng | 8",
             "type": "vmess",
             "server": "188.114.96.19",
             "server_port": 80,
