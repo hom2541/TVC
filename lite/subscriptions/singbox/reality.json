@@ -113,18 +113,18 @@
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 111",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
-                "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
-                "🇩🇪DE | 🟢 | vless | @free1_vpn | 8",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 9",
+                "❔XX | 🔴 | vless | @proxystore11 | 2",
+                "❔XX | 🟢 | vless | @free1_vpn | 11",
+                "❔XX | 🟢 | vless | @free1_vpn | 12",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "🇷🇺RU | 🔴 | vless | @FreakConfig | 14",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 1",
+                "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "🇷🇺RU | 🟢 | vless | @nofiltering2 | 14"
+                "❔XX | 🟢 | vless | @nofiltering2 | 14",
+                "❔XX | 🟢 | vless | @proxy_mtm | 11"
             ]
         },
         {
@@ -138,18 +138,18 @@
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 111",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 7",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 8",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 6",
-                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
-                "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
-                "🇩🇪DE | 🟢 | vless | @free1_vpn | 8",
+                "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 9",
+                "❔XX | 🔴 | vless | @proxystore11 | 2",
+                "❔XX | 🟢 | vless | @free1_vpn | 11",
+                "❔XX | 🟢 | vless | @free1_vpn | 12",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
-                "🇷🇺RU | 🔴 | vless | @FreakConfig | 14",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 1",
+                "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "🇷🇺RU | 🟢 | vless | @nofiltering2 | 14"
+                "❔XX | 🟢 | vless | @nofiltering2 | 14",
+                "❔XX | 🟢 | vless | @proxy_mtm | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -375,40 +375,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 6",
+            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 9",
             "type": "vless",
-            "server": "arcturus.yokkastars.com",
-            "server_port": 40443,
-            "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "deepl.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4",
-                    "short_id": "db46e2946fc466fd"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @v2ray1_ng | 7",
-            "type": "vless",
-            "server": "82.39.171.142",
+            "server": "id-nl-01.mintrocket.org",
             "server_port": 443,
-            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+            "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -418,22 +389,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "yahoo.com",
+                "server_name": "id-nl-01.mintrocket.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "safari"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-                    "short_id": "c39cc7310a"
+                    "public_key": "XU7da9vkBex4TUPo1d-ctFY_N6zouBiCRnbnUK82i3Q",
+                    "short_id": "fee1f986a72444db"
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
+            "tag": "❔XX | 🔴 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "85.9.212.25",
             "server_port": 443,
@@ -462,11 +433,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @free1_vpn | 8",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 11",
             "type": "vless",
-            "server": "id-nl-01.mintrocket.org",
+            "server": "169.40.42.184",
             "server_port": 443,
-            "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
+            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -476,17 +447,46 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "id-nl-01.mintrocket.org",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "ios"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "XU7da9vkBex4TUPo1d-ctFY_N6zouBiCRnbnUK82i3Q",
-                    "short_id": "fee1f986a72444db"
+                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+                    "short_id": "c39cc7310a"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 12",
+            "type": "vless",
+            "server": "152.53.106.47",
+            "server_port": 443,
+            "uuid": "c0f08edc-395b-4163-92aa-87772605e331",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9mJq2cP3srX_6K1YfMDp1yndvo5CtgL6TEVQ8tm4fVc",
+                    "short_id": ""
                 }
             }
         },
@@ -520,7 +520,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | @Capital_NET | 45",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -546,42 +546,6 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🔴 | vless | @FreakConfig | 14",
-            "type": "vless",
-            "server": "176.123.165.25",
-            "server_port": 9881,
-            "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dl.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "ios"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
-                    "short_id": "aabbccdd"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc-tunnel",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -621,7 +585,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @flyv2ray | 1",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 1",
             "type": "vless",
             "server": "31.76.249.174",
             "server_port": 443,
@@ -722,7 +686,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @nofiltering2 | 14",
+            "tag": "❔XX | 🟢 | vless | @nofiltering2 | 14",
             "type": "vless",
             "server": "tgfree.rush-server.com",
             "server_port": 443,
@@ -747,6 +711,35 @@
                     "enabled": true,
                     "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
                     "short_id": "64c1fe36c7846400"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 11",
+            "type": "vless",
+            "server": "momos3etesalger.rjwarehousing.ir",
+            "server_port": 443,
+            "uuid": "aa73a8f7-6df1-4020-936e-95a4ac6383e1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "m8ZKavK-ts_smPewSIcUnY-giFR8nwOI_yCxZmDUbz0",
+                    "short_id": "a27338bc1705f5dd"
                 }
             }
         }
