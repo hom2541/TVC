@@ -107,21 +107,23 @@
             "outbounds": [
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @EliV2ray | 4",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 110",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 28",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 111",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 10",
                 "🇯🇵JP | 🟢 | vless | @v2ray1_ng | 9",
-                "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
+                "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 14",
-                "❔XX | 🔴 | vless | @proxy_mtm | 12",
+                "❔XX | 🟢 | vless | @proxy_mtm | 13",
                 "❔XX | 🔴 | vless | @kingofilter | 0"
             ]
         },
@@ -130,21 +132,23 @@
             "type": "urltest",
             "outbounds": [
                 "❔XX | 🟢 | vless | @EliV2ray | 4",
-                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 110",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 28",
+                "🇩🇪DE | 🟢 | vless | @prrofile_purple | 111",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 9",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 10",
                 "🇯🇵JP | 🟢 | vless | @v2ray1_ng | 9",
-                "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
+                "❔XX | 🔴 | vless | @proxystore11 | 2",
                 "🇨🇭CH | 🟢 | vless | @free1_vpn | 10",
                 "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🟢 | vless | @FreakConfig | 9",
                 "❔XX | 🔴 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🟢 | vless | @nofiltering2 | 14",
-                "❔XX | 🔴 | vless | @proxy_mtm | 12",
+                "❔XX | 🟢 | vless | @proxy_mtm | 13",
                 "❔XX | 🔴 | vless | @kingofilter | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -197,7 +201,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 110",
+            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 28",
+            "type": "vless",
+            "server": "5.149.248.227",
+            "server_port": 443,
+            "uuid": "bf8c34f4-3c93-4428-8042-8834662d75e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "RmsCt_VXBwBC8WF3TqprhXMbu7xZl18dVDwq0kDfqzE",
+                    "short_id": "9d3372aebdef5228"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | @prrofile_purple | 111",
             "type": "vless",
             "server": "shop.jarorobo.ir",
             "server_port": 443,
@@ -313,7 +346,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @proxystore11 | 2",
+            "tag": "❔XX | 🔴 | vless | @proxystore11 | 2",
             "type": "vless",
             "server": "85.9.212.25",
             "server_port": 443,
@@ -454,6 +487,35 @@
                     "enabled": true,
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 9",
+            "type": "vless",
+            "server": "88.119.165.131",
+            "server_port": 443,
+            "uuid": "790910c3-9a97-4375-998a-fcc36b0a2902",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "repo1.maven.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "safari"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_AIb5QbjYK6iJBx6UpDqVBoFyUA_nkiHrj7gZrASDwc",
+                    "short_id": "bbfe4bd7d5dd0627"
                 }
             }
         },
@@ -624,11 +686,11 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxy_mtm | 12",
+            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 13",
             "type": "vless",
-            "server": "Sey.sorixset.ir",
-            "server_port": 44271,
-            "uuid": "93dab447-cea6-40a9-8552-908ca901b4ff",
+            "server": "frn8.montago-shop.ir",
+            "server_port": 443,
+            "uuid": "d6e9c6aa-c9e4-424a-9984-edd742ab1732",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -638,17 +700,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "digikala.com",
+                "server_name": "delivery.mp.microsoft.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "ios"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "VvxDa85NNYSdlK9tN4Sq7HhgXiH2Mv0ig39T6u_y-3s",
-                    "short_id": "d101efb6ee078470"
+                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+                    "short_id": "cbe2503ffd040d"
                 }
             }
         },
