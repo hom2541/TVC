@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, fmwf6gbnad0a.dop16.com, 443, password = 2e631f0c-226a-484b-9e7c-d6c9c444ef13, udp-delay = true, skip-cert-verify = false, ws = false
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, 195.15.202.111, 4455, password = g44i2hzwivmm7r29, udp-delay = true, skip-cert-verify = false, sni = play-apps-features.googleusercontent.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 63.178.198.94, 443, password = UX82473651, udp-delay = true, skip-cert-verify = false, sni = pleased-albacore.rooster465.autos, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, fmwf6gbnad0a.dop16.com, 443, password = 2e631f0c-226a-484b-9e7c-d6c9c444ef13, udp-delay = true, skip-cert-verify = false, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 13 = trojan, www.speedtest.net, 443, password = _3H5wdNuPWCoXCKN, udp-delay = true, skip-cert-verify = false, sni = CORe-391492-501aAa.tHAtSmeS-7b13.WORkERS.dEV, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 13
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 13
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
