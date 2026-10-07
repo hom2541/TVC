@@ -120,9 +120,6 @@ dns:
 proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"63.178.198.94","port":443,"udp":false,"password":"UX82473651","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"pleased-albacore.rooster465.autos"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"fmwf6gbnad0a.dop16.com","port":443,"udp":false,"password":"2e631f0c-226a-484b-9e7c-d6c9c444ef13","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 4","type":"trojan","server":"fi.zhabulik.ru","port":443,"udp":false,"password":"WFer-5gN21nfHbVB2N8s71Z74EPUfzVj","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"fi.zhabulik.ru"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 6","type":"trojan","server":"141.193.213.172","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 16","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,9 +128,6 @@ proxy-groups:
       - FALLBACK
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 6'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 16'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -142,9 +136,6 @@ proxy-groups:
     proxies:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 6'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 16'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -152,9 +143,6 @@ proxy-groups:
     proxies:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 4'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 6'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 16'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
