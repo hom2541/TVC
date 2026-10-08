@@ -13,11 +13,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 185.255.179.166, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 2 = trojan, 141.193.213.172, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
-🚩CF | 🟢 | trojan | @ConfigsHUB | 8 = trojan, 104.16.72.101, 443, password = 6c862415-30d2-4813-8e49-42e99a0bd415, udp-delay = true, skip-cert-verify = false, sni = space.byu.id.yxls.eu.cc, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 2 = trojan, www.speedtest.net, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 7 = trojan, 31.77.168.21, 443, password = MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo, udp-delay = true, skip-cert-verify = false, sni = d3-de2.cloud-cdn.xyz, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,🚩CF | 🟢 | trojan | @ConfigsHUB | 8
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,🚩CF | 🟢 | trojan | @ConfigsHUB | 8
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,🚩CF | 🟢 | trojan | @ConfigsHUB | 8
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 7
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 7
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 2,❔XX | 🔴 | trojan | @ConfigsHUB | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
