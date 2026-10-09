@@ -107,14 +107,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 16",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 26",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 27",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 39",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 40",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
                 "🇸🇪SE | 🟢 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 7",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 2",
-                "❔XX | 🔴 | vless | @proxystore11 | 3",
-                "🇳🇱NL | 🟢 | vless | @free1_vpn | 11",
+                "❔XX | 🟢 | vless | @VmessProtocol | 2",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+                "🇳🇱NL | 🔴 | vless | @proxystore11 | 3",
+                "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
@@ -132,14 +133,15 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 16",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 26",
-                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 27",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 39",
+                "🇳🇱NL | 🟢 | vless | @V2rayCollector | 40",
                 "🇷🇺RU | 🟢 | vless | @Outline_Vpn | 15",
                 "🇸🇪SE | 🟢 | vless | @v2rayNG_Matsuri | 6",
                 "🇺🇸US | 🟢 | vless | @v2rayNG_Matsuri | 7",
-                "🇩🇪DE | 🟢 | vless | @VmessProtocol | 2",
-                "❔XX | 🔴 | vless | @proxystore11 | 3",
-                "🇳🇱NL | 🟢 | vless | @free1_vpn | 11",
+                "❔XX | 🟢 | vless | @VmessProtocol | 2",
+                "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+                "🇳🇱NL | 🔴 | vless | @proxystore11 | 3",
+                "❔XX | 🟢 | vless | @free1_vpn | 11",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
@@ -201,7 +203,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 26",
+            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 39",
             "type": "vless",
             "server": "31.77.13.19",
             "server_port": 2063,
@@ -230,7 +232,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 27",
+            "tag": "🇳🇱NL | 🟢 | vless | @V2rayCollector | 40",
             "type": "vless",
             "server": "31.77.13.19",
             "server_port": 2063,
@@ -346,7 +348,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @VmessProtocol | 2",
+            "tag": "❔XX | 🟢 | vless | @VmessProtocol | 2",
             "type": "vless",
             "server": "31.76.249.87",
             "server_port": 443,
@@ -375,7 +377,36 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @proxystore11 | 3",
+            "tag": "❔XX | 🟢 | vless | @ConfigsHUB | 0",
+            "type": "vless",
+            "server": "DE.IPSENTER.ORG",
+            "server_port": 443,
+            "uuid": "c381ed79-f3c9-4028-85ae-687795d89ece",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "play.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4-ou3SyJYZ2ptF0vXFdc02yIRTF4VF8m2XcUKJPsUyQ",
+                    "short_id": "1128da54b05ec30c"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | @proxystore11 | 3",
             "type": "vless",
             "server": "85.9.212.25",
             "server_port": 443,
@@ -404,7 +435,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @free1_vpn | 11",
+            "tag": "❔XX | 🟢 | vless | @free1_vpn | 11",
             "type": "vless",
             "server": "185.112.59.210",
             "server_port": 443,
