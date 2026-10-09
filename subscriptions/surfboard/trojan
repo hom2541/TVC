@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 8.47.69.0, 443, password = humanity, udp-delay = true, skip-cert-verify = true, sni = www.pleadcourt.org, ws = false
+🚩CF | 🔴 | trojan | @v2ray1_ng | 0 = trojan, 188.114.97.6, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+🚩CF | 🔴 | trojan | @ConfigsHUB | 14 = trojan, 104.21.37.56, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.volumeroot.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4
+MANUAL = select,URL-TEST,FALLBACK,🚩CF | 🔴 | trojan | @v2ray1_ng | 0,🚩CF | 🔴 | trojan | @ConfigsHUB | 14
+URL-TEST = url-test,🚩CF | 🔴 | trojan | @v2ray1_ng | 0,🚩CF | 🔴 | trojan | @ConfigsHUB | 14
+FALLBACK = fallback,🚩CF | 🔴 | trojan | @v2ray1_ng | 0,🚩CF | 🔴 | trojan | @ConfigsHUB | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
