@@ -119,7 +119,6 @@ dns:
 
 proxies:
   - {"name":"🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"194.87.6.192","port":2097,"udp":false,"password":"gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ger6.fytpn.com"}
-  - {"name":"🇨🇦CA | 🔴 | trojan | @v2ray1_ng | 6","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
   - {"name":"🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +127,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 5'
-      - '🇨🇦CA | 🔴 | trojan | @v2ray1_ng | 6'
       - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9'
   - name: URL-TEST
     type: url-test
@@ -137,7 +135,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 5'
-      - '🇨🇦CA | 🔴 | trojan | @v2ray1_ng | 6'
       - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9'
   - name: FALLBACK
     type: fallback
@@ -145,7 +142,6 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 5'
-      - '🇨🇦CA | 🔴 | trojan | @v2ray1_ng | 6'
       - '🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
