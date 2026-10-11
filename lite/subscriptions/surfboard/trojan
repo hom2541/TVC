@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 6 = trojan, 194.87.6.192, 2097, password = gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, udp-delay = true, skip-cert-verify = false, sni = ger6.fytpn.com, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 9 = trojan, www.speedtest.net, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9 = trojan, www.speedtest.net, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 9
-URL-TEST = url-test,🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 9
-FALLBACK = fallback,🇷🇴RO | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 9
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9
+URL-TEST = url-test,🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9
+FALLBACK = fallback,🇨🇦CA | 🔴 | trojan | @ConfigsHUB | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
