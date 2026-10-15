@@ -122,12 +122,12 @@
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 4",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @free1_vpn | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
@@ -160,12 +160,12 @@
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
                 "🚩CF | 🟢 | vmess | @v2ray1_ng | 4",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
+                "❔XX | 🟢 | vmess | @free1_vpn | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 2",
@@ -484,23 +484,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 1",
-            "type": "vmess",
-            "server": "gerall-1.povrak.ir",
-            "server_port": 50407,
-            "uuid": "09c63b2a-3e33-4410-ac2a-f4ef6d8a9254",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -648,6 +631,23 @@
                 "headers": {
                     "Host": "104.26.8.210"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @free1_vpn | 9",
+            "type": "vmess",
+            "server": "178.105.168.171",
+            "server_port": 2110,
+            "uuid": "06d4d001-4168-4876-9416-7caecf578f40",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
