@@ -108,18 +108,17 @@
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | @shh_proxy | 17",
                 "❔XX | 🟢 | vless | @shh_proxy | 18",
-                "🇺🇸US | 🟢 | vless | @V2rayCollector | 37",
                 "🇷🇺RU | 🔴 | vless | @prrofile_purple | 107",
                 "🇸🇪SE | 🟢 | vless | @v2rayNG_Matsuri | 6",
                 "🇳🇱NL | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 1",
+                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 13",
                 "🇲🇩MD | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇯🇵JP | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 17",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 0",
+                "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -133,18 +132,17 @@
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | @shh_proxy | 17",
                 "❔XX | 🟢 | vless | @shh_proxy | 18",
-                "🇺🇸US | 🟢 | vless | @V2rayCollector | 37",
                 "🇷🇺RU | 🔴 | vless | @prrofile_purple | 107",
                 "🇸🇪SE | 🟢 | vless | @v2rayNG_Matsuri | 6",
                 "🇳🇱NL | 🔴 | vless | @v2rayNG_Matsuri | 7",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
-                "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 1",
+                "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 13",
                 "🇲🇩MD | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "🇯🇵JP | 🔴 | vless | @Capital_NET | 45",
+                "❔XX | 🔴 | vless | @Capital_NET | 45",
                 "🇩🇪DE | 🟢 | vless | @Capoit | 17",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 0",
+                "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
@@ -226,35 +224,6 @@
                     "enabled": true,
                     "public_key": "NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs",
                     "short_id": "9b98825681aba023"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vless | @V2rayCollector | 37",
-            "type": "vless",
-            "server": "169.40.42.90",
-            "server_port": 443,
-            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-                    "short_id": "c39cc7310a"
                 }
             }
         },
@@ -411,11 +380,11 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | @ConfigsHUB | 1",
+            "tag": "🇸🇪SE | 🟢 | vless | @ConfigsHUB | 13",
             "type": "vless",
-            "server": "5.22.211.151",
-            "server_port": 443,
-            "uuid": "96c9caea-9d32-439e-9ffc-f18ab5b70b9b",
+            "server": "mui.firzav.ir",
+            "server_port": 38465,
+            "uuid": "0522382d-bdb6-4756-a15d-196805b806b2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -425,17 +394,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gitlab.io",
+                "server_name": "dl.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "BUtLRoR2gesupM09lWH5YZliYjwGdHfALOR1zF6RPzM",
-                    "short_id": "37a68ef43481e448"
+                    "public_key": "2M856PnJ9FUA3IuyirR9MLOF780c4uz9U5FPR5pLQWc",
+                    "short_id": "776226aaf2cce930"
                 }
             }
         },
@@ -498,7 +467,7 @@
             }
         },
         {
-            "tag": "🇯🇵JP | 🔴 | vless | @Capital_NET | 45",
+            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -556,7 +525,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @flyv2ray | 0",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "87.242.127.113",
             "server_port": 4510,
