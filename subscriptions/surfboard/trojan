@@ -13,11 +13,15 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, 89.150.34.41, 2053, password = humanity, udp-delay = true, skip-cert-verify = true, sni = www.calmlunch.com, ws = false
 ❔XX | 🔴 | trojan | @oneclickvpnkeys | 6 = trojan, 199.232.78.160, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = google.com, ws = false
-❔XX | 🔴 | trojan | @v2ray1_ng | 3 = trojan, 199.232.78.160, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = google.com, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 3 = trojan, 188.42.145.180, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.volumeroot.com, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 4 = trojan, 188.42.145.180, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.volumeroot.com, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 9 = trojan, 45.87.41.18, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+🚩CF | 🔴 | trojan | @ConfigsHUB | 12 = trojan, 104.19.173.68, 443, password = d0298536-d670-4045-bbb1-ddd5ea68683e, udp-delay = true, skip-cert-verify = false, sni = azadnet-5vk.pages.dev, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 15 = trojan, 188.42.145.180, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.volumeroot.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @v2ray1_ng | 3
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @v2ray1_ng | 3
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @v2ray1_ng | 3
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 3,❔XX | 🔴 | trojan | @ConfigsHUB | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 9,🚩CF | 🔴 | trojan | @ConfigsHUB | 12,❔XX | 🔴 | trojan | @ConfigsHUB | 15
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 3,❔XX | 🔴 | trojan | @ConfigsHUB | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 9,🚩CF | 🔴 | trojan | @ConfigsHUB | 12,❔XX | 🔴 | trojan | @ConfigsHUB | 15
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @oneclickvpnkeys | 6,❔XX | 🔴 | trojan | @ConfigsHUB | 3,❔XX | 🔴 | trojan | @ConfigsHUB | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 9,🚩CF | 🔴 | trojan | @ConfigsHUB | 12,❔XX | 🔴 | trojan | @ConfigsHUB | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
