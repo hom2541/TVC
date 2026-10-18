@@ -121,7 +121,7 @@ proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"89.150.34.41","port":2053,"udp":false,"password":"humanity","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"www.calmlunch.com"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"199.232.78.160","port":443,"udp":false,"password":"mitivpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"google.com"}
   - {"name":"❔XX | 🔴 | trojan | @v2ray1_ng | 4","type":"trojan","server":"199.232.78.160","port":443,"udp":false,"password":"mitivpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"google.com"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 1","type":"trojan","server":"ger8.fytpn.com","port":443,"udp":false,"password":"-VbTw-xqE7XYmEsoZTE7ShJoYLCjdBMQ","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ger1.fytpn.com"}
+  - {"name":"Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 8","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -131,7 +131,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 1'
+      - 'Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 8'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -141,7 +141,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 1'
+      - 'Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 8'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -150,7 +150,7 @@ proxy-groups:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🔴 | trojan | @v2ray1_ng | 4'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 1'
+      - 'Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 8'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
