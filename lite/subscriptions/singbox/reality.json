@@ -112,11 +112,10 @@
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
                 "🇫🇮FI | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @Capoit | 18",
+                "🇩🇪DE | 🟢 | vless | @Capoit | 18",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🟢 | vless | @mehrosaboran | 12",
@@ -136,11 +135,10 @@
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 6",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
-                "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
                 "🇫🇮FI | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "❔XX | 🟢 | vless | @Capoit | 18",
+                "🇩🇪DE | 🟢 | vless | @Capoit | 18",
                 "❔XX | 🟢 | vless | @flyv2ray | 0",
                 "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🟢 | vless | @mehrosaboran | 12",
@@ -344,42 +342,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | @ConfigsHUB | 1",
-            "type": "vless",
-            "server": "89.222.123.211",
-            "server_port": 16923,
-            "uuid": "c065e1bb-cb56-41e5-b043-9dfd15b67565",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api-maps.yandex.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA",
-                    "short_id": "10ffb85da1c2d986"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "neurex",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇫🇮FI | 🟢 | vless | @proxystore11 | 13",
             "type": "vless",
             "server": "131.123.13.93",
@@ -467,7 +429,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @Capoit | 18",
+            "tag": "🇩🇪DE | 🟢 | vless | @Capoit | 18",
             "type": "vless",
             "server": "195.252.179.1",
             "server_port": 443,
