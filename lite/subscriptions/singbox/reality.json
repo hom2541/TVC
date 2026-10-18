@@ -111,8 +111,6 @@
                 "🇧🇬BG | 🔴 | vless | @proxy_kafee | 0",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 12",
                 "🇫🇮FI | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -134,8 +132,6 @@
                 "🇧🇬BG | 🔴 | vless | @proxy_kafee | 0",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
-                "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-                "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 12",
                 "🇫🇮FI | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
@@ -309,64 +305,6 @@
                     "enabled": true,
                     "public_key": "INbgA5nXpjZ2P1f6lY7sMBlDM3ZMV8RX3cw-RRGM0mM",
                     "short_id": "f22e97cfd4d9"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | vless | @ConfigsHUB | 11",
-            "type": "vless",
-            "server": "9.247.24.137",
-            "server_port": 443,
-            "uuid": "0dbd877c-0246-4402-850a-140e60875c95",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.prizradar.by",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "RsKkbNbhdvmf6VtNZslU_3yNrUcHFBLJSuJZNAZO6VE",
-                    "short_id": "2d"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | @ConfigsHUB | 12",
-            "type": "vless",
-            "server": "150.241.101.80",
-            "server_port": 8443,
-            "uuid": "47d9b534-8a0a-4bd2-90f1-1d6ade14427e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yandex.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
