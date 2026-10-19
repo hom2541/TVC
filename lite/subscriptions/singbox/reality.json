@@ -108,15 +108,16 @@
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 17",
                 "🇫🇮FI | 🟢 | vless | @shh_proxy | 18",
-                "🇧🇬BG | 🔴 | vless | @proxy_kafee | 2",
-                "🇷🇺RU | 🔴 | vless | @V2rayCollector | 19",
+                "🇧🇬BG | 🔴 | vless | @proxy_kafee | 3",
+                "🇮🇳IN | 🟢 | vless | @V2rayCollector | 18",
+                "🇱🇻LV | 🟢 | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
                 "🇫🇮FI | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 1",
+                "❔XX | 🟢 | vless | @flyv2ray | 0",
+                "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @nofiltering2 | 14",
@@ -129,15 +130,16 @@
             "outbounds": [
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 17",
                 "🇫🇮FI | 🟢 | vless | @shh_proxy | 18",
-                "🇧🇬BG | 🔴 | vless | @proxy_kafee | 2",
-                "🇷🇺RU | 🔴 | vless | @V2rayCollector | 19",
+                "🇧🇬BG | 🔴 | vless | @proxy_kafee | 3",
+                "🇮🇳IN | 🟢 | vless | @V2rayCollector | 18",
+                "🇱🇻LV | 🟢 | vless | @v2ray1_ng | 5",
                 "🇩🇪DE | 🟢 | vless | @VmessProtocol | 3",
                 "🇫🇷FR | 🔴 | vless | @lrnbymaa | 2",
                 "🇫🇮FI | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
-                "🇷🇺RU | 🟢 | vless | @flyv2ray | 0",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 1",
+                "❔XX | 🟢 | vless | @flyv2ray | 0",
+                "❔XX | 🟢 | vless | @flyv2ray | 1",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @nofiltering2 | 14",
@@ -222,7 +224,7 @@
             }
         },
         {
-            "tag": "🇧🇬BG | 🔴 | vless | @proxy_kafee | 2",
+            "tag": "🇧🇬BG | 🔴 | vless | @proxy_kafee | 3",
             "type": "vless",
             "server": "p11real3.greewebservices.ir",
             "server_port": 2202,
@@ -251,11 +253,11 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @V2rayCollector | 19",
+            "tag": "🇮🇳IN | 🟢 | vless | @V2rayCollector | 18",
             "type": "vless",
-            "server": "77.110.104.238",
+            "server": "148.113.5.44",
             "server_port": 443,
-            "uuid": "937fbdad-d97b-4540-9136-de1886df866f",
+            "uuid": "72ea5a91-ffcc-43d2-9297-5993c3abf186",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -265,25 +267,47 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.wikipedia.org",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "random"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "lvBVTmcLFcPyhVE2MGeTd0ls2FNOvBD7UhJNEmvprUQ",
-                    "short_id": "f182f2fcf956838e"
+                    "public_key": "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI",
+                    "short_id": "221873918e0bb74d"
                 }
+            }
+        },
+        {
+            "tag": "🇱🇻LV | 🟢 | vless | @v2ray1_ng | 5",
+            "type": "vless",
+            "server": "vip.deventuras.ir",
+            "server_port": 8081,
+            "uuid": "00de64b2-2be7-44c5-8534-66d46b4ba6f1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
-            "transport": {
-                "type": "grpc",
-                "service_name": "ru217125de65grpc",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+            "tls": {
+                "enabled": true,
+                "server_name": "blog.api.www.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "CwlmT6bf31z63kJdVr3GfL38dTUMI5rogde9UlFXhCg",
+                    "short_id": "3a2b09debeb9"
+                }
             }
         },
         {
@@ -432,7 +456,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @flyv2ray | 0",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 0",
             "type": "vless",
             "server": "87.242.127.113",
             "server_port": 4510,
@@ -461,7 +485,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @flyv2ray | 1",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 1",
             "type": "vless",
             "server": "64.188.83.186",
             "server_port": 443,
