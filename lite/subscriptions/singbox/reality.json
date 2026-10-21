@@ -108,9 +108,9 @@
                 "URL-TEST",
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 17",
                 "🇫🇮FI | 🟢 | vless | @shh_proxy | 18",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
-                "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 12",
-                "🇷🇺RU | 🔴 | vless | @v2rayNG_Matsuri | 13",
+                "🇺🇸US | 🟢 | vless | @V2rayCollector | 26",
+                "🇹🇭TH | 🟢 | vless | @v2rayNG_Matsuri | 12",
+                "🇳🇱NL | 🔴 | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇭CH | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -128,9 +128,9 @@
             "outbounds": [
                 "🇩🇪DE | 🟢 | vless | @shh_proxy | 17",
                 "🇫🇮FI | 🟢 | vless | @shh_proxy | 18",
-                "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
-                "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 12",
-                "🇷🇺RU | 🔴 | vless | @v2rayNG_Matsuri | 13",
+                "🇺🇸US | 🟢 | vless | @V2rayCollector | 26",
+                "🇹🇭TH | 🟢 | vless | @v2rayNG_Matsuri | 12",
+                "🇳🇱NL | 🔴 | vless | @v2rayNG_Matsuri | 13",
                 "🇨🇭CH | 🔴 | vless | @lrnbymaa | 0",
                 "❔XX | 🟢 | vless | @proxystore11 | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
@@ -220,11 +220,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @proxy_kafee | 3",
+            "tag": "🇺🇸US | 🟢 | vless | @V2rayCollector | 26",
             "type": "vless",
-            "server": "a652768e4c2240fc.tunvi.w-ert.org",
-            "server_port": 448,
-            "uuid": "b2dacbda-8221-4548-a104-aa8aa56ab282",
+            "server": "169.40.42.184",
+            "server_port": 443,
+            "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -234,7 +234,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.aparat.com",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -243,17 +243,17 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU",
-                    "short_id": "ca4134a0ed2592b6"
+                    "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+                    "short_id": "c39cc7310a"
                 }
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 12",
+            "tag": "🇹🇭TH | 🟢 | vless | @v2rayNG_Matsuri | 12",
             "type": "vless",
-            "server": "31.77.114.114",
+            "server": "163.245.42.48",
             "server_port": 443,
-            "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+            "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -263,26 +263,26 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "api.vk.me",
+                "server_name": "mother-earth.fyi",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-                    "short_id": "db04ce8bdb8900f1"
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
             }
         },
         {
-            "tag": "🇷🇺RU | 🔴 | vless | @v2rayNG_Matsuri | 13",
+            "tag": "🇳🇱NL | 🔴 | vless | @v2rayNG_Matsuri | 13",
             "type": "vless",
-            "server": "72.56.241.230",
-            "server_port": 443,
-            "uuid": "88b744bb-8ac7-484e-a376-136193452a2c",
+            "server": "185.200.199.199",
+            "server_port": 8444,
+            "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -292,22 +292,22 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "max.ru",
+                "server_name": "github.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SCQ-mhDUvmeQzJvctQYDDSha1R_rggGFkWK_9IRuvH4",
-                    "short_id": "aabbccdd"
+                    "public_key": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
+                    "short_id": "457fab2ac885dbe0"
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "api.v1.StreamService",
+                "service_name": "GunService",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
