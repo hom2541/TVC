@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1","type":"ss","server":"193.29.139.204","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 1","type":"ss","server":"193.29.139.204","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 4","type":"ss","server":"193.29.139.223","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 13","type":"ss","server":"154.46.31.106","port":443,"password":"QFWzCw2uX9B9i6qAYeFBIE","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -127,7 +127,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 1'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 4'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 13'
   - name: URL-TEST
@@ -136,7 +136,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 1'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 4'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 13'
   - name: FALLBACK
@@ -144,7 +144,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 1'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 4'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 13'
 rules:
