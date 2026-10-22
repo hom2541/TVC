@@ -120,8 +120,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 10",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -158,8 +157,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 10",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 19",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -421,9 +419,9 @@
         {
             "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
             "type": "vmess",
-            "server": "132.145.80.230",
-            "server_port": 80,
-            "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
+            "server": "guanwang.awsno.com",
+            "server_port": 443,
+            "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -434,35 +432,28 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "guanwang.awsno.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/cctv13.m3u8",
+                "path": "\/hls\/cctv5phd.m3u8",
                 "headers": {
-                    "Host": "132.145.80.230"
+                    "Host": "guanwang.awsno.com"
                 }
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 10",
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
-            "server": "47.250.135.244",
-            "server_port": 10000,
-            "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "guanwang.awsno.com",
+            "server": "www.shopify.com",
             "server_port": 443,
             "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
             "security": "auto",
