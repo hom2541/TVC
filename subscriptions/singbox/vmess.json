@@ -119,9 +119,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 10",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -136,7 +136,8 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9"
+                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @FreakConfig | 1"
             ]
         },
         {
@@ -156,9 +157,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 8",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 10",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 19",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -173,7 +174,8 @@
                 "🚩CF | 🟢 | vmess | @Hope_Net | 6",
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 9"
+                "🚩CF | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @FreakConfig | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -417,7 +419,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 0",
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
             "type": "vmess",
             "server": "132.145.80.230",
             "server_port": 80,
@@ -441,7 +443,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 8",
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 10",
             "type": "vmess",
             "server": "47.250.135.244",
             "server_port": 10000,
@@ -458,7 +460,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
             "server": "guanwang.awsno.com",
             "server_port": 443,
@@ -900,6 +902,33 @@
                 "path": "\/glweidf.cfd\/linkws",
                 "headers": {
                     "Host": "77h2quiet-dream-5c34.foratay741.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 1",
+            "type": "vmess",
+            "server": "defe.sync-bridge.ir",
+            "server_port": 443,
+            "uuid": "386c5322-48aa-4fc1-814f-2ff6c34d77e0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "defe.sync-bridge.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
