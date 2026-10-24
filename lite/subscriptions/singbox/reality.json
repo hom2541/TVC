@@ -111,14 +111,14 @@
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 102",
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 103",
                 "🇹🇷TR | 🟢 | vless | @v2rayNG_Matsuri | 7",
-                "🇮🇷IR | 🟢 | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 14",
                 "🇨🇦CA | 🟢 | vless | @proxystore11 | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=reality&encryption=none&pbk=2riaCWjnC6m96hid0WcL9BG4vwzh8NoW_ps8CrVo1mo&fp=chrome&type=xhttp&sni=www.apple.com&sid=3649e084544949f1#🇬🇧GB | 🔴 | vless | @FreakConfig | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "🇮🇷IR | 🟢 | vless | @proxy_mtm | 8"
+                "❔XX | 🟢 | vless | @proxy_mtm | 8"
             ]
         },
         {
@@ -130,14 +130,14 @@
                 "🇩🇪DE | 🟢 | vless | @prrofile_purple | 102",
                 "🇸🇪SE | 🟢 | vless | @prrofile_purple | 103",
                 "🇹🇷TR | 🟢 | vless | @v2rayNG_Matsuri | 7",
-                "🇮🇷IR | 🟢 | vless | @v2ray1_ng | 4",
                 "🇩🇪DE | 🟢 | vless | @proxystore11 | 14",
                 "🇨🇦CA | 🟢 | vless | @proxystore11 | 15",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=reality&encryption=none&pbk=2riaCWjnC6m96hid0WcL9BG4vwzh8NoW_ps8CrVo1mo&fp=chrome&type=xhttp&sni=www.apple.com&sid=3649e084544949f1#🇬🇧GB | 🔴 | vless | @FreakConfig | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "🇮🇷IR | 🟢 | vless | @proxy_mtm | 8"
+                "❔XX | 🟢 | vless | @proxy_mtm | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -305,35 +305,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vless | @v2ray1_ng | 4",
-            "type": "vless",
-            "server": "3d98be61142753f3.tunvi.w-ert.org",
-            "server_port": 50855,
-            "uuid": "61747651-8a4c-40de-becd-174dc32e7495",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "amp-api-edge.apps.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Jps_lXkq4doz-qvvikPlMevcR1CG3ZFRPHyAadj3Fhc",
-                    "short_id": "ca358c46a3e9d52a"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | @proxystore11 | 14",
             "type": "vless",
             "server": "de2.balancer.vbuste-bot.com",
@@ -450,6 +421,20 @@
             }
         },
         {
+            "tag": "Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&security=reality&encryption=none&pbk=2riaCWjnC6m96hid0WcL9BG4vwzh8NoW_ps8CrVo1mo&fp=chrome&type=xhttp&sni=www.apple.com&sid=3649e084544949f1#🇬🇧GB | 🔴 | vless | @FreakConfig | 7",
+            "type": "vless",
+            "server": "163.245.41.52",
+            "server_port": 2096,
+            "uuid": "6da2c981-8c77-4340-bda3-93399b7aea26",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @kiava | 83",
             "type": "vless",
             "server": "partners.dissertationhelpspecialist.com",
@@ -522,7 +507,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vless | @proxy_mtm | 8",
+            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 8",
             "type": "vless",
             "server": "78.109.198.95",
             "server_port": 2096,
