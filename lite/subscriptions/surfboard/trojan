@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, 212.183.88.136, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 2 = trojan, 212.183.88.136, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
+🇱🇻LV | 🔴 | trojan | @ConfigsHUB | 13 = trojan, 85.31.102.163, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.calmlunch.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 3
-URL-TEST = url-test,🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 3
-FALLBACK = fallback,🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 3
+MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 2,🇱🇻LV | 🔴 | trojan | @ConfigsHUB | 13
+URL-TEST = url-test,🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 2,🇱🇻LV | 🔴 | trojan | @ConfigsHUB | 13
+FALLBACK = fallback,🇦🇹AT | 🔴 | trojan | @oneclickvpnkeys | 2,🇱🇻LV | 🔴 | trojan | @ConfigsHUB | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
