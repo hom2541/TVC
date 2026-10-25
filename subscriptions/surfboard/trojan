@@ -11,13 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @ConfigsHUB | 2 = trojan, 8.47.69.0, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.pleadcourt.org, ws = false
-Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 3 = trojan, 188.114.97.6, 443, password = humanity, udp-delay = true, skip-cert-verify = false, ws = false
 🚩CF | 🔴 | trojan | @proxystore11 | 6 = trojan, 188.114.97.6, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = d-e.mitivpn.in.net, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @ConfigsHUB | 2,Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @proxystore11 | 6
-URL-TEST = url-test,❔XX | 🔴 | trojan | @ConfigsHUB | 2,Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @proxystore11 | 6
-FALLBACK = fallback,❔XX | 🔴 | trojan | @ConfigsHUB | 2,Telegram---mehrosaboran&security=tls&alpn=http/1.1&insecure=0&host=www.pleadcourt.org&fp=chrome&ech=cloudflare-ech.com udp://1.1.1.1&type=ws&allowInsecure=0&sni=www.pleadcourt.org#🚩CF | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @proxystore11 | 6
+MANUAL = select,URL-TEST,FALLBACK,🚩CF | 🔴 | trojan | @proxystore11 | 6
+URL-TEST = url-test,🚩CF | 🔴 | trojan | @proxystore11 | 6
+FALLBACK = fallback,🚩CF | 🔴 | trojan | @proxystore11 | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
