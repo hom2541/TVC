@@ -119,10 +119,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -157,10 +156,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 16",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -419,7 +417,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 2",
             "type": "vmess",
             "server": "guanwang.awsno.com",
             "server_port": 443,
@@ -501,30 +499,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "us-23.hihu.net",
-            "server_port": 80,
-            "uuid": "8a9aaa70-ced9-11f1-b934-205c6d5f5d78",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.66.0.251"
-                }
             }
         },
         {

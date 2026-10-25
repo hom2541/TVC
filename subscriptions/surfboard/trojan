@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🚩CF | 🔴 | trojan | @ConfigsHUB | 3 = trojan, 188.114.97.6, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.trusteeforward.com, ws = false
+❔XX | 🟢 | trojan | @ConfigsHUB | 5 = trojan, blog.findlocaljobnetworkandbuildcommunityconnections.com, 443, password = dba20dcb635e430fa4d3bfc303a149d2, udp-delay = true, skip-cert-verify = false, ws = false
 🚩CF | 🔴 | trojan | @proxystore11 | 6 = trojan, 188.114.97.6, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = d-e.mitivpn.in.net, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🚩CF | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @proxystore11 | 6
-URL-TEST = url-test,🚩CF | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @proxystore11 | 6
-FALLBACK = fallback,🚩CF | 🔴 | trojan | @ConfigsHUB | 3,🚩CF | 🔴 | trojan | @proxystore11 | 6
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | trojan | @ConfigsHUB | 5,🚩CF | 🔴 | trojan | @proxystore11 | 6
+URL-TEST = url-test,❔XX | 🟢 | trojan | @ConfigsHUB | 5,🚩CF | 🔴 | trojan | @proxystore11 | 6
+FALLBACK = fallback,❔XX | 🟢 | trojan | @ConfigsHUB | 5,🚩CF | 🔴 | trojan | @proxystore11 | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
