@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16 = trojan, blog.findlocaljobnetworkandbuildcommunityconnections.com, 443, password = dba20dcb635e430fa4d3bfc303a149d2, udp-delay = true, skip-cert-verify = false, ws = false
+🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 8.6.112.206, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.trusteeforward.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16
-URL-TEST = url-test,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16
-FALLBACK = fallback,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 16
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 0
+URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 0
+FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
