@@ -108,8 +108,6 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
@@ -122,8 +120,6 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
-                "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 8",
@@ -174,57 +170,6 @@
             "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
             "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 16",
-            "type": "vmess",
-            "server": "guanwang.awsno.com",
-            "server_port": 443,
-            "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "guanwang.awsno.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
-                "headers": {
-                    "Host": "guanwang.awsno.com"
-                }
-            }
-        },
-        {
-            "tag": "🇵🇱PL | 🟢 | vmess | @ConfigsHUB | 8",
-            "type": "vmess",
-            "server": "45.144.48.32",
-            "server_port": 57072,
-            "uuid": "d8f45bbb-e84d-4ad5-aa63-970f1345b164",
-            "security": "auto",
-            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
