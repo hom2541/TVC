@@ -121,10 +121,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 14",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -140,6 +139,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @FreakConfig | 0",
                 "❔XX | 🟢 | vmess | @kingofilter | 4",
                 "❔XX | 🟢 | vmess | @kingofilter | 5"
             ]
@@ -163,10 +163,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 5",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 14",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
-                "❔XX | 🟢 | vmess | @ConfigsHUB | 5",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 8",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -182,6 +181,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 7",
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 9",
+                "❔XX | 🟢 | vmess | @FreakConfig | 0",
                 "❔XX | 🟢 | vmess | @kingofilter | 4",
                 "❔XX | 🟢 | vmess | @kingofilter | 5"
             ],
@@ -485,7 +485,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 1",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -502,7 +502,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 0",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
             "type": "vmess",
             "server": "153.52.92.43",
             "server_port": 443,
@@ -536,7 +536,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 8",
             "type": "vmess",
             "server": "asiatun.roshdiran1.ir",
             "server_port": 4242,
@@ -550,30 +550,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 5",
-            "type": "vmess",
-            "server": "57.129.132.223",
-            "server_port": 80,
-            "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -986,6 +962,23 @@
                 "headers": {
                     "Host": "77h2quiet-dream-5c34.foratay741.workers.dev"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 0",
+            "type": "vmess",
+            "server": "tun.xelnivo.ir",
+            "server_port": 33625,
+            "uuid": "f6547466-a44a-41e7-9b71-473c5bf05723",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
