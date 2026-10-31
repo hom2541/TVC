@@ -108,18 +108,20 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vless | @EliV2ray | 3",
                 "🇺🇸US | 🟢 | vless | @rxv2ray | 10",
-                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 109",
+                "🇸🇬SG | 🟢 | vless | @V2rayCollector | 33",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 110",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 7",
+                "🇸🇬SG | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇯🇵JP | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 27",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 8",
-                "🇬🇧GB | 🟢 | vless | @flyv2ray | 6",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 7",
+                "❔XX | 🟢 | vless | @flyv2ray | 6",
+                "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @nofiltering2 | 12",
-                "❔XX | 🟢 | vless | @proxy_mtm | 7"
+                "🇳🇱NL | 🟢 | vless | @proxy_mtm | 7"
             ]
         },
         {
@@ -128,18 +130,20 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vless | @EliV2ray | 3",
                 "🇺🇸US | 🟢 | vless | @rxv2ray | 10",
-                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 109",
+                "🇸🇬SG | 🟢 | vless | @V2rayCollector | 33",
+                "🇷🇺RU | 🟢 | vless | @prrofile_purple | 110",
                 "🇳🇱NL | 🟢 | vless | @v2rayNG_Matsuri | 7",
+                "🇸🇬SG | 🟢 | vless | @ConfigsHUB | 18",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
-                "❔XX | 🔴 | vless | @Capital_NET | 45",
+                "🇯🇵JP | 🔴 | vless | @Capital_NET | 45",
                 "❔XX | 🟢 | vless | @Capoit | 27",
                 "🇳🇱NL | 🟢 | vless | @FreakConfig | 8",
-                "🇬🇧GB | 🟢 | vless | @flyv2ray | 6",
-                "🇩🇪DE | 🟢 | vless | @flyv2ray | 7",
+                "❔XX | 🟢 | vless | @flyv2ray | 6",
+                "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
                 "❔XX | 🔴 | vless | @nofiltering2 | 12",
-                "❔XX | 🟢 | vless | @proxy_mtm | 7"
+                "🇳🇱NL | 🟢 | vless | @proxy_mtm | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -220,7 +224,36 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vless | @prrofile_purple | 109",
+            "tag": "🇸🇬SG | 🟢 | vless | @V2rayCollector | 33",
+            "type": "vless",
+            "server": "sg2-8sb.6121999.dpdns.org",
+            "server_port": 19825,
+            "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sg2-8sb.6121999.dpdns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | vless | @prrofile_purple | 110",
             "type": "vless",
             "server": "217.16.31.218",
             "server_port": 443,
@@ -278,6 +311,35 @@
             }
         },
         {
+            "tag": "🇸🇬SG | 🟢 | vless | @ConfigsHUB | 18",
+            "type": "vless",
+            "server": "172.237.88.103",
+            "server_port": 443,
+            "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zoom.us",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI",
+                    "short_id": "5a42dbd7e26a0415"
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -307,7 +369,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | @Capital_NET | 45",
+            "tag": "🇯🇵JP | 🔴 | vless | @Capital_NET | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -394,7 +456,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | 🟢 | vless | @flyv2ray | 6",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 6",
             "type": "vless",
             "server": "57.129.138.142",
             "server_port": 8080,
@@ -423,7 +485,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | @flyv2ray | 7",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 7",
             "type": "vless",
             "server": "fly.lumexa.ir",
             "server_port": 443,
@@ -553,7 +615,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | @proxy_mtm | 7",
+            "tag": "🇳🇱NL | 🟢 | vless | @proxy_mtm | 7",
             "type": "vless",
             "server": "51.158.206.98",
             "server_port": 23576,

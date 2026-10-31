@@ -13,12 +13,10 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, 216.152.147.89, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = www.connectingpeoplewithgreatjobs.com, ws = false
 🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6 = trojan, 167.82.64.120, 443, password = MiTiVPN, udp-delay = true, skip-cert-verify = false, sni = firefox.com, ws = false
-🇸🇬SG | 🟢 | trojan | @ConfigsHUB | 9 = trojan, 149.28.130.108, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = searchcreativejobsandshowcaseyourartistictalents.com, ws = false
-🇪🇸ES | 🟢 | trojan | @ConfigsHUB | 10 = trojan, 66.163.118.166, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = learn.discovergreatjobsandadvanceyourcareer.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 5,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6,🇸🇬SG | 🟢 | trojan | @ConfigsHUB | 9,🇪🇸ES | 🟢 | trojan | @ConfigsHUB | 10
-URL-TEST = url-test,🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 5,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6,🇸🇬SG | 🟢 | trojan | @ConfigsHUB | 9,🇪🇸ES | 🟢 | trojan | @ConfigsHUB | 10
-FALLBACK = fallback,🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 5,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6,🇸🇬SG | 🟢 | trojan | @ConfigsHUB | 9,🇪🇸ES | 🟢 | trojan | @ConfigsHUB | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 5,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6
+URL-TEST = url-test,🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 5,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6
+FALLBACK = fallback,🇨🇦CA | 🔴 | trojan | @oneclickvpnkeys | 5,🇺🇸US | 🔴 | trojan | @oneclickvpnkeys | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
