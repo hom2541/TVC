@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, fr001.zestapp778.com, 16778, password = 5t6i121em5lkmsmk, udp-delay = true, skip-cert-verify = true, ws = false
+🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 7 = trojan, fr001.zestapp778.com, 16778, password = 5t6i121em5lkmsmk, udp-delay = true, skip-cert-verify = true, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5
-URL-TEST = url-test,🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5
-FALLBACK = fallback,🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 5
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 7
+URL-TEST = url-test,🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 7
+FALLBACK = fallback,🇫🇷FR | 🔴 | trojan | @oneclickvpnkeys | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
