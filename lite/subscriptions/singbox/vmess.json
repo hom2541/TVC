@@ -110,9 +110,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @free1_vpn | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "❔XX | 🟢 | vmess | @Hope_Net | 12",
-                "❔XX | 🟢 | vmess | @kingofilter | 5"
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 5"
             ]
         },
         {
@@ -123,9 +124,10 @@
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
+                "🇺🇸US | 🟢 | vmess | @free1_vpn | 6",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
                 "❔XX | 🟢 | vmess | @Hope_Net | 12",
-                "❔XX | 🟢 | vmess | @kingofilter | 5"
+                "🇺🇸US | 🟢 | vmess | @kingofilter | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -240,6 +242,23 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | @free1_vpn | 6",
+            "type": "vmess",
+            "server": "67.220.95.3",
+            "server_port": 18000,
+            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "104.16.61.8",
@@ -281,7 +300,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @kingofilter | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | @kingofilter | 5",
             "type": "vmess",
             "server": "67.220.95.3",
             "server_port": 18000,
