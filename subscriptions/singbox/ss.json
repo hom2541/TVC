@@ -106,18 +106,18 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 8",
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 18",
-                "❔XX | 🟢 | ss | @kingofilter | 3"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 2",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 15",
+                "❔XX | 🟢 | ss | @kingofilter | 6"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 8",
-                "❔XX | 🟢 | ss | @DeamNet_Proxy | 18",
-                "❔XX | 🟢 | ss | @kingofilter | 3"
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 2",
+                "❔XX | 🟢 | ss | @DeamNet_Proxy | 15",
+                "❔XX | 🟢 | ss | @kingofilter | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,7 +140,17 @@
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 8",
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 2",
+            "type": "shadowsocks",
+            "server": "15.204.246.108",
+            "server_port": 8881,
+            "method": "aes-256-gcm",
+            "password": "kDWvXYZoTBcGkC4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 15",
             "type": "shadowsocks",
             "server": "193.29.139.132",
             "server_port": 8080,
@@ -150,17 +160,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "❔XX | 🟢 | ss | @DeamNet_Proxy | 18",
-            "type": "shadowsocks",
-            "server": "193.29.139.235",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "❔XX | 🟢 | ss | @kingofilter | 3",
+            "tag": "❔XX | 🟢 | ss | @kingofilter | 6",
             "type": "shadowsocks",
             "server": "82.38.31.10",
             "server_port": 8080,
