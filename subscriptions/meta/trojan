@@ -120,14 +120,11 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 2","type":"trojan","server":"jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net","port":443,"udp":false,"password":"6cddea99-9b18-4d42-8638-131bd9f5374f","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 5","type":"trojan","server":"146.75.57.120","port":443,"udp":false,"password":"MiTiVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn.akamai.steamstatic.com"}
-  - {"name":"🍪2@oneclickvpnkeys#❔XX | 🔴 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"45.32.157.84","port":443,"udp":false,"password":"Tg3RnK7Xp8B1","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com"}
+  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 1","type":"trojan","server":"jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net","port":443,"udp":false,"password":"6cddea99-9b18-4d42-8638-131bd9f5374f","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 7","type":"trojan","server":"146.75.57.120","port":443,"udp":false,"password":"MiTiVPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn.akamai.steamstatic.com"}
   - {"name":"❔XX | 🟢 | trojan | @v2ray1_ng | 2","type":"trojan","server":"170.101.101.237","port":443,"udp":false,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn.explorecreativejobsandenhanceyourcareerportfolio.com"}
-  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 0","type":"trojan","server":"130.94.51.219","port":46298,"udp":false,"password":"5t6i121em5lkmsmk","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ph001.zestapp778.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 5","type":"trojan","server":"starlink-de3.251313.xyz","port":443,"udp":false,"password":"sI0wl1bvYlSXu2RsMSAtAIMM","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.cloudflare.com"}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 8","type":"trojan","server":"131.196.254.151","port":443,"udp":false,"password":"humanity","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wWw.Volumeroot.cOm."}
-  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"starlink-us6.251313.xyz","port":443,"udp":false,"password":"sI0wl1bvYlSXu2RsMSAtAIMM","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.cloudflare.com"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 12","type":"trojan","server":"4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev","port":443,"udp":false,"password":"Nd2bFutZK2ma29bYqC@z","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"4oKhrijUyjyTFlnvoWhL3ZFW5wSGI34O.PAGeS.DeV"}
+  - {"name":"❔XX | 🟢 | trojan | @ConfigsHUB | 14","type":"trojan","server":"216.106.186.66","port":443,"udp":false,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"www.findlocaljobnetworkandbuildcommunityconnections.com"}
   - {"name":"🚩CF | 🔴 | trojan | @proxystore11 | 11","type":"trojan","server":"188.114.97.6","port":443,"udp":false,"password":"mitivpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"d-e.mitivpn.in.net"}
 proxy-groups:
   - name: MANUAL
@@ -135,14 +132,11 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 5'
-      - '🍪2@oneclickvpnkeys#❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🟢 | trojan | @v2ray1_ng | 2'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 0'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
       - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 14'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 11'
   - name: URL-TEST
     type: url-test
@@ -150,28 +144,22 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 5'
-      - '🍪2@oneclickvpnkeys#❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🟢 | trojan | @v2ray1_ng | 2'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 0'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
       - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 14'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 2'
-      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 5'
-      - '🍪2@oneclickvpnkeys#❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 1'
+      - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 7'
       - '❔XX | 🟢 | trojan | @v2ray1_ng | 2'
-      - '❔XX | 🟢 | trojan | @ConfigsHUB | 0'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 5'
-      - '❔XX | 🔴 | trojan | @ConfigsHUB | 8'
       - '❔XX | 🔴 | trojan | @ConfigsHUB | 12'
+      - '❔XX | 🟢 | trojan | @ConfigsHUB | 14'
       - '🚩CF | 🔴 | trojan | @proxystore11 | 11'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
