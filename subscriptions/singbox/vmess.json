@@ -121,13 +121,13 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 6",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @free1_vpn | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
@@ -137,7 +137,8 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 11"
+                "🚩CF | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @kingofilter | 2"
             ]
         },
         {
@@ -159,13 +160,13 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 6",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
-                "❔XX | 🟢 | vmess | @free1_vpn | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 0",
                 "❔XX | 🟢 | vmess | @Hope_Net | 1",
                 "❔XX | 🟢 | vmess | @Hope_Net | 4",
@@ -175,7 +176,8 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "🚩CF | 🟢 | vmess | @Hope_Net | 11"
+                "🚩CF | 🟢 | vmess | @Hope_Net | 11",
+                "❔XX | 🟢 | vmess | @kingofilter | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -453,7 +455,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 6",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
             "type": "vmess",
             "server": "38.91.107.49",
             "server_port": 18000,
@@ -467,6 +469,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
+            "type": "vmess",
+            "server": "ertyuioiuyhb-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "9f509453-c192-409f-beb3-4b87e0dfc387",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ertyuioiuyhb-production.up.railway.app",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/api\/QZ0m_J",
+                "headers": {
+                    "Host": "ertyuioiuyhb-production.up.railway.app"
+                }
             }
         },
         {
@@ -616,40 +652,6 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @free1_vpn | 8",
-            "type": "vmess",
-            "server": "ertyuioiuyhb-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "9f509453-c192-409f-beb3-4b87e0dfc387",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ertyuioiuyhb-production.up.railway.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/api\/QZ0m_J",
-                "headers": {
-                    "Host": "ertyuioiuyhb-production.up.railway.app"
                 }
             }
         },
@@ -888,6 +890,40 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @kingofilter | 2",
+            "type": "vmess",
+            "server": "eksmstr-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "77c8208c-e23a-4451-b7be-0657e6b4110b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eksmstr-production.up.railway.app",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/gw\/425b3b4e-db24-447c-ab47-335bbed34cfc?ed=2560",
+                "headers": {
+                    "Host": "eksmstr-production.up.railway.app"
                 }
             }
         }
