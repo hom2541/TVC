@@ -119,10 +119,11 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
-                "❔XX | 🟢 | vmess | @yaney_01 | 1",
-                "❔XX | 🟢 | vmess | @yaney_01 | 2",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 1",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
@@ -136,8 +137,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 11",
-                "❔XX | 🟢 | vmess | @FreakConfig | 0",
-                "❔XX | 🟢 | vmess | @kingofilter | 2"
+                "❔XX | 🟢 | vmess | @FreakConfig | 3"
             ]
         },
         {
@@ -157,10 +157,11 @@
                 "❔XX | 🟢 | vmess | @mftizi | 14",
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
+                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
-                "❔XX | 🟢 | vmess | @yaney_01 | 1",
-                "❔XX | 🟢 | vmess | @yaney_01 | 2",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 1",
+                "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🚩CF | 🟢 | vmess | @yaney_01 | 5",
@@ -174,8 +175,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
                 "🚩CF | 🟢 | vmess | @Hope_Net | 11",
-                "❔XX | 🟢 | vmess | @FreakConfig | 0",
-                "❔XX | 🟢 | vmess | @kingofilter | 2"
+                "❔XX | 🟢 | vmess | @FreakConfig | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -419,6 +419,23 @@
             }
         },
         {
+            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
+            "type": "vmess",
+            "server": "dog-tw.kunlun01dns.com",
+            "server_port": 21035,
+            "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
             "server": null,
@@ -436,7 +453,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
             "type": "vmess",
             "server": "38.91.107.49",
             "server_port": 18000,
@@ -453,7 +470,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 1",
             "type": "vmess",
             "server": "45.199.138.217",
             "server_port": 41000,
@@ -487,7 +504,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @yaney_01 | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | @yaney_01 | 2",
             "type": "vmess",
             "server": "107.149.119.43",
             "server_port": 37000,
@@ -841,7 +858,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 0",
+            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 3",
             "type": "vmess",
             "server": "www.windowssearchtools.com",
             "server_port": 443,
@@ -871,40 +888,6 @@
                 "path": "\/truth",
                 "headers": {
                     "Host": "www.windowssearchtools.com"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @kingofilter | 2",
-            "type": "vmess",
-            "server": "eksmstr-production.up.railway.app",
-            "server_port": 443,
-            "uuid": "77c8208c-e23a-4451-b7be-0657e6b4110b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "eksmstr-production.up.railway.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/gw\/425b3b4e-db24-447c-ab47-335bbed34cfc?ed=2560",
-                "headers": {
-                    "Host": "eksmstr-production.up.railway.app"
                 }
             }
         }
