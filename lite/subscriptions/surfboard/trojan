@@ -11,14 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 8 = trojan, 66.163.127.154, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = www.indyourperfectremotetechjobfromthecomfortofhome.com, ws = false
-🇺🇸US | 🔴 | trojan | @ConfigsHUB | 13 = trojan, 66.163.114.132, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = courses.findconnectwithemployersandbuildprofessionalnetwork.com, ws = false
-🇨🇿CZ | 🔴 | trojan | @ConfigsHUB | 14 = trojan, 141.133.174.88, 443, password = humanity, udp-delay = true, skip-cert-verify = false, sni = www.cordweave.com, ws = false
 🇺🇸US | 🔴 | trojan | @proxystore11 | 11 = trojan, 188.114.97.6, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = d-e.mitivpn.in.net, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 13,🇨🇿CZ | 🔴 | trojan | @ConfigsHUB | 14,🇺🇸US | 🔴 | trojan | @proxystore11 | 11
-URL-TEST = url-test,🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 13,🇨🇿CZ | 🔴 | trojan | @ConfigsHUB | 14,🇺🇸US | 🔴 | trojan | @proxystore11 | 11
-FALLBACK = fallback,🇳🇱NL | 🔴 | trojan | @oneclickvpnkeys | 8,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 13,🇨🇿CZ | 🔴 | trojan | @ConfigsHUB | 14,🇺🇸US | 🔴 | trojan | @proxystore11 | 11
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @proxystore11 | 11
+URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @proxystore11 | 11
+FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @proxystore11 | 11
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
