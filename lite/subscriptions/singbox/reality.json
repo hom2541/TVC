@@ -108,18 +108,17 @@
                 "URL-TEST",
                 "❔XX | 🟢 | vless | @EliV2ray | 1",
                 "🇧🇬BG | 🔴 | vless | @shh_proxy | 9",
-                "🇪🇸ES | 🔴 | vless | @prrofile_purple | 111",
+                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 111",
                 "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 14",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 7",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 8",
-                "🇧🇬BG | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇦🇺AU | 🔴 | vless | @Capital_NET | 45",
-                "🇫🇷FR | 🟢 | vless | @FreakConfig | 8",
-                "🇸🇪SE | 🟢 | vless | @flyv2ray | 7",
+                "❔XX | 🟢 | vless | @FreakConfig | 8",
+                "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "🇮🇷IR | 🔴 | vless | @nofiltering2 | 14"
+                "❔XX | 🔴 | vless | @nofiltering2 | 14"
             ]
         },
         {
@@ -128,18 +127,17 @@
             "outbounds": [
                 "❔XX | 🟢 | vless | @EliV2ray | 1",
                 "🇧🇬BG | 🔴 | vless | @shh_proxy | 9",
-                "🇪🇸ES | 🔴 | vless | @prrofile_purple | 111",
+                "🇫🇮FI | 🔴 | vless | @prrofile_purple | 111",
                 "🇳🇱NL | 🟢 | vless | @v2rayngvpn | 14",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 7",
                 "🇳🇱NL | 🟢 | vless | @v2ray1_ng | 8",
-                "🇧🇬BG | 🔴 | vless | @ConfigsHUB | 13",
                 "❔XX | 🔴 | vless | @Capital_NET | 44",
                 "🇦🇺AU | 🔴 | vless | @Capital_NET | 45",
-                "🇫🇷FR | 🟢 | vless | @FreakConfig | 8",
-                "🇸🇪SE | 🟢 | vless | @flyv2ray | 7",
+                "❔XX | 🟢 | vless | @FreakConfig | 8",
+                "❔XX | 🟢 | vless | @flyv2ray | 7",
                 "❔XX | 🔴 | vless | @kiava | 83",
                 "❔XX | 🔴 | vless | @kiava | 84",
-                "🇮🇷IR | 🔴 | vless | @nofiltering2 | 14"
+                "❔XX | 🔴 | vless | @nofiltering2 | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -227,7 +225,7 @@
             }
         },
         {
-            "tag": "🇪🇸ES | 🔴 | vless | @prrofile_purple | 111",
+            "tag": "🇫🇮FI | 🔴 | vless | @prrofile_purple | 111",
             "type": "vless",
             "server": "170.168.97.6",
             "server_port": 443,
@@ -343,35 +341,6 @@
             }
         },
         {
-            "tag": "🇧🇬BG | 🔴 | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "p1real3.greewebservices.ir",
-            "server_port": 1250,
-            "uuid": "b0511969-f769-460b-963b-70c6b84b6967",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "play.googleapis.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-                    "short_id": "9b60d3"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🔴 | vless | @Capital_NET | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -430,7 +399,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | @FreakConfig | 8",
+            "tag": "❔XX | 🟢 | vless | @FreakConfig | 8",
             "type": "vless",
             "server": "88.218.42.115",
             "server_port": 443,
@@ -459,7 +428,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vless | @flyv2ray | 7",
+            "tag": "❔XX | 🟢 | vless | @flyv2ray | 7",
             "type": "vless",
             "server": "185.189.45.195",
             "server_port": 443,
@@ -560,7 +529,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | @nofiltering2 | 14",
+            "tag": "❔XX | 🔴 | vless | @nofiltering2 | 14",
             "type": "vless",
             "server": "p2tun0.greewebservices.ir",
             "server_port": 28820,
