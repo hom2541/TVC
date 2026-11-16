@@ -113,7 +113,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "❔XX | 🟢 | vmess | @FreakConfig | 9"
+                "🇺🇸US | 🟢 | vmess | @FreakConfig | 8"
             ]
         },
         {
@@ -127,7 +127,7 @@
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "🇨🇳CN | 🟢 | vmess | @Hope_Net | 10",
                 "🇺🇸US | 🟢 | vmess | @Hope_Net | 11",
-                "❔XX | 🟢 | vmess | @FreakConfig | 9"
+                "🇺🇸US | 🟢 | vmess | @FreakConfig | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -317,11 +317,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | @FreakConfig | 8",
             "type": "vmess",
-            "server": "www.windowssearchtools.com",
-            "server_port": 443,
-            "uuid": "ba1116e2-8c2f-4e3d-8e50-c954360cf970",
+            "server": "38.91.107.49",
+            "server_port": 18000,
+            "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -331,23 +331,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.windowssearchtools.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/truth",
-                "headers": {
-                    "Host": "www.windowssearchtools.com"
-                }
             }
         }
     ],
