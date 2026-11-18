@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17 = trojan, 167.82.64.7, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = steamstatic.com, ws = false
+🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 187.52.45.183, 54032, password = c76f0a11e6ba410084c745ad5e92db5f, udp-delay = true, skip-cert-verify = false, sni = flawers.shop, ws = false
+🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4 = trojan, ipfast.kingmna.com, 443, password = auRVImItMy7CqRAY7FC8Wg, udp-delay = true, skip-cert-verify = false, sni = cdn.akamai.steamstatic.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17
-URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17
-FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4
+URL-TEST = url-test,🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4
+FALLBACK = fallback,🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
