@@ -11,11 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18 = trojan, 199.232.78.101, 443, password = MItIVPN, udp-delay = true, skip-cert-verify = false, sni = ssl.fastly.com, ws = false
+🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17 = trojan, 167.82.64.7, 443, password = mitivpn, udp-delay = true, skip-cert-verify = false, sni = steamstatic.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18
-URL-TEST = url-test,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18
-FALLBACK = fallback,🇺🇸US | 🟢 | trojan | @ConfigsHUB | 18
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17
+URL-TEST = url-test,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17
+FALLBACK = fallback,🇺🇸US | 🔴 | trojan | @ConfigsHUB | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
