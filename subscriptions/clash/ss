@@ -118,9 +118,9 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 1","type":"ss","server":"glance.asuscomm.com","port":10099,"password":"12242","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 2","type":"ss","server":"51.79.64.198","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 9","type":"ss","server":"82.38.31.204","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷KR | 🟢 | ss | @DeamNet_Proxy | 1","type":"ss","server":"glance.asuscomm.com","port":10099,"password":"12242","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 2","type":"ss","server":"51.79.64.198","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 9","type":"ss","server":"82.38.31.204","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 10","type":"ss","server":"82.38.31.206","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔XX | 🟢 | ss | @DeamNet_Proxy | 19","type":"ss","server":"82.38.31.194","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
@@ -129,9 +129,9 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 1'
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 2'
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 9'
+      - '🇰🇷KR | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 2'
+      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 9'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 10'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 19'
   - name: URL-TEST
@@ -140,9 +140,9 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 1'
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 2'
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 9'
+      - '🇰🇷KR | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 2'
+      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 9'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 10'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 19'
   - name: FALLBACK
@@ -150,9 +150,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 1'
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 2'
-      - '❔XX | 🟢 | ss | @DeamNet_Proxy | 9'
+      - '🇰🇷KR | 🟢 | ss | @DeamNet_Proxy | 1'
+      - '🇨🇦CA | 🟢 | ss | @DeamNet_Proxy | 2'
+      - '🇳🇱NL | 🟢 | ss | @DeamNet_Proxy | 9'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 10'
       - '❔XX | 🟢 | ss | @DeamNet_Proxy | 19'
 rules:
