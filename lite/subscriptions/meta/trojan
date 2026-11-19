@@ -121,7 +121,6 @@ dns:
 
 proxies:
   - {"name":"🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"187.52.45.183","port":54032,"udp":false,"password":"c76f0a11e6ba410084c745ad5e92db5f","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"flawers.shop"}
-  - {"name":"🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4","type":"trojan","server":"ipfast.kingmna.com","port":443,"udp":false,"password":"auRVImItMy7CqRAY7FC8Wg","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"cdn.akamai.steamstatic.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +128,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,14 +135,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇵🇱PL | 🔴 | trojan | @oneclickvpnkeys | 4'
-      - '🇺🇸US | 🔴 | trojan | @ConfigsHUB | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
