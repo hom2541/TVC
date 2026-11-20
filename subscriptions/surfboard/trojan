@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 2 = trojan, 167.88.61.175, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = blog.browseseniorrolesandenhanceyourcareertoday.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 48.102.218.118, 8443, password = BU4Sr6jWcc78Eh06srysDwhzc-Than, udp-delay = true, skip-cert-verify = false, sni = ru.federal-usa.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 167.88.61.175, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = blog.browseseniorrolesandenhanceyourcareertoday.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 2
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
