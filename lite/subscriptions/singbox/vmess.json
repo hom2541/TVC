@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
+                "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "🇺🇸US | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
@@ -182,7 +184,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | @DeamNet_Proxy | 17",
+            "type": "vmess",
+            "server": "chatgpt.com",
+            "server_port": 8443,
+            "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2ray1.dozapp.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/lMnsZUN4\/",
+                "headers": {
+                    "Host": "v2ray1.dozapp.xyz"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": null,
             "server_port": 0,
