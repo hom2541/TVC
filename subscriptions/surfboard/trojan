@@ -11,15 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, 48.102.218.118, 8443, password = BU4Sr6jWcc78Eh06srysDwhzc-Than, udp-delay = true, skip-cert-verify = false, sni = ru.federal-usa.com, ws = false
-❔XX | 🔴 | trojan | @oneclickvpnkeys | 4 = trojan, 167.88.61.175, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = blog.browseseniorrolesandenhanceyourcareertoday.com, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 1 = trojan, 167.17.183.99, 443, password = 69279e79-7938-4e75-8560-705f3d056ade, udp-delay = true, skip-cert-verify = false, sni = denot-8up7.edge-mil-jgpthc.workers.dev, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 9 = trojan, 167.17.183.99, 443, password = 69279e79-7938-4e75-8560-705f3d056ade, udp-delay = true, skip-cert-verify = false, sni = denot-8up7.edge-mil-jgpthc.workers.dev, ws = false
-❔XX | 🔴 | trojan | @ConfigsHUB | 10 = trojan, 167.17.183.99, 443, password = 69279e79-7938-4e75-8560-705f3d056ade, udp-delay = true, skip-cert-verify = false, sni = denot-8up7.edge-mil-jgpthc.workers.dev, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 0 = trojan, leviko-de5955.shopingggg.ir, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = courses.iloverussia2026.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 1 = trojan, 48.102.218.118, 8443, password = BU4Sr6jWcc78Eh06srysDwhzc-Than, udp-delay = true, skip-cert-verify = false, sni = ru.federal-usa.com, ws = false
+❔XX | 🔴 | trojan | @oneclickvpnkeys | 5 = trojan, 167.88.61.175, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = blog.browseseniorrolesandenhanceyourcareertoday.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 10
-URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 10
-FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 4,❔XX | 🔴 | trojan | @ConfigsHUB | 1,❔XX | 🔴 | trojan | @ConfigsHUB | 9,❔XX | 🔴 | trojan | @ConfigsHUB | 10
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5
+URL-TEST = url-test,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5
+FALLBACK = fallback,❔XX | 🔴 | trojan | @oneclickvpnkeys | 0,❔XX | 🔴 | trojan | @oneclickvpnkeys | 1,❔XX | 🔴 | trojan | @oneclickvpnkeys | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
