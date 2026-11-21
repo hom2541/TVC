@@ -120,6 +120,9 @@ dns:
 proxies:
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 0","type":"trojan","server":"48.102.218.118","port":8443,"udp":false,"password":"BU4Sr6jWcc78Eh06srysDwhzc-Than","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ru.federal-usa.com"}
   - {"name":"❔XX | 🔴 | trojan | @oneclickvpnkeys | 4","type":"trojan","server":"167.88.61.175","port":443,"udp":false,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"blog.browseseniorrolesandenhanceyourcareertoday.com"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 1","type":"trojan","server":"167.17.183.99","port":443,"udp":false,"password":"69279e79-7938-4e75-8560-705f3d056ade","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"denot-8up7.edge-mil-jgpthc.workers.dev"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 9","type":"trojan","server":"167.17.183.99","port":443,"udp":false,"password":"69279e79-7938-4e75-8560-705f3d056ade","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"denot-8up7.edge-mil-jgpthc.workers.dev"}
+  - {"name":"❔XX | 🔴 | trojan | @ConfigsHUB | 10","type":"trojan","server":"167.17.183.99","port":443,"udp":false,"password":"69279e79-7938-4e75-8560-705f3d056ade","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"denot-8up7.edge-mil-jgpthc.workers.dev"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -128,6 +131,9 @@ proxy-groups:
       - FALLBACK
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 1'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -136,6 +142,9 @@ proxy-groups:
     proxies:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 1'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -143,6 +152,9 @@ proxy-groups:
     proxies:
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 0'
       - '❔XX | 🔴 | trojan | @oneclickvpnkeys | 4'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 1'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 9'
+      - '❔XX | 🔴 | trojan | @ConfigsHUB | 10'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
