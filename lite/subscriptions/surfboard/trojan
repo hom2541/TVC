@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇷🇺RU | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, 48.102.218.118, 8443, password = BU4Sr6jWcc78Eh06srysDwhzc-Than, udp-delay = true, skip-cert-verify = false, sni = ru.federal-usa.com, ws = false
+🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3 = trojan, leviko-de5955.shopingggg.ir, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, udp-delay = true, skip-cert-verify = false, sni = courses.iloverussia2026.com, ws = false
+❔XX | 🔴 | trojan | @ConfigsHUB | 18 = trojan, 91.107.187.135, 443, password = T-me-DarkVPNpro, udp-delay = true, skip-cert-verify = true, sni = iranserver.com, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | 🔴 | trojan | @oneclickvpnkeys | 3
-URL-TEST = url-test,🇷🇺RU | 🔴 | trojan | @oneclickvpnkeys | 3
-FALLBACK = fallback,🇷🇺RU | 🔴 | trojan | @oneclickvpnkeys | 3
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @ConfigsHUB | 18
+URL-TEST = url-test,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @ConfigsHUB | 18
+FALLBACK = fallback,🇩🇪DE | 🔴 | trojan | @oneclickvpnkeys | 3,❔XX | 🔴 | trojan | @ConfigsHUB | 18
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

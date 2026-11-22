@@ -108,7 +108,8 @@
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
@@ -121,7 +122,8 @@
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | 🟢 | vmess | @mftizi | 17",
-                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
+                "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
                 "❔XX | 🟢 | vmess | @yaney_01 | 4",
                 "❔XX | 🟢 | vmess | @yaney_01 | 5",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
@@ -182,7 +184,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 4",
+            "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 2",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -196,6 +198,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
+            "type": "vmess",
+            "server": "www.windowssearchtools.com",
+            "server_port": 443,
+            "uuid": "ba1116e2-8c2f-4e3d-8e50-c954360cf970",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.windowssearchtools.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/truth",
+                "headers": {
+                    "Host": "www.windowssearchtools.com"
+                }
             }
         },
         {
