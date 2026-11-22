@@ -120,12 +120,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 0",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -159,12 +156,9 @@
                 "❔XX | 🟢 | vmess | @mftizi | 15",
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 0",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
-                "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 0",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -438,64 +432,6 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 7",
-            "type": "vmess",
-            "server": "guanwang.awsno.com",
-            "server_port": 443,
-            "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "guanwang.awsno.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
-                "headers": {
-                    "Host": "guanwang.awsno.com"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
-            "type": "vmess",
-            "server": "38.107.234.57",
-            "server_port": 80,
-            "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess\/",
-                "headers": {
-                    "Host": "38.107.234.57"
-                }
-            }
-        },
-        {
             "tag": "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
             "type": "vmess",
             "server": null,
@@ -513,7 +449,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 0",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
             "type": "vmess",
             "server": "179.43.140.24",
             "server_port": 42831,
@@ -530,7 +466,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 1",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 2",
             "type": "vmess",
             "server": "67.220.95.3",
             "server_port": 18000,
@@ -544,40 +480,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 9",
-            "type": "vmess",
-            "server": "www.windowssearchtools.com",
-            "server_port": 443,
-            "uuid": "ba1116e2-8c2f-4e3d-8e50-c954360cf970",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.windowssearchtools.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/truth",
-                "headers": {
-                    "Host": "www.windowssearchtools.com"
-                }
             }
         },
         {
