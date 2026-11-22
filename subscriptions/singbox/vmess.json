@@ -112,7 +112,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
                 "❔XX | 🟢 | vmess | @mftizi | 4",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 5",
+                "❔XX | 🟢 | vmess | @mftizi | 5",
                 "❔XX | 🟢 | vmess | @mftizi | 6",
                 "❔XX | 🟢 | vmess | @mftizi | 10",
                 "❔XX | 🟢 | vmess | @mftizi | 11",
@@ -124,6 +124,7 @@
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -151,7 +152,7 @@
                 "❔XX | 🟢 | vmess | @mftizi | 2",
                 "❔XX | 🟢 | vmess | @mftizi | 3",
                 "❔XX | 🟢 | vmess | @mftizi | 4",
-                "🇨🇳CN | 🟢 | vmess | @mftizi | 5",
+                "❔XX | 🟢 | vmess | @mftizi | 5",
                 "❔XX | 🟢 | vmess | @mftizi | 6",
                 "❔XX | 🟢 | vmess | @mftizi | 10",
                 "❔XX | 🟢 | vmess | @mftizi | 11",
@@ -163,6 +164,7 @@
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 12",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -302,7 +304,7 @@
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | @mftizi | 5",
+            "tag": "❔XX | 🟢 | vmess | @mftizi | 5",
             "type": "vmess",
             "server": "183.236.51.23",
             "server_port": 53002,
@@ -543,6 +545,30 @@
                 "path": "\/truth",
                 "headers": {
                     "Host": "www.windowssearchtools.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 0",
+            "type": "vmess",
+            "server": "srv8.seo-link.ir",
+            "server_port": 8080,
+            "uuid": "e4f17f20-49a1-43b3-83fc-29b2ed37055a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess-notls-45ba89830086",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
