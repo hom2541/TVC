@@ -121,8 +121,13 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 0",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 1",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 3",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 7",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -136,7 +141,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @FreakConfig | 6"
+                "❔XX | 🟢 | vmess | @FreakConfig | 2"
             ]
         },
         {
@@ -158,8 +163,13 @@
                 "❔XX | 🟢 | vmess | @mftizi | 16",
                 "❔XX | 🟢 | vmess | @DeamNet_Proxy | 0",
                 "❔XX | 🟢 | vmess | @oneclickvpnkeys | 0",
-                "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
                 "❔XX | 🟢 | vmess | @v2ray1_ng | 6",
+                "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 1",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 3",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
+                "🚩CF | 🟢 | vmess | @ConfigsHUB | 7",
+                "❔XX | 🟢 | vmess | @ConfigsHUB | 16",
                 "❔XX | 🟢 | vmess | @yaney_01 | 1",
                 "❔XX | 🟢 | vmess | @yaney_01 | 2",
                 "❔XX | 🟢 | vmess | @yaney_01 | 3",
@@ -173,7 +183,7 @@
                 "❔XX | 🟢 | vmess | @Hope_Net | 8",
                 "❔XX | 🟢 | vmess | @Hope_Net | 9",
                 "❔XX | 🟢 | vmess | @Hope_Net | 10",
-                "❔XX | 🟢 | vmess | @FreakConfig | 6"
+                "❔XX | 🟢 | vmess | @FreakConfig | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -451,7 +461,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 5",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 6",
             "type": "vmess",
             "server": "179.43.140.24",
             "server_port": 42831,
@@ -468,7 +478,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 6",
+            "tag": "❔XX | 🟢 | vmess | @v2ray1_ng | 7",
             "type": "vmess",
             "server": "67.220.95.3",
             "server_port": 18000,
@@ -482,6 +492,159 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 1",
+            "type": "vmess",
+            "server": "172.64.145.93",
+            "server_port": 443,
+            "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "guanwang.awsno.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hls\/cctv5phd.m3u8",
+                "headers": {
+                    "Host": "guanwang.awsno.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 3",
+            "type": "vmess",
+            "server": "145.239.55.210",
+            "server_port": 80,
+            "uuid": "2bc80e77-9590-4ded-a48b-0eda493f611b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "172.67.190.164",
+            "server_port": 443,
+            "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "guanwang.awsno.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/hls\/cctv5phd.m3u8",
+                "headers": {
+                    "Host": "guanwang.awsno.com"
+                }
+            }
+        },
+        {
+            "tag": "🚩CF | 🟢 | vmess | @ConfigsHUB | 7",
+            "type": "vmess",
+            "server": "104.21.3.99",
+            "server_port": 443,
+            "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.windowsmsidownloads.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/truth",
+                "headers": {
+                    "Host": "www.windowsmsidownloads.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | @ConfigsHUB | 16",
+            "type": "vmess",
+            "server": "103.88.232.55",
+            "server_port": 1270,
+            "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmfhlpy.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -822,7 +985,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 6",
+            "tag": "❔XX | 🟢 | vmess | @FreakConfig | 2",
             "type": "vmess",
             "server": "38.91.107.49",
             "server_port": 18000,
